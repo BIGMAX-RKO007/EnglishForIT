@@ -18,7 +18,8 @@ export const Route = createFileRoute('/{-$locale}/app/')({
   }),
   head: () => ({ meta: [{ name: 'robots', content: 'noindex' }] }),
   loader: async () => {
-    const [user, ent] = await Promise.all([getOptionalUser(), getEntitlement()])
+    const user = await getOptionalUser()
+    const ent = user ? await getEntitlement() : { plan: 'free' as const, paymentFailed: false }
     const effectiveUser = user ?? {
       id: 'guest',
       email: 'engineer@workplace.local',
