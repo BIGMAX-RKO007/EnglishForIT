@@ -7,7 +7,7 @@ import {
   ArrowRight,
   Terminal,
 } from 'lucide-react'
-import { getOptionalUser } from '@/features/auth/middleware'
+import { requireUser } from '@/features/auth/middleware'
 import { getEntitlement } from '@/features/billing/middleware'
 import { AppShell } from '@/components/app/app-shell'
 import { Badge } from '@/components/ui/badge'
@@ -17,15 +17,10 @@ export const Route = createFileRoute('/{-$locale}/app/')({
     checkout: typeof s.checkout === 'string' ? s.checkout : undefined,
   }),
   head: () => ({ meta: [{ name: 'robots', content: 'noindex' }] }),
-  loader: async () => {
-    const user = await getOptionalUser()
-    const ent = user ? await getEntitlement() : { plan: 'free' as const, paymentFailed: false }
-    const effectiveUser = user ?? {
-      id: 'guest',
-      email: 'engineer@workplace.local',
-      name: 'Software Engineer (Guest)',
-    }
-    return { user: effectiveUser, ent }
+    loader: async ({ params }) => {
+    const user = await requireUser({ data: { locale: params.locale } })
+    const ent = await getEntitlement()
+    return { user, ent }
   },
   component: AppHome,
 })

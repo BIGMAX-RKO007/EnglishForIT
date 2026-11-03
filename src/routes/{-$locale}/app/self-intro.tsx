@@ -1,6 +1,6 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { useState } from 'react'
-import { getOptionalUser } from '@/features/auth/middleware'
+import { requireUser } from '@/features/auth/middleware'
 import { AppShell } from '@/components/app/app-shell'
 import { Card } from '@/components/ui/card'
 import { Input } from '@/components/ui/input'
@@ -12,14 +12,9 @@ import { Sparkles, Sliders } from 'lucide-react'
 
 export const Route = createFileRoute('/{-$locale}/app/self-intro')({
   head: () => ({ meta: [{ name: 'robots', content: 'noindex' }] }),
-  loader: async () => {
-    const user = await getOptionalUser()
-    const effectiveUser = user ?? {
-      id: 'guest',
-      email: 'engineer@workplace.local',
-      name: 'Software Engineer',
-    }
-    return { user: effectiveUser }
+    loader: async ({ params }) => {
+    const user = await requireUser({ data: { locale: params.locale } })
+    return { user }
   },
   component: SelfIntroPage,
 })
