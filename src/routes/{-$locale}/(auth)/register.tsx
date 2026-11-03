@@ -1,4 +1,4 @@
-import { createFileRoute, Link } from '@tanstack/react-router'
+import { createFileRoute, Link, useRouter } from '@tanstack/react-router'
 import { useState } from 'react'
 import { User, Mail, Lock } from 'lucide-react'
 import { signUp } from '@/features/auth/auth.client'
@@ -26,6 +26,7 @@ export const Route = createFileRoute('/{-$locale}/(auth)/register')({
 function Register() {
   const { providers, turnstileSiteKey } = Route.useLoaderData()
   const { t } = useTranslation()
+  const router = useRouter()
   const { token, enabled, widget, reset } = useTurnstile(turnstileSiteKey)
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
@@ -45,7 +46,7 @@ function Register() {
       reset() // tokens are single-use
       return
     }
-    setSent(true)
+    router.navigate({ to: '/{-$locale}/app' })
   }
 
   if (sent) {

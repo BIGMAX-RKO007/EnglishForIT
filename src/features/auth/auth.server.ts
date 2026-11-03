@@ -58,7 +58,7 @@ export function createAuth(authEnv: AuthEnv, db: DB) {
       },
     },
     emailVerification: {
-      sendOnSignUp: true,
+      sendOnSignUp: Boolean(authEnv.RESEND_API_KEY),
       sendVerificationEmail: async ({ user, url }, request) => {
         const locale = localeFromRequest(request)
         await sendEmail({ to: user.email, locale, template: 'verify-email', data: { url } })
