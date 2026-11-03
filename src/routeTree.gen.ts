@@ -29,8 +29,12 @@ import { Route as AdminSponsorsDotcsvRouteImport } from './routes/admin/sponsors
 import { Route as Char123LocaleChar125AdminRouteRouteImport } from './routes/{-$locale}/admin/route'
 import { Route as Char123LocaleChar125AppIndexRouteImport } from './routes/{-$locale}/app/index'
 import { Route as Char123LocaleChar125AdminIndexRouteImport } from './routes/{-$locale}/admin/index'
+import { Route as Char123LocaleChar125AppSelfIntroRouteImport } from './routes/{-$locale}/app/self-intro'
+import { Route as Char123LocaleChar125AppProjectStarRouteImport } from './routes/{-$locale}/app/project-star'
 import { Route as Char123LocaleChar125AppProRouteImport } from './routes/{-$locale}/app/pro'
 import { Route as Char123LocaleChar125AppFeedbackRouteImport } from './routes/{-$locale}/app/feedback'
+import { Route as Char123LocaleChar125AppDailyWorkRouteImport } from './routes/{-$locale}/app/daily-work'
+import { Route as Char123LocaleChar125AppCheatsheetRouteImport } from './routes/{-$locale}/app/cheatsheet'
 import { Route as Char123LocaleChar125AppAccountRouteImport } from './routes/{-$locale}/app/account'
 import { Route as Char123LocaleChar125AdminWaitlistRouteImport } from './routes/{-$locale}/admin/waitlist'
 import { Route as Char123LocaleChar125AdminUsersRouteImport } from './routes/{-$locale}/admin/users'
@@ -156,6 +160,18 @@ const Char123LocaleChar125AdminIndexRoute =
     path: '/',
     getParentRoute: () => Char123LocaleChar125AdminRouteRoute,
   } as any)
+const Char123LocaleChar125AppSelfIntroRoute =
+  Char123LocaleChar125AppSelfIntroRouteImport.update({
+    id: '/app/self-intro',
+    path: '/app/self-intro',
+    getParentRoute: () => Char123LocaleChar125RouteRoute,
+  } as any)
+const Char123LocaleChar125AppProjectStarRoute =
+  Char123LocaleChar125AppProjectStarRouteImport.update({
+    id: '/app/project-star',
+    path: '/app/project-star',
+    getParentRoute: () => Char123LocaleChar125RouteRoute,
+  } as any)
 const Char123LocaleChar125AppProRoute =
   Char123LocaleChar125AppProRouteImport.update({
     id: '/app/pro',
@@ -166,6 +182,18 @@ const Char123LocaleChar125AppFeedbackRoute =
   Char123LocaleChar125AppFeedbackRouteImport.update({
     id: '/app/feedback',
     path: '/app/feedback',
+    getParentRoute: () => Char123LocaleChar125RouteRoute,
+  } as any)
+const Char123LocaleChar125AppDailyWorkRoute =
+  Char123LocaleChar125AppDailyWorkRouteImport.update({
+    id: '/app/daily-work',
+    path: '/app/daily-work',
+    getParentRoute: () => Char123LocaleChar125RouteRoute,
+  } as any)
+const Char123LocaleChar125AppCheatsheetRoute =
+  Char123LocaleChar125AppCheatsheetRouteImport.update({
+    id: '/app/cheatsheet',
+    path: '/app/cheatsheet',
     getParentRoute: () => Char123LocaleChar125RouteRoute,
   } as any)
 const Char123LocaleChar125AppAccountRoute =
@@ -276,8 +304,12 @@ export interface FileRoutesByFullPath {
   '/{-$locale}/admin/users': typeof Char123LocaleChar125AdminUsersRoute
   '/{-$locale}/admin/waitlist': typeof Char123LocaleChar125AdminWaitlistRoute
   '/{-$locale}/app/account': typeof Char123LocaleChar125AppAccountRoute
+  '/{-$locale}/app/cheatsheet': typeof Char123LocaleChar125AppCheatsheetRoute
+  '/{-$locale}/app/daily-work': typeof Char123LocaleChar125AppDailyWorkRoute
   '/{-$locale}/app/feedback': typeof Char123LocaleChar125AppFeedbackRoute
   '/{-$locale}/app/pro': typeof Char123LocaleChar125AppProRoute
+  '/{-$locale}/app/project-star': typeof Char123LocaleChar125AppProjectStarRoute
+  '/{-$locale}/app/self-intro': typeof Char123LocaleChar125AppSelfIntroRoute
   '/{-$locale}/admin/': typeof Char123LocaleChar125AdminIndexRoute
   '/{-$locale}/app/': typeof Char123LocaleChar125AppIndexRoute
 }
@@ -311,8 +343,12 @@ export interface FileRoutesByTo {
   '/{-$locale}/admin/users': typeof Char123LocaleChar125AdminUsersRoute
   '/{-$locale}/admin/waitlist': typeof Char123LocaleChar125AdminWaitlistRoute
   '/{-$locale}/app/account': typeof Char123LocaleChar125AppAccountRoute
+  '/{-$locale}/app/cheatsheet': typeof Char123LocaleChar125AppCheatsheetRoute
+  '/{-$locale}/app/daily-work': typeof Char123LocaleChar125AppDailyWorkRoute
   '/{-$locale}/app/feedback': typeof Char123LocaleChar125AppFeedbackRoute
   '/{-$locale}/app/pro': typeof Char123LocaleChar125AppProRoute
+  '/{-$locale}/app/project-star': typeof Char123LocaleChar125AppProjectStarRoute
+  '/{-$locale}/app/self-intro': typeof Char123LocaleChar125AppSelfIntroRoute
   '/{-$locale}/admin': typeof Char123LocaleChar125AdminIndexRoute
   '/{-$locale}/app': typeof Char123LocaleChar125AppIndexRoute
 }
@@ -349,8 +385,12 @@ export interface FileRoutesById {
   '/{-$locale}/admin/users': typeof Char123LocaleChar125AdminUsersRoute
   '/{-$locale}/admin/waitlist': typeof Char123LocaleChar125AdminWaitlistRoute
   '/{-$locale}/app/account': typeof Char123LocaleChar125AppAccountRoute
+  '/{-$locale}/app/cheatsheet': typeof Char123LocaleChar125AppCheatsheetRoute
+  '/{-$locale}/app/daily-work': typeof Char123LocaleChar125AppDailyWorkRoute
   '/{-$locale}/app/feedback': typeof Char123LocaleChar125AppFeedbackRoute
   '/{-$locale}/app/pro': typeof Char123LocaleChar125AppProRoute
+  '/{-$locale}/app/project-star': typeof Char123LocaleChar125AppProjectStarRoute
+  '/{-$locale}/app/self-intro': typeof Char123LocaleChar125AppSelfIntroRoute
   '/{-$locale}/admin/': typeof Char123LocaleChar125AdminIndexRoute
   '/{-$locale}/app/': typeof Char123LocaleChar125AppIndexRoute
 }
@@ -388,8 +428,12 @@ export interface FileRouteTypes {
     | '/{-$locale}/admin/users'
     | '/{-$locale}/admin/waitlist'
     | '/{-$locale}/app/account'
+    | '/{-$locale}/app/cheatsheet'
+    | '/{-$locale}/app/daily-work'
     | '/{-$locale}/app/feedback'
     | '/{-$locale}/app/pro'
+    | '/{-$locale}/app/project-star'
+    | '/{-$locale}/app/self-intro'
     | '/{-$locale}/admin/'
     | '/{-$locale}/app/'
   fileRoutesByTo: FileRoutesByTo
@@ -423,8 +467,12 @@ export interface FileRouteTypes {
     | '/{-$locale}/admin/users'
     | '/{-$locale}/admin/waitlist'
     | '/{-$locale}/app/account'
+    | '/{-$locale}/app/cheatsheet'
+    | '/{-$locale}/app/daily-work'
     | '/{-$locale}/app/feedback'
     | '/{-$locale}/app/pro'
+    | '/{-$locale}/app/project-star'
+    | '/{-$locale}/app/self-intro'
     | '/{-$locale}/admin'
     | '/{-$locale}/app'
   id:
@@ -460,8 +508,12 @@ export interface FileRouteTypes {
     | '/{-$locale}/admin/users'
     | '/{-$locale}/admin/waitlist'
     | '/{-$locale}/app/account'
+    | '/{-$locale}/app/cheatsheet'
+    | '/{-$locale}/app/daily-work'
     | '/{-$locale}/app/feedback'
     | '/{-$locale}/app/pro'
+    | '/{-$locale}/app/project-star'
+    | '/{-$locale}/app/self-intro'
     | '/{-$locale}/admin/'
     | '/{-$locale}/app/'
   fileRoutesById: FileRoutesById
@@ -624,6 +676,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof Char123LocaleChar125AdminIndexRouteImport
       parentRoute: typeof Char123LocaleChar125AdminRouteRoute
     }
+    '/{-$locale}/app/self-intro': {
+      id: '/{-$locale}/app/self-intro'
+      path: '/app/self-intro'
+      fullPath: '/{-$locale}/app/self-intro'
+      preLoaderRoute: typeof Char123LocaleChar125AppSelfIntroRouteImport
+      parentRoute: typeof Char123LocaleChar125RouteRoute
+    }
+    '/{-$locale}/app/project-star': {
+      id: '/{-$locale}/app/project-star'
+      path: '/app/project-star'
+      fullPath: '/{-$locale}/app/project-star'
+      preLoaderRoute: typeof Char123LocaleChar125AppProjectStarRouteImport
+      parentRoute: typeof Char123LocaleChar125RouteRoute
+    }
     '/{-$locale}/app/pro': {
       id: '/{-$locale}/app/pro'
       path: '/app/pro'
@@ -636,6 +702,20 @@ declare module '@tanstack/react-router' {
       path: '/app/feedback'
       fullPath: '/{-$locale}/app/feedback'
       preLoaderRoute: typeof Char123LocaleChar125AppFeedbackRouteImport
+      parentRoute: typeof Char123LocaleChar125RouteRoute
+    }
+    '/{-$locale}/app/daily-work': {
+      id: '/{-$locale}/app/daily-work'
+      path: '/app/daily-work'
+      fullPath: '/{-$locale}/app/daily-work'
+      preLoaderRoute: typeof Char123LocaleChar125AppDailyWorkRouteImport
+      parentRoute: typeof Char123LocaleChar125RouteRoute
+    }
+    '/{-$locale}/app/cheatsheet': {
+      id: '/{-$locale}/app/cheatsheet'
+      path: '/app/cheatsheet'
+      fullPath: '/{-$locale}/app/cheatsheet'
+      preLoaderRoute: typeof Char123LocaleChar125AppCheatsheetRouteImport
       parentRoute: typeof Char123LocaleChar125RouteRoute
     }
     '/{-$locale}/app/account': {
@@ -772,8 +852,12 @@ interface Char123LocaleChar125RouteRouteChildren {
   Char123LocaleChar125authResetPasswordRoute: typeof Char123LocaleChar125authResetPasswordRoute
   Char123LocaleChar125authVerifyEmailRoute: typeof Char123LocaleChar125authVerifyEmailRoute
   Char123LocaleChar125AppAccountRoute: typeof Char123LocaleChar125AppAccountRoute
+  Char123LocaleChar125AppCheatsheetRoute: typeof Char123LocaleChar125AppCheatsheetRoute
+  Char123LocaleChar125AppDailyWorkRoute: typeof Char123LocaleChar125AppDailyWorkRoute
   Char123LocaleChar125AppFeedbackRoute: typeof Char123LocaleChar125AppFeedbackRoute
   Char123LocaleChar125AppProRoute: typeof Char123LocaleChar125AppProRoute
+  Char123LocaleChar125AppProjectStarRoute: typeof Char123LocaleChar125AppProjectStarRoute
+  Char123LocaleChar125AppSelfIntroRoute: typeof Char123LocaleChar125AppSelfIntroRoute
   Char123LocaleChar125AppIndexRoute: typeof Char123LocaleChar125AppIndexRoute
 }
 
@@ -798,8 +882,16 @@ const Char123LocaleChar125RouteRouteChildren: Char123LocaleChar125RouteRouteChil
     Char123LocaleChar125authVerifyEmailRoute:
       Char123LocaleChar125authVerifyEmailRoute,
     Char123LocaleChar125AppAccountRoute: Char123LocaleChar125AppAccountRoute,
+    Char123LocaleChar125AppCheatsheetRoute:
+      Char123LocaleChar125AppCheatsheetRoute,
+    Char123LocaleChar125AppDailyWorkRoute:
+      Char123LocaleChar125AppDailyWorkRoute,
     Char123LocaleChar125AppFeedbackRoute: Char123LocaleChar125AppFeedbackRoute,
     Char123LocaleChar125AppProRoute: Char123LocaleChar125AppProRoute,
+    Char123LocaleChar125AppProjectStarRoute:
+      Char123LocaleChar125AppProjectStarRoute,
+    Char123LocaleChar125AppSelfIntroRoute:
+      Char123LocaleChar125AppSelfIntroRoute,
     Char123LocaleChar125AppIndexRoute: Char123LocaleChar125AppIndexRoute,
   }
 

@@ -1,6 +1,6 @@
 import { useEffect, useState, type ReactNode } from 'react'
 import { Link, getRouteApi } from '@tanstack/react-router'
-import { Home, Sparkles, Settings, Gauge, Users, Menu, ClipboardList, PanelLeftClose, PanelLeftOpen, Heart, MessageSquare } from 'lucide-react'
+import { Home, Sparkles, Settings, Gauge, Users, Menu, ClipboardList, PanelLeftClose, PanelLeftOpen, Heart, MessageSquare, Mic, Briefcase, BookOpen } from 'lucide-react'
 import { Logo } from '@/components/brand/logo'
 import { Badge } from '@/components/ui/badge'
 import { ThemeToggle } from '@/features/theme/theme-toggle'
@@ -72,11 +72,28 @@ export function AppShell({
         <div className={rail ? 'brand justify-center' : 'brand'}>
           <Logo compact={rail} />
         </div>
-        {grp(t('app.navWorkspace'))}
-        <Link to="/{-$locale}/app" activeProps={{}} className={item(active === 'dashboard')} title={t('app.dashboard')}>
+        <Link to="/{-$locale}/app" activeProps={{}} className={item(active === 'dashboard')} title="实战控制台">
           <Home size={18} className="shrink-0" />
-          {label(t('app.dashboard'))}
+          {label('实战控制台')}
         </Link>
+        {grp('职场实战 (IT English)')}
+        <Link to="/{-$locale}/app/self-intro" activeProps={{}} className={item(active === 'self-intro')} title="自我介绍破冰">
+          <Mic size={18} className="shrink-0 text-blue-500" />
+          {label('自我介绍破冰')}
+        </Link>
+        <Link to="/{-$locale}/app/project-star" activeProps={{}} className={item(active === 'project-star')} title="项目履历 STAR">
+          <Briefcase size={18} className="shrink-0 text-emerald-500" />
+          {label('项目履历 STAR')}
+        </Link>
+        <Link to="/{-$locale}/app/daily-work" activeProps={{}} className={item(active === 'daily-work')} title="日常工作与站会">
+          <Users size={18} className="shrink-0 text-purple-500" />
+          {label('日常工作与站会')}
+        </Link>
+        <Link to="/{-$locale}/app/cheatsheet" activeProps={{}} className={item(active === 'cheatsheet')} title="工位速查锦囊">
+          <BookOpen size={18} className="shrink-0 text-amber-500" />
+          {label('工位速查锦囊')}
+        </Link>
+        {grp(t('app.navWorkspace'))}
         <Link to="/{-$locale}/app/pro" activeProps={{}} className={item(active === 'pro')} title={t('app.proDemo')}>
           <Sparkles size={18} className="shrink-0" />
           {label(t('app.proDemo'))}

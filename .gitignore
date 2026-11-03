@@ -36,3 +36,10 @@ playwright-report/
 
 # Claude Code session config (local)
 .claude/
+
+
+# Media files that exceed GitHub 100MB limit
+*.mp4
+*.mov
+*.avi
+*.wmv
