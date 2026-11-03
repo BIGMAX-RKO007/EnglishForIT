@@ -7,12 +7,21 @@
 
 ## 🧭 快速上手与访问地址
 
-在本地启动服务：
+### 🌐 Cloudflare 线上正式部署（全球边缘加速）
+* **公网在线地址**：[https://englishforit.fanxiao.workers.dev](https://englishforit.fanxiao.workers.dev)
+  * **中文主页**：`https://englishforit.fanxiao.workers.dev/zh`
+  * **实战控制台**：`https://englishforit.fanxiao.workers.dev/zh/app`
+  * **自我介绍破冰台**：`https://englishforit.fanxiao.workers.dev/zh/app/self-intro`
+  * **项目经历 STAR 台**：`https://englishforit.fanxiao.workers.dev/zh/app/project-star`
+  * **日常工作交流模拟**：`https://englishforit.fanxiao.workers.dev/zh/app/daily-work`
+  * **工位秒查锦囊与发音**：`https://englishforit.fanxiao.workers.dev/zh/app/cheatsheet`
+
+### 💻 本地开发运行：
 ```bash
 cd C:\Users\FX\Projects\EnglishForIT
 pnpm dev
 ```
-打开浏览器访问：
+打开本地浏览器访问：
 * **实战控制台（主页）**：`http://localhost:3000/zh/app`
 * **自我介绍破冰台**：`http://localhost:3000/zh/app/self-intro`
 * **项目经历 STAR 转换台**：`http://localhost:3000/zh/app/project-star`
