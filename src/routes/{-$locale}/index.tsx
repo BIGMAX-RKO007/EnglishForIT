@@ -22,11 +22,11 @@ export const Route = createFileRoute('/{-$locale}/')({
       origin,
       locale,
       path: '/',
-      title: 'FlareStarter',
+      title: 'EnglishForIT — IT 职场实用英语工作台',
       description:
         locale === 'zh'
-          ? 'FlareStarter——Cloudflare 原生的 SaaS 起步模板。克隆即用，部署到 Workers。'
-          : 'FlareStarter — the Cloudflare-native SaaS starter. Clone it and ship on Workers.',
+          ? 'EnglishForIT——专为软件工程师量身打造的实用英语对练工具。攻克自我介绍、STAR 项目经历、每日站会与代码评审，听得懂、说清楚！'
+          : 'EnglishForIT — Practical English for Software Engineers. Master self-introductions, STAR project pitches, and daily workplace communication.',
     })
     return { meta, links }
   },

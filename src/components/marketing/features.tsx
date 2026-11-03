@@ -1,10 +1,10 @@
-import { Zap, Layers, GitBranch } from 'lucide-react'
+import { Mic, Briefcase, Users } from 'lucide-react'
 import { useTranslation } from '@/features/i18n/provider'
 
 const FEATURES = [
-  { Icon: Zap, title: 'marketing.feature1Title', body: 'marketing.feature1Body', metric: 'marketing.feature1Metric' },
-  { Icon: Layers, title: 'marketing.feature2Title', body: 'marketing.feature2Body', metric: 'marketing.feature2Metric' },
-  { Icon: GitBranch, title: 'marketing.feature3Title', body: 'marketing.feature3Body', metric: 'marketing.feature3Metric' },
+  { Icon: Mic, title: 'marketing.feature1Title', body: 'marketing.feature1Body', metric: 'marketing.feature1Metric' },
+  { Icon: Briefcase, title: 'marketing.feature2Title', body: 'marketing.feature2Body', metric: 'marketing.feature2Metric' },
+  { Icon: Users, title: 'marketing.feature3Title', body: 'marketing.feature3Body', metric: 'marketing.feature3Metric' },
 ] as const
 
 export function Features() {

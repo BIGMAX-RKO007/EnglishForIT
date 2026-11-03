@@ -1,4 +1,4 @@
-/** FlareStarter wordmark — 4-point spark mark + "Flare" (bold) + "Starter" (58%). `compact` renders the mark only. */
+/** EnglishForIT wordmark — 4-point spark mark + "English" (bold) + "ForIT" (primary). `compact` renders the mark only. */
 export function Logo({ size = 18, compact = false }: { size?: number; compact?: boolean }) {
   return (
     <span
@@ -6,7 +6,7 @@ export function Logo({ size = 18, compact = false }: { size?: number; compact?: 
       style={{ fontSize: size }}
     >
       <span
-        className="inline-flex shrink-0 items-center justify-center rounded-lg"
+        className="inline-flex shrink-0 items-center justify-center rounded-lg shadow-sm"
         style={{
           width: 28,
           height: 28,
@@ -20,7 +20,7 @@ export function Logo({ size = 18, compact = false }: { size?: number; compact?: 
       </span>
       {!compact && (
         <span>
-          Flare<span className="font-medium opacity-[0.58]">Starter</span>
+          English<span className="font-bold text-primary ml-0.5">ForIT</span>
         </span>
       )}
     </span>
