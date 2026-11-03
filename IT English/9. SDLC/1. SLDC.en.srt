@@ -1,0 +1,335 @@
+1
+00:00:00,050 --> 00:00:00,670
+Hi there.
+
+2
+00:00:01,190 --> 00:00:05,150
+Let's talk about SDLC.
+
+3
+00:00:05,900 --> 00:00:07,160
+What is it?
+
+4
+00:00:07,190 --> 00:00:10,880
+What stages or steps does it have?
+
+5
+00:00:10,970 --> 00:00:15,620
+And let's practice using passive voice in English.
+
+6
+00:00:15,740 --> 00:00:16,700
+Let's go.
+
+7
+00:00:17,870 --> 00:00:24,950
+SDLC stands for Software Development Life Cycle.
+
+8
+00:00:25,100 --> 00:00:31,040
+It's a set of steps needed to create software applications.
+
+9
+00:00:31,070 --> 00:00:40,580
+These steps divide the development process into tasks that can be assigned, completed and measured.
+
+10
+00:00:41,120 --> 00:00:41,750
+Okay.
+
+11
+00:00:41,990 --> 00:00:46,160
+So these are steps of SDLC.
+
+12
+00:00:46,430 --> 00:00:50,690
+First is planning and requirement analysis.
+
+13
+00:00:50,750 --> 00:00:55,070
+Then we have design coding.
+
+14
+00:00:55,460 --> 00:01:00,090
+Testing, deployment and maintenance.
+
+15
+00:01:00,090 --> 00:01:04,260
+Let's have a closer look at each of the steps.
+
+16
+00:01:04,410 --> 00:01:08,490
+So first requirement analysis and planning.
+
+17
+00:01:09,240 --> 00:01:18,960
+This is about planning the work on the project, calculating time needed and number of people in a team.
+
+18
+00:01:19,200 --> 00:01:28,020
+Requirement analysis is to define what the application is supposed to do and how people can use it.
+
+19
+00:01:28,050 --> 00:01:36,870
+For example, if you develop a social media application, you would need it to be able to connect people
+
+20
+00:01:36,870 --> 00:01:39,300
+and send messages.
+
+21
+00:01:39,300 --> 00:01:42,660
+So these are the main requirements for them.
+
+22
+00:01:42,780 --> 00:01:44,940
+Social media applications.
+
+23
+00:01:45,570 --> 00:01:48,750
+Then we have a design stage.
+
+24
+00:01:48,780 --> 00:01:55,830
+Business architects use the requirements to produce several designs of the product.
+
+25
+00:01:55,860 --> 00:02:00,000
+Prototyping can be a part of this phase.
+
+26
+00:02:00,060 --> 00:02:05,630
+A prototype is like one of the early versions of software.
+
+27
+00:02:06,620 --> 00:02:08,260
+All right, then.
+
+28
+00:02:08,270 --> 00:02:16,130
+Coding design documents are used to implement the design and produce the code.
+
+29
+00:02:16,220 --> 00:02:20,480
+This stage is the longest stage of SDLC.
+
+30
+00:02:23,080 --> 00:02:33,580
+Testing code is tested based on the climate requirements to ensure the code works according to specifications.
+
+31
+00:02:33,880 --> 00:02:41,470
+The testing phase helps to reduce the number of bugs and glitches that users might have.
+
+32
+00:02:43,720 --> 00:02:44,920
+Deployment.
+
+33
+00:02:45,100 --> 00:02:52,840
+The product is delivered to the customers, so now application can be used by users.
+
+34
+00:02:52,960 --> 00:02:53,860
+Great.
+
+35
+00:02:55,270 --> 00:02:55,840
+Okay.
+
+36
+00:02:55,870 --> 00:02:57,760
+Maintenance then.
+
+37
+00:02:57,760 --> 00:03:06,130
+User experiences technical issues with the product and it requires support and fixes.
+
+38
+00:03:06,130 --> 00:03:08,740
+That is a maintenance stage.
+
+39
+00:03:09,520 --> 00:03:10,210
+Okay.
+
+40
+00:03:10,630 --> 00:03:19,750
+I used this sentences design documents are used to implement the design and produce the code.
+
+41
+00:03:20,290 --> 00:03:29,770
+Code is tested based on the client requirements to ensure the code works according to specifications.
+
+42
+00:03:30,160 --> 00:03:33,940
+The product is delivered to the customer.
+
+43
+00:03:34,300 --> 00:03:37,090
+Have a look at this sentences.
+
+44
+00:03:37,120 --> 00:03:40,540
+Do we know who does the action?
+
+45
+00:03:40,960 --> 00:03:42,600
+No, we don't.
+
+46
+00:03:42,610 --> 00:03:46,550
+And in this case we used passive voice.
+
+47
+00:03:47,120 --> 00:03:49,490
+How to make passive Voice.
+
+48
+00:03:50,000 --> 00:04:00,050
+Let's have a look at active sentence in present Simple team uses design documents to implement design
+
+49
+00:04:00,050 --> 00:04:02,090
+and produce code.
+
+50
+00:04:02,240 --> 00:04:04,250
+Okay, we know that subject.
+
+51
+00:04:04,250 --> 00:04:05,930
+Here is team.
+
+52
+00:04:06,140 --> 00:04:13,250
+Now we avoid the word team and we make a passive sentence.
+
+53
+00:04:13,280 --> 00:04:21,230
+Design documents are used to implement the design and produce the code.
+
+54
+00:04:21,860 --> 00:04:28,790
+So in passive voice we used the verb to be in the correct form.
+
+55
+00:04:29,450 --> 00:04:34,500
+Ah, in this case, and we used past participle.
+
+56
+00:04:34,520 --> 00:04:38,210
+So past participle is the verb.
+
+57
+00:04:38,760 --> 00:04:44,560
+Plus ending ed for regular verbs and for irregular verbs.
+
+58
+00:04:44,580 --> 00:04:49,920
+You need to check the third column of the table of irregular verbs.
+
+59
+00:04:50,010 --> 00:04:54,630
+Okay, use is regular, so we just add it.
+
+60
+00:04:54,660 --> 00:04:55,080
+Ed?
+
+61
+00:04:57,800 --> 00:05:07,580
+Okay, Here we have an active sentence in past tense team delivered product to the customer.
+
+62
+00:05:07,580 --> 00:05:12,500
+So in passive we need to use past as well.
+
+63
+00:05:12,680 --> 00:05:17,150
+The product was delivered to the customer.
+
+64
+00:05:17,360 --> 00:05:21,770
+So was it's the verb to be in the past.
+
+65
+00:05:23,060 --> 00:05:23,890
+All right.
+
+66
+00:05:23,930 --> 00:05:27,230
+Why do we need to use passive voice?
+
+67
+00:05:28,180 --> 00:05:28,610
+Case.
+
+68
+00:05:28,630 --> 00:05:33,370
+One, we don't know who does or did the action.
+
+69
+00:05:33,370 --> 00:05:34,990
+We don't know the subject.
+
+70
+00:05:34,990 --> 00:05:38,650
+For example, painting was stolen.
+
+71
+00:05:38,650 --> 00:05:40,630
+We don't know who stole it.
+
+72
+00:05:40,870 --> 00:05:45,430
+Second case, the subject is not important.
+
+73
+00:05:45,580 --> 00:05:49,090
+She was invited to the interview.
+
+74
+00:05:49,120 --> 00:05:53,190
+We don't know or we don't care who invited her.
+
+75
+00:05:53,200 --> 00:05:57,550
+We are interested in the fact that she was invited.
+
+76
+00:05:57,850 --> 00:06:04,120
+And next case, we don't want to focus on who made a mistake.
+
+77
+00:06:04,270 --> 00:06:08,080
+For example, deadline was missed here.
+
+78
+00:06:08,080 --> 00:06:15,970
+The focus is on the fact that deadline was missed, but not on who missed the deadline.
+
+79
+00:06:16,240 --> 00:06:17,500
+All right.
+
+80
+00:06:17,500 --> 00:06:18,170
+Good.
+
+81
+00:06:18,190 --> 00:06:20,860
+Go to your file and do the tasks.
+
+82
+00:06:20,860 --> 00:06:24,400
+If you need to refresh your memory, come back to the video.
+
+83
+00:06:24,400 --> 00:06:26,260
+Thank you and see you.
+
+84
+00:06:26,260 --> 00:06:26,650
+Bye.

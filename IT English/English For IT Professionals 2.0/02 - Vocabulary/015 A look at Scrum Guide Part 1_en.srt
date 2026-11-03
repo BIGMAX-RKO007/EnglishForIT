@@ -1,0 +1,656 @@
+1
+00:00:00,960 --> 00:00:01,680
+Scrum.
+
+2
+00:00:02,460 --> 00:00:06,030
+In this lesson, we are going to talk a little bit about Scrum.
+
+3
+00:00:07,650 --> 00:00:14,730
+However, while preparing this lesson for you, I thought, if you're on this course, then you probably
+
+4
+00:00:14,730 --> 00:00:16,920
+already know what Scrum is.
+
+5
+00:00:17,220 --> 00:00:24,960
+Maybe you already work on a Scrum team and you know all of the processes and things that are happening
+
+6
+00:00:25,200 --> 00:00:34,230
+on the Scrum team in the Scrum process, or maybe you are a newbie in you don't work in information
+
+7
+00:00:34,230 --> 00:00:37,470
+technology yet, you're just planning to start your career.
+
+8
+00:00:38,790 --> 00:00:45,130
+But again, I think that you have already heard something about Scrum.
+
+9
+00:00:45,150 --> 00:00:53,310
+I'm sure you've heard about the role of Scrum Master and Product Owner, and I'm sure you know something
+
+10
+00:00:53,310 --> 00:01:01,050
+about Sprints, Product Backlog and all of the other things that you can easily find on the Internet.
+
+11
+00:01:01,620 --> 00:01:08,820
+So again, if you want the general understanding of what Scrum is and how does it work.
+
+12
+00:01:09,660 --> 00:01:17,370
+You can find a lot of different videos, tutorials and descriptions on the internet, even free of charge.
+
+13
+00:01:17,370 --> 00:01:19,250
+You don't even have to pay for them.
+
+14
+00:01:19,260 --> 00:01:28,190
+Just Google Scrum, Scrum processes or a Scrum team and you will find a lot of information really.
+
+15
+00:01:28,200 --> 00:01:33,630
+So I don't want to repeat all of those things here in this lesson again.
+
+16
+00:01:33,870 --> 00:01:42,900
+However, what I think might be very interesting and very useful for you is to look at Scrum Guide.
+
+17
+00:01:44,040 --> 00:01:45,930
+So now what is Chrome Guide?
+
+18
+00:01:45,960 --> 00:01:54,090
+If you're interested in Scrum and you want to get a certification on Scrum, for example, you want
+
+19
+00:01:54,090 --> 00:02:01,170
+to become a Scrum Master or you need to work on a Scrum team and we need to know the processes.
+
+20
+00:02:01,170 --> 00:02:12,210
+You want to become a Scrum Product Owner or any other things that you might want to be able to prove
+
+21
+00:02:12,930 --> 00:02:16,740
+that you are familiar with and you have the certification.
+
+22
+00:02:16,950 --> 00:02:22,290
+Then where you start is exactly the Scrum Guide.
+
+23
+00:02:22,320 --> 00:02:29,670
+So when you go on a Scrum training or if you want to prepare by yourself on your own, then of course
+
+24
+00:02:29,670 --> 00:02:31,620
+you will start with Scrum Guide.
+
+25
+00:02:33,720 --> 00:02:41,880
+Let's have a quick look on the official scrum page, which is a scrum.org.
+
+26
+00:02:43,030 --> 00:02:44,350
+If you go here.
+
+27
+00:02:45,840 --> 00:02:47,280
+You can see that
+
+28
+00:02:48,470 --> 00:02:55,820
+it's the official Scrum web page and you can find a lot of information here.
+
+29
+00:02:56,870 --> 00:03:02,390
+And one of the main things why you want to go here is if you want to get a certification.
+
+30
+00:03:03,170 --> 00:03:12,740
+And here you have a lot of options that where you can get certified in what you can get certified.
+
+31
+00:03:13,310 --> 00:03:23,600
+So Professionals Scrum Product Owner, Professional Scrum for Software Development, Agile Leadership
+
+32
+00:03:24,020 --> 00:03:26,420
+and all of the advanced things.
+
+33
+00:03:28,310 --> 00:03:35,620
+Professional Scrum with UX and including the basic ones Applying Professional Scrum.
+
+34
+00:03:35,630 --> 00:03:37,250
+This is a basic one.
+
+35
+00:03:37,470 --> 00:03:39,110
+Professional Scrum Master.
+
+36
+00:03:39,470 --> 00:03:52,430
+This is more for project managers and positions like project managers or PMO, okay, than there are levels - Professional
+
+37
+00:03:52,430 --> 00:03:55,070
+Scrum Master one or two, Product Owner.
+
+38
+00:03:55,550 --> 00:04:03,740
+So there are lots of certifications really that you can get in Scrum, but when you want to prepare
+
+39
+00:04:03,740 --> 00:04:11,780
+for those certifications, you will go and you will look for resources on how to get yourself ready.
+
+40
+00:04:11,900 --> 00:04:14,060
+So when you go to resources.
+
+41
+00:04:15,160 --> 00:04:17,850
+Here at the bottom, you can find the Scrum Guide.
+
+42
+00:04:18,160 --> 00:04:24,820
+So if we click here, we go to the Scrum Guide page.
+
+43
+00:04:28,180 --> 00:04:36,160
+You can see that this is a kind of a small, very thin book on Scrum.
+
+44
+00:04:37,000 --> 00:04:44,440
+And wherever you want to start preparing for any Scrum certification, you will start exactly here.
+
+45
+00:04:44,440 --> 00:04:46,060
+You will start with the Scrum Guide.
+
+46
+00:04:46,750 --> 00:04:50,860
+The Scrum Guide is translated and available in over 30 languages.
+
+47
+00:04:50,860 --> 00:04:58,270
+So whatever your language is, you will probably find something more suitable for you than, for example,
+
+48
+00:04:58,270 --> 00:04:59,230
+than English.
+
+49
+00:04:59,230 --> 00:05:04,690
+But on the other hand, if you work in information technology, English is the language that you are
+
+50
+00:05:04,690 --> 00:05:05,950
+going to speak
+
+51
+00:05:06,940 --> 00:05:13,990
+in a lot of cases. If you if you are looking at international companies and corporations especially.
+
+52
+00:05:13,990 --> 00:05:21,130
+So if you don't want to go with your native language, but you would rather study and prepare for the
+
+53
+00:05:21,130 --> 00:05:32,560
+certification in English in order to be able then to use those this knowledge and talk about it in English
+
+54
+00:05:33,280 --> 00:05:39,880
+then you will go and you will download your Scrum Guide in PDF in English.
+
+55
+00:05:39,880 --> 00:05:42,370
+This is free so you can just go there.
+
+56
+00:05:42,550 --> 00:05:44,530
+Click download English.
+
+57
+00:05:48,220 --> 00:05:51,490
+And what you will get is you're going to get this book.
+
+58
+00:05:51,520 --> 00:05:53,380
+It has 14 pages.
+
+59
+00:05:53,380 --> 00:06:01,930
+So you see it's really not big and it's really, it won't take you a lot of time to just read through.
+
+60
+00:06:02,680 --> 00:06:11,170
+However, this scrum guide, as they say, is the definitive guide to Scrum or the rules of the game.
+
+61
+00:06:11,170 --> 00:06:21,130
+So this is kind of, you know, all of the rules together collected in one in one small, tiny book.
+
+62
+00:06:22,420 --> 00:06:30,400
+However, in order to understand them and apply them, you will need to not only to read through and
+
+63
+00:06:30,400 --> 00:06:37,750
+have the just the general overview, but you will need to really understand each and every word and
+
+64
+00:06:37,750 --> 00:06:39,580
+you will need to think about it.
+
+65
+00:06:40,870 --> 00:06:47,520
+So if you just scroll like that, you can see that there is content. 
+
+66
+00:06:47,530 --> 00:06:51,940
+So you have basically like everything for the foundation.
+
+67
+00:06:51,940 --> 00:06:53,050
+Scrum definition.
+
+68
+00:06:53,050 --> 00:06:54,230
+Scrum theory.
+
+69
+00:06:54,250 --> 00:06:55,420
+Scrum value.
+
+70
+00:06:55,430 --> 00:06:56,470
+Scrum Team.
+
+71
+00:06:56,470 --> 00:07:02,710
+Scrum events, artifacts and all of the things.
+
+72
+00:07:03,490 --> 00:07:06,580
+So these are all of the things you going to start with.
+
+73
+00:07:07,270 --> 00:07:17,230
+And what I wanted to help you with in this lesson is when you read some of those sentences here, they
+
+74
+00:07:17,230 --> 00:07:18,760
+may have
+
+75
+00:07:19,630 --> 00:07:23,380
+a little bit more advanced words and expressions.
+
+76
+00:07:23,380 --> 00:07:30,880
+And sometimes this may make a problem for those of you who are not native English speakers.
+
+77
+00:07:30,880 --> 00:07:34,720
+And if you take this course, it means that you're not a native.
+
+78
+00:07:35,380 --> 00:07:42,850
+So for non-native speakers, it might be just a little bit too difficult at some points.
+
+79
+00:07:43,420 --> 00:07:53,500
+So again, if you look for resources for Scrum training, then you will also find this Scrum Glossary.
+
+80
+00:07:54,900 --> 00:07:58,290
+Scrum Glossary is a glossary of Scrum terms.
+
+81
+00:07:59,250 --> 00:08:01,200
+And it goes alphabetically.
+
+82
+00:08:01,200 --> 00:08:11,220
+So start with B for example, the first first term here is burn-down chart and you have this definition
+
+83
+00:08:11,220 --> 00:08:15,660
+of what it is, then a burn-up chart, and so on.
+
+84
+00:08:15,750 --> 00:08:23,040
+And now you get to see and already we have a word which is coherent or coherence.
+
+85
+00:08:23,730 --> 00:08:28,170
+This is not very common word.
+
+86
+00:08:28,170 --> 00:08:31,200
+This is not the word that you're going to use in everyday life.
+
+87
+00:08:31,590 --> 00:08:41,700
+So I consider this word to be just a little bit more difficult than most than for most people's level.
+
+88
+00:08:42,120 --> 00:08:50,550
+And the definition here is not about this word, but about what it means in Scrum.
+
+89
+00:08:51,660 --> 00:08:59,340
+So if you read this definition, the quality of the relationship between certain product backlog items
+
+90
+00:08:59,490 --> 00:09:03,510
+which may make them worthy of consideration as a whole.
+
+91
+00:09:04,170 --> 00:09:15,090
+This definition tells you something about different items in product backlog, so it speaks about things
+
+92
+00:09:15,120 --> 00:09:19,830
+in Scrum and how we need to understand them in Scrum.
+
+93
+00:09:20,100 --> 00:09:24,960
+But this definition doesn't tell you anything about this particular word.
+
+94
+00:09:24,960 --> 00:09:27,750
+What does it mean in general
+
+95
+00:09:27,750 --> 00:09:28,810
+English, okay.
+
+96
+00:09:29,040 --> 00:09:36,030
+And it's way easier for you to understand these definitions if you know this word in general English
+
+97
+00:09:36,030 --> 00:09:42,150
+and if you know what it means actually, or if you know any synonyms to that word.
+
+98
+00:09:43,440 --> 00:09:46,920
+So this is what I'm going to try to help you with.
+
+99
+00:09:46,950 --> 00:09:55,500
+We are going to take a couple of those more complex words and we are going to try to explain them.
+
+100
+00:09:56,640 --> 00:10:06,330
+So I'm going to close this here and we're going to go to to those words and we will will look at them
+
+101
+00:10:06,330 --> 00:10:07,020
+like that.
+
+102
+00:10:07,260 --> 00:10:16,050
+So we will have this same definition from the Scrum Guide in that we will have the words explained down
+
+103
+00:10:16,050 --> 00:10:20,430
+here, any words that I think might be a little bit too difficult.
+
+104
+00:10:22,200 --> 00:10:29,220
+But before that, let's also jump to this slide here.
+
+105
+00:10:29,250 --> 00:10:38,850
+And because you know that scrum is something that belongs with agile methodologies, methodologies
+
+106
+00:10:38,850 --> 00:10:43,050
+for software development and for project management as well.
+
+107
+00:10:43,980 --> 00:10:52,890
+So Agile is a general big and broad term and Scrum belongs inside agile.
+
+108
+00:10:52,890 --> 00:11:02,500
+So Scrum is an agile methodology and I'm sure you have already heard this word thousands of times and but
+
+109
+00:11:02,550 --> 00:11:06,990
+maybe you don't really know what this word means in general
+
+110
+00:11:06,990 --> 00:11:08,040
+English, because
+
+111
+00:11:08,750 --> 00:11:10,730
+of course, it has a general meaning.
+
+112
+00:11:12,290 --> 00:11:13,790
+So agile.
+
+113
+00:11:14,870 --> 00:11:15,410
+Agile.
+
+114
+00:11:15,410 --> 00:11:17,030
+You have a transcript here.
+
+115
+00:11:17,990 --> 00:11:22,760
+In general English means able to move quickly and easily.
+
+116
+00:11:23,920 --> 00:11:25,240
+We have an example here.
+
+117
+00:11:25,270 --> 00:11:27,970
+Leopards are very fast and agile.
+
+118
+00:11:29,360 --> 00:11:37,670
+And the second meaning of agile again in general English is quick, smart, and clever.
+
+119
+00:11:38,090 --> 00:11:46,940
+So we can say, for example, that a person has an agile mind, and agile mind means very fast, smart,
+
+120
+00:11:47,060 --> 00:11:48,110
+flexible.
+
+121
+00:11:49,640 --> 00:11:53,150
+So this is just some general explanation.
+
+122
+00:11:53,150 --> 00:11:58,640
+I believe that it will help you understand software development
+
+123
+00:11:59,680 --> 00:12:02,350
+better yet when it goes with agile.
+
+124
+00:12:02,350 --> 00:12:03,700
+So it means it's fast.
+
+125
+00:12:03,700 --> 00:12:04,960
+It's flexible.
+
+126
+00:12:04,960 --> 00:12:06,100
+It's smart.
+
+127
+00:12:08,630 --> 00:12:18,110
+Okay now the definition for Agile software development in Information Technology is right here on this
+
+128
+00:12:18,110 --> 00:12:18,620
+slide.
+
+129
+00:12:19,010 --> 00:12:28,760
+Agile software development refers to methodologies centered around the idea of iterative iterative development,
+
+130
+00:12:28,760 --> 00:12:36,500
+where requirements and solutions evolve through collaboration in self-organizing, cross-functional
+
+131
+00:12:36,530 --> 00:12:37,250
+teams.
+
+132
+00:12:38,530 --> 00:12:46,210
+Now in each sentence, if I see a more complex word than we are going to look at it separately again.
+
+133
+00:12:46,220 --> 00:12:51,700
+So what does it mean when we say that software development is iterative?
+
+134
+00:12:52,330 --> 00:12:57,850
+Iterative means simply repetitive, doing something again and again.
+
+135
+00:12:57,850 --> 00:13:05,650
+And if you remember agile software development again in Scrum, for example, it has the concept of
+
+136
+00:13:05,650 --> 00:13:06,550
+sprints.
+
+137
+00:13:06,550 --> 00:13:14,950
+So we do small parts of work in sprints. Requirements and solutions
+
+138
+00:13:14,950 --> 00:13:17,140
+evolve, yeah, evolve.
+
+139
+00:13:17,970 --> 00:13:22,500
+To evolve means to change for better or develop slowly.
+
+140
+00:13:22,860 --> 00:13:32,100
+So again, we go in circles and we slowly change the product to the level where we need it to be.
+
+141
+00:13:34,880 --> 00:13:44,600
+And the next part of this definition, the ultimate value of agile development is that it enables teams
+
+142
+00:13:44,600 --> 00:13:53,450
+to deliver value faster, with greater quality and predictability and greater aptitude to respond to
+
+143
+00:13:53,450 --> 00:13:54,260
+change.
+
+144
+00:13:54,800 --> 00:14:00,770
+Scrum and Kanban are two of the most widely used agile methodologies.
+
+145
+00:14:02,250 --> 00:14:10,860
+In this lesson, we are going to look again at Scrum terms taken from the Scrum Guide.
+
+146
+00:14:12,430 --> 00:14:14,710
+And interesting words here.
+
+147
+00:14:14,710 --> 00:14:18,100
+The ultimate value means final goal.
+
+148
+00:14:19,010 --> 00:14:20,540
+And aptitude.
+
+149
+00:14:20,540 --> 00:14:25,370
+Greater aptitude to respond to change means the ability.
+
+150
+00:14:25,370 --> 00:14:28,940
+So greater ability to respond to change.
+
+151
+00:14:30,590 --> 00:14:31,220
+Okay.
+
+152
+00:14:31,220 --> 00:14:33,260
+And now what is Scrum?
+
+153
+00:14:33,410 --> 00:14:41,030
+The official definition of Scrum says that Scrum is a lightweight framework.
+
+154
+00:14:41,060 --> 00:14:49,880
+It's important to understand that Scrum is a framework that helps people, teams and organizations generate
+
+155
+00:14:49,880 --> 00:14:56,960
+value through adaptive solutions for complex problems as defined in the Scrum Guide.
+
+156
+00:14:57,770 --> 00:15:04,520
+So again, Scrum, the rules of Scrum are all written in Scrum Guide.
+
+157
+00:15:04,520 --> 00:15:11,120
+So this is the Bible for Scrum. And the word adaptive here.
+
+158
+00:15:11,120 --> 00:15:12,740
+Adaptive solutions.
+
+159
+00:15:12,770 --> 00:15:18,290
+Adaptive means having an ability to change, to suit your condition.
+
+160
+00:15:18,650 --> 00:15:19,970
+So to adapt.
+
+161
+00:15:22,110 --> 00:15:28,350
+And here are those two links that I was talking about earlier.
+
+162
+00:15:29,130 --> 00:15:32,010
+Scrum.org is the official scrum page.
+
+163
+00:15:32,010 --> 00:15:41,550
+And if you follow through this link which is Scrum.org/resources/scrum-glossary, you can find the
+
+164
+00:15:41,550 --> 00:15:43,410
+scrum glossary I was talking about.
+

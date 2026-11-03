@@ -1,0 +1,291 @@
+1
+00:00:00,020 --> 00:00:00,860
+Hi guys.
+
+2
+00:00:00,860 --> 00:00:07,580
+Let's talk about Agile, Scrum, Kanban and daily meetings.
+
+3
+00:00:07,580 --> 00:00:11,360
+Why do people have to run those meetings?
+
+4
+00:00:12,860 --> 00:00:17,570
+Agile is the methodology of software development.
+
+5
+00:00:17,600 --> 00:00:22,970
+Its ability to be flexible and respond to change.
+
+6
+00:00:23,000 --> 00:00:27,560
+What changes might we have during the software development?
+
+7
+00:00:27,770 --> 00:00:33,800
+Changes can be new requirements from the client, new timelines and priorities.
+
+8
+00:00:35,980 --> 00:00:43,570
+Agile is divided into two main types methodologies Scrum and Kanban.
+
+9
+00:00:43,960 --> 00:00:49,600
+Let's have a look what these two types have in common and what is different.
+
+10
+00:00:50,290 --> 00:00:55,840
+So both Scrum and Kanban are agile, flexible.
+
+11
+00:00:55,840 --> 00:00:58,510
+They respond to change quickly.
+
+12
+00:00:58,660 --> 00:01:01,060
+Both use pull techniques.
+
+13
+00:01:01,060 --> 00:01:06,250
+When you pull the task from the list of tasks to do.
+
+14
+00:01:06,610 --> 00:01:10,210
+Both use boards to visualize the progress.
+
+15
+00:01:10,210 --> 00:01:14,410
+So on the picture you can see example of a Kanban board.
+
+16
+00:01:14,770 --> 00:01:21,550
+Both have organized teams and both focus on transparency.
+
+17
+00:01:21,550 --> 00:01:29,740
+When everyone in the team knows what is happening and what the progress on the project is.
+
+18
+00:01:30,900 --> 00:01:33,690
+What is different in Scrum?
+
+19
+00:01:33,690 --> 00:01:36,990
+The roles of the team are clearly defined.
+
+20
+00:01:37,080 --> 00:01:41,000
+In scrum, tasks are divided into sprints.
+
+21
+00:01:41,010 --> 00:01:45,030
+Usually Sprint lasts for 1 or 2 weeks.
+
+22
+00:01:45,390 --> 00:01:55,830
+In Scrum team has daily meetings to discuss the progress and scrum is best for teams with more stable
+
+23
+00:01:55,830 --> 00:01:56,790
+priorities.
+
+24
+00:01:57,390 --> 00:02:03,030
+Kanban is better when you have a lot of changes during the workflow.
+
+25
+00:02:03,150 --> 00:02:14,070
+Kanban is more flexible and you can add tasks during the process and daily meetings in Kanban are not
+
+26
+00:02:14,100 --> 00:02:15,150
+necessary.
+
+27
+00:02:16,660 --> 00:02:18,640
+Let's focus on daily meetings.
+
+28
+00:02:18,670 --> 00:02:25,480
+They are also known as stand up meetings, daily scrum or status meetings.
+
+29
+00:02:25,510 --> 00:02:33,430
+These meetings are held every day, usually at the same time and place and same participants, and they
+
+30
+00:02:33,430 --> 00:02:36,700
+lost no more than 15 minutes.
+
+31
+00:02:37,640 --> 00:02:46,630
+Three main questions that people have to answer during these meetings are What did you do yesterday?
+
+32
+00:02:46,660 --> 00:02:48,600
+What will you do today?
+
+33
+00:02:48,610 --> 00:02:51,700
+And are there any blockers?
+
+34
+00:02:53,560 --> 00:02:56,530
+How to answer these questions.
+
+35
+00:02:56,530 --> 00:03:05,020
+If you are a developer, you can say something like Yesterday I finished refactoring navigation and
+
+36
+00:03:05,020 --> 00:03:12,400
+I started Typekit DC 6789 to give your update for yesterday.
+
+37
+00:03:12,400 --> 00:03:14,620
+You use past simple.
+
+38
+00:03:15,390 --> 00:03:20,050
+Today I will complete Typekit DC 6789.
+
+39
+00:03:20,070 --> 00:03:28,500
+I will send Typekit for review and I am going to fix the issue with Google sign in for today.
+
+40
+00:03:28,500 --> 00:03:31,320
+You can use future simple.
+
+41
+00:03:31,320 --> 00:03:32,520
+I will complete.
+
+42
+00:03:32,520 --> 00:03:36,990
+I will send or present continuous.
+
+43
+00:03:36,990 --> 00:03:38,610
+I am going to fix.
+
+44
+00:03:39,000 --> 00:03:43,650
+If you don't have any blockers you say I don't have any blockers.
+
+45
+00:03:43,680 --> 00:03:43,980
+Okay.
+
+46
+00:03:44,010 --> 00:03:47,430
+Pause the video and repeat the update.
+
+47
+00:03:49,640 --> 00:03:53,090
+What to say if you do have some blockers.
+
+48
+00:03:53,240 --> 00:04:00,980
+You can say phrases like, I don't have experience using some technology, so I need more time to figure
+
+49
+00:04:00,980 --> 00:04:01,940
+it out.
+
+50
+00:04:02,330 --> 00:04:05,900
+I'm having trouble debugging something.
+
+51
+00:04:06,020 --> 00:04:10,340
+I need an approval from someone to do something.
+
+52
+00:04:10,550 --> 00:04:18,800
+I need help repairing some issue because it stopped working or I'm waiting for an access to, let's
+
+53
+00:04:18,800 --> 00:04:20,390
+say, AWS.
+
+54
+00:04:20,510 --> 00:04:25,430
+Okay, Pause the video and repeat the phrases from my screen.
+
+55
+00:04:26,500 --> 00:04:27,370
+Good job.
+
+56
+00:04:28,060 --> 00:04:30,850
+The goal of daily meetings.
+
+57
+00:04:30,850 --> 00:04:35,860
+Why people need to have them to check status to give update.
+
+58
+00:04:35,890 --> 00:04:42,330
+What is the progress on the project and to get everyone on the team on the same page?
+
+59
+00:04:42,340 --> 00:04:47,230
+But daily meetings are not to solve problems.
+
+60
+00:04:47,530 --> 00:04:52,600
+Let's have a look at this short dialogue.
+
+61
+00:04:52,960 --> 00:04:59,980
+Tom I don't have experience using AWS, so I need more time to figure it out.
+
+62
+00:04:59,980 --> 00:05:03,480
+So Tom is talking about his blocker.
+
+63
+00:05:03,820 --> 00:05:07,320
+Sarah I can show you how to use it.
+
+64
+00:05:07,330 --> 00:05:09,280
+You just need to.
+
+65
+00:05:09,280 --> 00:05:14,860
+And Sarah wants to help Tom to explain how to solve his blocker.
+
+66
+00:05:15,250 --> 00:05:22,900
+Bruce says, Why don't you guys just have a call after the meeting in order to solve this problem?
+
+67
+00:05:23,080 --> 00:05:32,720
+Bruce knows that daily meetings are not to solve issues or deal with blockers, and he suggests guys
+
+68
+00:05:32,720 --> 00:05:36,440
+to do that after the daily meeting.
+
+69
+00:05:36,440 --> 00:05:38,990
+That's a good way to do it.
+
+70
+00:05:39,790 --> 00:05:41,740
+Okay, time for practice.
+
+71
+00:05:41,770 --> 00:05:44,610
+Go to your file and do the tasks.
+
+72
+00:05:44,620 --> 00:05:47,620
+Thank you and see you on the next lesson.
+
+73
+00:05:47,620 --> 00:05:48,160
+Bye.

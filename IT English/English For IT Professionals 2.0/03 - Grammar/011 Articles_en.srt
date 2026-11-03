@@ -1,0 +1,1292 @@
+1
+00:00:01,270 --> 00:00:02,400
+Hello, everybody.
+
+2
+00:00:02,410 --> 00:00:06,970
+My name is Lilly and today we'll talk about articles.
+
+3
+00:00:07,480 --> 00:00:17,470
+So articles are such small words a and the, they are so small that some people decide to ignore them.
+
+4
+00:00:17,620 --> 00:00:19,240
+Well, that's not right.
+
+5
+00:00:19,600 --> 00:00:23,560
+They may be small, but they are very important.
+
+6
+00:00:24,270 --> 00:00:24,810
+Well.
+
+7
+00:00:24,810 --> 00:00:29,670
+And in this lesson, you will learn everything you need to know about articles.
+
+8
+00:00:30,030 --> 00:00:30,930
+Let's start.
+
+9
+00:00:31,930 --> 00:00:41,670
+Okay, so in English there are only two types of articles, article a or an and article the.
+
+10
+00:00:42,330 --> 00:00:49,020
+So a is called an indefinite article and the is called a definite article.
+
+11
+00:00:49,920 --> 00:00:54,480
+Now articles are used in front of nouns.
+
+12
+00:00:57,530 --> 00:00:58,850
+The code.
+
+13
+00:01:00,770 --> 00:01:02,060
+A developer.
+
+14
+00:01:04,739 --> 00:01:09,200
+Now the important task or a big project.
+
+15
+00:01:09,210 --> 00:01:20,670
+So this article the refers to task, but in between we have the word describing it important.
+
+16
+00:01:20,880 --> 00:01:21,740
+It's okay.
+
+17
+00:01:21,750 --> 00:01:27,270
+It can come between an article and the noun.
+
+18
+00:01:27,270 --> 00:01:29,850
+So the important task.
+
+19
+00:01:29,880 --> 00:01:31,680
+A big project.
+
+20
+00:01:32,130 --> 00:01:33,120
+What else?
+
+21
+00:01:33,840 --> 00:01:38,040
+We don't use articles with names.
+
+22
+00:01:38,040 --> 00:01:40,230
+We don't say a Lilly.
+
+23
+00:01:40,440 --> 00:01:43,110
+We don't say the Bill Gates.
+
+24
+00:01:43,560 --> 00:01:50,070
+And we also don't use articles with geographical names.
+
+25
+00:01:50,370 --> 00:01:55,140
+Well, there are some exceptions to that, but we will talk about them a bit later.
+
+26
+00:02:00,790 --> 00:02:12,680
+And now let's start let's start with the indefinite article a or an. So a is used only in singular.
+
+27
+00:02:12,700 --> 00:02:13,780
+What does it mean?
+
+28
+00:02:14,050 --> 00:02:20,710
+Well, it means that we can only say a company
+
+29
+00:02:20,980 --> 00:02:21,860
+Right.
+
+30
+00:02:21,880 --> 00:02:26,590
+We can't say a companies or a money.
+
+31
+00:02:27,530 --> 00:02:32,920
+We use a only with one thing, right
+
+32
+00:02:32,930 --> 00:02:38,630
+If that's hard to remember, just imagine that and means one.
+
+33
+00:02:38,630 --> 00:02:41,190
+You wouldn't say one companies.
+
+34
+00:02:41,630 --> 00:02:44,630
+And that's why you shouldn't say a companies.
+
+35
+00:02:45,490 --> 00:02:48,040
+Why cannot we say a money?
+
+36
+00:02:48,880 --> 00:02:53,890
+Well, if you remember, and this was mentioned in our previous course.
+
+37
+00:02:54,190 --> 00:02:57,290
+Money is uncountable in English.
+
+38
+00:02:57,310 --> 00:03:03,070
+So with the nouns we can't count like money or time.
+
+39
+00:03:03,190 --> 00:03:04,990
+We wouldn't use article a.
+
+40
+00:03:06,200 --> 00:03:06,660
+Okay.
+
+41
+00:03:06,680 --> 00:03:07,730
+What else?
+
+42
+00:03:07,940 --> 00:03:13,130
+You've probably noticed that sometimes we say an, why do we say
+
+43
+00:03:13,130 --> 00:03:16,340
+an instead of a. They are totally the same.
+
+44
+00:03:16,340 --> 00:03:19,130
+Yes, their usage is the same.
+
+45
+00:03:19,790 --> 00:03:28,760
+But sometimes we say an. Well, that would be before the words that start with those sounds:
+
+46
+00:03:29,720 --> 00:03:31,980
+a, e, i, o, u.
+
+47
+00:03:32,000 --> 00:03:34,070
+So they are called vowels.
+
+48
+00:03:34,100 --> 00:03:45,650
+Well, a e i o u, if you if your word start with one of those letters, usually you would say an. An archive,
+
+49
+00:03:45,740 --> 00:03:48,320
+an error, an option.
+
+50
+00:03:48,800 --> 00:03:57,470
+Well, this is really convenient because try saying a archive, that's hard, right. 
+
+51
+00:03:57,470 --> 00:04:04,130
+So it's much easier to say and an archive, an error, an option.
+
+52
+00:04:04,910 --> 00:04:13,190
+But I want you to be careful here with the letter you. With this latter, letter u.
+
+53
+00:04:14,690 --> 00:04:17,959
+Well usually we will say an umbrella.
+
+54
+00:04:17,959 --> 00:04:23,510
+So when the word starts with u, we will say an, an umbrella.
+
+55
+00:04:24,420 --> 00:04:33,780
+But we will say a user, a utility program, a university and a usb-c port.
+
+56
+00:04:34,950 --> 00:04:36,030
+Why's that?
+
+57
+00:04:36,510 --> 00:04:41,700
+Because in the first case, an umbrella you sounds like
+
+58
+00:04:41,730 --> 00:04:44,850
+"ah", that's vowel, right.
+
+59
+00:04:45,150 --> 00:04:50,200
+And in the second case, a user, we hear u.
+
+60
+00:04:50,220 --> 00:04:53,850
+So technically, the first sound is "j" here.
+
+61
+00:04:54,270 --> 00:04:54,840
+Right.
+
+62
+00:04:54,840 --> 00:04:56,100
+It's not a vowel.
+
+63
+00:04:56,580 --> 00:04:57,510
+It's not here.
+
+64
+00:04:57,990 --> 00:05:00,210
+So pay attention to that little thing.
+
+65
+00:05:00,450 --> 00:05:05,430
+And also, one more tricky thing would be.
+
+66
+00:05:06,240 --> 00:05:07,210
+Just a second.
+
+67
+00:05:07,230 --> 00:05:08,250
+Here we go.
+
+68
+00:05:08,880 --> 00:05:10,260
+And hour.
+
+69
+00:05:11,120 --> 00:05:16,040
+And an HR manager. So words starting with h,
+
+70
+00:05:16,280 --> 00:05:18,650
+please pay attention to those as well,
+
+71
+00:05:19,220 --> 00:05:30,680
+because, well, we have h here, seems like we have to say a, but h is silent.
+
+72
+00:05:30,680 --> 00:05:32,330
+We don't pronounce it.
+
+73
+00:05:32,330 --> 00:05:43,970
+That's why the next sound is o. An hour. Well here and HR manager, right
+
+74
+00:05:43,970 --> 00:05:46,100
+An HR manager.
+
+75
+00:05:46,940 --> 00:05:52,340
+Well, when we say h, h, the first sound is "e".
+
+76
+00:05:52,340 --> 00:05:54,020
+So like is the name of this letter -
+
+77
+00:05:54,020 --> 00:05:59,570
+h. The first sound is "e", that's why an HR manager.
+
+78
+00:05:59,570 --> 00:06:03,260
+So just remember an hour, an HR manager.
+
+79
+00:06:08,720 --> 00:06:09,350
+All right.
+
+80
+00:06:09,350 --> 00:06:17,390
+And now let's talk when we use article a right, when do we have to use article a and not article the.
+
+81
+00:06:17,930 --> 00:06:20,120
+So here is an example.
+
+82
+00:06:20,570 --> 00:06:23,150
+I've just got a message from our team lead.
+
+83
+00:06:24,500 --> 00:06:27,770
+I've just got a message from our team lead. 
+
+84
+00:06:28,990 --> 00:06:34,030
+We use article a when we mention something for the first time.
+
+85
+00:06:35,020 --> 00:06:41,710
+So we just saw that message and we say, Oh, I've just got a message from our team lead.
+
+86
+00:06:42,310 --> 00:06:44,270
+I don't know what the message is about.
+
+87
+00:06:44,290 --> 00:06:46,360
+I mentioned it for the first time.
+
+88
+00:06:46,390 --> 00:06:49,000
+Article a. The second one.
+
+89
+00:06:49,360 --> 00:06:54,790
+CAPTCHA is a program used to verify that a human, not a computer, is entering data.
+
+90
+00:06:55,960 --> 00:07:01,630
+So we use article a when we explain what something is.
+
+91
+00:07:02,330 --> 00:07:07,190
+We are explaining, we're given a definition like in a dictionary.
+
+92
+00:07:07,250 --> 00:07:08,360
+What is CAPTCHA?
+
+93
+00:07:08,390 --> 00:07:10,940
+CAPTCHA is a program.
+
+94
+00:07:11,150 --> 00:07:11,660
+Right.
+
+95
+00:07:11,660 --> 00:07:13,610
+We explain what it is.
+
+96
+00:07:14,490 --> 00:07:20,940
+That's why we use article a here. And also we use article a with job titles.
+
+97
+00:07:20,940 --> 00:07:24,990
+So that's something you probably will use often, right
+
+98
+00:07:25,590 --> 00:07:33,280
+For example, Jim has worked as a QA analyst for two years now. As a QA analyst.
+
+99
+00:07:33,300 --> 00:07:41,460
+So before job titles, when we name what we do, right, we use article a. I am a QA analyst.
+
+100
+00:07:42,480 --> 00:07:44,010
+I am a developer.
+
+101
+00:07:44,490 --> 00:07:47,340
+I am a project manager, like that.
+
+102
+00:07:48,900 --> 00:07:55,110
+And also sometimes we use article a in some set expressions.
+
+103
+00:07:55,110 --> 00:08:01,950
+So you just have to remember, for example, we have a sprint review meeting once a week.
+
+104
+00:08:02,130 --> 00:08:10,650
+So when we talk about frequency, when we talk how often something happens, we use article a.
+
+105
+00:08:12,570 --> 00:08:16,900
+Once a week, twice a week, three times a week.
+
+106
+00:08:16,920 --> 00:08:18,810
+So that's how we say it.
+
+107
+00:08:19,260 --> 00:08:20,430
+Use article a.
+
+108
+00:08:21,150 --> 00:08:28,170
+Also, when we talk about speed, the speed limit in urban areas is 50 kilometres an hour.
+
+109
+00:08:29,220 --> 00:08:31,560
+An hour, right.
+
+110
+00:08:32,850 --> 00:08:36,750
+Again, when we talk about speed, we use indefinite article a.
+
+111
+00:08:38,200 --> 00:08:47,560
+And the last one, when we talk about price like this, for example, the basic plan costs $10 a month,
+
+112
+00:08:47,980 --> 00:08:49,600
+$10 a month.
+
+113
+00:08:51,100 --> 00:08:53,650
+And now we will talk about article the.
+
+114
+00:08:54,710 --> 00:08:59,810
+So the can be used in plural and in singular.
+
+115
+00:08:59,810 --> 00:09:08,510
+So we can use it with one thing, for example, the server and we can use it with many things like the
+
+116
+00:09:08,510 --> 00:09:09,530
+projects.
+
+117
+00:09:10,010 --> 00:09:19,100
+We can use it with things we can't count, like that information, well and with many things, as I already
+
+118
+00:09:19,100 --> 00:09:20,990
+said, the links.
+
+119
+00:09:21,770 --> 00:09:25,460
+So here we don't have those limits.
+
+120
+00:09:25,460 --> 00:09:27,410
+Right, we can use it with any word.
+
+121
+00:09:27,410 --> 00:09:29,690
+Basically, that's how we can put it.
+
+122
+00:09:29,690 --> 00:09:31,250
+You can use it with any word.
+
+123
+00:09:32,180 --> 00:09:32,810
+All right.
+
+124
+00:09:32,810 --> 00:09:39,800
+And probably you've noticed that sometimes we say the, usually is the, the, the, but sometimes it's the.
+
+125
+00:09:40,250 --> 00:09:44,360
+Well again, it has to do with those vowel sounds.
+
+126
+00:09:44,360 --> 00:09:56,360
+Remember a e i o u, like when when we would use an. In those cases, we would also use the, the app.
+
+127
+00:09:57,270 --> 00:09:58,640
+The engineer.
+
+128
+00:09:58,650 --> 00:09:59,430
+Right.
+
+129
+00:10:00,000 --> 00:10:03,270
+But that deadline, the code.
+
+130
+00:10:03,420 --> 00:10:13,170
+So when we start with vowel, vowel, we would use the, the app, the end, and it's also easier to say
+
+131
+00:10:13,170 --> 00:10:14,460
+this way, right
+
+132
+00:10:14,850 --> 00:10:16,980
+It just goes like that.
+
+133
+00:10:17,250 --> 00:10:19,470
+Easier to say the app than the app.
+
+134
+00:10:19,890 --> 00:10:20,880
+I think it is easier.
+
+135
+00:10:20,880 --> 00:10:21,420
+Right.
+
+136
+00:10:22,370 --> 00:10:24,000
+Okay, now let's move on.
+
+137
+00:10:29,270 --> 00:10:31,190
+When do we use article the?
+
+138
+00:10:31,640 --> 00:10:33,230
+So let's read an example
+
+139
+00:10:33,230 --> 00:10:39,140
+first. The message I got yesterday says we are going to have a new person on our team.
+
+140
+00:10:40,120 --> 00:10:44,650
+So remember, previous example was I got a message.
+
+141
+00:10:45,620 --> 00:10:49,150
+Now today I talk about that message again.
+
+142
+00:10:49,160 --> 00:10:56,420
+This time I say that the message I got yesterday says we are going to have a new person on our team.
+
+143
+00:10:56,780 --> 00:11:02,780
+Well, it's clear to me and to someone I'm talking to what message I have in mind.
+
+144
+00:11:02,780 --> 00:11:03,380
+Right.
+
+145
+00:11:03,500 --> 00:11:05,900
+This is the message that I got yesterday.
+
+146
+00:11:05,900 --> 00:11:11,390
+And this is the message that says that we are going to have a new person on our team.
+
+147
+00:11:12,560 --> 00:11:13,070
+All right.
+
+148
+00:11:13,070 --> 00:11:14,060
+So use that one.
+
+149
+00:11:14,060 --> 00:11:17,060
+You already know what you're talking about.
+
+150
+00:11:18,110 --> 00:11:22,700
+Also, we use article the with superlatives.
+
+151
+00:11:22,940 --> 00:11:27,320
+In our case, outsourcing is the best option.
+
+152
+00:11:27,560 --> 00:11:28,460
+The best.
+
+153
+00:11:29,180 --> 00:11:31,610
+So good, better, the best.
+
+154
+00:11:31,820 --> 00:11:33,980
+The best is a superlative.
+
+155
+00:11:34,580 --> 00:11:36,290
+In this case, we use the.
+
+156
+00:11:36,800 --> 00:11:40,820
+And also we will cover superlatives later in the course.
+
+157
+00:11:40,820 --> 00:11:49,190
+So don't worry, the best, the worst, the most interesting in all these cases, we use the.
+
+158
+00:11:50,390 --> 00:11:51,410
+All right.
+
+159
+00:11:51,440 --> 00:11:59,660
+The last one, if you use your phone number as a password, hackers can easily guess the first two digits.
+
+160
+00:12:01,460 --> 00:12:02,120
+All right.
+
+161
+00:12:02,120 --> 00:12:08,660
+So we use the with ordinal numbers. What are ordinal numbers?
+
+162
+00:12:09,440 --> 00:12:17,540
+The first, the second, the third, the forth, the 10th, the 30th and so on.
+
+163
+00:12:17,690 --> 00:12:18,350
+Right.
+
+164
+00:12:18,500 --> 00:12:25,610
+So like which, not one, but the first.
+
+165
+00:12:25,610 --> 00:12:32,240
+Right, not two, but the second. In this case we use article the as well.
+
+166
+00:12:37,430 --> 00:12:37,730
+Okay.
+
+167
+00:12:37,730 --> 00:12:38,510
+What else?
+
+168
+00:12:38,540 --> 00:12:43,790
+A few more things to remember when it comes to articles the. We use
+
+169
+00:12:43,910 --> 00:12:46,260
+We use the in certain expressions.
+
+170
+00:12:46,280 --> 00:12:52,700
+Look, for example, we always say At the top, for example, at the top of the page.
+
+171
+00:12:53,000 --> 00:12:57,410
+In the end, in the end of the day. In the middle,
+
+172
+00:12:57,680 --> 00:12:59,150
+in the middle of the meeting.
+
+173
+00:12:59,390 --> 00:13:00,320
+On the right.
+
+174
+00:13:00,350 --> 00:13:01,310
+On the left.
+
+175
+00:13:02,090 --> 00:13:07,040
+In all those cases, you don't have to think Oh, a or the? It's always the.
+
+176
+00:13:07,460 --> 00:13:09,980
+It's just a set expression, so you have to remember it.
+
+177
+00:13:10,940 --> 00:13:17,960
+Then we use the with things that are unique, like they maybe unique in nature,
+
+178
+00:13:17,960 --> 00:13:21,500
+like here the sun, the moon, the world.
+
+179
+00:13:21,500 --> 00:13:22,220
+Right
+
+180
+00:13:22,520 --> 00:13:24,500
+Or the Internet.
+
+181
+00:13:25,280 --> 00:13:25,670
+Right.
+
+182
+00:13:25,670 --> 00:13:36,800
+It's also a unique thing and also used with the article the. The internet. Okay, what else? We use article 
+
+183
+00:13:36,800 --> 00:13:39,100
+the with some proper names.
+
+184
+00:13:39,110 --> 00:13:47,030
+Well you remember I told at the beginning of this lesson we don't use the with geographical names.
+
+185
+00:13:47,030 --> 00:13:47,720
+Right
+
+186
+00:13:47,720 --> 00:13:53,660
+For example, we wouldn't say the India, right?
+
+187
+00:13:53,660 --> 00:13:57,350
+No, India, but there are some exceptions.
+
+188
+00:13:58,520 --> 00:13:59,870
+They USA.
+
+189
+00:14:00,780 --> 00:14:01,840
+The UK.
+
+190
+00:14:02,200 --> 00:14:03,730
+The Netherlands. 
+
+191
+00:14:03,880 --> 00:14:04,990
+The Alps.
+
+192
+00:14:05,290 --> 00:14:06,910
+The Indian Ocean.
+
+193
+00:14:07,450 --> 00:14:08,440
+The Amazon.
+
+194
+00:14:09,270 --> 00:14:13,410
+So usually when it comes to
+
+195
+00:14:15,930 --> 00:14:20,640
+countries, we use articles the, when there are words like that - states.
+
+196
+00:14:20,640 --> 00:14:28,170
+So when these words are inside the name of the country states, kingdom, when those geographical names
+
+197
+00:14:28,170 --> 00:14:35,010
+are in plural, the Netherlands, right, the name of the country is in plural, which as in the end, 
+
+198
+00:14:35,030 --> 00:14:36,600
+so we use it with the.
+
+199
+00:14:36,630 --> 00:14:46,710
+The Philippines also, for example. With mountain ranges, the Alps, with the oceans, the Indian Ocean
+
+200
+00:14:46,710 --> 00:14:49,380
+and with the rivers, the Amazon.
+
+201
+00:14:49,860 --> 00:14:54,900
+So this is not that Amazon company, but the river Amazon.
+
+202
+00:14:56,880 --> 00:14:57,750
+All right.
+
+203
+00:14:57,750 --> 00:15:01,230
+And let's move on. Guys,
+
+204
+00:15:01,230 --> 00:15:03,120
+there are also cases
+
+205
+00:15:03,120 --> 00:15:05,730
+when we have to use no article
+
+206
+00:15:05,730 --> 00:15:06,210
+Right.
+
+207
+00:15:06,390 --> 00:15:09,150
+Well, it's important to use no article.
+
+208
+00:15:09,240 --> 00:15:14,460
+You also need to know what those cases are to sound correct.
+
+209
+00:15:15,630 --> 00:15:23,250
+So, for example, we use no article when we say something plus number, for example, terminal seven.
+
+210
+00:15:24,120 --> 00:15:25,050
+No article.
+
+211
+00:15:25,080 --> 00:15:29,310
+Page 22, line 15, part three, room one.
+
+212
+00:15:29,400 --> 00:15:33,750
+So it's not the room one, but room one, just like that.
+
+213
+00:15:35,230 --> 00:15:39,670
+Also we don't use articles with days. On Monday.
+
+214
+00:15:40,300 --> 00:15:41,140
+On Tuesday.
+
+215
+00:15:41,140 --> 00:15:41,980
+On Wednesday.
+
+216
+00:15:42,010 --> 00:15:44,590
+We don't use articles with months.
+
+217
+00:15:44,590 --> 00:15:45,520
+In June.
+
+218
+00:15:45,730 --> 00:15:46,840
+In December.
+
+219
+00:15:47,470 --> 00:15:48,250
+In May.
+
+220
+00:15:49,540 --> 00:15:52,780
+And at night.
+
+221
+00:15:53,830 --> 00:15:55,350
+No article here.
+
+222
+00:15:55,360 --> 00:15:57,250
+But in the morning.
+
+223
+00:15:57,250 --> 00:15:58,360
+In the afternoon.
+
+224
+00:15:58,360 --> 00:15:59,560
+In the evening.
+
+225
+00:16:00,220 --> 00:16:01,390
+So at night.
+
+226
+00:16:01,390 --> 00:16:03,040
+But in the morning.
+
+227
+00:16:03,040 --> 00:16:03,970
+In the afternoon.
+
+228
+00:16:04,000 --> 00:16:04,680
+In the evening.
+
+229
+00:16:04,690 --> 00:16:06,250
+So this is an exception.
+
+230
+00:16:06,250 --> 00:16:06,850
+Sorry.
+
+231
+00:16:08,290 --> 00:16:15,340
+Some other phrases, I suggest you just remember those, right, in/at/to work.
+
+232
+00:16:15,340 --> 00:16:16,630
+I go to work.
+
+233
+00:16:16,780 --> 00:16:18,400
+No, I go to the work.
+
+234
+00:16:18,430 --> 00:16:19,900
+No, nothing like that.
+
+235
+00:16:19,900 --> 00:16:20,400
+Right?
+
+236
+00:16:20,650 --> 00:16:22,300
+In work.
+
+237
+00:16:22,300 --> 00:16:23,140
+At work.
+
+238
+00:16:23,140 --> 00:16:24,010
+To work.
+
+239
+00:16:25,380 --> 00:16:28,380
+From home office, popular now.
+
+240
+00:16:28,710 --> 00:16:29,490
+The popular thing.
+
+241
+00:16:29,490 --> 00:16:32,940
+We had a lesson about that, from home office.
+
+242
+00:16:32,970 --> 00:16:37,140
+Not from the home office. At school, at college, at university.
+
+243
+00:16:37,140 --> 00:16:44,250
+So when you talk about your education so remember to not use any article there. At school, at college,
+
+244
+00:16:44,250 --> 00:16:45,240
+at university.
+
+245
+00:16:46,620 --> 00:16:48,330
+So that's all.
+
+246
+00:16:48,330 --> 00:16:52,170
+When it comes to articles, you learned a lot today.
+
+247
+00:16:52,260 --> 00:17:00,480
+You learned when to use article a, when to use article the, when to use no article.
+
+248
+00:17:00,480 --> 00:17:00,990
+Right.
+
+249
+00:17:00,990 --> 00:17:02,220
+So great job.
+
+250
+00:17:02,640 --> 00:17:05,250
+And now let's practice a little.
+
+251
+00:17:06,180 --> 00:17:06,839
+Ready?
+
+252
+00:17:08,190 --> 00:17:09,060
+Let's do it.
+
+253
+00:17:10,329 --> 00:17:12,849
+So here is a short exercise.
+
+254
+00:17:13,150 --> 00:17:18,760
+You have to fill in the gaps with the correct article - a, an or the.
+
+255
+00:17:21,730 --> 00:17:22,900
+Let's check it
+
+256
+00:17:22,900 --> 00:17:24,670
+sentence by sentence.
+
+257
+00:17:25,089 --> 00:17:27,280
+So think about one sentence.
+
+258
+00:17:29,080 --> 00:17:32,530
+Write the correct article in your notes, for example.
+
+259
+00:17:32,530 --> 00:17:35,200
+And then I will reveal the answers.
+
+260
+00:17:35,200 --> 00:17:37,060
+So you will hear the sound.
+
+261
+00:17:38,620 --> 00:17:43,530
+The characteristic sound when I will be revealing the answers.
+
+262
+00:17:44,680 --> 00:17:45,760
+Let's start.
+
+263
+00:17:59,890 --> 00:18:00,340
+Okay.
+
+264
+00:18:00,340 --> 00:18:07,360
+If you need more time then pause the video and I will be revealing the answers now.
+
+265
+00:18:08,590 --> 00:18:12,580
+Here they are. Tim is at Tech Support Specialist.
+
+266
+00:18:12,610 --> 00:18:16,180
+He works from home office two times a week.
+
+267
+00:18:16,960 --> 00:18:22,660
+As you remember, we use article a before titles, tech support specialists.
+
+268
+00:18:23,080 --> 00:18:29,800
+And when we talk about frequency, how often something happens, two times a week.
+
+269
+00:18:31,010 --> 00:18:32,510
+Sentence number two.
+
+270
+00:18:45,580 --> 00:18:46,300
+All right.
+
+271
+00:18:46,300 --> 00:18:50,260
+Again, if you need more time, please pause the video.
+
+272
+00:18:51,610 --> 00:18:53,110
+Here are the answers.
+
+273
+00:18:54,730 --> 00:18:58,510
+I got a laptop and a phone at my new job.
+
+274
+00:18:58,540 --> 00:19:02,320
+The laptop is new and quite fast, but the phone is old.
+
+275
+00:19:03,760 --> 00:19:09,220
+So when you mention laptop, laptop and phone for the first time, you use article a.
+
+276
+00:19:09,250 --> 00:19:12,910
+I got a laptop and a phone, right
+
+277
+00:19:13,450 --> 00:19:16,270
+Then you continue talking about them.
+
+278
+00:19:16,960 --> 00:19:20,380
+This time it's clear what laptop and what phone you mean.
+
+279
+00:19:20,550 --> 00:19:25,930
+And you say that the, the laptop is new and quite fast, but the phone is old.
+
+280
+00:19:26,950 --> 00:19:28,420
+Sentence number three.
+
+281
+00:19:45,460 --> 00:19:46,300
+Okay.
+
+282
+00:19:47,580 --> 00:19:52,990
+Reviewing the answers. An algorithm
+
+283
+00:19:53,010 --> 00:19:55,590
+So yeah, let me read the sentence.
+
+284
+00:19:55,590 --> 00:20:01,800
+An algorithm is a set of instructions created to perform a specific task.
+
+285
+00:20:02,340 --> 00:20:10,890
+An algorithm starts with an, because an algorithm and is a set of instructions.
+
+286
+00:20:10,890 --> 00:20:14,160
+Why? This is a definition, right
+
+287
+00:20:14,550 --> 00:20:17,880
+We are explaining what something is.
+
+288
+00:20:17,880 --> 00:20:19,260
+Remember CAPTCHA.
+
+289
+00:20:19,290 --> 00:20:23,460
+CAPTCHA is a program, algorithm is a set of instructions.
+
+290
+00:20:25,390 --> 00:20:26,920
+Sentence number four.
+
+291
+00:20:38,650 --> 00:20:39,610
+All right, guys.
+
+292
+00:20:39,610 --> 00:20:51,040
+So a lot of companies from the USA outsource the work to teams around the world. The USA, the
+
+293
+00:20:51,040 --> 00:20:51,700
+world.
+
+294
+00:20:52,270 --> 00:20:58,680
+We always say the USA and also the world, like world is unique.
+
+295
+00:20:58,690 --> 00:20:59,500
+The world.
+
+296
+00:21:01,480 --> 00:21:03,490
+Now sentence number five.
+
+297
+00:21:15,410 --> 00:21:20,510
+In case you lose all the data, you can download the latest backup you made.
+
+298
+00:21:21,290 --> 00:21:30,040
+So the latest backup, because it's like the best, the worst, the latest - superlatives.
+
+299
+00:21:30,050 --> 00:21:31,850
+We'll learn them later.
+
+300
+00:21:31,850 --> 00:21:35,110
+But for now, you know, we use them with article the.
+
+301
+00:21:37,430 --> 00:21:39,140
+And sentence number six.
+
+302
+00:21:56,700 --> 00:21:57,600
+Let me read it.
+
+303
+00:21:58,890 --> 00:21:59,430
+Sorry.
+
+304
+00:21:59,460 --> 00:22:01,710
+Can you see the icon in the middle?
+
+305
+00:22:01,740 --> 00:22:04,320
+Click on it and drag it to the right.
+
+306
+00:22:05,910 --> 00:22:09,570
+So can you see the icon in the middle?
+
+307
+00:22:10,110 --> 00:22:14,490
+This is some specific icon, right
+
+308
+00:22:14,490 --> 00:22:16,650
+Because it's the icon in the middle.
+
+309
+00:22:17,160 --> 00:22:19,740
+So it's not just some icon, a icon.
+
+310
+00:22:19,980 --> 00:22:22,770
+You're talking about this very icon.
+
+311
+00:22:22,800 --> 00:22:23,760
+The icon.
+
+312
+00:22:24,180 --> 00:22:29,060
+And in the middle, remember, we actually talked about this.
+
+313
+00:22:29,070 --> 00:22:31,980
+This is always used through the, in the middle.
+
+314
+00:22:32,790 --> 00:22:36,150
+Click on it and drag it to the right.
+
+315
+00:22:36,180 --> 00:22:40,320
+Also, this phrase is always used with the, to the right.
+
+316
+00:22:40,770 --> 00:22:44,330
+So these are just phrases you need to remember.
+
+317
+00:22:44,340 --> 00:22:46,050
+There is no way around it.
+
+318
+00:22:53,480 --> 00:22:55,950
+So this is the end of our lesson.
+
+319
+00:22:55,970 --> 00:22:58,370
+I hope it was helpful.
+
+320
+00:22:58,760 --> 00:23:02,300
+Please don't forget to do the exercises after the lesson.
+
+321
+00:23:02,630 --> 00:23:08,900
+And if you have some questions, if something is unclear, please write in comments or write to our
+
+322
+00:23:08,900 --> 00:23:09,570
+inbox.
+
+323
+00:23:09,590 --> 00:23:13,910
+We'll try to answer all of you. Okay, bye. 
+

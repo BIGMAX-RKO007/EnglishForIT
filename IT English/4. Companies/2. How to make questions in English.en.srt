@@ -1,0 +1,351 @@
+1
+00:00:01,310 --> 00:00:04,100
+All right, guys, let's practice making questions.
+
+2
+00:00:04,100 --> 00:00:10,130
+We have three lines of words, and our job is to make three questions.
+
+3
+00:00:10,130 --> 00:00:11,570
+So let's start.
+
+4
+00:00:11,570 --> 00:00:17,540
+We have the first one, and we have words is who of the CTO Google?
+
+5
+00:00:17,540 --> 00:00:20,330
+So we can see the question mark here.
+
+6
+00:00:20,330 --> 00:00:29,060
+So Google should go at the end of the question and we need to find a question word who?
+
+7
+00:00:29,090 --> 00:00:30,980
+Who is our question word?
+
+8
+00:00:30,980 --> 00:00:35,810
+So we put it here and Google at the end.
+
+9
+00:00:35,840 --> 00:00:38,240
+Now we need to figure out the middle.
+
+10
+00:00:38,270 --> 00:00:39,050
+Who.
+
+11
+00:00:39,880 --> 00:00:41,350
+Is of the CTO.
+
+12
+00:00:41,950 --> 00:00:50,710
+So probably we want to find out about the person who is the CTO of Google.
+
+13
+00:00:52,230 --> 00:00:54,360
+So we put up here.
+
+14
+00:00:56,540 --> 00:01:01,580
+CTO who is who is the CTO of Google.
+
+15
+00:01:01,610 --> 00:01:03,620
+Do you know the answer?
+
+16
+00:01:03,650 --> 00:01:04,460
+Great.
+
+17
+00:01:04,550 --> 00:01:07,280
+Second question product develop.
+
+18
+00:01:07,310 --> 00:01:11,180
+What does this team so question mark.
+
+19
+00:01:12,060 --> 00:01:13,320
+Goes here.
+
+20
+00:01:13,470 --> 00:01:14,940
+Question word.
+
+21
+00:01:14,940 --> 00:01:15,690
+What?
+
+22
+00:01:15,720 --> 00:01:20,100
+Goes here and.
+
+23
+00:01:20,790 --> 00:01:23,520
+We need to specify the question.
+
+24
+00:01:23,520 --> 00:01:26,480
+So here we want to find out about the product.
+
+25
+00:01:26,490 --> 00:01:27,780
+So we put it here.
+
+26
+00:01:27,810 --> 00:01:29,460
+What product?
+
+27
+00:01:30,680 --> 00:01:36,200
+Auxiliary does this team develop?
+
+28
+00:01:36,380 --> 00:01:38,330
+Our second question is ready.
+
+29
+00:01:38,480 --> 00:01:41,180
+Third one in the morning.
+
+30
+00:01:41,210 --> 00:01:43,970
+When does your office open?
+
+31
+00:01:43,970 --> 00:01:46,970
+So in the morning goes here?
+
+32
+00:01:48,040 --> 00:01:48,880
+Question.
+
+33
+00:01:48,880 --> 00:01:50,140
+Word one.
+
+34
+00:01:51,430 --> 00:01:53,260
+And auxiliary doors.
+
+35
+00:01:54,890 --> 00:02:00,300
+Your office open in the morning.
+
+36
+00:02:00,320 --> 00:02:02,150
+When does your office open?
+
+37
+00:02:02,150 --> 00:02:03,200
+In the morning.
+
+38
+00:02:03,230 --> 00:02:07,130
+My office opens at 8 a.m..
+
+39
+00:02:08,090 --> 00:02:08,630
+Good.
+
+40
+00:02:08,630 --> 00:02:11,960
+So we made three questions.
+
+41
+00:02:14,180 --> 00:02:18,110
+All right, let's try making more questions.
+
+42
+00:02:18,110 --> 00:02:18,830
+So.
+
+43
+00:02:20,660 --> 00:02:31,070
+We have this line people there how work many so there goes at the end and we have a question word how
+
+44
+00:02:31,310 --> 00:02:42,200
+how and there so probably in this question we want to find out the quantity, the number of people.
+
+45
+00:02:42,200 --> 00:02:44,810
+So we add many.
+
+46
+00:02:44,840 --> 00:02:46,850
+How many.
+
+47
+00:02:47,650 --> 00:02:48,700
+People.
+
+48
+00:02:49,920 --> 00:02:52,260
+Work there.
+
+49
+00:02:52,290 --> 00:02:53,850
+How many people work there?
+
+50
+00:02:53,880 --> 00:02:56,350
+How many people work in your company?
+
+51
+00:02:56,370 --> 00:02:59,100
+How many people work in your team?
+
+52
+00:02:59,580 --> 00:03:00,510
+Good.
+
+53
+00:03:01,430 --> 00:03:03,060
+Uh, next question.
+
+54
+00:03:03,090 --> 00:03:06,990
+Do team your new like you?
+
+55
+00:03:07,500 --> 00:03:13,590
+Okay, team goes here and let's check.
+
+56
+00:03:13,620 --> 00:03:15,030
+Do we have a question?
+
+57
+00:03:15,030 --> 00:03:17,580
+Word like who, When, how?
+
+58
+00:03:17,580 --> 00:03:18,510
+How much?
+
+59
+00:03:18,510 --> 00:03:19,470
+How many?
+
+60
+00:03:19,500 --> 00:03:24,180
+No, we do not have a question word here.
+
+61
+00:03:24,180 --> 00:03:28,140
+So let's start our question with do.
+
+62
+00:03:29,580 --> 00:03:32,310
+Do you?
+
+63
+00:03:34,290 --> 00:03:35,220
+Like.
+
+64
+00:03:35,370 --> 00:03:36,660
+Like what?
+
+65
+00:03:36,690 --> 00:03:38,430
+Your new team.
+
+66
+00:03:38,940 --> 00:03:40,830
+Do you like your new team?
+
+67
+00:03:41,100 --> 00:03:42,840
+Yes, I do.
+
+68
+00:03:43,770 --> 00:03:44,240
+Okay.
+
+69
+00:03:44,250 --> 00:03:45,890
+And the first question.
+
+70
+00:03:45,900 --> 00:03:48,990
+Your is interesting project new.
+
+71
+00:03:49,140 --> 00:03:52,860
+So as we know, this goes here.
+
+72
+00:03:52,860 --> 00:03:54,210
+Interesting.
+
+73
+00:03:54,210 --> 00:03:57,300
+And let's see, we have a question word.
+
+74
+00:03:57,840 --> 00:04:00,090
+I don't see any question words.
+
+75
+00:04:00,090 --> 00:04:04,440
+So in that case, we should start our question with is.
+
+76
+00:04:05,670 --> 00:04:06,630
+Is.
+
+77
+00:04:07,470 --> 00:04:08,370
+You.
+
+78
+00:04:09,430 --> 00:04:10,270
+You.
+
+79
+00:04:12,100 --> 00:04:13,210
+Project.
+
+80
+00:04:14,150 --> 00:04:15,540
+Interesting.
+
+81
+00:04:15,560 --> 00:04:16,310
+Great.
+
+82
+00:04:16,310 --> 00:04:20,780
+So, guys, remember, if we have a question, word it goes first.
+
+83
+00:04:20,780 --> 00:04:26,300
+If we don't have a question word, we can start with an auxiliary verb.
+
+84
+00:04:26,300 --> 00:04:31,880
+Like do does is does your team like you?
+
+85
+00:04:31,910 --> 00:04:35,060
+Is your new boss a nice guy?
+
+86
+00:04:35,120 --> 00:04:39,860
+Are your new colleagues, nice people and so on.
+
+87
+00:04:40,160 --> 00:04:43,520
+Thank you and see you on the next lesson.
+
+88
+00:04:44,000 --> 00:04:44,930
+Bye.

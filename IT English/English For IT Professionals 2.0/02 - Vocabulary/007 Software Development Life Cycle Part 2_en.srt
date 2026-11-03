@@ -1,0 +1,496 @@
+1
+00:00:01,260 --> 00:00:04,840
+So we move on to phase four, which is testing.
+
+2
+00:00:04,860 --> 00:00:08,370
+We can also call it integration and testing.
+
+3
+00:00:09,330 --> 00:00:13,980
+What is happening in this in this stage?
+
+4
+00:00:15,810 --> 00:00:20,610
+The goal is to ensure the software meets requirements.
+
+5
+00:00:21,870 --> 00:00:28,110
+This is where quality assurance, QA team, steps in to test the software.
+
+6
+00:00:29,790 --> 00:00:37,200
+All the modules of the software are brought together into a special testing environment and tested for
+
+7
+00:00:37,200 --> 00:00:39,720
+errors and interoperability.
+
+8
+00:00:41,460 --> 00:00:47,040
+Software developers fix any bugs that come up during this stage.
+
+9
+00:00:47,430 --> 00:00:52,950
+Then QA specialists test the software or its components again.
+
+10
+00:00:54,360 --> 00:00:58,860
+All the defects are tracked, fixed and retested.
+
+11
+00:00:59,970 --> 00:01:08,490
+There are different kinds of testing, functional testing, performance testing, unit testing, integration
+
+12
+00:01:08,490 --> 00:01:11,310
+testing, regression testing, etc.
+
+13
+00:01:12,660 --> 00:01:14,340
+Who is involved here?
+
+14
+00:01:14,370 --> 00:01:16,170
+Of course testers.
+
+15
+00:01:17,430 --> 00:01:25,440
+We can also call them QA specialists, developers as well, business analyst, project manager and other
+
+16
+00:01:25,440 --> 00:01:27,180
+stakeholders as needed.
+
+17
+00:01:28,980 --> 00:01:31,050
+So we have quite a lot of words here.
+
+18
+00:01:31,080 --> 00:01:32,670
+Let's look at them.
+
+19
+00:01:33,830 --> 00:01:34,510
+Goal.
+
+20
+00:01:34,520 --> 00:01:37,770
+A synonym is aim or objective.
+
+21
+00:01:37,790 --> 00:01:42,830
+So this is something that you are trying to do, something that you are trying to achieve.
+
+22
+00:01:42,860 --> 00:01:51,110
+So as a result, you want to have a working application, a working software that meets the requirements.
+
+23
+00:01:51,140 --> 00:01:58,000
+It means this is your goal. To ensure means to make sure.
+
+24
+00:01:58,010 --> 00:02:00,770
+Let's jump back and look at this word here.
+
+25
+00:02:04,250 --> 00:02:09,080
+The goal is to ensure the software meets requirements, to make sure.
+
+26
+00:02:12,250 --> 00:02:21,820
+To step in means to become involved, to start doing something on the project. Module.
+
+27
+00:02:22,510 --> 00:02:24,550
+You can see the transcription here.
+
+28
+00:02:24,580 --> 00:02:29,050
+Module or component again compOnent.
+
+29
+00:02:29,050 --> 00:02:34,600
+The stress is here is a part of the program or the part of the software.
+
+30
+00:02:36,390 --> 00:02:41,010
+Bring together means to assemble, to collect, to compile.
+
+31
+00:02:41,010 --> 00:02:42,570
+These are all synonyms.
+
+32
+00:02:44,540 --> 00:02:55,790
+A bug, the synonyms can be an error defect, a flaw, and it is of course a problem in the software
+
+33
+00:02:55,790 --> 00:02:58,780
+program or it's incorrect behavior.
+
+34
+00:02:58,790 --> 00:03:01,370
+We don't want to have any bugs, of course.
+
+35
+00:03:03,420 --> 00:03:04,380
+Let's move on.
+
+36
+00:03:05,920 --> 00:03:06,990
+A nice word
+
+37
+00:03:06,990 --> 00:03:09,090
+interoperability.
+
+38
+00:03:09,120 --> 00:03:18,570
+Interoperability is the ability of one system or application to interact with another system or application.
+
+39
+00:03:19,740 --> 00:03:28,830
+So it's the communication of two systems or two components, how they interact and how they operate
+
+40
+00:03:28,830 --> 00:03:29,610
+together.
+
+41
+00:03:29,610 --> 00:03:35,700
+Their ability to do that. To go over means to look through.
+
+42
+00:03:36,180 --> 00:03:41,910
+You want to find any mistakes or bugs in your code.
+
+43
+00:03:41,910 --> 00:03:44,700
+So you go over your code.
+
+44
+00:03:46,470 --> 00:03:57,270
+To track bugs means to log and monitor bugs or errors during software testing and to log means to make
+
+45
+00:03:57,270 --> 00:04:01,740
+a list of them, describe them and have them documented.
+
+46
+00:04:03,330 --> 00:04:13,830
+To fix bugs is to eliminate software errors or software flaws, defects. And to retest means to test again.
+
+47
+00:04:16,380 --> 00:04:17,519
+That was testing.
+
+48
+00:04:17,519 --> 00:04:25,530
+And we go to the next phase, which is phase five deployment.
+
+49
+00:04:27,120 --> 00:04:29,310
+Now, let's see what's going on here.
+
+50
+00:04:30,420 --> 00:04:35,070
+The product is deployed to the production environment.
+
+51
+00:04:36,000 --> 00:04:48,210
+If the customer wishes UAT or user acceptance testing is done before deployment for UAT, a replica
+
+52
+00:04:48,210 --> 00:04:54,150
+of the production environment is created and the customer company does the testing.
+
+53
+00:04:54,330 --> 00:05:03,240
+So user acceptance testing is something that not the development team but the customer team is doing
+
+54
+00:05:03,960 --> 00:05:09,870
+in order to check if the program behaves well, behaves the way they wanted.
+
+55
+00:05:12,280 --> 00:05:19,390
+Once they check that the product works as expected, they give a sign off to go live.
+
+56
+00:05:21,550 --> 00:05:28,390
+The customer may also come up with changes or enhancements to the software behavior.
+
+57
+00:05:28,690 --> 00:05:31,900
+These changes are called change requests.
+
+58
+00:05:34,360 --> 00:05:40,810
+After they are done, the product is released to the market or deployed in the company's production
+
+59
+00:05:40,810 --> 00:05:41,710
+environment.
+
+60
+00:05:44,150 --> 00:05:45,710
+Who is involved here?
+
+61
+00:05:46,880 --> 00:05:48,190
+Release manager.
+
+62
+00:05:48,200 --> 00:05:49,700
+Project manager.
+
+63
+00:05:49,910 --> 00:05:50,930
+Developers.
+
+64
+00:05:50,930 --> 00:05:51,950
+Testers.
+
+65
+00:05:51,950 --> 00:05:58,100
+And of course, the customer and the customer's team if they want to do the user acceptance testing.
+
+66
+00:06:00,360 --> 00:06:02,070
+Now let's look at the words.
+
+67
+00:06:03,930 --> 00:06:06,510
+The first word, of course, to deploy.
+
+68
+00:06:06,540 --> 00:06:08,340
+What does it mean to deploy?
+
+69
+00:06:08,370 --> 00:06:16,680
+It means to make a software system available for use. Replica - an exact copy.
+
+70
+00:06:18,260 --> 00:06:27,950
+A sign of a sign off is a business document or it's just a confirmation from the customer that they
+
+71
+00:06:27,950 --> 00:06:31,550
+agree on the status of the project or goal.
+
+72
+00:06:32,480 --> 00:06:38,720
+It can be the end of the project phase or the end of the project, the entire project.
+
+73
+00:06:39,320 --> 00:06:44,030
+When the customer accepts the software product and is satisfied with it.
+
+74
+00:06:44,960 --> 00:06:48,020
+It means we have done everything.
+
+75
+00:06:48,050 --> 00:06:49,970
+We have analysed.
+
+76
+00:06:49,970 --> 00:06:51,530
+We have planned.
+
+77
+00:06:52,220 --> 00:06:55,280
+We have built the application.
+
+78
+00:06:56,570 --> 00:06:59,000
+We have implemented everything.
+
+79
+00:06:59,000 --> 00:07:00,770
+We have tested everything.
+
+80
+00:07:01,160 --> 00:07:04,350
+And now this is the final stage of the project.
+
+81
+00:07:04,370 --> 00:07:12,060
+We give this product the result of the project to the customer.
+
+82
+00:07:12,080 --> 00:07:17,110
+The customer tests it and they say, Yes, it's good.
+
+83
+00:07:17,120 --> 00:07:21,440
+I accept the work and this is the sign off.
+
+84
+00:07:21,440 --> 00:07:27,320
+And it can be a document and official document where the person where the customer really signs the
+
+85
+00:07:27,320 --> 00:07:31,760
+document or it can be any other form of acceptance.
+
+86
+00:07:32,270 --> 00:07:36,050
+But this is the end of the project for the Development Team.
+
+87
+00:07:38,450 --> 00:07:40,790
+The next is to go live.
+
+88
+00:07:41,270 --> 00:07:49,130
+To go live is the point at which code moves from the test environment to the production environment.
+
+89
+00:07:49,340 --> 00:07:53,180
+Therefore, it becomes available for end users.
+
+90
+00:07:55,450 --> 00:08:01,390
+To come up with something is to suggest or think of an idea or plan.
+
+91
+00:08:01,390 --> 00:08:09,640
+For example, the customers can come up with any other ideas after the project is done and they want
+
+92
+00:08:09,640 --> 00:08:12,460
+to change something or do something else.
+
+93
+00:08:14,100 --> 00:08:23,710
+Enhancement is the improvement. And release, release as a noun and to release.
+
+94
+00:08:26,020 --> 00:08:31,570
+So the release is the distribution of the final version of an application.
+
+95
+00:08:31,750 --> 00:08:38,260
+Or if we say to release, it means to distribute the final version of an application.
+
+96
+00:08:43,950 --> 00:08:52,050
+And the last stage that we have here is phase six or stage six maintenance.
+
+97
+00:08:52,050 --> 00:08:54,180
+We can also call it support.
+
+98
+00:08:54,780 --> 00:08:58,680
+What is happening here? During this
+
+99
+00:08:59,520 --> 00:09:06,480
+the system is assessed to ensure it doesn't become obsolete.
+
+100
+00:09:08,100 --> 00:09:16,710
+If any issue comes up and needs to be fixed or any enhancement needs to be done, developers take care
+
+101
+00:09:16,710 --> 00:09:17,310
+of that.
+
+102
+00:09:18,510 --> 00:09:22,830
+This is also where changes can be made to initial software.
+
+103
+00:09:25,140 --> 00:09:26,700
+Who is involved here?
+
+104
+00:09:28,350 --> 00:09:37,020
+Developers, testers, project manager, service manager and other stakeholders if needed, as needed.
+
+105
+00:09:38,310 --> 00:09:39,600
+Let's look at the words.
+
+106
+00:09:39,840 --> 00:09:49,440
+So to assess means to check and decide about the quality of something. And assessment, it means the
+
+107
+00:09:49,440 --> 00:09:57,510
+process of checking and considering all the information about something to make a judgement.
+
+108
+00:09:57,510 --> 00:10:01,440
+So assessment is making a judgement.
+
+109
+00:10:01,440 --> 00:10:02,310
+Is it good?
+
+110
+00:10:02,340 --> 00:10:13,110
+Is it bad? To ensure again means to make sure. And obsolete means something old that is not in use anymore
+
+111
+00:10:13,110 --> 00:10:16,380
+or that has been replaced by something newer and better.
+
+112
+00:10:16,380 --> 00:10:20,280
+So obsolete very generally is too old.
+
+113
+00:10:23,620 --> 00:10:24,480
+Issue.
+
+114
+00:10:24,520 --> 00:10:28,510
+Issue is a question or problem that needs to be solved.
+
+115
+00:10:29,290 --> 00:10:35,380
+To come up is to happen to appear usually unexpectedly.
+
+116
+00:10:35,380 --> 00:10:40,540
+For example, some some changes come up.
+
+117
+00:10:40,540 --> 00:10:48,010
+The necessity to change something comes up and the development team has to react on that.
+
+118
+00:10:48,970 --> 00:10:51,580
+Enhancement is improvement.
+
+119
+00:10:51,580 --> 00:11:00,310
+Again, we've already seen this word. And initial means first, first or original, something that was
+
+120
+00:11:00,310 --> 00:11:01,330
+at the beginning.
+
+121
+00:11:04,590 --> 00:11:07,810
+So that's it for software development lifecycle.
+
+122
+00:11:07,830 --> 00:11:13,630
+So, again go to the quiz and check your understanding.
+
+123
+00:11:13,650 --> 00:11:15,780
+Check how you've memorised your words.
+
+124
+00:11:15,930 --> 00:11:17,970
+And we will move on.
+

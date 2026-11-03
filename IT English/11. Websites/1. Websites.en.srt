@@ -1,0 +1,351 @@
+1
+00:00:00,170 --> 00:00:01,040
+Hi, guys.
+
+2
+00:00:01,040 --> 00:00:04,170
+Today, let's talk about websites.
+
+3
+00:00:04,190 --> 00:00:07,280
+What types of websites are there?
+
+4
+00:00:07,280 --> 00:00:17,420
+And let's learn how to use words like much many little and few okay types of websites.
+
+5
+00:00:17,420 --> 00:00:20,090
+So there are so many of them.
+
+6
+00:00:20,090 --> 00:00:24,020
+But let's focus on some popular types.
+
+7
+00:00:24,020 --> 00:00:32,780
+So there are news websites, business websites, non profit websites, entertainment websites and e-commerce
+
+8
+00:00:32,780 --> 00:00:33,770
+websites.
+
+9
+00:00:33,830 --> 00:00:37,970
+Let's have a closer look at each of these types.
+
+10
+00:00:38,150 --> 00:00:41,630
+Okay, Here you can see a news website.
+
+11
+00:00:41,630 --> 00:00:48,140
+So people go there to read some news and find out what is happening in the world.
+
+12
+00:00:48,350 --> 00:00:55,340
+It has features like sign in form, search, field navigation.
+
+13
+00:00:55,340 --> 00:01:01,650
+And if we speak about the design of this website, I would say it is simple.
+
+14
+00:01:01,650 --> 00:01:04,590
+It is clear and user friendly.
+
+15
+00:01:04,590 --> 00:01:08,490
+Also, this website is easy to navigate.
+
+16
+00:01:09,030 --> 00:01:09,990
+All right.
+
+17
+00:01:10,020 --> 00:01:14,100
+This is an example of a business website.
+
+18
+00:01:14,130 --> 00:01:17,190
+This is a website of a restaurant.
+
+19
+00:01:17,190 --> 00:01:26,070
+So here we can find information about this restaurant, see some pictures, read news, check careers,
+
+20
+00:01:26,070 --> 00:01:30,690
+and we can also add them on social media.
+
+21
+00:01:31,080 --> 00:01:38,400
+Also, we have a find us button so we can find where this restaurant is located.
+
+22
+00:01:38,610 --> 00:01:45,570
+If we speak about the design, I would say it's stylish, it's clear and it's well designed.
+
+23
+00:01:45,570 --> 00:01:48,660
+I really like this website.
+
+24
+00:01:49,110 --> 00:01:53,580
+This is an example of a non profit website.
+
+25
+00:01:53,610 --> 00:02:01,110
+Non profit websites are usually some charity websites or some sport organization's website.
+
+26
+00:02:01,110 --> 00:02:11,430
+So here we can see features like Logo, we see a big donate button and this picture of a dog is called
+
+27
+00:02:11,430 --> 00:02:12,900
+Hero Image.
+
+28
+00:02:13,790 --> 00:02:14,600
+All right.
+
+29
+00:02:15,530 --> 00:02:19,610
+This is an example of an entertainment website.
+
+30
+00:02:19,640 --> 00:02:26,550
+People visit it to watch some movies, videos, listen to music and have some fun.
+
+31
+00:02:26,630 --> 00:02:32,210
+It has features like search field sign in notification.
+
+32
+00:02:32,210 --> 00:02:36,050
+And if we speak about the design, I would say it's fun.
+
+33
+00:02:36,260 --> 00:02:39,770
+It's interesting, and it looks professional.
+
+34
+00:02:41,400 --> 00:02:45,000
+This is an example of an e-commerce website.
+
+35
+00:02:45,510 --> 00:02:49,320
+People go there to buy and sell things.
+
+36
+00:02:49,320 --> 00:02:55,410
+So it has features like delivery options, sign in CART.
+
+37
+00:02:55,410 --> 00:03:02,190
+And if we speak about the design, I would say it's informative and easy to navigate.
+
+38
+00:03:02,970 --> 00:03:05,640
+Okay, more e-commerce examples.
+
+39
+00:03:05,640 --> 00:03:09,090
+So this website has a cart.
+
+40
+00:03:09,300 --> 00:03:15,360
+It's a place where you put the items you would like to buy a wishlist.
+
+41
+00:03:15,810 --> 00:03:23,370
+This is a place where you put the items you like but would like to buy later in the future.
+
+42
+00:03:23,400 --> 00:03:28,650
+Store locator to find an offline store.
+
+43
+00:03:29,520 --> 00:03:37,140
+Also, it has navigation filters to help you choose the item more.
+
+44
+00:03:37,980 --> 00:03:45,930
+Foster and chat to communicate with some help and ask for some advice, probably.
+
+45
+00:03:47,050 --> 00:03:47,650
+Okay.
+
+46
+00:03:47,650 --> 00:03:54,070
+Some e-commerce websites also show how many items are left in stock.
+
+47
+00:03:54,070 --> 00:03:56,620
+So how many items available.
+
+48
+00:03:56,800 --> 00:04:06,280
+They show the rating of an item, expected delivery dates, and you can ask questions or read feedback
+
+49
+00:04:06,280 --> 00:04:08,470
+about this item.
+
+50
+00:04:09,900 --> 00:04:10,580
+All right.
+
+51
+00:04:10,590 --> 00:04:18,110
+If you want to find out how many people use a website, you need to check website analytics.
+
+52
+00:04:18,120 --> 00:04:21,240
+So here we can see some data.
+
+53
+00:04:21,240 --> 00:04:27,630
+For example, number of users, number of page views, session duration.
+
+54
+00:04:27,630 --> 00:04:33,090
+It's how long people stayed on the website and bounce rate.
+
+55
+00:04:33,090 --> 00:04:38,070
+It's how many people viewed only one page of a website.
+
+56
+00:04:38,490 --> 00:04:41,340
+Let's have a look at these sentences.
+
+57
+00:04:41,610 --> 00:04:45,540
+This website has 20,000 users.
+
+58
+00:04:45,660 --> 00:04:49,140
+This website has many users.
+
+59
+00:04:49,380 --> 00:04:52,620
+My website has only 20 users.
+
+60
+00:04:52,620 --> 00:04:55,920
+My website has few users.
+
+61
+00:04:55,920 --> 00:04:58,560
+User is countable noun.
+
+62
+00:04:58,560 --> 00:05:01,530
+We can count one user two users.
+
+63
+00:05:01,530 --> 00:05:07,110
+So we use many and few with users.
+
+64
+00:05:08,630 --> 00:05:09,920
+More examples.
+
+65
+00:05:09,950 --> 00:05:14,900
+The session duration on this website is five minutes.
+
+66
+00:05:15,020 --> 00:05:19,520
+Users spend much time on this website.
+
+67
+00:05:19,760 --> 00:05:25,250
+The session duration on my site is only 20 seconds.
+
+68
+00:05:25,280 --> 00:05:29,870
+Users spend little time on my website.
+
+69
+00:05:29,900 --> 00:05:39,950
+Time is uncountable, so to show quantity we use much, much time or little little time.
+
+70
+00:05:42,310 --> 00:05:51,550
+Okay, let's have a look at this sentences and decide if underlined words are countable or uncountable.
+
+71
+00:05:51,640 --> 00:05:55,180
+Many shops have e-commerce websites.
+
+72
+00:05:55,210 --> 00:05:57,700
+Many shops, shops.
+
+73
+00:05:57,820 --> 00:06:02,200
+Countable people spend much money online.
+
+74
+00:06:02,200 --> 00:06:03,370
+We can see much.
+
+75
+00:06:03,370 --> 00:06:06,550
+That means money is uncountable.
+
+76
+00:06:06,760 --> 00:06:10,630
+Charity websites have few visitors.
+
+77
+00:06:10,660 --> 00:06:16,960
+Few used with countable visitors is a countable noun.
+
+78
+00:06:17,140 --> 00:06:22,090
+All the people have little knowledge about online shopping.
+
+79
+00:06:22,120 --> 00:06:26,110
+Little so knowledge is uncountable.
+
+80
+00:06:26,140 --> 00:06:33,970
+Okay, have a look at this sentences one more time and think if you agree or disagree with them.
+
+81
+00:06:35,210 --> 00:06:37,150
+All right, let's recap.
+
+82
+00:06:37,160 --> 00:06:41,030
+We use many and few with countable nouns.
+
+83
+00:06:41,030 --> 00:06:52,640
+Many users, few users little, much with uncountable little money, much knowledge, a lot of some
+
+84
+00:06:52,640 --> 00:06:56,060
+with countable and uncountable nouns.
+
+85
+00:06:56,090 --> 00:07:00,110
+A lot of businesses, some knowledge.
+
+86
+00:07:00,650 --> 00:07:01,520
+All right.
+
+87
+00:07:01,700 --> 00:07:02,750
+Thank you.
+
+88
+00:07:02,750 --> 00:07:06,290
+Practice those exercises and by.

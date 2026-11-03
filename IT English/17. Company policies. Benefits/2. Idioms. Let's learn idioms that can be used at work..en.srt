@@ -1,0 +1,167 @@
+1
+00:00:00,260 --> 00:00:00,830
+Hi, guys.
+
+2
+00:00:00,830 --> 00:00:02,150
+Happy to see you today.
+
+3
+00:00:02,150 --> 00:00:06,440
+Let's talk about idioms that are used at work.
+
+4
+00:00:06,990 --> 00:00:07,800
+First.
+
+5
+00:00:08,560 --> 00:00:14,860
+The team was so tired after the long discussion, so we decided to call it a day.
+
+6
+00:00:15,220 --> 00:00:21,820
+To call it a day means to stop doing something because you are tired or you have done enough.
+
+7
+00:00:22,270 --> 00:00:23,710
+More examples.
+
+8
+00:00:23,890 --> 00:00:28,330
+Let's call it a day and continue our discussion tomorrow.
+
+9
+00:00:28,970 --> 00:00:33,710
+Nice second idiom to reinvent the wheel.
+
+10
+00:00:34,310 --> 00:00:42,890
+Let's not reinvent the wheel and let's just Google a solution to reinvent the wheel to create something
+
+11
+00:00:42,890 --> 00:00:44,750
+that already exists.
+
+12
+00:00:45,920 --> 00:00:48,800
+You don't have to reinvent the wheel.
+
+13
+00:00:48,830 --> 00:00:54,050
+Just use the existing solution to this problem to drop the ball.
+
+14
+00:00:55,090 --> 00:00:59,200
+The client has found ten bugs in production.
+
+15
+00:00:59,480 --> 00:01:02,500
+Someone has dropped the ball.
+
+16
+00:01:03,150 --> 00:01:13,110
+To drop the ball means to make a mistake, often by not trying hard enough or by not being attentive
+
+17
+00:01:13,110 --> 00:01:13,580
+enough.
+
+18
+00:01:13,590 --> 00:01:15,120
+Rocket science.
+
+19
+00:01:16,350 --> 00:01:19,200
+JavaScript is rocket science for me.
+
+20
+00:01:19,530 --> 00:01:21,300
+I will never learn it.
+
+21
+00:01:21,630 --> 00:01:24,870
+Rocket science means very difficult.
+
+22
+00:01:24,870 --> 00:01:26,580
+Very complicated.
+
+23
+00:01:27,210 --> 00:01:27,660
+Okay.
+
+24
+00:01:27,660 --> 00:01:31,110
+When someone says it's not a rocket science.
+
+25
+00:01:31,810 --> 00:01:34,570
+That means it's not that difficult.
+
+26
+00:01:34,750 --> 00:01:39,370
+For example, Python is not a rocket science.
+
+27
+00:01:39,520 --> 00:01:42,550
+If you learn hard enough, you can do it.
+
+28
+00:01:43,150 --> 00:01:45,520
+Show someone the ropes.
+
+29
+00:01:46,130 --> 00:01:48,740
+The new guy is coming tomorrow.
+
+30
+00:01:48,860 --> 00:01:51,050
+Can you show him the ropes?
+
+31
+00:01:51,290 --> 00:01:54,050
+Show someone the ropes is.
+
+32
+00:01:54,050 --> 00:02:02,000
+Show a person how to do a task or how to do some work from scratch.
+
+33
+00:02:03,260 --> 00:02:07,190
+This project has to be developed from scratch.
+
+34
+00:02:07,400 --> 00:02:12,560
+From scratch means from the beginning, from the initial state.
+
+35
+00:02:13,400 --> 00:02:14,750
+More examples.
+
+36
+00:02:15,410 --> 00:02:19,550
+I have a lot of experience developing the projects from scratch.
+
+37
+00:02:20,620 --> 00:02:22,390
+Twist one's arm.
+
+38
+00:02:22,990 --> 00:02:27,220
+She twisted my arm, so I gave her a promotion.
+
+39
+00:02:27,980 --> 00:02:35,180
+To twist one's arm means to persuade someone to force someone into doing something.
+
+40
+00:02:36,250 --> 00:02:43,870
+I didn't want to include her into this discussion, but she twisted my arm, learned the idioms and
+
+41
+00:02:43,870 --> 00:02:46,120
+practice using them at work.
+
+42
+00:02:46,240 --> 00:02:48,670
+Thank you and goodbye.

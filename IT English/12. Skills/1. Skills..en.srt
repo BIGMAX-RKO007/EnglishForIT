@@ -1,0 +1,343 @@
+1
+00:00:00,110 --> 00:00:00,860
+Hi there.
+
+2
+00:00:01,100 --> 00:00:10,670
+It's time to talk about skills, What type of skills are there and how to describe your skills using
+
+3
+00:00:10,700 --> 00:00:11,480
+adjectives.
+
+4
+00:00:11,480 --> 00:00:15,450
+Words like smart, reliable, independent.
+
+5
+00:00:15,470 --> 00:00:16,400
+Let's go.
+
+6
+00:00:16,700 --> 00:00:17,300
+Okay.
+
+7
+00:00:17,330 --> 00:00:24,720
+Skill is the knowledge and ability that helps you to do something well.
+
+8
+00:00:24,740 --> 00:00:26,050
+I can swim.
+
+9
+00:00:26,060 --> 00:00:29,830
+That means that swimming is my skill.
+
+10
+00:00:29,840 --> 00:00:35,170
+So there are two major types of skills.
+
+11
+00:00:35,180 --> 00:00:37,850
+First type hard skills.
+
+12
+00:00:37,850 --> 00:00:40,610
+Second type soft skills.
+
+13
+00:00:40,640 --> 00:00:41,750
+Let's see.
+
+14
+00:00:41,750 --> 00:00:44,870
+What is the difference between these types?
+
+15
+00:00:44,900 --> 00:00:45,520
+Okay.
+
+16
+00:00:45,530 --> 00:00:47,000
+Hard skills.
+
+17
+00:00:47,030 --> 00:00:53,840
+This is something you can learn from school or previous work or experience.
+
+18
+00:00:53,840 --> 00:00:57,170
+You can easily measure hard skills.
+
+19
+00:00:57,170 --> 00:01:06,810
+For example, you can measure your English level or your python skill and hard skills are more objective.
+
+20
+00:01:06,810 --> 00:01:09,000
+It is easier to see them.
+
+21
+00:01:10,290 --> 00:01:10,830
+Okay.
+
+22
+00:01:10,830 --> 00:01:15,120
+Soft skills are also called people skills.
+
+23
+00:01:15,120 --> 00:01:18,690
+It is difficult to measure soft skills.
+
+24
+00:01:18,690 --> 00:01:25,310
+For example, how can you measure someone's teamwork or level of responsibility?
+
+25
+00:01:25,320 --> 00:01:30,450
+And soft skills are not connected to a specific job.
+
+26
+00:01:30,750 --> 00:01:39,600
+If you are good at communication, you will be good at it at any job and position.
+
+27
+00:01:40,630 --> 00:01:51,040
+Okay, let's have a look at this part of a CV and decide what hard and soft skill does this person have.
+
+28
+00:01:51,280 --> 00:01:57,760
+Okay, So we can see it's a front end developer with more than three years of experience in software
+
+29
+00:01:57,760 --> 00:01:59,500
+development industry.
+
+30
+00:01:59,620 --> 00:02:06,930
+A quick learning person who can absorb new ideas can communicate clearly and effectively.
+
+31
+00:02:06,940 --> 00:02:13,870
+And this person knows Angular two, TypeScript Webpack since March 2016.
+
+32
+00:02:13,930 --> 00:02:17,740
+Okay, so soft skills of this person.
+
+33
+00:02:18,520 --> 00:02:26,500
+He or she is a quick learner, open to new ideas and good communication skill.
+
+34
+00:02:27,520 --> 00:02:28,770
+Hard skills.
+
+35
+00:02:28,810 --> 00:02:30,160
+Angular2.
+
+36
+00:02:30,190 --> 00:02:31,310
+TypeScript.
+
+37
+00:02:31,330 --> 00:02:32,400
+Webpack.
+
+38
+00:02:32,410 --> 00:02:35,920
+And maybe we can add frontend development.
+
+39
+00:02:36,520 --> 00:02:43,900
+Okay, so we can use this words and phrases with the word skill.
+
+40
+00:02:43,900 --> 00:02:52,270
+So you can develop a skill, you can learn new skill, you can work on your skill, you can improve
+
+41
+00:02:52,270 --> 00:02:56,470
+your skill, make it better, and you can measure your skill.
+
+42
+00:02:56,650 --> 00:03:00,640
+Okay, Pause the video and repeat the phrases.
+
+43
+00:03:01,270 --> 00:03:02,140
+Good job.
+
+44
+00:03:02,830 --> 00:03:06,790
+Most popular soft skills in a workplace.
+
+45
+00:03:06,790 --> 00:03:15,550
+So it's communication, teamwork, problem solving, time management, critical thinking, decision
+
+46
+00:03:15,550 --> 00:03:24,370
+making, stress management, adaptability, conflict management, leadership and creativity.
+
+47
+00:03:24,400 --> 00:03:28,420
+Pause the video and repeat those skills.
+
+48
+00:03:28,780 --> 00:03:29,740
+Nice.
+
+49
+00:03:30,070 --> 00:03:38,410
+I highlighted communication, teamwork, and leadership because I think these are the key skills.
+
+50
+00:03:40,110 --> 00:03:44,250
+Okay, let's learn how to describe soft skills.
+
+51
+00:03:44,250 --> 00:03:46,110
+So this is John.
+
+52
+00:03:46,350 --> 00:03:50,670
+John always takes responsibility for the team.
+
+53
+00:03:50,670 --> 00:03:59,330
+We know we can rely on him so we can say that John is reliable because we can rely on him.
+
+54
+00:03:59,340 --> 00:04:03,690
+He is responsible because he takes responsibility.
+
+55
+00:04:03,840 --> 00:04:10,500
+We can say that John is a good leader and he's a good team player.
+
+56
+00:04:11,100 --> 00:04:12,030
+All right.
+
+57
+00:04:14,450 --> 00:04:17,690
+Let's have a look at this pictures.
+
+58
+00:04:17,810 --> 00:04:21,290
+People are describing their soft skills.
+
+59
+00:04:21,290 --> 00:04:27,650
+Let's read and try to guess what are the soft skills of these people.
+
+60
+00:04:27,680 --> 00:04:37,580
+One one of my strongest soft skills is skill because I like to deal with difficult customers.
+
+61
+00:04:37,800 --> 00:04:44,150
+Two, I think I am because I am always open to change.
+
+62
+00:04:44,810 --> 00:04:50,330
+In my eyes, I am a great because I like working with others.
+
+63
+00:04:50,480 --> 00:04:52,430
+Do you have any ideas?
+
+64
+00:04:52,850 --> 00:04:54,620
+Okay, let's check now.
+
+65
+00:04:56,180 --> 00:05:04,100
+One of my strongest soft skills is problem solving because I like to deal with difficult customers.
+
+66
+00:05:04,430 --> 00:05:10,700
+I think I'm adaptable because I'm always open to change in my eyes.
+
+67
+00:05:10,700 --> 00:05:15,200
+I am a great team player because I like working with others.
+
+68
+00:05:15,200 --> 00:05:16,340
+Have you guessed?
+
+69
+00:05:16,760 --> 00:05:17,660
+Great.
+
+70
+00:05:18,960 --> 00:05:19,520
+Okay.
+
+71
+00:05:19,530 --> 00:05:21,960
+How to describe your skills?
+
+72
+00:05:21,960 --> 00:05:24,600
+What words and phrases to use.
+
+73
+00:05:24,870 --> 00:05:29,080
+You can say I am and add an adjective.
+
+74
+00:05:29,100 --> 00:05:32,070
+For example, I am responsible.
+
+75
+00:05:32,250 --> 00:05:34,000
+I am independent.
+
+76
+00:05:34,020 --> 00:05:36,780
+I am a good team player.
+
+77
+00:05:36,810 --> 00:05:38,220
+Good is adjective.
+
+78
+00:05:38,580 --> 00:05:44,130
+Or you can say I have experience with and add a noun.
+
+79
+00:05:44,160 --> 00:05:52,920
+It's often used to describe your hard skills so you can say I have experience with databases, I have
+
+80
+00:05:52,920 --> 00:06:00,610
+experience with PHP, or you can say I am good at and add a noun.
+
+81
+00:06:00,630 --> 00:06:03,360
+You can say I am good at communication.
+
+82
+00:06:03,480 --> 00:06:06,090
+I am good at presentation.
+
+83
+00:06:06,090 --> 00:06:08,700
+I am good at teamwork.
+
+84
+00:06:10,040 --> 00:06:11,100
+Good job, guys.
+
+85
+00:06:11,120 --> 00:06:17,810
+Go to your file, do all the tasks, and come back to this video if you need to refresh your memory.
+
+86
+00:06:17,840 --> 00:06:19,460
+Thank you and bye.

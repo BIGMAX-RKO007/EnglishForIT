@@ -1,0 +1,884 @@
+1
+00:00:00,960 --> 00:00:02,580
+Hi, Olga here
+
+2
+00:00:02,580 --> 00:00:06,300
+and in this video, we are talking about tech stack.
+
+3
+00:00:07,380 --> 00:00:16,200
+Tech stack or technology stack is all of the tools that we use at work, all of the programming languages,
+
+4
+00:00:16,200 --> 00:00:18,150
+frameworks and so on.
+
+5
+00:00:18,390 --> 00:00:21,270
+And we often speak about those things.
+
+6
+00:00:21,990 --> 00:00:30,300
+The problem is that sometimes we don't exactly know how to pronounce them correctly, because there are
+
+7
+00:00:30,300 --> 00:00:34,590
+a lot of those tools and sometimes the pronunciation is not very easy.
+
+8
+00:00:34,740 --> 00:00:43,080
+So in this lesson we are going to concentrate on the pronunciation on how to pronounce those things
+
+9
+00:00:43,080 --> 00:00:43,620
+correctly.
+
+10
+00:00:43,620 --> 00:00:51,090
+And we also will have a look at some sentences and the usage of those words, names, abbreviations
+
+11
+00:00:51,090 --> 00:00:52,500
+in our speech.
+
+12
+00:00:52,680 --> 00:00:54,480
+So let's dive in.
+
+13
+00:00:54,480 --> 00:01:01,890
+And first of all, what I wanted to show you is what is exactly the stack?
+
+14
+00:01:01,890 --> 00:01:02,100
+Yeah.
+
+15
+00:01:02,100 --> 00:01:03,090
+What is a stack?
+
+16
+00:01:03,810 --> 00:01:07,980
+A stack in general English is this.
+
+17
+00:01:07,980 --> 00:01:15,600
+If you look at those pictures here, we can see a stack of wood, a stack of jeans or a stack of clothes
+
+18
+00:01:15,810 --> 00:01:17,670
+and a stack of books.
+
+19
+00:01:17,670 --> 00:01:21,900
+So a stack is essentially a pile of something.
+
+20
+00:01:21,900 --> 00:01:25,320
+One lies on top of something else.
+
+21
+00:01:25,320 --> 00:01:29,730
+This is a stack. And in IT area
+
+22
+00:01:30,210 --> 00:01:36,420
+when we say text stack, what we mean is you can see the explanation down here.
+
+23
+00:01:36,420 --> 00:01:44,520
+A text stack is a combination of technologies a company uses to build and run and application or project.
+
+24
+00:01:44,610 --> 00:01:53,010
+So if you look to the right here, you can see this stack, this pile of different of different tools
+
+25
+00:01:53,010 --> 00:01:53,640
+we use.
+
+26
+00:01:53,640 --> 00:02:01,380
+And if we start from the bottom, we can see back end tools, front end tools, business intelligence
+
+27
+00:02:01,380 --> 00:02:09,479
+solutions, applications connected via API, servers, operating systems, frameworks and programming
+
+28
+00:02:09,479 --> 00:02:10,259
+languages.
+
+29
+00:02:10,650 --> 00:02:11,790
+So let's dive in.
+
+30
+00:02:11,790 --> 00:02:17,910
+Let's start with programming languages and we go we will go one by one and look at all of them.
+
+31
+00:02:17,910 --> 00:02:29,190
+And what we're going to do is we going to look at most popular names, most popular items in each category.
+
+32
+00:02:29,940 --> 00:02:36,930
+So popular programming languages are and let's now here focus on the pronunciation, really.
+
+33
+00:02:37,380 --> 00:02:40,980
+So the first one here is Python.
+
+34
+00:02:40,980 --> 00:02:49,320
+Python, you can always find the transcript here and you can listen to me.
+
+35
+00:02:49,320 --> 00:02:53,490
+You can try to repeat after me if you have any problems with that.
+
+36
+00:02:53,490 --> 00:02:56,550
+And you can also refer to this transcript.
+
+37
+00:02:56,550 --> 00:03:04,530
+So Python, then we have Java, Java, JavaScript.
+
+38
+00:03:05,830 --> 00:03:07,390
+C sharp.
+
+39
+00:03:08,620 --> 00:03:11,470
+C or C++.
+
+40
+00:03:13,030 --> 00:03:17,920
+PHP, which stands for Hypertext Preprocessor.
+
+41
+00:03:18,400 --> 00:03:19,530
+And we read it as.
+
+42
+00:03:19,540 --> 00:03:19,960
+PH
+
+43
+00:03:20,410 --> 00:03:21,220
+P
+
+44
+00:03:21,250 --> 00:03:26,110
+I know it sounds and looks silly because we don't start with H.
+
+45
+00:03:26,110 --> 00:03:33,670
+And here the abbreviation starts with P, but the actual name starts with H.
+
+46
+00:03:33,670 --> 00:03:35,770
+But this is just how it is.
+
+47
+00:03:35,860 --> 00:03:37,690
+No explanation to that.
+
+48
+00:03:40,060 --> 00:03:40,910
+Objective.
+
+49
+00:03:40,960 --> 00:03:44,110
+C. TypeScript.
+
+50
+00:03:44,860 --> 00:03:48,670
+Swift and Visual Basic.
+
+51
+00:03:50,350 --> 00:03:57,850
+Now, let's have a look at some of the example sentences with these words. Here for the programming language
+
+52
+00:03:57,850 --> 00:04:03,340
+I always use Java, but it doesn't mean that this is only about Java, right.
+
+53
+00:04:03,340 --> 00:04:11,500
+We can put any other programming language instead of Java and make the same or similar sentences.
+
+54
+00:04:12,490 --> 00:04:21,740
+The point is in those prepositions here, in, on, with, and so on, and maybe some phrases later.
+
+55
+00:04:21,790 --> 00:04:23,560
+So let's look at all of them.
+
+56
+00:04:23,560 --> 00:04:29,710
+If you learn how to code in Java, you can choose from hundreds of jobs on the market.
+
+57
+00:04:30,130 --> 00:04:40,900
+So now pay attention that we can use in Java or in Python to code in a programming language. Apps for Android
+
+58
+00:04:40,900 --> 00:04:43,810
+operating system are built on Java.
+
+59
+00:04:43,810 --> 00:04:51,730
+Again, this is a phrase to be built on a programming language, on Java, on PHP and so on.
+
+60
+00:04:52,720 --> 00:05:02,380
+Almost all of the apps you use on your Android phone run on Java. Again to run on a programming language.
+
+61
+00:05:03,970 --> 00:05:11,200
+Around 80% of the world's largest websites use backend web apps built with Java.
+
+62
+00:05:11,230 --> 00:05:19,120
+Now you can see built on Java and another variation, another option to say - build with Java.
+
+63
+00:05:19,120 --> 00:05:24,400
+It means with the help of Java or any other programming language.
+
+64
+00:05:25,180 --> 00:05:33,010
+And the last example here, a good Java programmer has to be able to write good, clean Java code that
+
+65
+00:05:33,010 --> 00:05:34,150
+solves a problem.
+
+66
+00:05:34,780 --> 00:05:46,180
+So the phrase is like Java programmer or C++ programmer or developer, and another phrase Java code.
+
+67
+00:05:49,080 --> 00:05:49,390
+Good.
+
+68
+00:05:49,410 --> 00:05:53,160
+Let's go on and let's look at frameworks.
+
+69
+00:05:53,370 --> 00:05:57,540
+So popular back-end frameworks are, again
+
+70
+00:05:57,540 --> 00:06:00,240
+let's concentrate on pronunciation.
+
+71
+00:06:00,630 --> 00:06:02,370
+Ruby on Rails.
+
+72
+00:06:03,880 --> 00:06:04,960
+Django.
+
+73
+00:06:06,040 --> 00:06:07,000
+Django.
+
+74
+00:06:08,230 --> 00:06:25,150
+Laravel, Spring, and Dot Net. And now popular front-end frameworks and tools include Angular JS, React,
+
+75
+00:06:26,080 --> 00:06:39,640
+Bootstrap, jQuery, jQuery, EmberJS, and BackboneJS.
+
+76
+00:06:40,450 --> 00:06:49,870
+Sometimes JS is written in small letters, sometimes in capital letters, that's only the variations of
+
+77
+00:06:49,870 --> 00:06:53,580
+how we can write it, but it's always read as JS right?
+
+78
+00:06:53,590 --> 00:07:01,360
+Those two letters are pronounced as letters and the name before those letters is pronounced as a word.
+
+79
+00:07:01,360 --> 00:07:01,530
+Yes.
+
+80
+00:07:01,570 --> 00:07:05,470
+So AngularJS or EmberJS, BackboneJS. 
+
+81
+00:07:06,190 --> 00:07:07,990
+And let's look at the examples.
+
+82
+00:07:08,660 --> 00:07:16,750
+A framework is a collection of languages, libraries and utilities designed to help developers build
+
+83
+00:07:16,750 --> 00:07:17,860
+applications.
+
+84
+00:07:18,820 --> 00:07:28,900
+If there is maybe a more difficult word again from the pronunciation aspect, then you will always have
+
+85
+00:07:28,900 --> 00:07:37,900
+this transcript so you can refer to that. Library, libraries and the underlined word is something that
+
+86
+00:07:37,900 --> 00:07:43,840
+I also wanted to stop at and maybe explain.
+
+87
+00:07:43,990 --> 00:07:51,880
+So utility is a small program that provides an addition to the capabilities provided by the operating
+
+88
+00:07:51,880 --> 00:07:52,450
+system.
+
+89
+00:07:52,450 --> 00:07:58,060
+So a utility is in addition something additional to what we already have.
+
+90
+00:07:58,480 --> 00:08:02,350
+And you can see again the pronunciation here, utilities.
+
+91
+00:08:03,910 --> 00:08:11,260
+And the next sentence Laravel is a web application framework with clear and elegant syntax.
+
+92
+00:08:11,740 --> 00:08:18,910
+Syntax, what is syntax? Rules that define the structure of a language.
+
+93
+00:08:18,910 --> 00:08:26,170
+So syntax is the same way that we say that natural language has syntax.
+
+94
+00:08:26,620 --> 00:08:31,930
+The sentences have syntax the same way we speak about programming languages.
+
+95
+00:08:34,039 --> 00:08:35,480
+Some more examples.
+
+96
+00:08:36,169 --> 00:08:46,700
+On one hand, Django ensures rapid development, fast processing and scalability, whereas on the other
+
+97
+00:08:46,700 --> 00:08:53,120
+hand, it has monolithic nature and is not suitable for smaller projects.
+
+98
+00:08:54,410 --> 00:08:56,810
+Now, a couple of new words here.
+
+99
+00:08:57,230 --> 00:08:59,320
+Rapid, rapid.
+
+100
+00:08:59,330 --> 00:09:01,180
+You can find it down here.
+
+101
+00:09:01,190 --> 00:09:03,710
+Rapid means fast or quick.
+
+102
+00:09:05,840 --> 00:09:07,190
+Processing.
+
+103
+00:09:07,520 --> 00:09:11,630
+Processing is manipulation of data by a computer.
+
+104
+00:09:11,630 --> 00:09:17,570
+For example, conversion of raw data into machine readable form.
+
+105
+00:09:17,570 --> 00:09:24,470
+So the conversion of our code into computer code into lower level code.
+
+106
+00:09:26,390 --> 00:09:35,450
+Then the next one, we have scalability, scalability. The property of a system to handle a growing
+
+107
+00:09:35,450 --> 00:09:36,650
+amount of work.
+
+108
+00:09:36,650 --> 00:09:47,690
+By adding resources to the system, it means that the framework is becoming bigger or our application
+
+109
+00:09:47,690 --> 00:09:49,070
+is becoming bigger.
+
+110
+00:09:49,070 --> 00:09:57,560
+And this framework gives us this opportunity, the possibility to grow, to become bigger, to create
+
+111
+00:09:57,560 --> 00:10:00,920
+bigger applications, bigger functionality.
+
+112
+00:10:00,920 --> 00:10:06,860
+And it means that this is the property that allows us to do it.
+
+113
+00:10:06,860 --> 00:10:09,140
+Scalability, we can grow bigger.
+
+114
+00:10:10,280 --> 00:10:13,070
+And the last word here is monolithic.
+
+115
+00:10:13,460 --> 00:10:14,660
+Monolithic.
+
+116
+00:10:14,960 --> 00:10:21,650
+It means composed all in one piece, not in part, but all in one piece.
+
+117
+00:10:25,070 --> 00:10:28,430
+The next layer is operating systems.
+
+118
+00:10:28,430 --> 00:10:38,840
+And here we have MS Windows, which is Microsoft Windows, MAC OS, which is Mac operating system, Ubuntu.
+
+119
+00:10:38,870 --> 00:10:41,900
+Yeah, and here we have two options for pronunciation.
+
+120
+00:10:41,900 --> 00:10:46,850
+Sometimes we can hear Ubuntu, sometimes we hear Ubuntu.
+
+121
+00:10:46,940 --> 00:10:49,490
+So different variations.
+
+122
+00:10:49,880 --> 00:10:52,970
+And the next one is Fedora.
+
+123
+00:10:53,360 --> 00:11:04,130
+Fedora, probably not very popular, but still. Solaris and Chrome OS, Chrome operating system and just
+
+124
+00:11:04,130 --> 00:11:08,720
+pay attention here that we see ch but we read k, chrome.
+
+125
+00:11:11,000 --> 00:11:23,840
+The next layer is API platforms, API platforms, and here we have Segment, Apigee, MuleSoft, MuleSoft,
+
+126
+00:11:24,830 --> 00:11:29,750
+Tealium, Tealium and Zapier.
+
+127
+00:11:31,070 --> 00:11:31,880
+Zapier.
+
+128
+00:11:32,930 --> 00:11:40,040
+Now let's look at an example sentence and it actually explains us what an API is.
+
+129
+00:11:40,040 --> 00:11:49,010
+So APIs are applications that help you connect to different tools, and then those tools make up your
+
+130
+00:11:49,010 --> 00:11:50,780
+extended text stack.
+
+131
+00:11:51,110 --> 00:12:00,860
+So an API, and we read it letter by letter as usual as an abbreviation and it stands for application
+
+132
+00:12:00,860 --> 00:12:02,540
+programming interface.
+
+133
+00:12:02,540 --> 00:12:02,830
+Yes.
+
+134
+00:12:02,830 --> 00:12:08,060
+So this is something that helps us connect to other tools.
+
+135
+00:12:08,540 --> 00:12:11,330
+And another word which is interesting here.
+
+136
+00:12:11,840 --> 00:12:15,130
+Those tools make up your extended text stack.
+
+137
+00:12:15,140 --> 00:12:17,270
+Extended means broader.
+
+138
+00:12:17,270 --> 00:12:18,650
+So wider.
+
+139
+00:12:21,380 --> 00:12:22,160
+Moving on.
+
+140
+00:12:22,160 --> 00:12:27,960
+We have servers and load balancing and here we have AWS.
+
+141
+00:12:28,010 --> 00:12:31,760
+which stands for Amazon Web Services.
+
+142
+00:12:32,180 --> 00:12:39,800
+We have Google Cloud, we have Azure, Azure, we have Apache.
+
+143
+00:12:40,190 --> 00:12:43,400
+Apache, we have Nginx.
+
+144
+00:12:43,400 --> 00:12:45,950
+This is an interesting pronunciation here.
+
+145
+00:12:46,220 --> 00:12:52,220
+It's engine x, but it's written in an interesting way like that.
+
+146
+00:12:53,500 --> 00:12:56,890
+Now we have CloudFlare and Fastly.
+
+147
+00:12:59,020 --> 00:13:01,510
+And let's have a look at example sentences.
+
+148
+00:13:01,960 --> 00:13:12,010
+This category includes servers, content distribution networks, rooting and caching services that let
+
+149
+00:13:12,010 --> 00:13:20,410
+your applications send and receive requests, run smoothly and scale capacity as needed.
+
+150
+00:13:21,220 --> 00:13:24,160
+So now let's look at some words here.
+
+151
+00:13:24,310 --> 00:13:25,540
+Rooting.
+
+152
+00:13:25,960 --> 00:13:35,440
+Rooting is a process of selecting a path for traffic in a network or across multiple networks.
+
+153
+00:13:35,440 --> 00:13:44,320
+So rooting is basically finding or selecting a path, selecting a way for traffic.
+
+154
+00:13:46,000 --> 00:13:49,480
+Now, the next word was request, request.
+
+155
+00:13:49,510 --> 00:13:52,090
+Here we have a longer explanation.
+
+156
+00:13:52,330 --> 00:13:59,500
+Request response is one of the basic methods that computers use to communicate with each other in a
+
+157
+00:13:59,500 --> 00:14:00,280
+network.
+
+158
+00:14:00,520 --> 00:14:07,870
+The first computer sends a request for some data, and the second responds to the request.
+
+159
+00:14:09,690 --> 00:14:12,930
+And the last word here to run smoothly.
+
+160
+00:14:12,960 --> 00:14:17,040
+Smoothly means without problems or difficulties.
+
+161
+00:14:19,290 --> 00:14:20,270
+Okay, good.
+
+162
+00:14:20,280 --> 00:14:21,030
+Moving on.
+
+163
+00:14:21,030 --> 00:14:24,360
+We have data storage and querying.
+
+164
+00:14:24,660 --> 00:14:26,460
+Data storage and querying.
+
+165
+00:14:26,550 --> 00:14:39,360
+And here the most popular things, the most popular items that we use and speak about are MySQL
+
+166
+00:14:39,360 --> 00:14:48,330
+so here we read my as just my and then we say S Q L, just letter by letter again.
+
+167
+00:14:48,480 --> 00:14:53,760
+Or sometimes we can hear that it's called sequel.
+
+168
+00:14:54,210 --> 00:14:55,170
+Sequel.
+
+169
+00:14:56,870 --> 00:15:05,150
+SQL is a structured query language so SQL here stands for structured query language.
+
+170
+00:15:06,200 --> 00:15:13,520
+Now we have Azure SQL Synapse Analytics, we have MongoDB.
+
+171
+00:15:14,900 --> 00:15:19,610
+I think nothing, nothing difficult in pronunciation here.
+
+172
+00:15:19,610 --> 00:15:21,560
+So there is no transcript.
+
+173
+00:15:21,560 --> 00:15:38,330
+Just MongoDB, Redshift, PostgreSQL or PostgreSQL, PostgreSQL, Snowflake and Splunk.
+
+174
+00:15:40,430 --> 00:15:47,150
+And let's have a look at some sentences or actually one big sentence here.
+
+175
+00:15:48,200 --> 00:15:59,600
+This layer of the stack consists of relational and non- relational databases, data warehouses and data
+
+176
+00:15:59,600 --> 00:16:06,950
+pipelines that allow you to store and query all of your real time and historical data.
+
+177
+00:16:07,940 --> 00:16:13,500
+So now we have two interesting words data, warehouse and query.
+
+178
+00:16:13,520 --> 00:16:15,770
+So what's a data warehouse?
+
+179
+00:16:15,800 --> 00:16:29,150
+Sometimes it's abbreviated as DW or DWH like data warehouse, and it's a system used for reporting
+
+180
+00:16:29,150 --> 00:16:30,680
+and data analysis.
+
+181
+00:16:31,280 --> 00:16:35,150
+It is considered a core component of business intelligence.
+
+182
+00:16:36,170 --> 00:16:37,850
+And now query.
+
+183
+00:16:40,160 --> 00:16:40,600
+Yeah.
+
+184
+00:16:40,850 --> 00:16:44,840
+This part that allow you to store and query.
+
+185
+00:16:44,840 --> 00:16:45,790
+So to do what?
+
+186
+00:16:45,800 --> 00:16:46,850
+To query.
+
+187
+00:16:48,860 --> 00:16:55,490
+So a query is a request for data from a database table or a combination of tables.
+
+188
+00:16:56,300 --> 00:16:58,580
+And here we have it as a noun.
+
+189
+00:16:58,610 --> 00:17:04,220
+A query is a request for data, but we can also use it as a verb.
+
+190
+00:17:04,490 --> 00:17:11,930
+As you can see in the sentence, to do what - to query, it means to request data from the database.
+
+191
+00:17:13,130 --> 00:17:18,710
+So basically to send a request to the database for some information.
+
+192
+00:17:19,520 --> 00:17:22,250
+This data may be generated as results
+
+193
+00:17:22,609 --> 00:17:24,710
+returned by SQL.
+
+194
+00:17:27,220 --> 00:17:27,710
+Okay.
+
+195
+00:17:27,730 --> 00:17:30,220
+And let's jump to the last layer.
+
+196
+00:17:30,220 --> 00:17:33,610
+And here we have business intelligence solutions.
+
+197
+00:17:34,420 --> 00:17:37,140
+We have Microsoft Power BI.
+
+198
+00:17:37,150 --> 00:17:41,590
+Again, BI is just the abbreviation, so we read it as it is.
+
+199
+00:17:42,520 --> 00:17:46,780
+And of course it stands for Business Intelligence.
+
+200
+00:17:47,380 --> 00:17:50,340
+Then we have SAP BusinessObjects.
+
+201
+00:17:50,350 --> 00:17:55,870
+We have Tableau, Tableau and Looker.
+
+202
+00:17:56,140 --> 00:17:56,950
+Looker.
+
+203
+00:17:59,180 --> 00:18:01,550
+And now let's jump to an example.
+
+204
+00:18:01,730 --> 00:18:10,100
+By tools, bring together data gathered from multiple parts of the company and the market and are designed
+
+205
+00:18:10,100 --> 00:18:14,840
+to help track company performance and make higher level decisions.
+
+206
+00:18:16,340 --> 00:18:21,260
+The only word we want to look at here is to track.
+
+207
+00:18:21,260 --> 00:18:27,290
+To track means to record the progress or development of something over a period.
+
+208
+00:18:30,090 --> 00:18:41,190
+And the last but not least is when we speak about of the stack or tech stack, technology stack, we usually
+
+209
+00:18:41,190 --> 00:18:45,980
+speak about companies and what is the company's tech stack.
+
+210
+00:18:45,990 --> 00:18:51,930
+But there is also a concept of a full stack developer.
+
+211
+00:18:52,620 --> 00:18:54,780
+So who is a full stack developer?
+
+212
+00:18:54,780 --> 00:19:03,030
+It's a person who can do like to put to put it in simple words, a person who can do everything or anything.
+
+213
+00:19:04,920 --> 00:19:12,450
+A full-stack web developer is a person who can develop both front-end and back-end software.
+
+214
+00:19:12,840 --> 00:19:19,380
+They can work well with variety of languages as well as frameworks, and can quickly learn something
+
+215
+00:19:19,380 --> 00:19:19,830
+new.
+
+216
+00:19:20,460 --> 00:19:28,350
+Full stack developers usually have skills in a lot of different niches, from databases and web development
+
+217
+00:19:28,350 --> 00:19:32,400
+to graphic design and UI/UX management.
+
+218
+00:19:34,190 --> 00:19:40,820
+Such developers are important for a company because they can help with various stages of development
+
+219
+00:19:40,820 --> 00:19:47,270
+and have the skills to assist with team members of all levels and specializations.
+
+220
+00:19:49,510 --> 00:19:54,100
+So this was the final slide for our lesson today.
+
+221
+00:19:54,880 --> 00:19:56,470
+See you in the next one.
+

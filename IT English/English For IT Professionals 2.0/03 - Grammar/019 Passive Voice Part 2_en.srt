@@ -1,0 +1,740 @@
+1
+00:00:00,180 --> 00:00:00,430
+Okay.
+
+2
+00:00:00,570 --> 00:00:02,460
+Welcome back to Passive Voice.
+
+3
+00:00:03,570 --> 00:00:09,020
+So a couple of more rules and general usage about passive voice.
+
+4
+00:00:09,030 --> 00:00:16,710
+So in previous in the previous part, we talked about the formation of passive voice and we said that
+
+5
+00:00:16,710 --> 00:00:25,800
+it is formed by the verb be plus the past participle, which is the past form of the verb or the third
+
+6
+00:00:25,800 --> 00:00:27,600
+column or irregular verbs.
+
+7
+00:00:27,900 --> 00:00:36,050
+However, sometimes you can hear, you can see, and you can use get instead of be.
+
+8
+00:00:36,060 --> 00:00:45,420
+So if you look here, sometimes we use get plus past participle to make passive. So be can be changed
+
+9
+00:00:45,420 --> 00:00:46,620
+by get.
+
+10
+00:00:46,620 --> 00:00:49,980
+So you can use both of them.
+
+11
+00:00:50,460 --> 00:00:52,860
+Let's look at the couple of examples.
+
+12
+00:00:53,490 --> 00:00:57,930
+The programming will get done as soon as we have the requirements.
+
+13
+00:00:58,990 --> 00:01:02,070
+Or Be careful with the database, please.
+
+14
+00:01:02,080 --> 00:01:03,820
+It might get broken.
+
+15
+00:01:04,810 --> 00:01:11,920
+And the last one. If you put your iPhone on charge, the iOS will get updated automatically at night.
+
+16
+00:01:12,550 --> 00:01:20,680
+So you see in all of those sentences we've used get instead of be for passive voice, because this is
+
+17
+00:01:20,680 --> 00:01:24,580
+clearly passive, the programming will get done.
+
+18
+00:01:24,580 --> 00:01:30,820
+So this action kind of goes back and will be performed on this object.
+
+19
+00:01:30,850 --> 00:01:33,000
+So this is clearly passive.
+
+20
+00:01:33,010 --> 00:01:40,420
+However we use get. You can use both of them either be or get. The difference
+
+21
+00:01:40,420 --> 00:01:46,570
+The slight difference between them will be that when we say get, for example, in the second example
+
+22
+00:01:46,570 --> 00:01:49,510
+here, it might get broken.
+
+23
+00:01:49,510 --> 00:01:54,790
+The word get is the synonym, as you know, to the word become.
+
+24
+00:01:54,790 --> 00:02:01,180
+So if you say it might be broken, it means it is already broken.
+
+25
+00:02:01,450 --> 00:02:02,980
+So it is broken.
+
+26
+00:02:02,980 --> 00:02:09,250
+So be careful because it may not work properly, it may be already broken.
+
+27
+00:02:09,550 --> 00:02:17,020
+But if you say get broken, it means maybe the speaker is afraid that you're going to do something wrong
+
+28
+00:02:17,020 --> 00:02:22,030
+and the database will become broken, because of your actions.
+
+29
+00:02:22,030 --> 00:02:22,240
+Yes.
+
+30
+00:02:22,250 --> 00:02:24,970
+So it may become or get broken.
+
+31
+00:02:25,090 --> 00:02:30,910
+So this is a slight difference between be and get for passive voice.
+
+32
+00:02:32,230 --> 00:02:33,400
+Just remember that.
+
+33
+00:02:33,400 --> 00:02:34,630
+And we move on.
+
+34
+00:02:34,630 --> 00:02:40,330
+And and there are a couple of general things about passive voice usage.
+
+35
+00:02:40,330 --> 00:02:42,460
+So two bullet points.
+
+36
+00:02:42,460 --> 00:02:47,920
+The first is - use passive with or without the doer of the action.
+
+37
+00:02:47,920 --> 00:02:50,860
+So the door is somebody who does the action.
+
+38
+00:02:52,090 --> 00:02:54,610
+So it's up to you
+
+39
+00:02:54,610 --> 00:03:01,960
+yeah, you can speak about the doer, you can mention the doer, or you can be completely without the doer
+
+40
+00:03:01,960 --> 00:03:03,010
+in this sentence.
+
+41
+00:03:03,970 --> 00:03:09,700
+The example would be The invitation was sent today and you can finish it here.
+
+42
+00:03:09,940 --> 00:03:11,740
+The invitation was sent today.
+
+43
+00:03:11,740 --> 00:03:19,780
+I don't care who send it, so I'm not mentioning the doer of the action. Or if I still want to include
+
+44
+00:03:19,780 --> 00:03:21,850
+this person or this thing
+
+45
+00:03:21,850 --> 00:03:26,770
+I can use this word "by" and introduce the doer of the action.
+
+46
+00:03:26,770 --> 00:03:30,040
+So the invitation was sent by PM.
+
+47
+00:03:33,040 --> 00:03:42,640
+Now why would we actually use passive voice and say who did the action in the end of the sentence
+
+48
+00:03:42,640 --> 00:03:49,330
+if we could have just used the active voice? We could say  PM sent the invitation today.
+
+49
+00:03:50,210 --> 00:03:53,450
+Okay, well, that is a logical question.
+
+50
+00:03:53,540 --> 00:04:01,850
+And the answer to it is that and this is the bullet point number two, that usually we use passive when
+
+51
+00:04:01,850 --> 00:04:07,910
+the doer is either not known or not important or it is obvious.
+
+52
+00:04:08,480 --> 00:04:14,000
+So and the example of very good example The hackers will be arrested.
+
+53
+00:04:14,510 --> 00:04:15,410
+Full stop.
+
+54
+00:04:16,130 --> 00:04:22,820
+I don't need to say who will arrest the hackers, because this is very obvious.
+
+55
+00:04:22,820 --> 00:04:27,470
+It's common knowledge that only the police can arrest somebody.
+
+56
+00:04:27,470 --> 00:04:30,830
+So I don't need to say who will do it.
+
+57
+00:04:30,830 --> 00:04:36,380
+I don't need the doer of the action here, because it's obvious why would I speak about it?
+
+58
+00:04:37,100 --> 00:04:43,760
+So I could have said The hackers will be arrested by the police, but it's obvious that it's police.
+
+59
+00:04:43,760 --> 00:04:44,180
+Yeah.
+
+60
+00:04:44,210 --> 00:04:50,900
+So in this case, we just form a passive sentence without the door of the action, or when the doer
+
+61
+00:04:50,900 --> 00:04:51,830
+is not known.
+
+62
+00:04:51,830 --> 00:04:56,870
+For example, His bike was stolen.
+
+63
+00:04:57,320 --> 00:04:58,760
+His bike was stolen.
+
+64
+00:04:58,760 --> 00:05:02,360
+I don't know who stole his bike and he doesn't know.
+
+65
+00:05:02,450 --> 00:05:05,780
+So the doer is not known.
+
+66
+00:05:05,780 --> 00:05:09,080
+So we could say somebody stole his bike
+
+67
+00:05:09,080 --> 00:05:11,510
+Yes, that's also an option.
+
+68
+00:05:12,050 --> 00:05:15,380
+But we can use passive voice for that as well.
+
+69
+00:05:16,700 --> 00:05:17,120
+Good.
+
+70
+00:05:17,810 --> 00:05:24,710
+And some other rules are that we when we use passive with the doer
+
+71
+00:05:25,640 --> 00:05:28,220
+and here, let's pay attention to this one,
+
+72
+00:05:28,250 --> 00:05:33,680
+the focus is shifted from the doer to the object of the action.
+
+73
+00:05:33,830 --> 00:05:42,500
+So if I still want to mention the doer of the action, but I don't want to make them the focus, the
+
+74
+00:05:42,500 --> 00:05:48,020
+centre point of the sentence, because they are less important. In this 
+
+75
+00:05:48,170 --> 00:05:55,850
+In this case, I use passive voice and I say, for example, The suspicious link in the email was opened
+
+76
+00:05:55,850 --> 00:05:57,560
+by one of our colleagues.
+
+77
+00:05:57,560 --> 00:06:06,560
+So the focus is more on the suspicious link and the the event that the suspicious link in the email
+
+78
+00:06:06,560 --> 00:06:07,580
+was opened.
+
+79
+00:06:07,940 --> 00:06:10,660
+And it's less on our colleague.
+
+80
+00:06:10,880 --> 00:06:18,230
+We don't want to make a very big I like to draw a lot of attention to who did the action but to what
+
+81
+00:06:18,230 --> 00:06:19,220
+actually happened.
+
+82
+00:06:20,750 --> 00:06:24,970
+And passive is commonly used in more formal texts.
+
+83
+00:06:24,980 --> 00:06:31,430
+It means academic papers, scientific research and things like reports.
+
+84
+00:06:31,670 --> 00:06:37,430
+So if you're not an academic kind of person, maybe you don't do research papers.
+
+85
+00:06:38,480 --> 00:06:46,160
+However, if you work in IT or you plan to work in it, you're definitely going to need to write a lot
+
+86
+00:06:46,160 --> 00:06:53,300
+of things, emails, reports to fill out different forms and things like that.
+
+87
+00:06:53,300 --> 00:06:58,970
+And for those situations, you will definitely need a passive voice.
+
+88
+00:06:59,600 --> 00:07:05,120
+For example, this is an example of a reporting sentence.
+
+89
+00:07:05,360 --> 00:07:09,470
+The issue is found in all payment methods on the website.
+
+90
+00:07:10,850 --> 00:07:14,570
+The functionality is being retested on the customer side.
+
+91
+00:07:14,570 --> 00:07:22,430
+So you see how these sentences are very precise, very informative.
+
+92
+00:07:22,470 --> 00:07:29,480
+Yet we don't speak, we don't say any unnecessary details. It's just precise and up to the point.
+
+93
+00:07:29,480 --> 00:07:31,790
+This is exactly the reporting style.
+
+94
+00:07:32,000 --> 00:07:36,530
+And as you can see, the passive voice is used there.
+
+95
+00:07:38,450 --> 00:07:38,820
+Good.
+
+96
+00:07:40,350 --> 00:07:47,940
+And to wrap up this lesson, let's do a small exercise together for passive voice.
+
+97
+00:07:48,570 --> 00:07:50,130
+The exercise is very simple.
+
+98
+00:07:50,130 --> 00:07:52,350
+You have five sentences.
+
+99
+00:07:53,400 --> 00:07:59,010
+These sentences, they are in orange color here.
+
+100
+00:07:59,040 --> 00:08:02,460
+These sentences are already in passive voice.
+
+101
+00:08:02,460 --> 00:08:08,340
+And what you need to do is you need to try and convert them back to active voice.
+
+102
+00:08:08,640 --> 00:08:12,030
+The first sentence is already done.
+
+103
+00:08:12,060 --> 00:08:17,220
+Thomas was selected by his coworkers to be a team representative.
+
+104
+00:08:18,000 --> 00:08:19,770
+Active voice would be
+
+105
+00:08:19,800 --> 00:08:24,000
+Thomas's coworkers selected him to be a team representative.
+
+106
+00:08:24,630 --> 00:08:27,600
+Now let's try to do number two together.
+
+107
+00:08:28,200 --> 00:08:31,110
+Jayne was fired by Mr. Smith.
+
+108
+00:08:33,360 --> 00:08:33,600
+Okay.
+
+109
+00:08:33,690 --> 00:08:38,669
+We start with Mr. Smith, because he is the doer of this action.
+
+110
+00:08:40,409 --> 00:08:48,870
+And we have the formation of a passive voice here, which is was fired.
+
+111
+00:08:49,890 --> 00:08:54,060
+Now, remember what we spoke about the formation of passive voice.
+
+112
+00:08:55,290 --> 00:09:01,350
+The main verb which is fired here is always in
+
+113
+00:09:01,500 --> 00:09:02,670
+in which form?
+
+114
+00:09:03,870 --> 00:09:06,690
+Yes, it's in past participle form.
+
+115
+00:09:06,690 --> 00:09:09,390
+So it's always going to be past participle.
+
+116
+00:09:09,420 --> 00:09:12,960
+It doesn't show the tense of the sentence.
+
+117
+00:09:12,960 --> 00:09:15,800
+We don't know the tense because we just know it's passive.
+
+118
+00:09:15,810 --> 00:09:17,940
+So that's why it's past participle.
+
+119
+00:09:18,510 --> 00:09:23,190
+However, what shows the tense and remember, what does the job is
+
+120
+00:09:23,190 --> 00:09:28,230
+the verb be and be here is in the past simple form.
+
+121
+00:09:29,010 --> 00:09:30,510
+So be past simple
+
+122
+00:09:30,510 --> 00:09:31,680
+was or were.
+
+123
+00:09:32,190 --> 00:09:34,360
+So Jane was fired.
+
+124
+00:09:34,380 --> 00:09:38,670
+Now we know that this is a passive sentence in past simple.
+
+125
+00:09:38,700 --> 00:09:43,560
+Now we need to create an active sentence using past simple tense.
+
+126
+00:09:44,400 --> 00:09:47,940
+And that would be very easy for this one.
+
+127
+00:09:48,720 --> 00:09:51,870
+Mr. Smith fired Jane.
+
+128
+00:09:53,390 --> 00:09:53,810
+Good.
+
+129
+00:09:54,380 --> 00:09:56,000
+Let's move to number three.
+
+130
+00:09:56,600 --> 00:10:02,910
+You can pause the video here and do number three, four and five on your own.
+
+131
+00:10:02,930 --> 00:10:05,930
+And then resume the video and check your answers.
+
+132
+00:10:06,050 --> 00:10:12,110
+And I will just go on looking at those sentences.
+
+133
+00:10:12,560 --> 00:10:17,270
+So number three Many inventions were created by Thomas Edison.
+
+134
+00:10:19,190 --> 00:10:19,490
+Okay.
+
+135
+00:10:19,760 --> 00:10:22,700
+Logically, we start with Thomas Edison.
+
+136
+00:10:23,950 --> 00:10:28,300
+And what is the tense of this passive sentence?
+
+137
+00:10:28,960 --> 00:10:33,550
+We look at be and we see that it's were
+
+138
+00:10:33,550 --> 00:10:36,370
+So it's just simple again.
+
+139
+00:10:37,360 --> 00:10:40,210
+And the main verb is created.
+
+140
+00:10:40,210 --> 00:10:41,530
+So to create.
+
+141
+00:10:42,810 --> 00:10:46,650
+The past simple of create is created.
+
+142
+00:10:47,370 --> 00:10:53,430
+So we say Thomas Edison created many
+
+143
+00:10:55,820 --> 00:10:56,930
+inventions.
+
+144
+00:10:57,500 --> 00:10:57,980
+Good.
+
+145
+00:10:58,220 --> 00:11:02,570
+And this is our perfect active voice sentence. Now
+
+146
+00:11:02,570 --> 00:11:07,880
+number four. The reports had been completed by the students.
+
+147
+00:11:10,390 --> 00:11:10,810
+Okay.
+
+148
+00:11:10,810 --> 00:11:18,910
+So as you know, in active sentence, we have to start with the doer of the action, the doer of the
+
+149
+00:11:18,910 --> 00:11:19,690
+action
+
+150
+00:11:20,110 --> 00:11:27,630
+in our case, in sentence number four is the students.
+
+151
+00:11:27,640 --> 00:11:29,460
+The students did something.
+
+152
+00:11:29,470 --> 00:11:32,410
+What did they do? Or what had they done?
+
+153
+00:11:32,770 --> 00:11:36,430
+Now let's inspect this sentence, the structure.
+
+154
+00:11:37,280 --> 00:11:38,600
+What tense is it in?
+
+155
+00:11:39,710 --> 00:11:44,090
+We know that completed is in past participle because it's passive. 
+
+156
+00:11:44,210 --> 00:11:48,440
+So let's look at this form had been.
+
+157
+00:11:48,920 --> 00:11:50,030
+What form is it?
+
+158
+00:11:50,060 --> 00:11:52,430
+What tense is it? Had
+
+159
+00:11:52,640 --> 00:11:59,150
+and the third form of the verb - had been. Okay
+
+160
+00:11:59,690 --> 00:12:02,560
+this is past perfect tense.
+
+161
+00:12:02,570 --> 00:12:03,880
+This is past perfect.
+
+162
+00:12:03,890 --> 00:12:06,800
+So we need to use active
+
+163
+00:12:07,190 --> 00:12:15,560
+past perfect. And the formation is had and the main verb in the third form or with ending -ed.
+
+164
+00:12:19,910 --> 00:12:25,010
+So we say the students had completed the report.
+
+165
+00:12:26,720 --> 00:12:27,170
+Good.
+
+166
+00:12:27,650 --> 00:12:32,360
+And the last sentence. Revisions are being made by the team.
+
+167
+00:12:34,250 --> 00:12:41,960
+Now we start with the team because the team did something or is doing something.
+
+168
+00:12:42,590 --> 00:12:44,570
+So the team.
+
+169
+00:12:45,480 --> 00:12:47,960
+And then we again inspect this.
+
+170
+00:12:47,970 --> 00:12:49,290
+What do we see here?
+
+171
+00:12:49,290 --> 00:12:51,090
+What is this formation?
+
+172
+00:12:51,090 --> 00:12:53,790
+What does it what does it look like?
+
+173
+00:12:53,790 --> 00:12:55,770
+Are being are being?
+
+174
+00:12:55,770 --> 00:12:57,330
+What tense form is it?
+
+175
+00:12:58,920 --> 00:12:59,920
+-ing
+
+176
+00:12:59,970 --> 00:13:04,110
+And be be plus verb with -ing.
+
+177
+00:13:04,140 --> 00:13:06,630
+Yes, it's continuous form.
+
+178
+00:13:06,630 --> 00:13:09,120
+And in this case, it's present continuous.
+
+179
+00:13:09,660 --> 00:13:12,630
+So the team is
+
+180
+00:13:14,850 --> 00:13:18,390
+making the revisions.
+
+181
+00:13:19,260 --> 00:13:21,300
+The action is going on right now.
+
+182
+00:13:21,300 --> 00:13:27,270
+The team is making the revisions or in the passive The revisions are being made by the team.
+
+183
+00:13:29,060 --> 00:13:29,610
+Good.
+
+184
+00:13:29,630 --> 00:13:30,470
+Good job.
+
+185
+00:13:31,510 --> 00:13:34,390
+Thank you for your attention and good luck.
+

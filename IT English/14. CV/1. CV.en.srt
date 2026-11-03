@@ -1,0 +1,319 @@
+1
+00:00:00,080 --> 00:00:00,620
+Hi.
+
+2
+00:00:01,400 --> 00:00:04,850
+Okay, Finally, it's time to talk about CV.
+
+3
+00:00:05,300 --> 00:00:06,920
+Why do you need it?
+
+4
+00:00:06,950 --> 00:00:11,450
+What should you include and not include in your CV?
+
+5
+00:00:11,930 --> 00:00:13,010
+Let's go.
+
+6
+00:00:13,100 --> 00:00:22,940
+CV or resume is the short document with the most important information about your professional experience
+
+7
+00:00:22,940 --> 00:00:30,230
+skills achievements that show that you are the right person for the job you are applying for.
+
+8
+00:00:30,230 --> 00:00:33,260
+And this is an example of a CV.
+
+9
+00:00:35,130 --> 00:00:35,780
+Okay.
+
+10
+00:00:35,790 --> 00:00:37,890
+Why do we need a CV?
+
+11
+00:00:37,920 --> 00:00:39,060
+What is a CV?
+
+12
+00:00:39,210 --> 00:00:49,710
+Goal To show that your skills and experience fit the job requirements and to get you an invitation to
+
+13
+00:00:49,710 --> 00:00:50,850
+the interview.
+
+14
+00:00:51,420 --> 00:00:52,440
+All right.
+
+15
+00:00:53,190 --> 00:00:55,800
+What should you include in your CV?
+
+16
+00:00:56,550 --> 00:00:58,050
+Your name, of course.
+
+17
+00:00:58,050 --> 00:01:05,520
+Contact details, summary of your skills and experience skills, both hard and soft.
+
+18
+00:01:05,550 --> 00:01:07,620
+Your working Experience.
+
+19
+00:01:07,770 --> 00:01:14,970
+Education certificates and some personal information about your interests and hobbies.
+
+20
+00:01:15,240 --> 00:01:24,810
+What not to include your age, marital status, religion, gender, sexual orientation or political
+
+21
+00:01:24,810 --> 00:01:25,640
+preferences.
+
+22
+00:01:25,650 --> 00:01:31,860
+It's not professional to include those things in your CV structure.
+
+23
+00:01:31,890 --> 00:01:40,950
+Start with your name, your position, give contact information, summary or your career goal.
+
+24
+00:01:40,960 --> 00:01:42,190
+Your skills.
+
+25
+00:01:42,400 --> 00:01:50,380
+Then list your work, experience education, add some trainings or certificates that are relevant to
+
+26
+00:01:50,380 --> 00:01:55,120
+the job, and at the end you can add some personal interests.
+
+27
+00:01:56,260 --> 00:01:56,660
+Okay.
+
+28
+00:01:56,680 --> 00:01:58,210
+Contact information.
+
+29
+00:01:58,210 --> 00:02:07,240
+Include your email, your phone number, your location, your links to LinkedIn, GitHub, link or portfolio.
+
+30
+00:02:07,250 --> 00:02:09,980
+But don't write your full address.
+
+31
+00:02:10,000 --> 00:02:11,680
+It's not necessary.
+
+32
+00:02:12,760 --> 00:02:14,880
+Professional Summary.
+
+33
+00:02:14,890 --> 00:02:23,080
+So have a look at these two examples of summaries and decide what is the role, the position of these
+
+34
+00:02:23,080 --> 00:02:23,860
+people.
+
+35
+00:02:24,580 --> 00:02:25,840
+Yeah, that's right.
+
+36
+00:02:25,840 --> 00:02:33,170
+This is an engineer and this is a back end developer specializing in Python.
+
+37
+00:02:33,190 --> 00:02:38,830
+Okay, so when you write a summary, write how many years of experience you have?
+
+38
+00:02:38,830 --> 00:02:44,860
+What are your major skills and maybe some major achievement?
+
+39
+00:02:46,570 --> 00:02:48,190
+Skills, okay.
+
+40
+00:02:48,190 --> 00:02:54,160
+Include both hard and soft skills as well as language knowledge.
+
+41
+00:02:54,580 --> 00:02:54,870
+Okay.
+
+42
+00:02:54,880 --> 00:03:05,290
+As you can see from those skills, this is a CV of a QA engineer and here is a CV of probably project
+
+43
+00:03:05,290 --> 00:03:06,250
+manager.
+
+44
+00:03:08,370 --> 00:03:10,440
+Work experience.
+
+45
+00:03:10,740 --> 00:03:19,470
+When you describe your work experience, start with your most recent job, so use reverse chronology
+
+46
+00:03:19,470 --> 00:03:21,660
+for listing your jobs.
+
+47
+00:03:21,810 --> 00:03:24,420
+Describe your position.
+
+48
+00:03:24,840 --> 00:03:29,200
+Give the name of your company and how long you work there.
+
+49
+00:03:29,220 --> 00:03:32,820
+If you are still working at that company, write.
+
+50
+00:03:33,640 --> 00:03:42,010
+From the start till present or now, and use numbers to show your achievements.
+
+51
+00:03:42,010 --> 00:03:50,950
+For example, maintained 250 windows computers saved four hours a week.
+
+52
+00:03:51,610 --> 00:03:52,390
+Good.
+
+53
+00:03:53,320 --> 00:04:02,830
+Also mention your education and write about your certificates or training related to this position.
+
+54
+00:04:05,730 --> 00:04:08,250
+Hobbies and interests.
+
+55
+00:04:08,280 --> 00:04:09,030
+Okay.
+
+56
+00:04:09,120 --> 00:04:13,140
+Don't write something like reading traveling music.
+
+57
+00:04:13,170 --> 00:04:14,920
+It's too general.
+
+58
+00:04:14,940 --> 00:04:16,780
+Everyone does that.
+
+59
+00:04:16,800 --> 00:04:26,010
+Instead, you can say I was a member of a music band, or I read all the books by George Martin or visited
+
+60
+00:04:26,010 --> 00:04:28,620
+ten countries in one year.
+
+61
+00:04:28,650 --> 00:04:32,010
+Be specific and try to be interesting.
+
+62
+00:04:33,000 --> 00:04:33,480
+Okay.
+
+63
+00:04:33,510 --> 00:04:34,830
+More tips.
+
+64
+00:04:35,280 --> 00:04:38,820
+Choose an appropriate name for the file.
+
+65
+00:04:39,690 --> 00:04:42,150
+Copy Free CV for free.
+
+66
+00:04:42,180 --> 00:04:45,660
+Free is not a good way to name your file.
+
+67
+00:04:45,660 --> 00:04:49,950
+Instead, write your name and position.
+
+68
+00:04:49,950 --> 00:04:52,980
+Kate Johnson, Project Manager.
+
+69
+00:04:53,100 --> 00:04:58,530
+With this name, your CV will be more visible to recruiters.
+
+70
+00:04:58,800 --> 00:04:59,360
+Okay.
+
+71
+00:04:59,370 --> 00:05:03,030
+Don't write the desired salary in your CV.
+
+72
+00:05:03,210 --> 00:05:09,730
+If your email address sounds like hot boy at gmail.com, change it.
+
+73
+00:05:09,760 --> 00:05:14,560
+You don't look professional with email like that.
+
+74
+00:05:14,830 --> 00:05:21,970
+Don't write about your driving license because it's not necessary if you are applying for it.
+
+75
+00:05:21,970 --> 00:05:22,570
+Job.
+
+76
+00:05:22,960 --> 00:05:32,440
+Remove references available upon request because it's obvious it's not necessary to have this sentence
+
+77
+00:05:32,440 --> 00:05:40,930
+in your CV and if you decide to include your photo, include only professional picture, something like
+
+78
+00:05:40,930 --> 00:05:42,670
+your LinkedIn picture.
+
+79
+00:05:43,060 --> 00:05:45,730
+All right, thank you.
+
+80
+00:05:45,730 --> 00:05:50,590
+And more CV examples and practice in your file by.

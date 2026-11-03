@@ -1,0 +1,451 @@
+1
+00:00:00,080 --> 00:00:00,960
+Hi, guys.
+
+2
+00:00:00,980 --> 00:00:03,740
+I'm so happy to see you today.
+
+3
+00:00:04,010 --> 00:00:09,860
+In this lesson, we're going to talk about roles in it and practice present.
+
+4
+00:00:09,860 --> 00:00:11,060
+Simple, tense.
+
+5
+00:00:11,480 --> 00:00:12,440
+Let's go.
+
+6
+00:00:13,400 --> 00:00:15,770
+This is my friend Dave.
+
+7
+00:00:15,920 --> 00:00:19,220
+He wants to start his career in a team.
+
+8
+00:00:19,430 --> 00:00:22,370
+Let's help him find out about roles in it.
+
+9
+00:00:22,610 --> 00:00:27,200
+But before that, let's find out more about Dave.
+
+10
+00:00:28,140 --> 00:00:30,410
+Hi, my name is Dave.
+
+11
+00:00:30,420 --> 00:00:31,830
+I'm from Poland.
+
+12
+00:00:31,890 --> 00:00:34,620
+I want to start my career in it.
+
+13
+00:00:35,040 --> 00:00:38,310
+I plan to learn Python and JavaScript.
+
+14
+00:00:38,430 --> 00:00:42,090
+I want to work in a small company with nice people.
+
+15
+00:00:42,210 --> 00:00:47,250
+I play the guitar, have a dog, and I really like to travel.
+
+16
+00:00:47,280 --> 00:00:49,560
+So nice to meet you, Dave.
+
+17
+00:00:49,650 --> 00:00:52,390
+Okay, now it's your turn.
+
+18
+00:00:52,420 --> 00:00:54,510
+Tell us about yourself.
+
+19
+00:00:54,540 --> 00:00:59,280
+Use the phrases from the screen and put your information.
+
+20
+00:00:59,490 --> 00:01:02,220
+Pause this video and practice.
+
+21
+00:01:04,210 --> 00:01:05,050
+Perfect.
+
+22
+00:01:05,050 --> 00:01:06,610
+So nice to meet you.
+
+23
+00:01:06,760 --> 00:01:10,630
+Okay, let's have a look at the most popular.
+
+24
+00:01:10,630 --> 00:01:11,770
+It rolls.
+
+25
+00:01:12,040 --> 00:01:13,150
+Roll one.
+
+26
+00:01:13,450 --> 00:01:14,650
+A developer.
+
+27
+00:01:14,890 --> 00:01:18,400
+This person creates software applications.
+
+28
+00:01:18,400 --> 00:01:19,330
+How?
+
+29
+00:01:19,360 --> 00:01:21,160
+By writing a code.
+
+30
+00:01:21,190 --> 00:01:22,390
+Synonyms.
+
+31
+00:01:22,390 --> 00:01:24,010
+Software Developer.
+
+32
+00:01:24,010 --> 00:01:24,820
+Programmer.
+
+33
+00:01:24,820 --> 00:01:26,770
+Software engineer.
+
+34
+00:01:26,800 --> 00:01:30,310
+He is a software developer.
+
+35
+00:01:30,370 --> 00:01:35,380
+Note that we use article A a software developer.
+
+36
+00:01:35,980 --> 00:01:37,870
+Good second roll.
+
+37
+00:01:38,020 --> 00:01:38,830
+A QA.
+
+38
+00:01:39,670 --> 00:01:44,200
+A QA is responsible for the quality of software.
+
+39
+00:01:44,230 --> 00:01:50,290
+This person tests software and makes sure everything works correctly.
+
+40
+00:01:50,320 --> 00:01:57,700
+Also QA finds bugs synonym quality assurance engineer or tester.
+
+41
+00:01:58,120 --> 00:02:00,370
+She is a QA.
+
+42
+00:02:02,270 --> 00:02:03,110
+Nice.
+
+43
+00:02:03,860 --> 00:02:07,220
+A PM or a project manager.
+
+44
+00:02:07,370 --> 00:02:12,170
+A project manager is responsible for management of the project.
+
+45
+00:02:12,200 --> 00:02:17,750
+This person also coordinates team work and communicates with the client.
+
+46
+00:02:17,780 --> 00:02:20,090
+He is a PM.
+
+47
+00:02:21,400 --> 00:02:22,720
+And a car.
+
+48
+00:02:22,750 --> 00:02:33,270
+Human resources and a car performs people related tasks, and a car is responsible for hiring and firing
+
+49
+00:02:33,280 --> 00:02:40,120
+on boarding of boarding benefits, vacations and many other people related things.
+
+50
+00:02:40,270 --> 00:02:42,790
+She is an h.r.
+
+51
+00:02:44,620 --> 00:02:46,720
+Nice a recruiter.
+
+52
+00:02:47,230 --> 00:02:51,870
+This person is responsible for hiring new employees.
+
+53
+00:02:51,880 --> 00:02:59,110
+Recruiter contacts, potential candidates, reviews CVS organizes interviews.
+
+54
+00:02:59,380 --> 00:03:02,260
+He is a recruiter.
+
+55
+00:03:04,290 --> 00:03:05,520
+A web designer.
+
+56
+00:03:05,820 --> 00:03:10,440
+If you want a good looking website, you need to call a designer.
+
+57
+00:03:10,650 --> 00:03:13,590
+She is a designer.
+
+58
+00:03:15,340 --> 00:03:16,780
+A sales manager.
+
+59
+00:03:17,140 --> 00:03:23,230
+This person looks for new clients for IT products or services.
+
+60
+00:03:23,260 --> 00:03:26,650
+She is a sales manager.
+
+61
+00:03:27,840 --> 00:03:28,530
+Nice.
+
+62
+00:03:28,650 --> 00:03:29,820
+Let's check.
+
+63
+00:03:30,510 --> 00:03:32,220
+Is she an air?
+
+64
+00:03:32,850 --> 00:03:35,010
+Yes, she is.
+
+65
+00:03:35,520 --> 00:03:37,500
+Is he okay?
+
+66
+00:03:37,770 --> 00:03:39,630
+No, he is not.
+
+67
+00:03:39,660 --> 00:03:41,580
+He is a PM.
+
+68
+00:03:42,120 --> 00:03:43,830
+Is he a recruiter?
+
+69
+00:03:44,040 --> 00:03:45,990
+Yes, he is.
+
+70
+00:03:46,350 --> 00:03:47,970
+Is she a PM?
+
+71
+00:03:48,300 --> 00:03:50,280
+No, she is not.
+
+72
+00:03:50,310 --> 00:03:52,530
+She is a she.
+
+73
+00:03:54,270 --> 00:03:56,160
+Does he work as a QA?
+
+74
+00:03:56,790 --> 00:03:59,010
+No, he does not.
+
+75
+00:03:59,460 --> 00:04:01,980
+Does she work as a sales manager?
+
+76
+00:04:02,160 --> 00:04:04,200
+Yes, she does.
+
+77
+00:04:04,590 --> 00:04:06,840
+Does she work as a developer?
+
+78
+00:04:07,050 --> 00:04:09,390
+No, she doesn't.
+
+79
+00:04:11,300 --> 00:04:12,100
+All right.
+
+80
+00:04:12,110 --> 00:04:14,120
+This is Julia.
+
+81
+00:04:14,180 --> 00:04:19,820
+She writes project plans and communicates with the client and team.
+
+82
+00:04:19,940 --> 00:04:22,550
+Her role is a PM.
+
+83
+00:04:22,670 --> 00:04:32,300
+So for this sentence, we use present simple to talk about her, who she is, and what she does.
+
+84
+00:04:32,360 --> 00:04:37,250
+So present simple short formula.
+
+85
+00:04:37,460 --> 00:04:38,810
+I am.
+
+86
+00:04:39,020 --> 00:04:40,670
+He is.
+
+87
+00:04:40,700 --> 00:04:42,320
+We are.
+
+88
+00:04:42,500 --> 00:04:44,240
+I am a developer.
+
+89
+00:04:44,240 --> 00:04:45,980
+He is a developer.
+
+90
+00:04:45,980 --> 00:04:48,050
+We are developers.
+
+91
+00:04:48,260 --> 00:04:49,370
+I do.
+
+92
+00:04:49,400 --> 00:04:50,630
+He does.
+
+93
+00:04:50,660 --> 00:04:52,040
+We do.
+
+94
+00:04:52,310 --> 00:04:53,810
+I work.
+
+95
+00:04:53,840 --> 00:04:55,550
+He works.
+
+96
+00:04:55,550 --> 00:04:57,170
+We work.
+
+97
+00:04:57,740 --> 00:04:58,550
+Nice.
+
+98
+00:04:59,060 --> 00:05:02,780
+Okay, let's have a look at sentences in present.
+
+99
+00:05:02,780 --> 00:05:05,330
+Simple as well as questions.
+
+100
+00:05:05,420 --> 00:05:09,280
+I study python positive sentence.
+
+101
+00:05:09,290 --> 00:05:11,950
+I don't study python.
+
+102
+00:05:11,970 --> 00:05:13,470
+Negative sentence.
+
+103
+00:05:13,500 --> 00:05:15,280
+Do I study python?
+
+104
+00:05:15,300 --> 00:05:16,410
+Question.
+
+105
+00:05:16,620 --> 00:05:18,570
+He writes code.
+
+106
+00:05:18,960 --> 00:05:21,420
+He doesn't write code.
+
+107
+00:05:21,810 --> 00:05:23,640
+Does he write code?
+
+108
+00:05:23,940 --> 00:05:24,900
+All right.
+
+109
+00:05:24,930 --> 00:05:30,000
+Pause the video and repeat the sentences for couple times.
+
+110
+00:05:30,640 --> 00:05:33,310
+All right, Now it's time for practice.
+
+111
+00:05:33,340 --> 00:05:35,830
+Go to your file, do the tasks.
+
+112
+00:05:35,830 --> 00:05:40,060
+And if you need to refresh your memory, come back to this video.
+
+113
+00:05:40,090 --> 00:05:41,740
+Thank you and bye.

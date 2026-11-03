@@ -1,0 +1,163 @@
+1
+00:00:00,300 --> 00:00:01,360
+Hi there.
+
+2
+00:00:01,380 --> 00:00:09,450
+Let's practice pronouncing names of popular programming, languages and technologies and how to use
+
+3
+00:00:09,450 --> 00:00:10,740
+them in a sentence.
+
+4
+00:00:10,770 --> 00:00:15,480
+Okay, so first h, html and css.
+
+5
+00:00:15,990 --> 00:00:18,900
+I worked with html and CSS.
+
+6
+00:00:18,930 --> 00:00:23,310
+I have experience using html and css.
+
+7
+00:00:23,340 --> 00:00:24,240
+Python.
+
+8
+00:00:25,110 --> 00:00:26,660
+I know python.
+
+9
+00:00:26,670 --> 00:00:28,770
+I worked with python.
+
+10
+00:00:28,860 --> 00:00:32,460
+I know how to use python php.
+
+11
+00:00:33,330 --> 00:00:36,170
+I want to improve my php skill.
+
+12
+00:00:36,180 --> 00:00:40,590
+I worked with PHP before c sharp.
+
+13
+00:00:41,370 --> 00:00:46,200
+I want to work with c sharp on my next project.
+
+14
+00:00:46,350 --> 00:00:51,420
+I want to upgrade my c sharp skill ruby.
+
+15
+00:00:52,320 --> 00:00:55,020
+I need to improve my ruby skill.
+
+16
+00:00:55,410 --> 00:00:57,900
+I want to learn Ruby.
+
+17
+00:00:57,900 --> 00:01:01,420
+I want to use Ruby on my next project.
+
+18
+00:01:01,980 --> 00:01:02,700
+React.
+
+19
+00:01:03,690 --> 00:01:06,030
+I need to learn, react.
+
+20
+00:01:06,240 --> 00:01:10,380
+I worked with React on my previous project.
+
+21
+00:01:10,590 --> 00:01:11,880
+Vue.js.
+
+22
+00:01:12,590 --> 00:01:16,870
+We need to do this project using Vue.js.
+
+23
+00:01:17,300 --> 00:01:19,980
+I want to learn Vue.js.
+
+24
+00:01:20,180 --> 00:01:21,110
+Good.
+
+25
+00:01:21,140 --> 00:01:21,620
+Okay.
+
+26
+00:01:21,650 --> 00:01:22,640
+Databases.
+
+27
+00:01:22,640 --> 00:01:24,260
+My SQL.
+
+28
+00:01:24,290 --> 00:01:25,490
+My SQL.
+
+29
+00:01:25,940 --> 00:01:31,940
+Some people say my SQL, which is okay, but it's better to use my SQL.
+
+30
+00:01:32,240 --> 00:01:33,460
+Postgres.
+
+31
+00:01:33,470 --> 00:01:34,350
+Postgres.
+
+32
+00:01:35,060 --> 00:01:40,150
+I have experience using mysql and Postgres databases.
+
+33
+00:01:40,160 --> 00:01:40,940
+Good.
+
+34
+00:01:41,480 --> 00:01:45,170
+A AWS, Amazon Web Services.
+
+35
+00:01:45,680 --> 00:01:50,600
+I want to use Amazon Web Services for my next project.
+
+36
+00:01:50,600 --> 00:01:55,280
+I want to learn a AWS Kubernetes.
+
+37
+00:01:55,280 --> 00:01:59,060
+We need to use Kubernetes on this project.
+
+38
+00:01:59,150 --> 00:02:00,340
+Very good.
+
+39
+00:02:00,350 --> 00:02:07,490
+Okay, pause the video, repeat the sentences and practice using them to talk about your experience.
+
+40
+00:02:07,490 --> 00:02:09,850
+Thank you and see you next time.
+
+41
+00:02:09,860 --> 00:02:10,670
+Bye.

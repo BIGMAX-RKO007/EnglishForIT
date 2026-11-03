@@ -1,0 +1,580 @@
+1
+00:00:00,620 --> 00:00:01,190
+All right.
+
+2
+00:00:01,190 --> 00:00:09,710
+So let's dive in and let's look at the words that I believe will help you with this Scrum Guide. So coherent.
+
+3
+00:00:10,470 --> 00:00:12,920
+Again, you have a transcript here.
+
+4
+00:00:13,400 --> 00:00:20,690
+The stress falls on the the middle of the word coherent or coherence.
+
+5
+00:00:21,050 --> 00:00:21,590
+Yes.
+
+6
+00:00:21,590 --> 00:00:29,300
+The quality of the relationship between certain product backlog items which may make them worthy of
+
+7
+00:00:29,300 --> 00:00:31,190
+consideration as a whole.
+
+8
+00:00:32,900 --> 00:00:36,320
+Now what is actually coherent?
+
+9
+00:00:36,350 --> 00:00:40,100
+Coherent means logical and well organized.
+
+10
+00:00:41,030 --> 00:00:53,300
+So coherent, just logical and organized and worthy of, worthy of means, suitable or something.
+
+11
+00:00:53,990 --> 00:00:56,720
+So if you just look at this definition
+
+12
+00:00:57,790 --> 00:01:00,670
+having understood these words.
+
+13
+00:01:02,030 --> 00:01:04,069
+You can read it once again for yourself.
+
+14
+00:01:04,180 --> 00:01:06,440
+And you can say coherence.
+
+15
+00:01:06,830 --> 00:01:11,600
+This is, it means that something is logical and well organized.
+
+16
+00:01:11,800 --> 00:01:15,860
+So, okay, so we are talking about product backlog items.
+
+17
+00:01:16,570 --> 00:01:22,510
+And we know that those product backlog items can be logical and well organized.
+
+18
+00:01:23,200 --> 00:01:31,780
+And if they are if the relationship between them, between those product backlog items is logical and
+
+19
+00:01:31,780 --> 00:01:34,330
+well organized together.
+
+20
+00:01:35,250 --> 00:01:42,300
+It makes them worthy of which is suitable for consideration as a whole.
+
+21
+00:01:42,300 --> 00:01:50,040
+So which means that a couple of product backlog items are so logical together and so well organized
+
+22
+00:01:50,040 --> 00:01:55,290
+to be together that we consider them as one piece.
+
+23
+00:01:56,150 --> 00:01:56,230
+Okay.
+
+24
+00:01:56,870 --> 00:01:58,160
+Now let's go on.
+
+25
+00:01:58,160 --> 00:02:02,720
+In another word which is used in Scrum is empiricism.
+
+26
+00:02:04,220 --> 00:02:13,490
+Empiricism in Scrum Guide, the definition is process control type in which only the past is accepted
+
+27
+00:02:13,490 --> 00:02:20,300
+as certain and in which decisions are based on observation, experience and experimentation.
+
+28
+00:02:21,330 --> 00:02:24,240
+Empiricism has three pillars.
+
+29
+00:02:24,840 --> 00:02:29,310
+They are transparency, inspection and adaptation.
+
+30
+00:02:30,830 --> 00:02:36,590
+Now, before we look at the words, let's look at what empiricism is generally.
+
+31
+00:02:36,920 --> 00:02:46,520
+So in simple words, empiricism is the belief that people should rely on practical experience and experiments
+
+32
+00:02:46,520 --> 00:02:48,620
+as the basis of knowledge.
+
+33
+00:02:53,200 --> 00:03:01,000
+So we take as knowledge something that we have tried and we know that works.
+
+34
+00:03:02,080 --> 00:03:04,780
+Not from theory, but from practice.
+
+35
+00:03:04,780 --> 00:03:06,010
+We have tried it.
+
+36
+00:03:06,040 --> 00:03:07,630
+We know that it works.
+
+37
+00:03:08,950 --> 00:03:14,950
+And going back here now, a couple of words here
+
+38
+00:03:14,950 --> 00:03:23,020
+at the end of this definition, empiricism has three pillars, and pillar means a fundamental principle.
+
+39
+00:03:23,200 --> 00:03:26,140
+So it has three principles.
+
+40
+00:03:26,440 --> 00:03:35,740
+Transparency and transparent means able to be seen through or open or easy to understand.
+
+41
+00:03:36,160 --> 00:03:41,620
+So what we know is easy to understand, easy to explain.
+
+42
+00:03:42,490 --> 00:03:46,420
+Then inspection is looking at something carefully.
+
+43
+00:03:46,450 --> 00:03:55,870
+So we rely on observation, looking at something carefully, and taking knowledge from from that inspection
+
+44
+00:03:56,260 --> 00:04:00,850
+and adaptation, changing to fit some goal or situation.
+
+45
+00:04:01,300 --> 00:04:07,900
+So we take the knowledge and then we adapt ourselves.
+
+46
+00:04:08,890 --> 00:04:13,210
+For further work based on that knowledge that we have.
+
+47
+00:04:16,550 --> 00:04:21,410
+Now we go on and the next word is forecast of functionality.
+
+48
+00:04:23,120 --> 00:04:24,470
+In Scrum Guide
+
+49
+00:04:24,470 --> 00:04:32,900
+it says that for cost is the selection of items on the product backlog that developers deem feasible
+
+50
+00:04:32,900 --> 00:04:35,390
+for implementation in a Sprint.
+
+51
+00:04:36,530 --> 00:04:39,440
+Now forecast is a prediction.
+
+52
+00:04:39,440 --> 00:04:42,800
+For example, we often speak about a weather forecast.
+
+53
+00:04:43,460 --> 00:04:50,060
+So prediction of weather conditions and to deem means to consider or to think.
+
+54
+00:04:53,480 --> 00:04:57,200
+And feasible means possible to do.
+
+55
+00:04:57,650 --> 00:05:05,630
+Now let's read the definition once again. Forecast of functionality or some kind of a prediction of functionality
+
+56
+00:05:06,380 --> 00:05:16,580
+is the selection of items from the product backlog that developers think is possible for implementation
+
+57
+00:05:16,580 --> 00:05:17,600
+in a sprint.
+
+58
+00:05:18,950 --> 00:05:19,170
+Okay.
+
+59
+00:05:19,340 --> 00:05:27,830
+I think this is more, this is easier to understand when we translate those words from more advanced to
+
+60
+00:05:27,830 --> 00:05:29,840
+more simple and understandable.
+
+61
+00:05:31,550 --> 00:05:32,990
+Well, let's move on.
+
+62
+00:05:33,080 --> 00:05:35,020
+The next one is increment.
+
+63
+00:05:35,230 --> 00:05:36,050
+Increment.
+
+64
+00:05:36,680 --> 00:05:45,500
+In Scrum Guide, the definition is increment is Scrum artifact that defines the complete and valuable
+
+65
+00:05:45,500 --> 00:05:49,130
+work produced by the developers during the Sprint.
+
+66
+00:05:50,390 --> 00:05:55,310
+The sum of all increments for the final product.
+
+67
+00:05:56,390 --> 00:06:00,320
+So an increment in simple language is a part.
+
+68
+00:06:01,150 --> 00:06:03,840
+A part of the whole software.
+
+69
+00:06:05,240 --> 00:06:06,740
+And valuable.
+
+70
+00:06:06,740 --> 00:06:12,890
+Valuable work is something that has monetary or other values, something that has value.
+
+71
+00:06:15,500 --> 00:06:18,500
+Now the next word is Product Backlog.
+
+72
+00:06:19,720 --> 00:06:24,910
+This is maybe pretty easy, but again, let's look at it.
+
+73
+00:06:25,390 --> 00:06:34,630
+This is a Scrum artifact that consists of an ordered list of the work to be done in order to create,
+
+74
+00:06:34,630 --> 00:06:37,690
+maintain and sustain a product.
+
+75
+00:06:38,080 --> 00:06:41,960
+Now, an interesting word here is to sustain, what does it mean?
+
+76
+00:06:42,070 --> 00:06:46,480
+Sustain means to support, to provide everything needed.
+
+77
+00:06:47,930 --> 00:06:51,200
+Moving on Product Backlog Refinement.
+
+78
+00:06:52,320 --> 00:07:02,280
+The activity in a Sprint through which the Product Owner and the Developers add granularity to the Product
+
+79
+00:07:02,280 --> 00:07:03,090
+Backlog.
+
+80
+00:07:03,890 --> 00:07:11,180
+Now the word refinement. Refinement is small changes that improve something.
+
+81
+00:07:11,570 --> 00:07:15,260
+So we add small changes to improve something.
+
+82
+00:07:15,680 --> 00:07:18,110
+And in this case, what are those changes?
+
+83
+00:07:18,110 --> 00:07:20,690
+It's adding granularity.
+
+84
+00:07:20,750 --> 00:07:25,010
+Granularity means including a lot of small details.
+
+85
+00:07:25,010 --> 00:07:29,570
+So what do we do is we take one Backlog item.
+
+86
+00:07:30,260 --> 00:07:37,580
+For example, we need to create a web page and then we add granularity to this task.
+
+87
+00:07:37,580 --> 00:07:45,350
+It means we say, okay, for this web page, we need to create this menu and this menu and the panel
+
+88
+00:07:45,350 --> 00:07:48,500
+somewhere in some buttons and and all of these things.
+
+89
+00:07:49,640 --> 00:07:54,050
+Or we need to create a design for that web page first.
+
+90
+00:07:54,050 --> 00:07:54,280
+Yeah.
+
+91
+00:07:54,320 --> 00:08:03,410
+So all of those details is actually granularity because we take one big task and we break it into smaller
+
+92
+00:08:03,410 --> 00:08:07,550
+tasks and it means we added granularity to this task.
+
+93
+00:08:09,570 --> 00:08:13,990
+Okay, going on. Scrum Board.
+
+94
+00:08:13,990 --> 00:08:25,400
+A Scrum Board is a physical board to visualize information for and by the Scrum team, often used to manage
+
+95
+00:08:25,400 --> 00:08:26,900
+Sprint Backlog.
+
+96
+00:08:27,830 --> 00:08:34,130
+Scrum Boards are optional implementation within Scrum to make information visible.
+
+97
+00:08:35,220 --> 00:08:38,039
+I think you all know what a Scrum Board is.
+
+98
+00:08:38,039 --> 00:08:39,720
+If you don't know, you can just Google it.
+
+99
+00:08:39,750 --> 00:08:46,860
+Again, it's a physical board where you take the stickers and you stick them to the board and all of
+
+100
+00:08:46,860 --> 00:08:55,010
+those stickers, they have some tusks written on them and we move the stickers from the Product Backlog
+
+101
+00:08:55,050 --> 00:09:02,310
+to the the next column, which is like In progress, something that we're working on,
+
+102
+00:09:02,310 --> 00:09:08,880
+and when it's done we move it to the Done part of the board. The word visualize.
+
+103
+00:09:09,970 --> 00:09:10,300
+Again
+
+104
+00:09:10,300 --> 00:09:13,660
+pay attention to the pronunciation here.
+
+105
+00:09:13,750 --> 00:09:18,190
+Visualize is to make visible or to make seen.
+
+106
+00:09:18,820 --> 00:09:27,190
+So we do all of that in order to look at the board and quickly see how is the work going on.
+
+107
+00:09:28,180 --> 00:09:29,740
+And optional.
+
+108
+00:09:29,740 --> 00:09:30,970
+It's an optional
+
+109
+00:09:30,970 --> 00:09:33,700
+implementation means not compulsory.
+
+110
+00:09:33,700 --> 00:09:34,960
+It's not a must.
+
+111
+00:09:36,040 --> 00:09:41,020
+The Scrum team can decide if they want to Scrum Board or if they don't want a Scrum Board.
+
+112
+00:09:44,310 --> 00:09:49,950
+Now the teams, in the Scrum we often say that the team is self-managing.
+
+113
+00:09:49,980 --> 00:09:51,090
+What does it mean?
+
+114
+00:09:51,480 --> 00:09:59,080
+Scrum teams are cross-functional, meaning the members have all the skills necessary to create value
+
+115
+00:09:59,100 --> 00:10:08,490
+each Sprint. They're also self-managing, meaning they internally decide who does what, when and how.
+
+116
+00:10:09,590 --> 00:10:14,420
+So self managing basically means that they manage themselves.
+
+117
+00:10:14,420 --> 00:10:18,920
+There is no boss who tells them what to do.
+
+118
+00:10:18,920 --> 00:10:27,560
+They decide in a team what they are going to do, when and how and who is going to do it.
+
+119
+00:10:28,880 --> 00:10:32,570
+And an interesting word here is to decide internally.
+
+120
+00:10:32,570 --> 00:10:39,710
+Internally, this word means, an internal means that refers to activities done on the inside.
+
+121
+00:10:39,710 --> 00:10:47,630
+So not somebody from the outside tells the team what to do, but the team decides internally among themselves,
+
+122
+00:10:47,960 --> 00:10:49,700
+themselves, what to do.
+
+123
+00:10:52,730 --> 00:10:53,690
+Okay, the next
+
+124
+00:10:54,290 --> 00:10:56,870
+the next one is Technical Debt.
+
+125
+00:10:57,230 --> 00:10:57,800
+Debt.
+
+126
+00:10:57,830 --> 00:10:59,710
+Pay attention to the pronunciation
+
+127
+00:10:59,720 --> 00:11:04,400
+here, we see b, but we don't read b,  oaky, we see debt.
+
+128
+00:11:05,450 --> 00:11:15,560
+The Scrum definition is, Technical Debt is is the typically unpredictable overhead of maintaining the
+
+129
+00:11:15,560 --> 00:11:23,390
+product, often caused by less than ideal design decisions contributing to the total cost of ownership.
+
+130
+00:11:24,850 --> 00:11:30,790
+Now a debt is something that you owe, something that you need to pay back or give back.
+
+131
+00:11:32,560 --> 00:11:41,510
+And an overhead means additional work or additional cost, which does not directly contribute to creating
+
+132
+00:11:41,530 --> 00:11:42,340
+product.
+
+133
+00:11:42,520 --> 00:11:47,260
+And here we say unpredictable overhead of maintaining product.
+
+134
+00:11:47,260 --> 00:11:54,250
+So what we do it all has the direct connection to the final product.
+
+135
+00:11:54,250 --> 00:11:59,740
+But this overhead is something that does not have this direct connection to the product.
+
+136
+00:11:59,740 --> 00:12:09,220
+It may be some other activity that we do in the team in order to make the team function or the organization
+
+137
+00:12:09,490 --> 00:12:10,090
+function.
+
+138
+00:12:10,090 --> 00:12:15,910
+But it's not directly connected to like coding and testing in the actual product.
+
+139
+00:12:18,970 --> 00:12:23,650
+And the last word in this lesson is velocity.
+
+140
+00:12:24,130 --> 00:12:34,420
+So in Scrum velocity - an optional but often used indication of the amount of Product Backlog turned
+
+141
+00:12:34,420 --> 00:12:43,090
+into an incremental product during a Sprint by a Scrum team, it is tracked by the Developers for use
+
+142
+00:12:43,090 --> 00:12:47,980
+within the Scrum team. So we concentrate on the first part.
+
+143
+00:12:47,980 --> 00:12:57,850
+Velocity is indication of the amount of Product Backlog items which return into the final Increment
+
+144
+00:12:57,850 --> 00:13:00,790
+for the Sprint. And velocity
+
+145
+00:13:02,020 --> 00:13:07,930
+in simple words means speed or rate at which something is happening.
+

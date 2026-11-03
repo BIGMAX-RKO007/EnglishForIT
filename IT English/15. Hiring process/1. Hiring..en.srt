@@ -1,0 +1,375 @@
+1
+00:00:00,350 --> 00:00:01,390
+Hi guys.
+
+2
+00:00:01,400 --> 00:00:09,010
+It's time to talk about hiring process and learn when and how to use present perfect tense.
+
+3
+00:00:09,020 --> 00:00:11,000
+I have sent my CV.
+
+4
+00:00:12,170 --> 00:00:13,010
+Good.
+
+5
+00:00:13,190 --> 00:00:13,640
+Okay.
+
+6
+00:00:13,670 --> 00:00:15,350
+Hiring process.
+
+7
+00:00:15,350 --> 00:00:20,660
+So you have created an attractive and professional LinkedIn profile.
+
+8
+00:00:20,690 --> 00:00:22,970
+You have written a top notch CV.
+
+9
+00:00:23,240 --> 00:00:26,360
+Now it's time to look for a job.
+
+10
+00:00:27,140 --> 00:00:29,390
+Where can you find a job?
+
+11
+00:00:29,600 --> 00:00:34,190
+You can check job sites like Indeed or Glassdoor.
+
+12
+00:00:34,220 --> 00:00:40,370
+You can check LinkedIn, Facebook and social medias for some job posts.
+
+13
+00:00:40,550 --> 00:00:46,640
+If there is a company you really want to work at, you can check their website.
+
+14
+00:00:46,640 --> 00:00:54,110
+Usually companies post jobs in career section, or you can ask your friends.
+
+15
+00:00:54,110 --> 00:00:57,650
+Maybe they know about a suitable job for you.
+
+16
+00:00:57,650 --> 00:00:59,720
+That is called networking.
+
+17
+00:01:00,990 --> 00:01:06,630
+All right, So let's have a look at examples of job descriptions.
+
+18
+00:01:06,630 --> 00:01:15,810
+So this is a description and company describes their perfect candidate as must be pursuing a bachelor,
+
+19
+00:01:15,810 --> 00:01:25,140
+master's or PhD degree available for a 12 week internship, strong interpersonal and relationship management
+
+20
+00:01:25,140 --> 00:01:29,820
+skills and ability to adapt in a fast paced environment.
+
+21
+00:01:29,820 --> 00:01:37,860
+So this company is looking for a student in computer science for a three month internship.
+
+22
+00:01:38,400 --> 00:01:44,490
+This person should be a team player and adaptable to different situations.
+
+23
+00:01:44,910 --> 00:01:53,580
+Okay, this job description and company is looking for someone with three plus years of manual testing
+
+24
+00:01:53,580 --> 00:01:59,430
+with experience with Postman Jira Git Jenkins.
+
+25
+00:01:59,430 --> 00:02:07,330
+Someone who has strong analytical and communication skills, problem solving skills and good English
+
+26
+00:02:07,330 --> 00:02:07,780
+levels.
+
+27
+00:02:07,780 --> 00:02:13,900
+So here in a job description, we can see both hard and soft skills.
+
+28
+00:02:14,080 --> 00:02:23,080
+Companies often use phrases like we need someone with hands on experience with web and back end testing.
+
+29
+00:02:23,110 --> 00:02:27,430
+Hands on means practical, real experience.
+
+30
+00:02:28,320 --> 00:02:29,370
+All right.
+
+31
+00:02:29,370 --> 00:02:32,340
+So next job description.
+
+32
+00:02:32,340 --> 00:02:39,500
+This company is looking for someone with more than five years of experience in software testing, with
+
+33
+00:02:39,510 --> 00:02:48,990
+degree in computer science, experience with React and AWS, and someone who really interested in front
+
+34
+00:02:48,990 --> 00:02:55,920
+end development and who reacts positively to feedback and freely gives feedback.
+
+35
+00:02:55,920 --> 00:03:04,290
+So we can sum up that this company needs a middle to senior frontend developer with technical education
+
+36
+00:03:04,290 --> 00:03:09,090
+and someone who is a good feedback giver and receiver.
+
+37
+00:03:09,480 --> 00:03:10,380
+Right?
+
+38
+00:03:11,490 --> 00:03:14,690
+Okay, so general hiring steps.
+
+39
+00:03:14,700 --> 00:03:23,250
+You have your CV, you find a job description that fits your requirements and skills, so you apply
+
+40
+00:03:23,250 --> 00:03:24,060
+for a job.
+
+41
+00:03:24,060 --> 00:03:26,730
+You send your CV to this company.
+
+42
+00:03:26,910 --> 00:03:33,270
+If your CV looks good for the recruiter, you get an invitation to the interview.
+
+43
+00:03:33,420 --> 00:03:41,900
+But if your CV doesn't match the required position, you get a rejection.
+
+44
+00:03:41,910 --> 00:03:42,690
+Okay.
+
+45
+00:03:42,690 --> 00:03:46,740
+There are usually from 1 to 5 interviews.
+
+46
+00:03:46,740 --> 00:03:50,970
+It depends on the role and position and company, of course.
+
+47
+00:03:51,090 --> 00:03:57,480
+So if your interviews are good, you might receive an offer from a company.
+
+48
+00:03:57,480 --> 00:04:04,800
+An offer is a document saying that the company would like to invite you to work for them.
+
+49
+00:04:04,800 --> 00:04:12,850
+If you decide to accept an offer, you start onboarding and working in this company.
+
+50
+00:04:13,360 --> 00:04:21,970
+Okay, There are so many different types of interviews, but let's have a look at the most popular types.
+
+51
+00:04:21,970 --> 00:04:30,990
+So phone screening, it's an interview when recruiter calls you and speaks with you over the phone for
+
+52
+00:04:31,060 --> 00:04:39,100
+five ten minutes and you speak about this position, requirements and expectations, then you might
+
+53
+00:04:39,100 --> 00:04:41,830
+have a culture fit interview.
+
+54
+00:04:41,920 --> 00:04:51,850
+This is an interview with an HR or manager in a company and the company sees if your soft and hard skills
+
+55
+00:04:51,850 --> 00:04:55,810
+match their requirements and company culture.
+
+56
+00:04:55,990 --> 00:05:03,790
+If you are applying for a technical position like a developer, okay, you will have a technical interview
+
+57
+00:05:03,790 --> 00:05:05,290
+or tech call.
+
+58
+00:05:05,740 --> 00:05:13,120
+Usually the last interview before hiring is interview with senior management or the client.
+
+59
+00:05:13,630 --> 00:05:21,610
+Often when you are applying for a technical position, you will get a task task, for example, to do
+
+60
+00:05:21,610 --> 00:05:28,210
+some task, to write some code or to create a small application.
+
+61
+00:05:29,340 --> 00:05:30,090
+All right.
+
+62
+00:05:30,990 --> 00:05:33,090
+Meet my friend Mary.
+
+63
+00:05:33,750 --> 00:05:39,810
+Hi, I'm Mary, a QA engineer with four years of experience.
+
+64
+00:05:40,050 --> 00:05:48,390
+I have worked at Iglobe company since 2020, but at the moment I am looking for a new role.
+
+65
+00:05:48,780 --> 00:05:54,750
+I want a new challenge and I would be glad to have some automation in my new place.
+
+66
+00:05:55,080 --> 00:06:00,210
+Last week I found this job opening at the company.
+
+67
+00:06:00,360 --> 00:06:05,820
+I have sent my CV, but I still have not received any feedback.
+
+68
+00:06:05,880 --> 00:06:09,600
+I hope they will invite me to the interview.
+
+69
+00:06:09,630 --> 00:06:14,790
+I have also applied for two more jobs, so wish me good luck.
+
+70
+00:06:15,240 --> 00:06:16,470
+Good luck, Mary.
+
+71
+00:06:16,740 --> 00:06:21,930
+Okay, let's have a closer look at some sentences from this text.
+
+72
+00:06:22,770 --> 00:06:24,720
+I have sent my CV.
+
+73
+00:06:25,290 --> 00:06:28,930
+I still have not received any feedback.
+
+74
+00:06:29,020 --> 00:06:33,220
+I have also applied for two more jobs.
+
+75
+00:06:33,250 --> 00:06:38,950
+Here we used present Perfect to talk about the result.
+
+76
+00:06:39,930 --> 00:06:44,760
+So I have sent my CV, Mary has sent her CV.
+
+77
+00:06:45,240 --> 00:06:48,440
+I still have not received any feedback.
+
+78
+00:06:48,450 --> 00:06:51,990
+She still has not received any feedback.
+
+79
+00:06:52,140 --> 00:06:55,350
+I have also applied for two more jobs.
+
+80
+00:06:55,440 --> 00:06:59,430
+She has also applied for two more jobs.
+
+81
+00:07:00,750 --> 00:07:01,550
+Okay.
+
+82
+00:07:01,560 --> 00:07:05,850
+Also, we use Present Perfect to talk about our experience.
+
+83
+00:07:05,850 --> 00:07:11,490
+For instance, I have worked at Iglobe Company since 2020.
+
+84
+00:07:11,880 --> 00:07:13,890
+Have you worked with Python?
+
+85
+00:07:13,920 --> 00:07:15,570
+Yes, I have.
+
+86
+00:07:15,750 --> 00:07:18,360
+So how do we make a present?
+
+87
+00:07:18,360 --> 00:07:19,050
+Perfect.
+
+88
+00:07:19,080 --> 00:07:23,580
+We take a subject, I or you or she.
+
+89
+00:07:23,760 --> 00:07:35,310
+We add the verb have or has, and then we put the main verb into past participle.
+
+90
+00:07:35,520 --> 00:07:38,790
+For regular verbs, it's just verb.
+
+91
+00:07:38,790 --> 00:07:48,310
+With ed worked, but for irregular, you have to check the third column of irregular verbs table.
+
+92
+00:07:48,670 --> 00:07:49,480
+Good.
+
+93
+00:07:50,430 --> 00:07:57,040
+Time for practice, you will find more exercise and more examples in your file.
+
+94
+00:07:57,060 --> 00:07:58,680
+Thank you and bye.

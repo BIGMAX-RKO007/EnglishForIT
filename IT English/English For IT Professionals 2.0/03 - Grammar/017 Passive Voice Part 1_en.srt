@@ -1,0 +1,1256 @@
+1
+00:00:01,920 --> 00:00:02,820
+Hello again.
+
+2
+00:00:03,060 --> 00:00:05,610
+This is the lesson about passive voice.
+
+3
+00:00:06,000 --> 00:00:11,700
+So this is another big and nice grammar topic that we're going to speak about.
+
+4
+00:00:12,900 --> 00:00:21,900
+Passive voice is not a very easy grammar topic, but we need to use passive voice in a number of situations,
+
+5
+00:00:22,200 --> 00:00:30,270
+especially when we are talking about things like reports, things like status reports, for example,
+
+6
+00:00:30,270 --> 00:00:39,360
+bug reports in testing, if you work in testing and basically anywhere where you have to give some kind
+
+7
+00:00:39,360 --> 00:00:48,030
+of a more formalized statuses or text information about something, passive voice is going to be very,
+
+8
+00:00:48,030 --> 00:00:49,080
+very useful.
+
+9
+00:00:49,710 --> 00:00:54,090
+And I'm sure you already use passive voice in a lot of situations.
+
+10
+00:00:54,090 --> 00:01:02,670
+So let's just have an overview of which tenses and tense forms and verb forms you can use to create
+
+11
+00:01:02,670 --> 00:01:03,930
+passive sentences.
+
+12
+00:01:05,170 --> 00:01:10,780
+So first of all, let's look at these two pairs of sentences.
+
+13
+00:01:11,320 --> 00:01:19,090
+The first pair is I log hours every week and Hours are logged every week.
+
+14
+00:01:19,960 --> 00:01:24,040
+So both of these sentences are in the same tense.
+
+15
+00:01:24,640 --> 00:01:29,460
+The difference between them is that one sentence is active voice.
+
+16
+00:01:29,470 --> 00:01:32,260
+In the second sentence is the passive voice.
+
+17
+00:01:32,830 --> 00:01:34,990
+The second pair is
+
+18
+00:01:34,990 --> 00:01:42,370
+My colleague created this presentation and This presentation was created by my colleague.
+
+19
+00:01:42,760 --> 00:01:44,650
+Again, the same situation.
+
+20
+00:01:44,650 --> 00:01:46,080
+Two sentences.
+
+21
+00:01:46,090 --> 00:01:49,010
+They are describing the same thing.
+
+22
+00:01:49,030 --> 00:01:57,070
+The idea of both sentences is the same, but they are said in two different ways.
+
+23
+00:01:57,070 --> 00:02:00,430
+And the difference is again, first is active,
+
+24
+00:02:00,460 --> 00:02:01,720
+the second is passive.
+
+25
+00:02:02,770 --> 00:02:10,449
+The main question that I want you to focus here is what tends is the first pair and what tense is the
+
+26
+00:02:10,449 --> 00:02:11,230
+second pair.
+
+27
+00:02:12,010 --> 00:02:16,810
+So I'm sure you've already answered this question.
+
+28
+00:02:16,810 --> 00:02:23,800
+So the this slide shows us, yes, the first pair is present simple and the second pair is past simple.
+
+29
+00:02:24,040 --> 00:02:29,450
+Now, how do we know that an active sentence is in present simple?
+
+30
+00:02:29,470 --> 00:02:32,530
+Well, of course, we look at the main verb.
+
+31
+00:02:32,560 --> 00:02:34,480
+We look at the verb log.
+
+32
+00:02:34,510 --> 00:02:35,620
+I log.
+
+33
+00:02:35,620 --> 00:02:37,030
+I do it regularly.
+
+34
+00:02:37,030 --> 00:02:38,660
+So, yes, it's present
+
+35
+00:02:38,660 --> 00:02:39,190
+simple.
+
+36
+00:02:39,610 --> 00:02:46,110
+And then the passive sentence we have Hours are logged every week.
+
+37
+00:02:46,120 --> 00:02:56,140
+So here we have a bigger construction, a bigger formation of this tense and voice.
+
+38
+00:02:56,560 --> 00:02:59,050
+So we have are and logged.
+
+39
+00:02:59,410 --> 00:03:05,250
+Which of those two words actually says that the sentence is in present
+
+40
+00:03:05,260 --> 00:03:05,890
+simple?
+
+41
+00:03:07,510 --> 00:03:13,960
+This first word gives us this information, because are is the present simple of the word
+
+42
+00:03:13,990 --> 00:03:14,710
+be.
+
+43
+00:03:14,710 --> 00:03:15,390
+Of the verb 
+
+44
+00:03:15,410 --> 00:03:15,830
+be.
+
+45
+00:03:17,050 --> 00:03:20,140
+Both of them are in present simple.
+
+46
+00:03:20,140 --> 00:03:21,690
+And the second pair.
+
+47
+00:03:21,700 --> 00:03:23,840
+Both of them are in past simple.
+
+48
+00:03:23,860 --> 00:03:30,700
+We see that my colleague created.. This is the past. And the presentation
+
+49
+00:03:30,700 --> 00:03:34,090
+again, the past form of be - was.
+
+50
+00:03:34,960 --> 00:03:39,250
+That's why we know it's past simple - was created by my colleague.
+
+51
+00:03:41,530 --> 00:03:49,570
+Now, what is the main difference generally, logically, between the active and the passive voices?
+
+52
+00:03:50,410 --> 00:03:57,630
+If we look at those two sentences my colleague created, what do we have here?
+
+53
+00:03:57,640 --> 00:04:00,670
+We have the doer of the action.
+
+54
+00:04:00,670 --> 00:04:09,550
+The doer is somebody or something that does the action and the action is "created".
+
+55
+00:04:09,850 --> 00:04:13,630
+So my colleague did something - he created.
+
+56
+00:04:13,790 --> 00:04:22,270
+So the action kind of you can imagine that the arrow, the direction of the action is this way.
+
+57
+00:04:22,270 --> 00:04:25,180
+So my colleague did something, created.
+
+58
+00:04:25,630 --> 00:04:29,560
+And the second sentence, it's the same idea.
+
+59
+00:04:29,560 --> 00:04:36,310
+But we change the word order and we put presentation to the beginning of the sentence.
+
+60
+00:04:36,310 --> 00:04:43,450
+It means that my focus in this sentence is concentrated on presentation, but not on the colleague.
+
+61
+00:04:43,570 --> 00:04:46,960
+And in this case, the sentence is vice versa.
+
+62
+00:04:47,320 --> 00:04:51,010
+We start from the object, but not the doer of the action.
+
+63
+00:04:51,340 --> 00:04:59,170
+And here we have to understand one simple and logical thing that this action - was created -
+
+64
+00:04:59,170 --> 00:05:04,030
+this action is done on this object.
+
+65
+00:05:04,540 --> 00:05:14,200
+So the action you can imagine the arrow going from here to here, from the action to the object, back
+
+66
+00:05:14,200 --> 00:05:15,130
+to the object.
+
+67
+00:05:15,140 --> 00:05:18,820
+So the presentation didn't do anything.
+
+68
+00:05:18,820 --> 00:05:24,790
+It didn't perform any action, but the action was performed on the presentation.
+
+69
+00:05:24,790 --> 00:05:27,130
+So it goes kind of back.
+
+70
+00:05:28,330 --> 00:05:35,800
+And then if we want to still include the doer of the action in this into the sentence, we can include
+
+71
+00:05:35,800 --> 00:05:45,940
+him at the end of the sentence and we introduce the doer of the action with the word by, by my colleague.
+
+72
+00:05:45,940 --> 00:05:47,140
+By whom?
+
+73
+00:05:49,390 --> 00:05:49,810
+Good.
+
+74
+00:05:50,680 --> 00:05:59,830
+These two tenses, present simple and past simple, are very common to use with passive voice, when we put the
+
+75
+00:05:59,830 --> 00:06:02,380
+object at the beginning of the sentence.
+
+76
+00:06:02,380 --> 00:06:02,690
+Yeah.
+
+77
+00:06:02,740 --> 00:06:04,080
+So I think these
+
+78
+00:06:04,240 --> 00:06:05,650
+tenses are pretty okay.
+
+79
+00:06:05,660 --> 00:06:11,110
+Most of you probably use those tenses on the daily basis.
+
+80
+00:06:11,120 --> 00:06:15,110
+Yeah, because it's very common and very widespread.
+
+81
+00:06:16,340 --> 00:06:24,140
+However, in this lesson we are going to look a little bit deeper and we will look at more complex tenses
+
+82
+00:06:24,140 --> 00:06:26,660
+like continuous tenses and perfect tenses
+
+83
+00:06:27,350 --> 00:06:36,110
+to see what is the formation of those sentences and how to use them, and how to have this logic of
+
+84
+00:06:36,110 --> 00:06:38,930
+transforming active into passive and back.
+
+85
+00:06:40,130 --> 00:06:45,680
+Before we do that, let's have a quick reminder of what is the formation of passive voice.
+
+86
+00:06:45,680 --> 00:06:48,110
+And the formation is very simple.
+
+87
+00:06:48,110 --> 00:06:56,300
+If you imagine it as kind of a formula, we have the word be, the verb, yes, and then we have past participle. So
+
+88
+00:06:56,450 --> 00:06:58,700
+be plus past participle.
+
+89
+00:06:59,150 --> 00:07:00,650
+What is past participle?
+
+90
+00:07:00,650 --> 00:07:03,580
+It's the verb with -ed ending.
+
+91
+00:07:03,740 --> 00:07:06,770
+So it's basically the past form of the verb.
+
+92
+00:07:07,040 --> 00:07:11,720
+Or if the verb is irregular, we use the third column.
+
+93
+00:07:11,720 --> 00:07:15,800
+Remember we have three columns, for example, sell - sold - sold.
+
+94
+00:07:16,640 --> 00:07:20,060
+And so we use this third column for passive voice.
+
+95
+00:07:21,770 --> 00:07:22,280
+Good.
+
+96
+00:07:22,280 --> 00:07:33,230
+So if we want to try to imagine into which forms this formula can be transformed, we can go to next
+
+97
+00:07:33,230 --> 00:07:41,360
+slide and we can see that be can actually be in the variety of different tenses and forms.
+
+98
+00:07:42,790 --> 00:07:50,830
+So we could transform be into am, is or are, and in this case it's going to be present
+
+99
+00:07:50,830 --> 00:07:51,520
+simple.
+
+100
+00:07:52,330 --> 00:07:57,580
+If we transform be into was, were, what tense is it going to be?
+
+101
+00:07:58,600 --> 00:08:00,640
+It's going to be past simple.
+
+102
+00:08:00,640 --> 00:08:01,330
+Yes.
+
+103
+00:08:01,720 --> 00:08:11,140
+If we transform be into have been or has been what tense is it - have, has been? It's present
+
+104
+00:08:11,140 --> 00:08:11,950
+perfect.
+
+105
+00:08:12,770 --> 00:08:14,690
+Had been? Past
+
+106
+00:08:14,690 --> 00:08:18,130
+perfect. Will be? Future.
+
+107
+00:08:18,140 --> 00:08:18,620
+Yeah.
+
+108
+00:08:19,430 --> 00:08:25,790
+Again, we can also have forms like to be which is the infinitive of be.
+
+109
+00:08:26,030 --> 00:08:37,250
+We can have being which is the gerund form, the -ing form of be and we can also use be with modals.
+
+110
+00:08:37,250 --> 00:08:45,470
+So we add a modal verb to show some kind of detail, to introduce a detail into the sentence.
+
+111
+00:08:45,470 --> 00:08:51,680
+So can be, may be, must be, should be whatever modal verb.
+
+112
+00:08:53,150 --> 00:08:56,870
+So basically be does the job.
+
+113
+00:08:57,170 --> 00:09:05,630
+What you have to remember that in passive voice, the verb be does all of the job, because it shows us
+
+114
+00:09:05,630 --> 00:09:13,280
+which tense we we mean in the sentence, which tense we are using.
+
+115
+00:09:13,670 --> 00:09:16,300
+And what about past participle then?
+
+116
+00:09:16,310 --> 00:09:23,060
+Well, that's very easy here, because past participle is always the same.
+
+117
+00:09:23,060 --> 00:09:33,920
+Whatever tense we use in this part with be, it does not have any effect, doesn't change anything about
+
+118
+00:09:33,920 --> 00:09:34,580
+this part.
+
+119
+00:09:34,580 --> 00:09:36,350
+So this part is fixed.
+
+120
+00:09:36,350 --> 00:09:38,420
+It's always like that.
+
+121
+00:09:38,420 --> 00:09:46,550
+If it's passive voice, the verb, the main verb of the sentence, the main action that we express is
+
+122
+00:09:46,550 --> 00:09:48,290
+always in past participle.
+
+123
+00:09:48,290 --> 00:09:58,460
+So it's, for example, done, fixed, read, reported, launched, used, awarded and so on and so
+
+124
+00:09:58,460 --> 00:09:58,760
+on.
+
+125
+00:09:59,060 --> 00:10:07,760
+So any verb, any action that you express by that sentence is going to be automatically past participle,
+
+126
+00:10:07,760 --> 00:10:10,460
+So -ed or the third form.
+
+127
+00:10:12,350 --> 00:10:16,280
+So this is the general overview of the formation.
+
+128
+00:10:16,280 --> 00:10:26,060
+Now if we add some kind of a beginning to, to this, to this picture, the beginning of the sentence,
+
+129
+00:10:26,060 --> 00:10:35,750
+which is the object on which the action is going to be directed, then we can try to play with it and
+
+130
+00:10:36,170 --> 00:10:39,710
+make up some example sentences out of this picture.
+
+131
+00:10:39,710 --> 00:10:41,750
+So let's try to do just that.
+
+132
+00:10:42,690 --> 00:10:46,290
+For example, I'm going to take the first one.
+
+133
+00:10:46,440 --> 00:10:49,590
+A task is done.
+
+134
+00:10:51,120 --> 00:10:52,050
+So here you go.
+
+135
+00:10:52,050 --> 00:10:55,050
+We have a sentence in the passive voice.
+
+136
+00:10:55,230 --> 00:10:56,820
+A task is done.
+
+137
+00:10:56,820 --> 00:11:01,740
+The action is done, is directed to the task.
+
+138
+00:11:01,980 --> 00:11:04,710
+So it's performed upon the task.
+
+139
+00:11:05,970 --> 00:11:06,450
+Good.
+
+140
+00:11:07,050 --> 00:11:13,980
+Let's try to play with it some more and let's make up a couple of more sentences in different forms.
+
+141
+00:11:14,760 --> 00:11:19,090
+So let's look at that and try to do it yourself.
+
+142
+00:11:19,110 --> 00:11:21,240
+Try to make up two or three sentences.
+
+143
+00:11:22,790 --> 00:11:27,140
+If you need some more time, you can pause the video, play with it, and then resume.
+
+144
+00:11:28,460 --> 00:11:30,500
+So let's go on. The app.
+
+145
+00:11:30,530 --> 00:11:33,500
+Let's use past simple tense.
+
+146
+00:11:33,530 --> 00:11:36,740
+The app was fixed.
+
+147
+00:11:37,670 --> 00:11:39,740
+Okay, the application was fixed.
+
+148
+00:11:39,740 --> 00:11:41,920
+This is a passive sentence in past
+
+149
+00:11:41,960 --> 00:11:46,100
+simple. The bug will be
+
+150
+00:11:47,050 --> 00:11:51,280
+fixed. or The bug will be reported.
+
+151
+00:11:51,280 --> 00:11:52,810
+Just to use another word.
+
+152
+00:11:53,890 --> 00:11:57,820
+A laptop has been used.
+
+153
+00:11:59,470 --> 00:11:59,920
+Okay.
+
+154
+00:11:59,920 --> 00:12:00,820
+Sounds good.
+
+155
+00:12:00,970 --> 00:12:04,870
+Our team can be awarded.
+
+156
+00:12:06,650 --> 00:12:07,270
+All right.
+
+157
+00:12:07,280 --> 00:12:10,280
+So we used all of the options from here.
+
+158
+00:12:10,640 --> 00:12:13,070
+But I hope you get the general idea.
+
+159
+00:12:13,160 --> 00:12:21,470
+The thing that does the most of the jobs here with passive voice is the verb be, and it can be in the
+
+160
+00:12:21,470 --> 00:12:23,090
+variety of forms.
+
+161
+00:12:24,950 --> 00:12:25,280
+Good.
+
+162
+00:12:25,760 --> 00:12:32,750
+Now, to give some more structure to this knowledge, let's look at this table.
+
+163
+00:12:32,840 --> 00:12:41,570
+So the table shows us tenses, starting from continuous, perfect, and then future simple tense.
+
+164
+00:12:42,320 --> 00:12:48,020
+So let's start with present continuous. In the second column of
+
+165
+00:12:48,620 --> 00:12:52,000
+this table you will have the active sentence
+
+166
+00:12:52,010 --> 00:12:58,580
+so the sentence in active voice. And the third column shows us the sentence in the passive voice.
+
+167
+00:12:59,300 --> 00:13:01,310
+And let's see what we have.
+
+168
+00:13:01,820 --> 00:13:06,920
+Performance logging is used when you are fixing performance issues.
+
+169
+00:13:09,490 --> 00:13:18,780
+What interests us here is this part you are fixing. It is present continuous tense.
+
+170
+00:13:18,790 --> 00:13:23,290
+You are fixing. Now what happens in the passive?
+
+171
+00:13:24,070 --> 00:13:29,470
+Performance logging is used when performance issues are being fixed.
+
+172
+00:13:30,950 --> 00:13:31,180
+Okay.
+
+173
+00:13:31,340 --> 00:13:33,050
+Now let's look at this
+
+174
+00:13:33,200 --> 00:13:42,680
+these two parts, when the present continuous shows up, the active - you are fixing - and the passive - issues
+
+175
+00:13:42,680 --> 00:13:44,600
+are being fixed.
+
+176
+00:13:46,440 --> 00:13:47,970
+What can we see here?
+
+177
+00:13:48,210 --> 00:13:51,360
+Well, let's start from the main verb.
+
+178
+00:13:52,080 --> 00:14:02,370
+We know that the main verb of the sentence, when we want to make a passive sentence always is going
+
+179
+00:14:02,370 --> 00:14:06,840
+to be in past participle form.
+
+180
+00:14:06,990 --> 00:14:09,030
+Yeah, we know it's fixed.
+
+181
+00:14:09,030 --> 00:14:11,880
+It's something that doesn't change. Here
+
+182
+00:14:11,880 --> 00:14:13,470
+we can see it in that slide, yeah
+
+183
+00:14:14,130 --> 00:14:14,970
+It's fixed.
+
+184
+00:14:14,970 --> 00:14:16,350
+It's always like that.
+
+185
+00:14:16,350 --> 00:14:18,360
+We don't have any options here.
+
+186
+00:14:18,360 --> 00:14:20,130
+It's always past participle.
+
+187
+00:14:21,570 --> 00:14:23,550
+And here we see it, of course.
+
+188
+00:14:23,700 --> 00:14:27,090
+So fixing changes into fixed.
+
+189
+00:14:29,620 --> 00:14:39,760
+But if we're just change fixing into fixed, how would we know that this sentence is in present continuous?
+
+190
+00:14:40,240 --> 00:14:48,370
+It means that this -ing that is left out here needs to be added to something else, to another verb.
+
+191
+00:14:48,850 --> 00:14:52,690
+And that other verb is, of course, our be.
+
+192
+00:14:53,020 --> 00:14:57,400
+So you know that be can take a variety of different forms.
+
+193
+00:14:58,030 --> 00:15:01,180
+So be takes the -ing ending.
+
+194
+00:15:02,240 --> 00:15:02,750
+Okay.
+
+195
+00:15:02,750 --> 00:15:12,440
+And now the are, we've had are here in active, and it stays here with us for the passive voice.
+
+196
+00:15:12,440 --> 00:15:16,400
+So are just goes from here to here
+
+197
+00:15:16,400 --> 00:15:25,370
+Right. Then we add this -ing to the verb be and "are being" is our present continuous form.
+
+198
+00:15:26,060 --> 00:15:32,660
+You see are being, its present continues and the passive voice is shown by this fixed.
+
+199
+00:15:33,260 --> 00:15:36,410
+So we have the form - are being fixed.
+
+200
+00:15:37,190 --> 00:15:44,930
+The thing is that in active voice the formation is always a little bit more concise, so a little smaller
+
+201
+00:15:44,930 --> 00:15:54,710
+we have just two elements - are fixing - in passive voice because we have be the formation now is composed
+
+202
+00:15:54,710 --> 00:15:57,650
+of three words - are being fixed.
+
+203
+00:15:59,790 --> 00:16:00,160
+Good.
+
+204
+00:16:00,520 --> 00:16:02,200
+Let's go to past continuous.
+
+205
+00:16:02,200 --> 00:16:05,860
+Past continuous is exactly the same situation.
+
+206
+00:16:06,550 --> 00:16:17,560
+Just instead of are or is or am we have was or were. Our developer was collecting data to assess program
+
+207
+00:16:17,560 --> 00:16:18,490
+performance.
+
+208
+00:16:19,810 --> 00:16:26,860
+The passive voice would be The data were being collected to assess program performance.
+
+209
+00:16:29,420 --> 00:16:38,750
+I hope that you can see again, this transformation that happened here. Was and were it's the same form
+
+210
+00:16:38,750 --> 00:16:40,550
+for past continuous. 
+
+211
+00:16:40,580 --> 00:16:47,750
+The difference is that we start with the doer, which is the developer, and he is one person.
+
+212
+00:16:47,750 --> 00:16:48,980
+So it's singular.
+
+213
+00:16:49,010 --> 00:16:51,710
+That's why we use was. The data
+
+214
+00:16:51,710 --> 00:16:59,000
+we take it as the general concept and we use it in plural with a plural verb.
+
+215
+00:16:59,420 --> 00:17:06,170
+That's why was changed into were but what comes to the tense is the same.
+
+216
+00:17:07,550 --> 00:17:16,160
+And then -ing goes to be and we have being and collected in the past participle form.
+
+217
+00:17:18,420 --> 00:17:23,790
+Now let's move down to to perfect, perfect tenses.
+
+218
+00:17:24,300 --> 00:17:27,119
+Present perfect, active voice.
+
+219
+00:17:27,329 --> 00:17:31,110
+We have already done all the tasks for this sprint.
+
+220
+00:17:32,400 --> 00:17:33,630
+Passive voice.
+
+221
+00:17:33,660 --> 00:17:38,250
+All the tasks for this sprint have already been done.
+
+222
+00:17:40,710 --> 00:17:42,450
+Let's inspect here.
+
+223
+00:17:43,110 --> 00:17:47,220
+So the active form is - have already done.
+
+224
+00:17:48,180 --> 00:17:52,320
+The passive form is - have already been done.
+
+225
+00:17:53,670 --> 00:17:55,170
+So what happens here?
+
+226
+00:17:55,830 --> 00:18:01,800
+We have done as the main verb in the active sentence.
+
+227
+00:18:02,640 --> 00:18:12,090
+However, because present perfect already uses past participle in its formation, we don't need to do
+
+228
+00:18:12,090 --> 00:18:12,960
+anything to it.
+
+229
+00:18:12,960 --> 00:18:14,460
+It's already past participle.
+
+230
+00:18:14,760 --> 00:18:16,530
+So we just take it as it is.
+
+231
+00:18:16,530 --> 00:18:18,630
+The main verb is in past participle.
+
+232
+00:18:18,750 --> 00:18:19,950
+Here we have it.
+
+233
+00:18:20,970 --> 00:18:29,010
+Now the word have as the auxiliary verb for present perfect stays the same.
+
+234
+00:18:29,650 --> 00:18:31,450
+So we have it here.
+
+235
+00:18:31,450 --> 00:18:32,470
+Yes, have.
+
+236
+00:18:32,710 --> 00:18:37,960
+And then somehow we should show that this is passive.
+
+237
+00:18:37,960 --> 00:18:40,210
+Yes, this is passive and present 
+
+238
+00:18:40,210 --> 00:18:40,870
+perfect.
+
+239
+00:18:42,390 --> 00:18:49,620
+Present perfect made is made up of have/has and past participle.
+
+240
+00:18:50,450 --> 00:18:51,830
+Have and done.
+
+241
+00:18:52,130 --> 00:18:59,150
+But this done here is not because of present perfect, but because of passive voice.
+
+242
+00:18:59,510 --> 00:19:07,460
+So another verb needs to show that it's present perfect and that another verb, and you know it
+
+243
+00:19:07,460 --> 00:19:17,000
+the verb that does all the job, always, in all of the sentences, is be, so be takes the the past participle
+
+244
+00:19:17,000 --> 00:19:17,660
+form.
+
+245
+00:19:18,020 --> 00:19:19,880
+So it's in the third column.
+
+246
+00:19:20,660 --> 00:19:27,380
+That's why we have again, three elements - have been done. In active voice
+
+247
+00:19:27,380 --> 00:19:30,530
+we would have two elements - have done.
+
+248
+00:19:33,170 --> 00:19:33,830
+Now past
+
+249
+00:19:33,860 --> 00:19:34,700
+perfect.
+
+250
+00:19:35,410 --> 00:19:39,730
+It's the same situation instead of have we have had.
+
+251
+00:19:40,270 --> 00:19:44,950
+So The company had fired him long before they hired me.
+
+252
+00:19:45,980 --> 00:19:51,500
+Passive sentence would be He had been fired long before they hired me.
+
+253
+00:19:53,220 --> 00:20:03,630
+Okay, I think that is clear here - had fired changes into had been fired. Again fired and fired, because
+
+254
+00:20:03,630 --> 00:20:04,980
+it's past participle.
+
+255
+00:20:04,980 --> 00:20:16,440
+But this past participle shows the passive voice and this part - had been - is the copy of had fired just
+
+256
+00:20:16,440 --> 00:20:22,530
+instead of fired we use been, so been takes the perfect form.
+
+257
+00:20:23,190 --> 00:20:26,340
+So the third column, had been fired.
+
+258
+00:20:28,360 --> 00:20:28,810
+Future
+
+259
+00:20:28,810 --> 00:20:29,530
+simple.
+
+260
+00:20:30,370 --> 00:20:32,830
+We will finish the project soon.
+
+261
+00:20:32,860 --> 00:20:37,030
+It's the active sentence. And the passive sentence would sound
+
+262
+00:20:37,060 --> 00:20:39,520
+The project will be finished soon.
+
+263
+00:20:40,450 --> 00:20:41,150
+That's easy 
+
+264
+00:20:41,170 --> 00:20:51,760
+here. Again, the main verb - finish - changes into finished, because it's past participle for passive and finish
+
+265
+00:20:51,760 --> 00:20:56,170
+is the infinitive in this case.
+
+266
+00:20:56,830 --> 00:21:05,500
+So be takes the form of infinitive instead of finish and will just shows us the future
+
+267
+00:21:05,500 --> 00:21:06,010
+simple.
+
+268
+00:21:06,010 --> 00:21:07,990
+So will stays with us.
+
+269
+00:21:08,080 --> 00:21:09,850
+Will be finished.
+
+270
+00:21:12,530 --> 00:21:12,920
+Okay
+
+271
+00:21:12,920 --> 00:21:15,120
+Now it's quite a lot.
+
+272
+00:21:15,150 --> 00:21:19,280
+Yeah, the formation is a little bit more complex.
+
+273
+00:21:19,700 --> 00:21:28,220
+However, if you understand just this, this concept of how they are transformed, it's a lot easier
+
+274
+00:21:28,220 --> 00:21:30,470
+than to use all of those forms.
+
+275
+00:21:30,470 --> 00:21:41,270
+You just have to understand that whatever form the main verb has in active sentence, the same form
+
+276
+00:21:41,270 --> 00:21:45,200
+is going to be for "be" in the passive sentence.
+
+277
+00:21:46,560 --> 00:21:46,780
+Okay
+
+278
+00:21:46,860 --> 00:21:56,190
+So be takes the form of the main verb, and the main verb in the passive is always the same.
+
+279
+00:21:56,340 --> 00:21:59,100
+It's always past participle form.
+
+280
+00:21:59,370 --> 00:22:02,700
+If you look finish changes into finished.
+
+281
+00:22:03,360 --> 00:22:04,320
+Fired -
+
+282
+00:22:04,320 --> 00:22:05,190
+fired.
+
+283
+00:22:05,670 --> 00:22:06,810
+These are perfect.
+
+284
+00:22:06,810 --> 00:22:08,010
+Done - done.
+
+285
+00:22:08,760 --> 00:22:12,720
+Collecting - collected, fixing - fixed.
+
+286
+00:22:12,750 --> 00:22:25,380
+So every time the main verb in passive is in past participle, but be verb takes care of all the tense
+
+287
+00:22:25,380 --> 00:22:33,630
+forms - will be, had been, have been, were being, are being and so on.
+
+288
+00:22:33,630 --> 00:22:44,850
+And if we go back to those simpler tenses, are, yes, and was, again the verb be just takes the form of whatever
+
+289
+00:22:44,850 --> 00:22:46,320
+tense we are talking about.
+
+290
+00:22:48,480 --> 00:22:48,990
+Good.
+
+291
+00:22:49,020 --> 00:22:50,670
+Now, these were the tenses.
+
+292
+00:22:50,670 --> 00:23:01,080
+And also we can use passive voice not only with tenses, but also with modals and infinitives or gerunds.
+
+293
+00:23:01,350 --> 00:23:08,850
+So if we have any modal, the active sentence would be, for example We can't do it now.
+
+294
+00:23:08,880 --> 00:23:10,650
+Doesn't have to be can.
+
+295
+00:23:10,660 --> 00:23:19,620
+You can say may or might, must or should, whatever modal verb. So we can't do.
+
+296
+00:23:19,710 --> 00:23:28,530
+And after the modal verb we use the infinitive, always the infinitive without anything, without to.
+
+297
+00:23:29,010 --> 00:23:35,090
+So this infinitive will be the verb be for passive.
+
+298
+00:23:35,760 --> 00:23:39,090
+It can be done now.
+
+299
+00:23:39,120 --> 00:23:40,590
+It can't be done now.
+
+300
+00:23:41,190 --> 00:23:43,680
+So it's as simple as that for modals.
+
+301
+00:23:44,220 --> 00:23:54,060
+And when we have the -ing form of the verb, for example She doesn't like people criticizing her.
+
+302
+00:23:55,320 --> 00:23:56,580
+Criticizing.
+
+303
+00:23:56,940 --> 00:23:58,440
+Yeah, we have criticizing.
+
+304
+00:23:58,440 --> 00:24:04,260
+And in the passive, we say She doesn't like being criticized.
+
+305
+00:24:05,160 --> 00:24:13,220
+So again, the -ing form of the main verb goes to the be verb - being.
+
+306
+00:24:13,230 --> 00:24:16,950
+And of course criticized is in past participle.
+
+307
+00:24:18,570 --> 00:24:21,630
+The same situation is with infinitive with to.
+
+308
+00:24:22,350 --> 00:24:28,320
+App creators want users to give feedback on new apps features.
+
+309
+00:24:29,400 --> 00:24:34,020
+Apps creators want to be given feedback. Want
+
+310
+00:24:34,020 --> 00:24:37,020
+to be given. Again,
+
+311
+00:24:37,200 --> 00:24:40,590
+to give is the infinitive.
+
+312
+00:24:41,070 --> 00:24:49,890
+So be becomes this infinitive - to be, and given goes to the third form give - gave - given.
+
+313
+00:24:50,070 --> 00:24:53,310
+So we have the third column, because it's passive.
+
+314
+00:24:53,880 --> 00:24:58,110
+App creators want to be given feedback on new apps features.
+

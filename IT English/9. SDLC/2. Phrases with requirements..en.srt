@@ -1,0 +1,71 @@
+1
+00:00:00,230 --> 00:00:01,000
+Hi, guys.
+
+2
+00:00:01,010 --> 00:00:02,290
+Requirements.
+
+3
+00:00:02,300 --> 00:00:10,310
+You're going to hear this word a lot when you work in I.T. requirement is what we want from our product.
+
+4
+00:00:10,310 --> 00:00:17,300
+What we want our application to do, what we need from our website, our platform or our video game.
+
+5
+00:00:17,510 --> 00:00:25,400
+So let's focus on some phrases used with the word requirement to write the requirements.
+
+6
+00:00:25,580 --> 00:00:34,610
+The business analyst has to write clear and detailed requirements for the platform to analyze the requirements.
+
+7
+00:00:34,790 --> 00:00:40,910
+The team has to analyze the requirements before we start designing the project.
+
+8
+00:00:41,630 --> 00:00:43,700
+To follow their requirements.
+
+9
+00:00:43,700 --> 00:00:52,430
+We need to follow their requirements to create what our client needs, to ignore the requirements.
+
+10
+00:00:52,610 --> 00:00:58,370
+We shouldn't ignore the requirements if we want to get paid for our work.
+
+11
+00:00:59,020 --> 00:01:04,810
+To change the requirements, the client might change their requirement.
+
+12
+00:01:04,810 --> 00:01:07,840
+So we need to wait for a couple of days.
+
+13
+00:01:08,760 --> 00:01:16,650
+According to the requirements, according to the requirements, the filter has to be at the left side
+
+14
+00:01:16,650 --> 00:01:18,030
+of the page.
+
+15
+00:01:18,750 --> 00:01:20,010
+Very good.
+
+16
+00:01:20,100 --> 00:01:25,020
+Repeat the phrases and use them to discuss your project requirements.
+
+17
+00:01:25,050 --> 00:01:27,030
+Thank you and see you next time.
+
+18
+00:01:27,030 --> 00:01:27,780
+Bye.

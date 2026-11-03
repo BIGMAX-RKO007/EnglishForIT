@@ -1,0 +1,63 @@
+1
+00:00:00,320 --> 00:00:01,070
+Hi.
+
+2
+00:00:01,680 --> 00:00:08,730
+Let's have a look at some useful phrases that can help you describe your job title.
+
+3
+00:00:09,500 --> 00:00:13,850
+You can say I am a software developer.
+
+4
+00:00:14,090 --> 00:00:16,700
+I am a software engineer.
+
+5
+00:00:17,270 --> 00:00:19,640
+I am a QA engineer.
+
+6
+00:00:20,000 --> 00:00:22,370
+I am a sales manager.
+
+7
+00:00:22,460 --> 00:00:28,370
+I am an HR or I work as a software developer.
+
+8
+00:00:28,550 --> 00:00:30,140
+I work as a QA.
+
+9
+00:00:31,220 --> 00:00:38,990
+I work as a project manager or my job title is a software engineer.
+
+10
+00:00:39,470 --> 00:00:41,990
+My job title is QA.
+
+11
+00:00:42,890 --> 00:00:46,670
+My job title is a project manager.
+
+12
+00:00:47,670 --> 00:00:49,650
+My job title is recruiter.
+
+13
+00:00:51,000 --> 00:00:51,640
+Thank you.
+
+14
+00:00:51,660 --> 00:00:53,550
+Please repeat the phrases.
+
+15
+00:00:53,580 --> 00:00:55,500
+And see you next time.
+
+16
+00:00:55,500 --> 00:00:56,160
+Bye.

@@ -1,0 +1,1104 @@
+1
+00:00:00,920 --> 00:00:01,220
+Okay.
+
+2
+00:00:01,250 --> 00:00:02,360
+So hello again.
+
+3
+00:00:02,630 --> 00:00:07,850
+This is the second part of our lecture for QA specialists.
+
+4
+00:00:08,960 --> 00:00:18,800
+And the first part was like more general about some terms and this would be, I guess, more useful
+
+5
+00:00:18,800 --> 00:00:24,500
+in your everyday work because here we will talk about GUI elements.
+
+6
+00:00:24,500 --> 00:00:32,420
+So how to call those things that you can see on those websites or in those apps.
+
+7
+00:00:32,420 --> 00:00:38,120
+And it's important to know how they are called because there may be problems with them and then you
+
+8
+00:00:38,120 --> 00:00:40,100
+have to describe them.
+
+9
+00:00:40,100 --> 00:00:45,140
+So I believe that you'll find the names of those things really useful.
+
+10
+00:00:45,740 --> 00:00:47,420
+Okay, let's start.
+
+11
+00:00:49,060 --> 00:00:54,460
+So the first pair - check box and list box.
+
+12
+00:00:56,430 --> 00:01:00,930
+All right, so checkbox is actually this box
+
+13
+00:01:00,930 --> 00:01:01,730
+you can check.
+
+14
+00:01:01,950 --> 00:01:04,800
+You check, you can put a tick there, like that.
+
+15
+00:01:04,800 --> 00:01:05,550
+Right.
+
+16
+00:01:06,180 --> 00:01:14,610
+And usually you can check a few things when we are talking about a checkbox and there is a list box.
+
+17
+00:01:14,790 --> 00:01:17,670
+So this is actually a list of things, right?
+
+18
+00:01:17,670 --> 00:01:22,280
+And again, you can choose not only one, but a few if you want.
+
+19
+00:01:22,560 --> 00:01:25,830
+So you can select multiple things here.
+
+20
+00:01:26,790 --> 00:01:37,860
+In this lecture, apart from these names, we've added also the sentences of possible problems with
+
+21
+00:01:37,860 --> 00:01:38,640
+those things.
+
+22
+00:01:38,640 --> 00:01:45,210
+So maybe if you have to write a bug report, right, to describe the problem, this could be useful.
+
+23
+00:01:45,210 --> 00:01:52,350
+For example, when a user clicks the checkbox on the page, it doesn't check the actual box.
+
+24
+00:01:52,590 --> 00:01:56,090
+It means when you click it, the tick doesn't appear.
+
+25
+00:01:56,100 --> 00:01:57,330
+That's the problem.
+
+26
+00:01:58,380 --> 00:02:06,000
+And when a user clicks, comma, it doesn't.
+
+27
+00:02:06,760 --> 00:02:07,440
+Check.
+
+28
+00:02:07,480 --> 00:02:08,729
+He doesn't do something.
+
+29
+00:02:08,740 --> 00:02:15,270
+So you use a lot of those structures when you are describing problems.
+
+30
+00:02:15,280 --> 00:02:22,420
+If a user does something or when a user does something, write things like that.
+
+31
+00:02:23,980 --> 00:02:29,170
+The next one - impossible to select the forth item in the list box.
+
+32
+00:02:29,260 --> 00:02:32,020
+Impossible to select the forth item.
+
+33
+00:02:34,390 --> 00:02:36,370
+It's okay to omit it.
+
+34
+00:02:36,610 --> 00:02:38,260
+Yes, it is a bad report.
+
+35
+00:02:38,260 --> 00:02:39,790
+You are writing it quickly.
+
+36
+00:02:39,910 --> 00:02:45,520
+Instead of saying it's impossible, you can just say impossible to select.
+
+37
+00:02:47,550 --> 00:02:48,390
+Let's move on.
+
+38
+00:02:50,400 --> 00:02:52,740
+And we move on to the next one.
+
+39
+00:02:52,740 --> 00:02:56,550
+And here we have toggle and button.
+
+40
+00:02:56,880 --> 00:03:02,170
+So let's start with toggle. Toggle is this kind of button.
+
+41
+00:03:02,190 --> 00:03:06,750
+You can usually find it in your phones, I guess, right.
+
+42
+00:03:06,960 --> 00:03:09,840
+So you click on it.
+
+43
+00:03:10,790 --> 00:03:14,540
+To switch it to off or on position.
+
+44
+00:03:14,540 --> 00:03:20,240
+So usually top toggle is about off on, switched on, switched off.
+
+45
+00:03:20,900 --> 00:03:22,580
+And here is the example.
+
+46
+00:03:22,580 --> 00:03:27,230
+That toggle button cannot be switched to off position, right?
+
+47
+00:03:27,230 --> 00:03:29,540
+It cannot be switched to off position.
+
+48
+00:03:29,540 --> 00:03:34,010
+So when I click on it, it doesn't change.
+
+49
+00:03:35,210 --> 00:03:37,370
+And the next one is just a button.
+
+50
+00:03:38,270 --> 00:03:43,610
+So this is a button here like this, for example, submit button.
+
+51
+00:03:44,300 --> 00:03:45,440
+This blue one.
+
+52
+00:03:46,070 --> 00:03:48,800
+They can be all types of buttons, right?
+
+53
+00:03:48,800 --> 00:03:51,470
+So this is like the most general word, button.
+
+54
+00:03:52,010 --> 00:03:57,230
+The style of submit button is different from the one in the mockup.
+
+55
+00:03:57,890 --> 00:04:04,610
+So you can write the name of the button in capital letters to make it clear what button you refer to.
+
+56
+00:04:04,640 --> 00:04:06,020
+Submit button.
+
+57
+00:04:07,340 --> 00:04:08,180
+All right.
+
+58
+00:04:08,180 --> 00:04:10,280
+Let's move on the next one.
+
+59
+00:04:11,800 --> 00:04:15,640
+And we have radio button and drop down list.
+
+60
+00:04:16,120 --> 00:04:24,880
+So a radio button, these types of buttons where you can also choose an option, the round ones.
+
+61
+00:04:25,060 --> 00:04:27,250
+They are called radio buttons.
+
+62
+00:04:27,640 --> 00:04:31,570
+The radio button is too small to click.
+
+63
+00:04:31,930 --> 00:04:33,730
+Too big, too small.
+
+64
+00:04:34,900 --> 00:04:42,820
+So usually with radio buttons, we can choose only one thing that's important that's different from
+
+65
+00:04:42,820 --> 00:04:46,000
+what we had before, right.
+
+66
+00:04:46,090 --> 00:04:50,440
+What we had with the checkbox, with radio button you can choose only one thing.
+
+67
+00:04:51,100 --> 00:04:55,030
+Then we have dropdown list and drop down button.
+
+68
+00:04:56,400 --> 00:05:02,040
+So this little thing is called a dropdown button.
+
+69
+00:05:03,230 --> 00:05:08,900
+And if you click on a dropdown button, you can see a dropdown list.
+
+70
+00:05:08,900 --> 00:05:13,000
+So it appears when you click on that little arrow.
+
+71
+00:05:13,010 --> 00:05:14,690
+So here it's like open.
+
+72
+00:05:14,690 --> 00:05:18,740
+So it's up, but usually it would be down.
+
+73
+00:05:18,740 --> 00:05:23,960
+So then I clicked it and I can see the dropdown list.
+
+74
+00:05:24,730 --> 00:05:29,620
+The dropdown list disappears when the user hovers over it.
+
+75
+00:05:31,760 --> 00:05:40,520
+So all these words, we'll have a bit later. Hover over something like to move your cursor onto something
+
+76
+00:05:40,520 --> 00:05:48,670
+like I'm hovering now over this list. OK, dropdown list and radio button 
+
+77
+00:05:48,680 --> 00:05:54,170
+you can usually choose only one thing, only one option.
+
+78
+00:05:55,910 --> 00:05:57,200
+All right.
+
+79
+00:05:57,200 --> 00:05:59,360
+And we move on. Here
+
+80
+00:05:59,360 --> 00:06:03,230
+we have text field and search field.
+
+81
+00:06:04,190 --> 00:06:05,180
+Text field.
+
+82
+00:06:05,810 --> 00:06:09,810
+So basically a place where you can type in text.
+
+83
+00:06:09,830 --> 00:06:15,260
+It can be just a line of text or multiple lines of text.
+
+84
+00:06:15,770 --> 00:06:19,720
+Often in some forms, this is from a Google form, right.
+
+85
+00:06:19,730 --> 00:06:23,870
+So a place where you can type text.
+
+86
+00:06:25,190 --> 00:06:26,480
+Here is an example.
+
+87
+00:06:26,690 --> 00:06:33,170
+When a user types more than ten characters in the text field, the app crashes.
+
+88
+00:06:34,760 --> 00:06:38,420
+I wanted to draw your attention to something.
+
+89
+00:06:39,900 --> 00:06:49,440
+I find that a lot of people make this mistake when they describe some boxes, they forget this -s ending.
+
+90
+00:06:49,740 --> 00:06:54,390
+Usually we talk about one user, a user types.
+
+91
+00:06:54,390 --> 00:06:56,370
+We use present simple here.
+
+92
+00:06:56,610 --> 00:06:59,320
+So don't forget about ending -s.
+
+93
+00:06:59,340 --> 00:07:11,250
+As a user types, app crashes, we use present simple here and for he, she, it we have to use ending -s, please
+
+94
+00:07:11,250 --> 00:07:14,940
+be careful. The next one search field.
+
+95
+00:07:16,260 --> 00:07:23,970
+So here you can type things you want to find, you want to search like in Google for example, or on websites
+
+96
+00:07:23,970 --> 00:07:28,380
+again, there are search fields that help you to navigate through that website.
+
+97
+00:07:29,410 --> 00:07:35,170
+After refreshing search field, it's still filled with a previous search query.
+
+98
+00:07:35,560 --> 00:07:40,150
+So the thing you're looking for is called search query.
+
+99
+00:07:40,180 --> 00:07:40,810
+Yeah.
+
+100
+00:07:40,810 --> 00:07:43,930
+And I just wanted to mention this thing.
+
+101
+00:07:44,730 --> 00:07:51,750
+So search fields usually will be, you will usually see this thing in search fields.
+
+102
+00:07:51,780 --> 00:07:54,060
+This is called magnifying glass.
+
+103
+00:07:54,840 --> 00:07:55,260
+Right.
+
+104
+00:07:55,260 --> 00:07:56,640
+Magnifying glass.
+
+105
+00:07:58,560 --> 00:07:59,490
+The next one.
+
+106
+00:08:01,110 --> 00:08:02,280
+Here we go.
+
+107
+00:08:02,670 --> 00:08:05,460
+And placeholder.
+
+108
+00:08:06,390 --> 00:08:10,150
+Kind of what we have here seems similar to a search field.
+
+109
+00:08:10,190 --> 00:08:16,920
+Yes, there is a magnifying glass here as well, but placeholder means something that holds a place
+
+110
+00:08:16,920 --> 00:08:17,950
+for something.
+
+111
+00:08:17,970 --> 00:08:20,990
+So here it holds a place for that text.
+
+112
+00:08:21,000 --> 00:08:27,150
+And usually when you start typing that placeholder disappears.
+
+113
+00:08:28,740 --> 00:08:29,730
+Okay.
+
+114
+00:08:29,820 --> 00:08:33,120
+And the next word label.
+
+115
+00:08:33,900 --> 00:08:40,260
+Label is like a title for that box, for example.
+
+116
+00:08:40,590 --> 00:08:42,230
+Like, here, pick up,
+
+117
+00:08:42,240 --> 00:08:44,020
+this is a label. Drop off,
+
+118
+00:08:44,039 --> 00:08:44,990
+this is a label.
+
+119
+00:08:45,000 --> 00:08:47,850
+So this is a title for those boxes.
+
+120
+00:08:48,670 --> 00:08:48,940
+Hmm.
+
+121
+00:08:49,650 --> 00:08:57,900
+And another interesting thing, this gray text here type language, name or here location.
+
+122
+00:08:58,230 --> 00:09:04,200
+So this is called hint text because it gives you a hint.
+
+123
+00:09:04,470 --> 00:09:05,910
+What do you have to write?
+
+124
+00:09:06,510 --> 00:09:09,180
+So this is this is called the hint text.
+
+125
+00:09:09,180 --> 00:09:12,900
+And it usually disappears when you start typing again.
+
+126
+00:09:13,680 --> 00:09:14,920
+Here is the example.
+
+127
+00:09:14,940 --> 00:09:19,260
+The top left placeholder doesn't have a label.
+
+128
+00:09:21,570 --> 00:09:23,370
+All right, let's move on.
+
+129
+00:09:24,690 --> 00:09:31,950
+And here we'll talk about different groups, kind of like more navigational things that help you find
+
+130
+00:09:31,950 --> 00:09:33,120
+things, right.
+
+131
+00:09:33,450 --> 00:09:36,510
+Well, the first one here is toolbar.
+
+132
+00:09:37,410 --> 00:09:43,040
+In different apps, you have different tools you can use to do different things.
+
+133
+00:09:43,050 --> 00:09:45,960
+Well, this is obviously from PowerPoint, right?
+
+134
+00:09:47,330 --> 00:09:54,370
+A toolbar, all those tools you can use and for example, the paste tool on the toolbar doesn't work.
+
+135
+00:09:54,380 --> 00:09:59,090
+So if this button didn't work, I would say that the paste tool doesn't work.
+
+136
+00:09:59,630 --> 00:10:05,240
+And often with those toolbars we have tool tips.
+
+137
+00:10:05,540 --> 00:10:10,470
+So this is a short description of a tool that helps you to use it, right.
+
+138
+00:10:10,490 --> 00:10:11,950
+This is a tool tip.
+
+139
+00:10:13,370 --> 00:10:16,580
+The tooltip for paste icon is blank.
+
+140
+00:10:16,580 --> 00:10:19,460
+So for example, nothing is written here.
+
+141
+00:10:19,460 --> 00:10:21,440
+But there should be something.
+
+142
+00:10:22,520 --> 00:10:23,960
+Toolbar and tooltip.
+
+143
+00:10:25,460 --> 00:10:26,300
+Next one.
+
+144
+00:10:27,390 --> 00:10:30,450
+List view and grid view.
+
+145
+00:10:30,450 --> 00:10:36,900
+So this is about how we see a lot of elements, right.
+
+146
+00:10:36,900 --> 00:10:39,210
+How they can be viewed.
+
+147
+00:10:39,210 --> 00:10:39,840
+Right.
+
+148
+00:10:39,840 --> 00:10:43,500
+So they can be viewed in a form of a list.
+
+149
+00:10:43,500 --> 00:10:49,950
+This is a list view or they can be viewed in a form of a grid.
+
+150
+00:10:49,950 --> 00:10:54,360
+I'm sure you've seen it right, because a lot of apps use it.
+
+151
+00:10:54,360 --> 00:10:57,180
+So grid view this one.
+
+152
+00:10:57,210 --> 00:11:04,020
+Grid view like a table and list view this one like a list.
+
+153
+00:11:04,950 --> 00:11:11,940
+So this little icon would be for list and this little icon would be for grid.
+
+154
+00:11:12,810 --> 00:11:13,440
+Okay.
+
+155
+00:11:13,440 --> 00:11:14,280
+Let's move on.
+
+156
+00:11:21,830 --> 00:11:22,230
+Okay.
+
+157
+00:11:22,490 --> 00:11:26,540
+So here is the next third term and it's pagination.
+
+158
+00:11:27,080 --> 00:11:37,250
+So when the content is like divided in a few pages, you will see numbers of those pages at the bottom,
+
+159
+00:11:37,250 --> 00:11:42,140
+like here for example, and it's called pagination, right, numbers of those pages.
+
+160
+00:11:42,290 --> 00:11:48,380
+So you can skip some pages, choose the page you want and things like that.
+
+161
+00:11:48,590 --> 00:11:50,600
+The pagination at the bottom shows
+
+162
+00:11:50,600 --> 00:11:55,010
+there are four pages while there are only three.
+
+163
+00:11:56,740 --> 00:12:05,680
+An interesting word while you can use it, if you, well, when you describe something and it's not,
+
+164
+00:12:05,680 --> 00:12:07,460
+it doesn't work the way it should.
+
+165
+00:12:07,480 --> 00:12:08,830
+So you use it like
+
+166
+00:12:08,830 --> 00:12:10,210
+but basically.
+
+167
+00:12:10,210 --> 00:12:10,720
+Right.
+
+168
+00:12:10,720 --> 00:12:16,570
+While. The next one and the next one.
+
+169
+00:12:17,770 --> 00:12:18,460
+Image
+
+170
+00:12:18,460 --> 00:12:19,750
+carousel.
+
+171
+00:12:19,780 --> 00:12:21,520
+Image carousel.
+
+172
+00:12:21,970 --> 00:12:26,950
+So, yes, I think you could see that on many websites.
+
+173
+00:12:26,950 --> 00:12:29,440
+This is from Airbnb, for example.
+
+174
+00:12:30,520 --> 00:12:37,000
+So there is like a set of things, usually images and usually they are link to something so you can
+
+175
+00:12:37,000 --> 00:12:38,710
+click and go there.
+
+176
+00:12:40,190 --> 00:12:42,080
+Well, here's an example.
+
+177
+00:12:42,500 --> 00:12:46,040
+The images on carousel are overstretched.
+
+178
+00:12:46,040 --> 00:12:47,120
+Overstretched.
+
+179
+00:12:47,120 --> 00:12:48,770
+So the size is wrong.
+
+180
+00:12:48,800 --> 00:12:49,970
+Doesn't seem right.
+
+181
+00:12:51,440 --> 00:12:57,910
+The next one. OK, scrollbar. scrollbar is this thing.
+
+182
+00:12:57,920 --> 00:13:00,350
+So this would be a
+
+183
+00:13:02,710 --> 00:13:07,900
+vertical scroll bar, and this would be a horizontal scroll bar.
+
+184
+00:13:08,440 --> 00:13:10,270
+That's how we call those things.
+
+185
+00:13:10,720 --> 00:13:15,520
+And the action of scrolling, scroll up, scroll down.
+
+186
+00:13:15,640 --> 00:13:16,930
+That's how we call it.
+
+187
+00:13:17,650 --> 00:13:22,150
+For example, the vertical scroll bar on the right is duplicated.
+
+188
+00:13:22,150 --> 00:13:27,550
+So it would mean that there are two of them and it shouldn't be like that.
+
+189
+00:13:28,830 --> 00:13:29,430
+Right.
+
+190
+00:13:29,640 --> 00:13:35,340
+The next one, please don't confuse it with scrollbar because this is a slider.
+
+191
+00:13:35,340 --> 00:13:42,780
+Slider is usually used to set some value, for example, with volume, right,
+
+192
+00:13:42,780 --> 00:13:47,970
+we use sliders often. Or like here with some sound characteristics.
+
+193
+00:13:49,260 --> 00:13:54,090
+The user is unable to drag the slider all the way to eight,
+
+194
+00:13:54,120 --> 00:13:56,310
+it stops at seven.
+
+195
+00:13:57,240 --> 00:14:02,820
+The user is unable to do something, so can't do something.
+
+196
+00:14:03,120 --> 00:14:06,180
+Also useful when you have to describe problems.
+
+197
+00:14:07,500 --> 00:14:08,850
+All right.
+
+198
+00:14:09,000 --> 00:14:11,310
+Move on.  Progress bar.
+
+199
+00:14:11,520 --> 00:14:12,750
+Progress bar.
+
+200
+00:14:12,960 --> 00:14:19,670
+So this is a kind of information about the progress of some process.
+
+201
+00:14:19,680 --> 00:14:20,370
+Right. Here
+
+202
+00:14:20,370 --> 00:14:26,360
+we have 82% complete or 100% complete and so on.
+
+203
+00:14:26,370 --> 00:14:30,390
+Information about how something is progressing, right.
+
+204
+00:14:30,840 --> 00:14:39,720
+When the progress bar advances to 100%, the status doesn't change to done and it should change to done,
+
+205
+00:14:39,720 --> 00:14:40,310
+for example,
+
+206
+00:14:40,320 --> 00:14:41,400
+right, and close.
+
+207
+00:14:42,580 --> 00:14:44,050
+So this is progress bar.
+
+208
+00:14:44,710 --> 00:14:46,900
+And what else do we have here?
+
+209
+00:14:46,930 --> 00:14:51,430
+Burger menu. I like the name burger menu or hamburger menu.
+
+210
+00:14:52,510 --> 00:14:57,700
+So this kind of menu with three lines called burger menu.
+
+211
+00:14:58,270 --> 00:15:03,940
+And usually when you click on it, it will take you to navigation
+
+212
+00:15:03,940 --> 00:15:13,420
+drawer. Navigation drawer is like the list of destinations in your app where you can go, right.
+
+213
+00:15:15,790 --> 00:15:17,590
+And the next one.
+
+214
+00:15:17,620 --> 00:15:19,960
+There are some informational things.
+
+215
+00:15:19,960 --> 00:15:27,580
+Well, notifications, for example, notification means like this message that there is something new
+
+216
+00:15:27,580 --> 00:15:28,630
+for users to see.
+
+217
+00:15:28,630 --> 00:15:30,520
+Well, this is a notification, right.
+
+218
+00:15:30,520 --> 00:15:33,520
+I have six notifications from Instagram.
+
+219
+00:15:34,240 --> 00:15:41,170
+The user receives a new message notification even when there are no new messages.
+
+220
+00:15:41,170 --> 00:15:48,130
+So new message notification say like you have a message. That would be a new message notification.
+
+221
+00:15:49,690 --> 00:15:52,390
+Well, this this is called model window.
+
+222
+00:15:53,050 --> 00:16:00,910
+Model window is a bit different because it also gives you some information that you have to interact
+
+223
+00:16:00,910 --> 00:16:01,450
+with it.
+
+224
+00:16:01,450 --> 00:16:03,880
+You have to do something before you move on.
+
+225
+00:16:03,880 --> 00:16:07,930
+So here I have to click Save or Don't save or Cancel.
+
+226
+00:16:07,930 --> 00:16:10,120
+So it requires some action.
+
+227
+00:16:11,200 --> 00:16:14,890
+The model window doesn't close after the action is chosen.
+
+228
+00:16:14,890 --> 00:16:20,710
+So even if I click something, it doesn't close.
+
+229
+00:16:20,710 --> 00:16:22,170
+The window doesn't close.
+
+230
+00:16:22,180 --> 00:16:24,700
+All right, we move on.
+
+231
+00:16:25,360 --> 00:16:32,020
+Well, the last part, these are some actions, and I would like you to demonstrate those actions.
+
+232
+00:16:33,700 --> 00:16:35,170
+So just a second.
+
+233
+00:16:35,170 --> 00:16:39,580
+To demonstrate the actions, I had to go to this view.
+
+234
+00:16:40,960 --> 00:16:46,420
+And, well, it will be better because I will be able to show you some things.
+
+235
+00:16:46,630 --> 00:16:50,770
+So to drag and drop, what does it mean to drag and drop?
+
+236
+00:16:51,370 --> 00:16:56,410
+Well, to drag and drop, to move it somewhere.
+
+237
+00:16:56,410 --> 00:17:03,430
+Usually we can use it when we move something to a new location, your destination on your computer or
+
+238
+00:17:03,430 --> 00:17:05,980
+anywhere, drag and drop.
+
+239
+00:17:06,420 --> 00:17:07,069
+Hmm.
+
+240
+00:17:08,300 --> 00:17:12,250
+All right, so I drag you back. Then to swipe.
+
+241
+00:17:12,270 --> 00:17:16,670
+Oh, to swipe that's what you do with your phone, basically, right.
+
+242
+00:17:16,670 --> 00:17:26,720
+Mostly with your phone moving your finger left or right, swiping. To move the mouse over, hover over
+
+243
+00:17:26,720 --> 00:17:27,410
+something.
+
+244
+00:17:27,410 --> 00:17:29,760
+I already explained that we had it.
+
+245
+00:17:29,780 --> 00:17:32,450
+So to move your cursor, your mouse,
+
+246
+00:17:33,530 --> 00:17:34,940
+over something.
+
+247
+00:17:34,940 --> 00:17:38,600
+So it's good to remember this preposition over.
+
+248
+00:17:39,470 --> 00:17:40,550
+To select.
+
+249
+00:17:40,790 --> 00:17:41,900
+To select.
+
+250
+00:17:42,140 --> 00:17:45,710
+Well, to choose something like I selected select here.
+
+251
+00:17:45,710 --> 00:17:46,100
+Right.
+
+252
+00:17:46,100 --> 00:17:46,790
+To choose it.
+
+253
+00:17:46,790 --> 00:17:47,720
+To select.
+
+254
+00:17:48,830 --> 00:17:49,790
+To click.
+
+255
+00:17:49,790 --> 00:17:50,630
+Well, that's easy.
+
+256
+00:17:50,630 --> 00:17:56,090
+To click your mouse. And to press the button, also easy.
+
+257
+00:17:56,090 --> 00:18:00,680
+And I think we had it in our previous course to press something.
+
+258
+00:18:02,300 --> 00:18:03,140
+All right.
+
+259
+00:18:03,500 --> 00:18:12,650
+So this is it about the actions and this is actually the end of this lecture.
+
+260
+00:18:13,070 --> 00:18:14,680
+I hope it was useful.
+
+261
+00:18:14,690 --> 00:18:17,600
+So there were two parts of this lecture.
+
+262
+00:18:17,630 --> 00:18:22,700
+First, we had, like, some general stuff, like some intro.
+
+263
+00:18:22,730 --> 00:18:27,830
+What is software testing about in general and some abbreviations.
+
+264
+00:18:28,160 --> 00:18:35,930
+And then we had those names of elements, graphic user interface elements, which can be really useful
+
+265
+00:18:35,930 --> 00:18:38,270
+when you are doing some testing.
+
+266
+00:18:39,200 --> 00:18:41,420
+It's important to know how to name them.
+
+267
+00:18:42,110 --> 00:18:48,230
+So after this lecture, you will find the list of all words, of all terms.
+
+268
+00:18:48,680 --> 00:18:51,260
+So it will make it easier for you to learn them.
+
+269
+00:18:51,950 --> 00:18:56,240
+And also, please don't forget to do the quiz.
+
+270
+00:18:56,450 --> 00:18:58,810
+Home task is very important.
+
+271
+00:18:58,820 --> 00:19:00,350
+Please don't ignore it.
+
+272
+00:19:00,350 --> 00:19:00,980
+Right.
+
+273
+00:19:00,980 --> 00:19:03,410
+This will help you to remember the words.
+
+274
+00:19:04,280 --> 00:19:04,680
+Okay.
+
+275
+00:19:04,820 --> 00:19:06,320
+This is it for me today.
+
+276
+00:19:06,320 --> 00:19:09,590
+And I hope to see you next time. Bye.
+

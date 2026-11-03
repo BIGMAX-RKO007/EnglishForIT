@@ -1,0 +1,439 @@
+1
+00:00:00,110 --> 00:00:00,980
+Hi guys.
+
+2
+00:00:01,280 --> 00:00:09,960
+Let's talk about emails and learn what acronyms are and when to use them.
+
+3
+00:00:09,980 --> 00:00:11,480
+Let's go.
+
+4
+00:00:12,530 --> 00:00:19,400
+But before we start talking about emails, let's try to pronounce your email.
+
+5
+00:00:19,430 --> 00:00:22,580
+My email is pronounced as
+
+6
+00:00:22,700 --> 00:00:28,250
+kate@gmail.com.
+
+7
+00:00:28,880 --> 00:00:32,330
+This sign is pronounced as at.
+
+8
+00:00:32,720 --> 00:00:35,810
+And this dot.
+
+9
+00:00:36,050 --> 00:00:36,950
+Great.
+
+10
+00:00:36,980 --> 00:00:41,360
+Pause the video and try pronouncing your email.
+
+11
+00:00:42,680 --> 00:00:43,670
+Good job.
+
+12
+00:00:43,790 --> 00:00:48,500
+Okay, let's have a look at the structure of an email.
+
+13
+00:00:48,500 --> 00:00:56,880
+So here we have a recipient, a person who is receiving the email here.
+
+14
+00:00:56,900 --> 00:01:06,200
+Subject line is a short summary what the email is about Opening part.
+
+15
+00:01:06,440 --> 00:01:09,860
+Hope this email finds you well.
+
+16
+00:01:10,130 --> 00:01:14,510
+Here we have a body of our email.
+
+17
+00:01:14,540 --> 00:01:17,150
+Body is the main part.
+
+18
+00:01:17,870 --> 00:01:20,930
+Here we have a closing part.
+
+19
+00:01:21,050 --> 00:01:23,990
+Thank you for your patience and understanding.
+
+20
+00:01:23,990 --> 00:01:31,580
+We value our cooperation and this is the sender of this email.
+
+21
+00:01:31,610 --> 00:01:34,340
+Team Project Manager.
+
+22
+00:01:34,640 --> 00:01:35,420
+Good.
+
+23
+00:01:37,520 --> 00:01:41,660
+Let's have a closer look at this email.
+
+24
+00:01:42,380 --> 00:01:50,380
+So pause the video, read the email and decide what is the problem here?
+
+25
+00:01:50,390 --> 00:01:55,130
+Why is Tim writing to Mr. Smith?
+
+26
+00:01:56,660 --> 00:01:57,560
+All right.
+
+27
+00:01:57,560 --> 00:01:58,430
+Yes.
+
+28
+00:01:58,460 --> 00:02:06,140
+Team is writing to Mr. Smith because there were some problems with the project.
+
+29
+00:02:06,170 --> 00:02:09,260
+That deadline was missed.
+
+30
+00:02:09,350 --> 00:02:18,260
+So let's have a look at the phrases in the email so we couldn't meet the deadline.
+
+31
+00:02:18,680 --> 00:02:29,370
+Our estimations were not accurate, but we are aware of the importance of fast delivery of this project.
+
+32
+00:02:29,390 --> 00:02:34,100
+We value our cooperations sincerely.
+
+33
+00:02:34,490 --> 00:02:36,860
+All right, let's.
+
+34
+00:02:37,740 --> 00:02:40,830
+Repeat the phrases from the email.
+
+35
+00:02:41,280 --> 00:02:48,000
+Meet the deadline Project Delivery Best quality.
+
+36
+00:02:48,750 --> 00:02:50,250
+Cooperation.
+
+37
+00:02:51,100 --> 00:02:52,480
+Estimations.
+
+38
+00:02:53,680 --> 00:02:54,640
+Good job.
+
+39
+00:02:54,790 --> 00:02:55,480
+All right.
+
+40
+00:02:55,510 --> 00:03:03,100
+Have a look at these two messages and decide if they are the same or different.
+
+41
+00:03:04,330 --> 00:03:05,050
+Okay.
+
+42
+00:03:05,080 --> 00:03:14,880
+Yes, they basically mean the same, but they have completely different style and form message.
+
+43
+00:03:14,920 --> 00:03:17,740
+A subject line answer.
+
+44
+00:03:18,470 --> 00:03:21,770
+Sorry I couldn't attend Skype call with you.
+
+45
+00:03:21,770 --> 00:03:23,180
+I was taking shower.
+
+46
+00:03:23,210 --> 00:03:25,730
+Can you call me back now?
+
+47
+00:03:25,970 --> 00:03:31,280
+Okay, so this message contains too much personal information.
+
+48
+00:03:31,280 --> 00:03:35,450
+It's too direct, and it sounds a bit rude.
+
+49
+00:03:35,480 --> 00:03:41,300
+You can write this message to your friend, but it's not appropriate at work.
+
+50
+00:03:42,380 --> 00:03:43,600
+This message.
+
+51
+00:03:43,610 --> 00:03:44,830
+Subject line.
+
+52
+00:03:44,840 --> 00:03:45,860
+Apologies.
+
+53
+00:03:45,890 --> 00:03:47,020
+Hi, Kate.
+
+54
+00:03:47,030 --> 00:03:51,470
+I am so sorry I wasn't able to attend our video meeting.
+
+55
+00:03:51,500 --> 00:03:53,840
+Something urgent came up.
+
+56
+00:03:53,870 --> 00:03:55,610
+Could we please reschedule?
+
+57
+00:03:55,640 --> 00:03:58,640
+I apologize for the inconvenience.
+
+58
+00:03:58,850 --> 00:04:02,780
+This message is more formal, more professional.
+
+59
+00:04:02,780 --> 00:04:08,570
+It has a good apology and it has a good suggestion to reschedule.
+
+60
+00:04:08,690 --> 00:04:13,550
+This is more appropriate email to write to your coworker.
+
+61
+00:04:16,350 --> 00:04:18,600
+Okay, more examples.
+
+62
+00:04:18,870 --> 00:04:23,310
+We have a message subject line payment details.
+
+63
+00:04:23,760 --> 00:04:24,870
+Hi, Kate.
+
+64
+00:04:24,900 --> 00:04:26,550
+Hope you are doing well.
+
+65
+00:04:26,730 --> 00:04:30,450
+Could you please send me the payment details for Alex P.
+
+66
+00:04:30,750 --> 00:04:34,440
+Thanks and looking forward to hearing from you.
+
+67
+00:04:34,470 --> 00:04:37,280
+We have a nice polite request.
+
+68
+00:04:37,290 --> 00:04:41,610
+Could you please send and we have a nice closing part.
+
+69
+00:04:41,640 --> 00:04:45,240
+Thanks and looking forward to hearing from you.
+
+70
+00:04:45,270 --> 00:04:46,440
+This is nice.
+
+71
+00:04:46,440 --> 00:04:50,460
+Appropriate example of a professional email.
+
+72
+00:04:52,710 --> 00:04:53,550
+Okay.
+
+73
+00:04:53,640 --> 00:04:58,230
+Sometimes you want to add some file or document to your email.
+
+74
+00:04:58,260 --> 00:05:01,590
+Always mention that in the text.
+
+75
+00:05:01,620 --> 00:05:12,390
+You can use phrases like Please find attached, please find enclosed or I attach a file about something.
+
+76
+00:05:12,420 --> 00:05:13,560
+Okay.
+
+77
+00:05:14,860 --> 00:05:15,550
+Good.
+
+78
+00:05:16,000 --> 00:05:21,040
+Here we see a letter with just a subject line.
+
+79
+00:05:21,040 --> 00:05:24,130
+Sent me payment details ASAP.
+
+80
+00:05:24,580 --> 00:05:32,950
+Please never send a message without a body with just a subject line because it sounds a bit rude.
+
+81
+00:05:35,560 --> 00:05:36,280
+Good.
+
+82
+00:05:36,460 --> 00:05:40,000
+So people in it are very busy people.
+
+83
+00:05:40,000 --> 00:05:47,650
+So sometimes they like to write very short messages and use acronyms.
+
+84
+00:05:47,650 --> 00:05:54,760
+So let's have a look at this sentences and figure out what these acronyms mean.
+
+85
+00:05:55,030 --> 00:05:55,720
+Okay.
+
+86
+00:05:55,750 --> 00:05:59,770
+T h x for your help with the project.
+
+87
+00:05:59,770 --> 00:06:00,760
+That's right.
+
+88
+00:06:00,790 --> 00:06:03,640
+Thanks for your help with the project.
+
+89
+00:06:04,240 --> 00:06:07,810
+I will be AFK for two hours.
+
+90
+00:06:08,050 --> 00:06:12,250
+I will be away from keyboard for two hours.
+
+91
+00:06:12,250 --> 00:06:14,890
+This means I will be offline.
+
+92
+00:06:15,640 --> 00:06:16,300
+Okay.
+
+93
+00:06:16,300 --> 00:06:24,130
+This is a comment on git and it's pronounced as l g t m.
+
+94
+00:06:24,430 --> 00:06:27,550
+This means looks good to me.
+
+95
+00:06:27,580 --> 00:06:28,210
+Approved.
+
+96
+00:06:28,240 --> 00:06:29,200
+Looks good.
+
+97
+00:06:29,500 --> 00:06:32,740
+All right, send me the details.
+
+98
+00:06:32,770 --> 00:06:37,130
+P l z send me the details, please.
+
+99
+00:06:38,180 --> 00:06:41,630
+Sorry, I cannot talk to you right now.
+
+100
+00:06:41,660 --> 00:06:43,310
+I am.
+
+101
+00:06:43,880 --> 00:06:45,980
+I am at the meeting.
+
+102
+00:06:47,480 --> 00:06:51,830
+FYI, team is having a call with his lead.
+
+103
+00:06:51,920 --> 00:06:56,780
+For your information, team is having a call with his lead.
+
+104
+00:06:57,770 --> 00:06:58,790
+L m k.
+
+105
+00:06:58,820 --> 00:07:04,400
+When you finish the task, let me know when you finish the task.
+
+106
+00:07:04,730 --> 00:07:05,960
+Okay.
+
+107
+00:07:06,260 --> 00:07:07,140
+Good job.
+
+108
+00:07:07,160 --> 00:07:08,410
+Time for practice.
+
+109
+00:07:08,420 --> 00:07:09,290
+Thank you.
+
+110
+00:07:09,290 --> 00:07:10,430
+And bye.
