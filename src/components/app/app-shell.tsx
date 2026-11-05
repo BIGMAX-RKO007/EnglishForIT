@@ -1,6 +1,6 @@
 import { useEffect, useState, type ReactNode } from 'react'
 import { Link, getRouteApi } from '@tanstack/react-router'
-import { Home, Sparkles, Settings, Gauge, Users, Menu, ClipboardList, PanelLeftClose, PanelLeftOpen, Heart, MessageSquare, Mic, Briefcase, BookOpen } from 'lucide-react'
+import { Home, Sparkles, Settings, Gauge, Users, Menu, ClipboardList, PanelLeftClose, PanelLeftOpen, Heart, MessageSquare, Mic, Briefcase, BookOpen, Globe2 } from 'lucide-react'
 import { Logo } from '@/components/brand/logo'
 import { Badge } from '@/components/ui/badge'
 import { ThemeToggle } from '@/features/theme/theme-toggle'
@@ -93,6 +93,11 @@ export function AppShell({
           <BookOpen size={18} className="shrink-0 text-amber-500" />
           {label('工位速查锦囊')}
         </Link>
+        <Link to="/{-$locale}/app/dual-work" activeProps={{}} className={item(active === 'dual-work')} title="英日双轨对照">
+          <Globe2 size={18} className="shrink-0 text-rose-500" />
+          {label('英日双轨对照')}
+          {!rail && <Badge variant="pro" className="ml-auto text-[10px] px-1.5 py-0">NEW</Badge>}
+        </Link>
         {grp(t('app.navWorkspace'))}
         <Link to="/{-$locale}/app/pro" activeProps={{}} className={item(active === 'pro')} title={t('app.proDemo')}>
           <Sparkles size={18} className="shrink-0" />
@@ -181,7 +186,7 @@ export function AppShell({
           </button>
           <span className="app-crumb">
             <span className="hidden md:inline">
-              FlareStarter <span className="mx-1.5 text-fg-3">/</span>
+              EnglishForIT <span className="mx-1.5 text-fg-3">/</span>
             </span>
             <b>{crumb}</b>
           </span>

@@ -33,6 +33,7 @@ import { Route as Char123LocaleChar125AppSelfIntroRouteImport } from './routes/{
 import { Route as Char123LocaleChar125AppProjectStarRouteImport } from './routes/{-$locale}/app/project-star'
 import { Route as Char123LocaleChar125AppProRouteImport } from './routes/{-$locale}/app/pro'
 import { Route as Char123LocaleChar125AppFeedbackRouteImport } from './routes/{-$locale}/app/feedback'
+import { Route as Char123LocaleChar125AppDualWorkRouteImport } from './routes/{-$locale}/app/dual-work'
 import { Route as Char123LocaleChar125AppDailyWorkRouteImport } from './routes/{-$locale}/app/daily-work'
 import { Route as Char123LocaleChar125AppCheatsheetRouteImport } from './routes/{-$locale}/app/cheatsheet'
 import { Route as Char123LocaleChar125AppAccountRouteImport } from './routes/{-$locale}/app/account'
@@ -184,6 +185,12 @@ const Char123LocaleChar125AppFeedbackRoute =
     path: '/app/feedback',
     getParentRoute: () => Char123LocaleChar125RouteRoute,
   } as any)
+const Char123LocaleChar125AppDualWorkRoute =
+  Char123LocaleChar125AppDualWorkRouteImport.update({
+    id: '/app/dual-work',
+    path: '/app/dual-work',
+    getParentRoute: () => Char123LocaleChar125RouteRoute,
+  } as any)
 const Char123LocaleChar125AppDailyWorkRoute =
   Char123LocaleChar125AppDailyWorkRouteImport.update({
     id: '/app/daily-work',
@@ -306,6 +313,7 @@ export interface FileRoutesByFullPath {
   '/{-$locale}/app/account': typeof Char123LocaleChar125AppAccountRoute
   '/{-$locale}/app/cheatsheet': typeof Char123LocaleChar125AppCheatsheetRoute
   '/{-$locale}/app/daily-work': typeof Char123LocaleChar125AppDailyWorkRoute
+  '/{-$locale}/app/dual-work': typeof Char123LocaleChar125AppDualWorkRoute
   '/{-$locale}/app/feedback': typeof Char123LocaleChar125AppFeedbackRoute
   '/{-$locale}/app/pro': typeof Char123LocaleChar125AppProRoute
   '/{-$locale}/app/project-star': typeof Char123LocaleChar125AppProjectStarRoute
@@ -345,6 +353,7 @@ export interface FileRoutesByTo {
   '/{-$locale}/app/account': typeof Char123LocaleChar125AppAccountRoute
   '/{-$locale}/app/cheatsheet': typeof Char123LocaleChar125AppCheatsheetRoute
   '/{-$locale}/app/daily-work': typeof Char123LocaleChar125AppDailyWorkRoute
+  '/{-$locale}/app/dual-work': typeof Char123LocaleChar125AppDualWorkRoute
   '/{-$locale}/app/feedback': typeof Char123LocaleChar125AppFeedbackRoute
   '/{-$locale}/app/pro': typeof Char123LocaleChar125AppProRoute
   '/{-$locale}/app/project-star': typeof Char123LocaleChar125AppProjectStarRoute
@@ -387,6 +396,7 @@ export interface FileRoutesById {
   '/{-$locale}/app/account': typeof Char123LocaleChar125AppAccountRoute
   '/{-$locale}/app/cheatsheet': typeof Char123LocaleChar125AppCheatsheetRoute
   '/{-$locale}/app/daily-work': typeof Char123LocaleChar125AppDailyWorkRoute
+  '/{-$locale}/app/dual-work': typeof Char123LocaleChar125AppDualWorkRoute
   '/{-$locale}/app/feedback': typeof Char123LocaleChar125AppFeedbackRoute
   '/{-$locale}/app/pro': typeof Char123LocaleChar125AppProRoute
   '/{-$locale}/app/project-star': typeof Char123LocaleChar125AppProjectStarRoute
@@ -430,6 +440,7 @@ export interface FileRouteTypes {
     | '/{-$locale}/app/account'
     | '/{-$locale}/app/cheatsheet'
     | '/{-$locale}/app/daily-work'
+    | '/{-$locale}/app/dual-work'
     | '/{-$locale}/app/feedback'
     | '/{-$locale}/app/pro'
     | '/{-$locale}/app/project-star'
@@ -469,6 +480,7 @@ export interface FileRouteTypes {
     | '/{-$locale}/app/account'
     | '/{-$locale}/app/cheatsheet'
     | '/{-$locale}/app/daily-work'
+    | '/{-$locale}/app/dual-work'
     | '/{-$locale}/app/feedback'
     | '/{-$locale}/app/pro'
     | '/{-$locale}/app/project-star'
@@ -510,6 +522,7 @@ export interface FileRouteTypes {
     | '/{-$locale}/app/account'
     | '/{-$locale}/app/cheatsheet'
     | '/{-$locale}/app/daily-work'
+    | '/{-$locale}/app/dual-work'
     | '/{-$locale}/app/feedback'
     | '/{-$locale}/app/pro'
     | '/{-$locale}/app/project-star'
@@ -704,6 +717,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof Char123LocaleChar125AppFeedbackRouteImport
       parentRoute: typeof Char123LocaleChar125RouteRoute
     }
+    '/{-$locale}/app/dual-work': {
+      id: '/{-$locale}/app/dual-work'
+      path: '/app/dual-work'
+      fullPath: '/{-$locale}/app/dual-work'
+      preLoaderRoute: typeof Char123LocaleChar125AppDualWorkRouteImport
+      parentRoute: typeof Char123LocaleChar125RouteRoute
+    }
     '/{-$locale}/app/daily-work': {
       id: '/{-$locale}/app/daily-work'
       path: '/app/daily-work'
@@ -854,6 +874,7 @@ interface Char123LocaleChar125RouteRouteChildren {
   Char123LocaleChar125AppAccountRoute: typeof Char123LocaleChar125AppAccountRoute
   Char123LocaleChar125AppCheatsheetRoute: typeof Char123LocaleChar125AppCheatsheetRoute
   Char123LocaleChar125AppDailyWorkRoute: typeof Char123LocaleChar125AppDailyWorkRoute
+  Char123LocaleChar125AppDualWorkRoute: typeof Char123LocaleChar125AppDualWorkRoute
   Char123LocaleChar125AppFeedbackRoute: typeof Char123LocaleChar125AppFeedbackRoute
   Char123LocaleChar125AppProRoute: typeof Char123LocaleChar125AppProRoute
   Char123LocaleChar125AppProjectStarRoute: typeof Char123LocaleChar125AppProjectStarRoute
@@ -886,6 +907,7 @@ const Char123LocaleChar125RouteRouteChildren: Char123LocaleChar125RouteRouteChil
       Char123LocaleChar125AppCheatsheetRoute,
     Char123LocaleChar125AppDailyWorkRoute:
       Char123LocaleChar125AppDailyWorkRoute,
+    Char123LocaleChar125AppDualWorkRoute: Char123LocaleChar125AppDualWorkRoute,
     Char123LocaleChar125AppFeedbackRoute: Char123LocaleChar125AppFeedbackRoute,
     Char123LocaleChar125AppProRoute: Char123LocaleChar125AppProRoute,
     Char123LocaleChar125AppProjectStarRoute:

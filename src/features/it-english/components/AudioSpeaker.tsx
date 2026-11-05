@@ -3,6 +3,7 @@ import { Volume2, Square } from 'lucide-react'
 
 interface AudioSpeakerProps {
   text: string
+  lang?: 'en' | 'ja'
   rate?: number
   label?: string
   className?: string
@@ -11,6 +12,7 @@ interface AudioSpeakerProps {
 
 export function AudioSpeaker({
   text,
+  lang = 'en',
   rate = 0.95,
   label,
   className = '',
@@ -40,22 +42,35 @@ export function AudioSpeaker({
     const utterance = new SpeechSynthesisUtterance(text)
     utterance.rate = rate
     utterance.pitch = 1.0
+    utterance.lang = lang === 'ja' ? 'ja-JP' : 'en-US'
 
-    // Try to pick an English voice
+    // Pick appropriate voice based on language
     const voices = window.speechSynthesis.getVoices()
-    const englishVoice =
-      voices.find(
-        (v) =>
-          v.lang.startsWith('en') &&
-          (v.name.includes('Natural') ||
-            v.name.includes('Google') ||
-            v.name.includes('Microsoft') ||
-            v.name.includes('Samantha') ||
-            v.name.includes('Daniel')),
-      ) || voices.find((v) => v.lang.startsWith('en'))
-
-    if (englishVoice) {
-      utterance.voice = englishVoice
+    if (lang === 'ja') {
+      const jaVoice =
+        voices.find(
+          (v) =>
+            v.lang.startsWith('ja') &&
+            (v.name.includes('Natural') ||
+              v.name.includes('Google') ||
+              v.name.includes('Microsoft') ||
+              v.name.includes('Kyoko') ||
+              v.name.includes('Nanami') ||
+              v.name.includes('Otoya')),
+        ) || voices.find((v) => v.lang.startsWith('ja'))
+      if (jaVoice) utterance.voice = jaVoice
+    } else {
+      const enVoice =
+        voices.find(
+          (v) =>
+            v.lang.startsWith('en') &&
+            (v.name.includes('Natural') ||
+              v.name.includes('Google') ||
+              v.name.includes('Microsoft') ||
+              v.name.includes('Samantha') ||
+              v.name.includes('Daniel')),
+        ) || voices.find((v) => v.lang.startsWith('en'))
+      if (enVoice) utterance.voice = enVoice
     }
 
     utterance.onstart = () => setSpeaking(true)

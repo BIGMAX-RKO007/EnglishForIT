@@ -15,6 +15,7 @@
   * **项目经历 STAR 台**：`https://englishforit.fanxiao.workers.dev/zh/app/project-star`
   * **日常工作交流模拟**：`https://englishforit.fanxiao.workers.dev/zh/app/daily-work`
   * **工位秒查锦囊与发音**：`https://englishforit.fanxiao.workers.dev/zh/app/cheatsheet`
+  * **英日双轨对照工作台**：`https://englishforit.fanxiao.workers.dev/zh/app/dual-work`
 
 ### 💻 本地开发运行：
 ```bash
@@ -27,12 +28,13 @@ pnpm dev
 * **项目经历 STAR 转换台**：`http://localhost:3000/zh/app/project-star`
 * **日常工作交流模拟器**：`http://localhost:3000/zh/app/daily-work`
 * **工位秒查锦囊与发音**：`http://localhost:3000/zh/app/cheatsheet`
+* **英日双轨对照工作台**：`http://localhost:3000/zh/app/dual-work`
 
 > 💡 **免登录体验**：系统已内置免登录访客模式（Guest Mode），无需注册账号，打开即可立即练习！
 
 ---
 
-## 🎯 四大核心模块使用指南
+## 🎯 五大核心模块使用指南
 
 ### 一、 自我介绍破冰台 (`/zh/app/self-intro`)
 
@@ -113,6 +115,43 @@ pnpm dev
   * **NGINX**：正确读作 Engine-X；
   * **Kubectl**：地道读法为 koob-control。
 * 每一项点击即可戴耳机听纯正发音示范。
+
+---
+
+### 五、 英日双轨对照工作台 (`/zh/app/dual-work`) 🌟 NEW!
+
+专为在日本现场或跨国团队（日英混用、跨国协同）的 IT 工程师打造。**同一真实工位意图，英文日文并列呈现**，深度攻克技术与跨文化表达痛点。
+
+#### 1. 双轨核心要素
+* 🇬🇧 **英文板块**：硅谷/跨国敏捷地道表达，附带 **IPA 国际音标** 与美式/英式发音示范。
+* 🇯🇵 **日文板块**：日本 IT 现场/SIer 规范敬语表达，附带 **假名注音（Furigana）** 与 **罗马音（Romaji）**，并支持日语原生发音。
+* 💡 **跨文化工位心法（Tip）**：深度剖析欧美工程师崇尚的“直接坦诚/快速迭代”与日本现场推崇的“報連相（ほうれんそう）/オンスケ/一次切り分け”之间的微妙语境区别。
+
+#### 2. 精选 5 大高频双语实战场景
+1. **敏捷晨会与进度 (Standup & Progress)**：
+   * 昨日完成：`I wrapped up the refactor...` vs. `昨日はユーザー認証モジュールのリファクタリングを完了させました。`
+   * 今日联调：`Today I’m focusing on integrating with...` vs. `本日は決済APIとの結合検証を進めます。`
+   * 阻塞点求助：`I’m blocked on the API specs...` vs. `外部APIの仕様書待ちのため、現在このタスクはペンディングとなっております。`
+   * 进度微调与预警：`I might need an extra half-day...` vs. `現時点ではオンスケですが、例外処理の考慮漏れにより半日ほど遅れが生じる可能性がございます。`
+2. **代码审查与协作 (Code Review & Collaboration)**：
+   * 邀请评审：`When you get a chance, could you take a look...` vs. `お手すきの際に、こちらのPRをご確認いただけますでしょうか。`
+   * 委婉挑刺：`Nit: what if we memoize this callback?` vs. `細かい点（Nit）ですが、こちらのコールバックをメモ化するのはいかがでしょうか。`
+   * 5分钟快速对齐：`Let’s do a quick 5-minute huddle...` vs. `サクッと5分ほどハドルで認識合わせさせていただけますでしょうか。`
+3. **需求与测试边界 (Specs & Q&A)**：
+   * 异常场景期望：`What's the expected behavior when...` vs. `ネットワーク切断時の想定仕様（期待値）についてご確認させてください。`
+   * 需求蔓延/评估工期影响：`Adding this scope right now will push back our sprint delivery...` vs. `このスコープを追加しますと、今スプリントのリリース日程に影響（リスケ）が出る恐れがございます。`
+4. **线上故障与应急排障 (Incident & Troubleshooting)**：
+   * 500 告警首发通报：`Heads up: we're seeing a spike in 500 errors...` vs. `【緊急連絡】本番環境にて500エラーのスパイクを検知しました。`
+   * 快速止血与回滚：`I recommend rolling back to the previous stable build...` vs. `原因調査と並行して、まずは前バージョンの安定版への切り戻し（ロールバック）を推奨いたします。`
+5. **入场与面试破冰 (Onsite Intro & Interview)**：
+   * 30 秒技术背景陈述：`I'm a backend engineer specializing in distributed systems...` vs. `バックエンドエンジニアとして、分散システムや高負荷設計を得意としております。`
+   * 进场破冰：`I'm looking forward to getting up to speed quickly...` vs. `一日も早く現場のキャッチアップを終え、チームの戦力になれるよう努めます。`
+
+#### 3. 个性化视角与模式切换
+* **英日双轨对照**：默认模式，英日双语一屏横向对比，适合全面对照学习。
+* **仅看英语 (音标)**：关闭日文，专注于国际开源与欧美远程面试表达。
+* **仅看日语 (罗马音)**：关闭英文，专注于日本 IT 现场工作沟通与敬语训练。
+* **实时全局搜索**：支持输入中文意图、英文单词、日文汉字或罗马字即搜即得。
 
 ---
 
