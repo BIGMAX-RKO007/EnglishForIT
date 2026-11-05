@@ -32,7 +32,6 @@ function Register() {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [error, setError] = useState<string | null>(null)
-  const [sent, setSent] = useState(false)
   const [busy, setBusy] = useState(false)
 
   async function submit(e: React.FormEvent) {
@@ -47,16 +46,6 @@ function Register() {
       return
     }
     router.navigate({ to: '/{-$locale}/app' })
-  }
-
-  if (sent) {
-    return (
-      <AuthCard title={t('auth.verifyTitle')} subtitle={t('auth.verifySent')}>
-        <Link to="/{-$locale}/verify-email" className="font-semibold text-primary">
-          {t('auth.resendVerification')}
-        </Link>
-      </AuthCard>
-    )
   }
 
   return (

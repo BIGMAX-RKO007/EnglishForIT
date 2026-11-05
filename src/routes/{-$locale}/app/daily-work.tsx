@@ -1,6 +1,6 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { useState } from 'react'
-import { requireUser } from '@/features/auth/middleware'
+import { getOptionalUser } from '@/features/auth/middleware'
 import { AppShell } from '@/components/app/app-shell'
 import { Card } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
@@ -11,9 +11,14 @@ import { Users, GitPullRequest, AlertTriangle, MessageSquare } from 'lucide-reac
 
 export const Route = createFileRoute('/{-$locale}/app/daily-work')({
   head: () => ({ meta: [{ name: 'robots', content: 'noindex' }] }),
-    loader: async ({ params }) => {
-    const user = await requireUser({ data: { locale: params.locale } })
-    return { user }
+  loader: async () => {
+    const user = await getOptionalUser()
+    const effectiveUser = user ?? {
+      id: 'guest',
+      email: 'engineer@workplace.local',
+      name: 'Software Engineer',
+    }
+    return { user: effectiveUser }
   },
   component: DailyWorkPage,
 })
