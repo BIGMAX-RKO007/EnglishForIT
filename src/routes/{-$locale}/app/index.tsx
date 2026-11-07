@@ -7,6 +7,7 @@ import {
   ArrowRight,
   Terminal,
   Globe2,
+  Shield,
 } from 'lucide-react'
 import { getOptionalUser } from '@/features/auth/middleware'
 import { getEntitlement } from '@/features/billing/middleware'
@@ -68,7 +69,7 @@ function AppHome() {
         <span className="text-xs text-primary font-medium">随时练习，开箱即用</span>
       </div>
 
-      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
+      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {/* Module 1: Self Intro */}
         <Link
           to="/{-$locale}/app/self-intro"
@@ -173,11 +174,36 @@ function AppHome() {
               <Badge variant="pro" className="text-[10px] px-1 py-0">NEW</Badge>
             </div>
             <p className="mt-1.5 text-xs leading-relaxed text-fg-3">
-              同一职场意图，国际外企英文（含 IPA 音标）与日本现场日企日文（含罗马音）同步对照，配真人双语发音与跨文化避坑！
+              同一职场意图，国际外企英文（含自然拼读 Phonics）与日本现场日企日文（含罗马音）同步对照，配真人双语发音与跨文化避坑！
             </p>
           </div>
           <div className="mt-5 flex items-center gap-1 text-xs font-medium text-rose-500">
             <span>双语演练</span>
+            <ArrowRight size={14} className="transition-transform group-hover:translate-x-1" />
+          </div>
+        </Link>
+
+        {/* Module 6: CNL & Slot Defense Engine */}
+        <Link
+          to="/{-$locale}/app/defense"
+          className="group relative flex flex-col justify-between rounded-xl border border-amber-500/40 bg-gradient-to-br from-amber-500/5 via-card to-card p-5 transition-all hover:-translate-y-0.5 hover:border-amber-500 hover:shadow-md"
+        >
+          <div>
+            <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-amber-500/10 text-amber-600 dark:text-amber-400">
+              <Shield size={20} />
+            </div>
+            <div className="mt-4 flex items-center gap-1.5">
+              <h3 className="text-base font-semibold text-foreground group-hover:text-amber-500 transition-colors">
+                语言防身与槽位引擎
+              </h3>
+              <Badge variant="pro" className="text-[10px] px-1 py-0">CNL</Badge>
+            </div>
+            <p className="mt-1.5 text-xs leading-relaxed text-fg-3">
+              基于受控自然语言（CNL）设计：8 大核心动词引擎 + 15% 外围安全壳，槽位即插即用，全面配 Phonics 拼读与罗马音！
+            </p>
+          </div>
+          <div className="mt-5 flex items-center gap-1 text-xs font-medium text-amber-500">
+            <span>槽位拼装</span>
             <ArrowRight size={14} className="transition-transform group-hover:translate-x-1" />
           </div>
         </Link>

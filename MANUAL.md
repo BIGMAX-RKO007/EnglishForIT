@@ -16,6 +16,7 @@
   * **日常工作交流模拟**：`https://englishforit.fanxiao.workers.dev/zh/app/daily-work`
   * **工位秒查锦囊与发音**：`https://englishforit.fanxiao.workers.dev/zh/app/cheatsheet`
   * **英日双轨对照工作台**：`https://englishforit.fanxiao.workers.dev/zh/app/dual-work`
+  * **语言防身与槽位引擎**：`https://englishforit.fanxiao.workers.dev/zh/app/defense`
 
 ### 💻 本地开发运行：
 ```bash
@@ -29,12 +30,13 @@ pnpm dev
 * **日常工作交流模拟器**：`http://localhost:3000/zh/app/daily-work`
 * **工位秒查锦囊与发音**：`http://localhost:3000/zh/app/cheatsheet`
 * **英日双轨对照工作台**：`http://localhost:3000/zh/app/dual-work`
+* **语言防身与槽位引擎**：`http://localhost:3000/zh/app/defense`
 
 > 💡 **免登录体验**：系统已内置免登录访客模式（Guest Mode），无需注册账号，打开即可立即练习！
 
 ---
 
-## 🎯 五大核心模块使用指南
+## 🎯 六大核心模块使用指南
 
 ### 一、 自我介绍破冰台 (`/zh/app/self-intro`)
 
@@ -123,7 +125,7 @@ pnpm dev
 专为在日本现场或跨国团队（日英混用、跨国协同）的 IT 工程师打造。**同一真实工位意图，英文日文并列呈现**，深度攻克技术与跨文化表达痛点。
 
 #### 1. 双轨核心要素
-* 🇬🇧 **英文板块**：硅谷/跨国敏捷地道表达，附带 **IPA 国际音标** 与美式/英式发音示范。
+* 🇬🇧 **英文板块**：硅谷/跨国敏捷地道表达，附带 **Phonics 美式自然拼读** 与美式/英式发音示范（大写表示重音，连字符分隔音节，见词即读）。
 * 🇯🇵 **日文板块**：日本 IT 现场/SIer 规范敬语表达，附带 **假名注音（Furigana）** 与 **罗马音（Romaji）**，并支持日语原生发音。
 * 💡 **跨文化工位心法（Tip）**：深度剖析欧美工程师崇尚的“直接坦诚/快速迭代”与日本现场推崇的“報連相（ほうれんそう）/オンスケ/一次切り分け”之间的微妙语境区别。
 
@@ -149,8 +151,47 @@ pnpm dev
 
 #### 3. 个性化视角与模式切换
 * **英日双轨对照**：默认模式，英日双语一屏横向对比，适合全面对照学习。
-* **仅看英语 (音标)**：关闭日文，专注于国际开源与欧美远程面试表达。
+* **仅看英语 (Phonics)**：关闭日文，专注于国际开源与欧美远程面试表达。
 * **仅看日语 (罗马音)**：关闭英文，专注于日本 IT 现场工作沟通与敬语训练。
+* **实时全局搜索**：支持输入中文意图、英文单词、日文汉字或罗马字即搜即得。
+
+---
+
+### 六、 极简语言防身与槽位引擎 (`/zh/app/defense`) 🛡️ NEW!
+
+采用**受控自然语言（Controlled Natural Language, CNL）**与**槽位替换（Slot & Frame）**思想设计。剥离繁杂语法，用程序员最熟悉的“函数调用与传参”心智，完成 85%~90% 的工位表达与日常防身！
+
+#### 1. 系统调用三步总链路
+```text
+[步骤 1: 礼貌起手] Excuse me / すみません
+        ↓
+[步骤 2: 意图驱动] [8 大核心动词万能公式] + [核心事物槽位]
+        ↓
+[步骤 3: 听力受阻] Could you speak slower / write it down in the chat?
+```
+
+#### 2. 85% 核心动词引擎 (8 Core Verbs)
+* **GET（从无到有）**：`Can I get [X]?`（索要 API 规格书 / 权限 / 账单）；`I will get [X] done by [Y].`（承诺工期交付）。
+* **HAVE（静态持有）**：`We have an issue with [X].`（通报生产环境支付/缓存故障）；`I have a quick question about [X].`（发起需求提问）。
+* **MAKE（结果把控）**：`Please make sure [X].`（确保向下兼容 / CI 测试全部通过）。
+* **TAKE（抓取消耗）**：`Could you take a look at [X]?`（请同事看 PR / 报错堆栈）；`It will take about [X] to finish.`（评估耗时）。
+* **GO（状态偏离）**：`Something went wrong with [X].`（系统突发未知异常通报）。
+* **COME（靠近协助）**：`Could someone come and check [X]?`（呼叫现场技术支持）。
+* **DO（行为认领）**：`I'll do [X] first.`（排查故障时主动认领第一步排错）。
+* **PUT（实体安置）**：`Did you put [X] into [Y]?`（参数/密钥/配置防呆核对）。
+
+#### 3. 15% 外围安全壳 (Safety Shell)
+* **表达主观意志**：`I want [X]` / `I think [X]` / `I see [X]`（看日志、提判断、指屏幕报错）。
+* **社交礼貌缓冲**：`Excuse me, [X]?` / `Sorry about [X].` / `Could you please [X]?`（消除冒犯感）。
+* **听力防御反击**：
+  * 听不清/太快：`Could you speak a bit slower, please?`
+  * 词汇太生僻：`Sorry, could you write it down in the chat?`
+  * 对齐认知防背锅：`You mean [X], right?`
+
+#### 4. 交互式槽位拼装器 (Slot Replacer)
+* 每个公式支持**点击预设芯片即时替换**，或在输入框中**自定义输入英文槽位**。
+* 页面**实时动态生成**：拼装后的地道英文 + 美式 Phonics 自然拼读注音 + 对应日文现场敬语 + 罗马音。
+* 支持美音与日音真人发音、一键复制。
 * **实时全局搜索**：支持输入中文意图、英文单词、日文汉字或罗马字即搜即得。
 
 ---

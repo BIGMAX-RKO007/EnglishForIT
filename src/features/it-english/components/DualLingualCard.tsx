@@ -52,9 +52,13 @@ export function DualLingualCard({ phrase, mode = 'all' }: DualLingualCardProps) 
               {phrase.en.text}
             </p>
 
-            <div className="mt-1.5 flex items-center gap-1.5 text-xs font-mono text-sky-700/80 dark:text-sky-300/80">
-              <span className="text-[10px] uppercase tracking-wider text-fg-3 font-sans">音标:</span>
-              <span>{phrase.en.ipa}</span>
+            <div className="mt-2 flex flex-wrap items-center gap-1.5 text-xs">
+              <span className="rounded bg-sky-500/15 px-1.5 py-0.5 text-[10px] font-bold uppercase tracking-wider text-sky-600 dark:text-sky-400 border border-sky-500/20">
+                Phonics 拼读
+              </span>
+              <span className="font-mono text-xs font-medium text-sky-800 dark:text-sky-200">
+                {phrase.en.phonics}
+              </span>
             </div>
           </div>
         )}

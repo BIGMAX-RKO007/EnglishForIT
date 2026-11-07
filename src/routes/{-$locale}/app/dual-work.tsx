@@ -64,21 +64,21 @@ function DualWorkPage() {
           <div>
             <div className="flex items-center gap-2">
               <Badge variant="pro" dot>IT 职场双语融合工作台</Badge>
-              <span className="text-xs font-mono text-fg-3">EN (IPA) & JA (Romaji)</span>
+              <span className="text-xs font-mono text-fg-3">EN (Phonics) & JA (Romaji)</span>
             </div>
             <h1 className="mt-2 text-2xl font-bold tracking-tight text-foreground sm:text-3xl">
               英日双轨 IT 沟通话术库
             </h1>
             <p className="mt-1.5 max-w-2xl text-sm leading-relaxed text-fg-2">
-              同一职场意图，同步掌握<strong>国际外企英文（含国际音标 IPA）</strong>与<strong>日本现场日企日语（含罗马音与平假名）</strong>。
-              支持英美与东京双真人发音，消灭发音与开口恐惧！
+              同一职场意图，同步掌握<strong>国际外企英文（含美式自然拼读 Phonics）</strong>与<strong>日本现场日企日语（含罗马音与平假名）</strong>。
+              支持英美与东京双真人发音，消灭生僻音标与开口恐惧！
             </p>
           </div>
           <div className="flex items-center gap-3 rounded-xl border border-border/80 bg-card/80 p-3.5 text-xs shadow-sm">
             <Globe2 size={24} className="text-rose-500" />
             <div>
               <div className="font-semibold text-foreground">同场景 · 双语并行</div>
-              <div className="text-[11px] text-fg-3">音标 + 罗马音 + 跨文化避坑</div>
+              <div className="text-[11px] text-fg-3">Phonics拼读 + 罗马音 + 跨文化避坑</div>
             </div>
           </div>
         </div>
@@ -121,7 +121,7 @@ function DualWorkPage() {
                   : 'text-fg-3 hover:text-foreground'
               }`}
             >
-              仅看英语 (音标)
+              仅看英语 (Phonics)
             </button>
             <button
               type="button"

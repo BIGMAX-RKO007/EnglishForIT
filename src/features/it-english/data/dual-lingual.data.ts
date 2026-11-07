@@ -6,7 +6,7 @@ export interface DualPhrase {
   intent: string // 中文业务意图与场景解读
   en: {
     text: string
-    ipa: string // 国际音标
+    phonics: string // 美式自然拼读注音 (Phonics Respelling)，大写为重音，连字符分隔音节
   }
   ja: {
     text: string // 日语原文（带常用汉字）
@@ -26,7 +26,7 @@ export const DUAL_PHRASES: DualPhrase[] = [
     intent: '在早会/站会上向主管和团队汇报：“昨天完成了用户认证模块的重构，并提交了 PR 供审查。”',
     en: {
       text: "Yesterday, I wrapped up the user authentication refactor and submitted a PR for review.",
-      ipa: "/ˈjestərdeɪ, aɪ ræpt ʌp ðə ˈjuːzər ɔːˌθentɪˈkeɪʃn ˌriːˈfæktər ənd səbˈmɪtɪd ə ˌpiːˈɑːr fər rɪˈvjuː/",
+      phonics: "[YESS-ter-day, eye RAPT UP thuh YOO-zer aw-then-tih-KAY-shun REE-fak-ter and sub-MIT-id uh PEE-AR fer rih-VYOO]",
     },
     ja: {
       text: "昨日はユーザー認証モジュールのリファクタリングを完了し、PRを提出いたしました。",
@@ -43,7 +43,7 @@ export const DUAL_PHRASES: DualPhrase[] = [
     intent: '表达今天的主要任务：“今天我计划编写单元测试，并与前端团队联调支付回调接口。”',
     en: {
       text: "Today, I plan to write unit tests and integrate the payment callback API with the frontend team.",
-      ipa: "/təˈdeɪ, aɪ plæn tuː raɪt ˈjuːnɪt tests ənd ˈɪntɪɡreɪt ðə ˈpeɪmənt ˈkɔːlbæk ˌeɪpiːˈaɪ wɪð ðə ˈfrʌntend tiːm/",
+      phonics: "[tuh-DAY, eye PLAN too RYTE YOO-nit TESTS and IN-tuh-grayt thuh PAY-munt KAWL-bak AY-PEE-EYE with thuh FRONT-end TEEM]",
     },
     ja: {
       text: "本日は単体テストの作成と、フロントエンド側との決済コールバックAPIの結合検証を進める予定です。",
@@ -60,7 +60,7 @@ export const DUAL_PHRASES: DualPhrase[] = [
     intent: '说明当前遇到的卡点：“目前由于第三方接口文档还没提供，支付对接这块暂时处于阻塞状态。”',
     en: {
       text: "I'm currently blocked on the payment integration because we're still waiting for the third-party API specs.",
-      ipa: "/aɪm ˈkɜːrəntli blɑːkt ɑːn ðə ˈpeɪmənt ˌɪntɪˈɡreɪʃn bɪˈkəz wɪr stɪl ˈweɪtɪŋ fər ðə ˈθɜːrdˌpɑːrti ˌeɪpiːˈaɪ speks/",
+      phonics: "[eyem KUR-unt-lee BLOKT on thuh PAY-munt in-tuh-GRAY-shun bih-KUZ weer STILL WAY-ting fer thuh THURD-PAR-tee AY-PEE-EYE SPEKS]",
     },
     ja: {
       text: "外部APIの仕様書待ちのため、現在決済連携の作業がペンディングとなっております。",
@@ -77,7 +77,7 @@ export const DUAL_PHRASES: DualPhrase[] = [
     intent: '提前给主管打预防针：“数据迁移遇到了一些意料之外的边缘情况，交付可能会稍有延迟。”',
     en: {
       text: "We ran into some unexpected edge cases during data migration, so there might be a slight delay in delivery.",
-      ipa: "/wiː ræn ˈɪntuː sʌm ˌʌnɪkˈspektɪd edʒ ˈkeɪsɪz ˈdʊrɪŋ ˈdeɪtə maɪˈɡreɪʃn, soʊ ðer maɪt biː ə slaɪt dɪˈleɪ ɪn dɪˈlɪvəri/",
+      phonics: "[wee RAN IN-too sum un-ek-SPEK-tid EJ KAY-siz DUR-ing DAY-tuh my-GRAY-shun, soh ther MYTE bee uh SLYTE dih-LAY in dih-LIV-er-ee]",
     },
     ja: {
       text: "データ移行で想定外のエッジケースが発生したため、納期のオンスケ維持に少々遅れが生じる可能性がございます。",
@@ -96,7 +96,7 @@ export const DUAL_PHRASES: DualPhrase[] = [
     intent: '在群聊或工位上委婉请同事看代码：“我有空闲时能帮我看一下 PR #102 吗？改动主要在订单校验逻辑。”',
     en: {
       text: "Could you take a look at PR #102 when you get a chance? The changes are mostly around order validation logic.",
-      ipa: "/kʊd juː teɪk ə lʊk æt ˌpiːˈɑːr wʌn oʊ tuː wen juː ɡet ə tʃæns? ðə ˈtʃeɪndʒɪz ɑːr ˈmoʊstli əˈraʊnd ˈɔːrdər ˌvælɪˈdeɪʃn ˈlɑːdʒɪk/",
+      phonics: "[kud yoo TAYK uh LOOK at PEE-AR wun-oh-TOO wen yoo GET uh CHANS? thuh CHAYN-jiz ahr MOHST-lee uh-ROWND OR-der val-ih-DAY-shun LAH-jik]",
     },
     ja: {
       text: "お手すきの際に、PR #102 のレビューをお願いできますでしょうか？注文のバリデーション修正がメインです。",
@@ -113,7 +113,7 @@ export const DUAL_PHRASES: DualPhrase[] = [
     intent: '给对方提个代码小优化（非必须改）：“整体写得很好！一个小建议：这里抽取一个常量可能会更易读。”',
     en: {
       text: "Looks great overall! Nit: extracting this magic string into a shared constant might improve readability.",
-      ipa: "/lʊks ɡreɪt ˌoʊvərˈɔːl! nɪt: ɪkˈstræktɪŋ ðɪs ˈmædʒɪk strɪŋ ˈɪntuː ə ʃerd ˈkɑːnstənt maɪt ɪmˈpruːv ˌriːdəˈbɪləti/",
+      phonics: "[looks GRAYT oh-ver-AWL! NIT: ek-STRAK-ting this MAJ-ik STRING IN-too uh SHARED KON-stunt myte im-PROOV reed-uh-BIL-ih-tee]",
     },
     ja: {
       text: "全体的にとても綺麗ですね！細かい点ですが、このマジックナンバーを定数化するとさらに可読性が高まるかと思います。",
@@ -130,7 +130,7 @@ export const DUAL_PHRASES: DualPhrase[] = [
     intent: '文字打不清楚时：“针对这个缓存失效策略，方便开个 5 分钟的快速语音对齐一下吗？”',
     en: {
       text: "Do you have 5 minutes for a quick huddle to align on this cache invalidation strategy?",
-      ipa: "/duː juː hæv faɪv ˈmɪnɪts fər ə kwɪk ˈhʌdl tuː əˈlaɪn ɑːn ðɪs kæʃ ɪnˌvælɪˈdeɪʃn ˈstrætədʒi/",
+      phonics: "[doo yoo HAV FYVE MIN-its fer uh KWIK HUD-ul too uh-LYNE on this KASH in-val-ih-DAY-shun STRAT-uh-jee?]",
     },
     ja: {
       text: "キャッシュの無効化方針について、今5分ほどお時間をいただきサクッと認識合わせさせていただけますか？",
@@ -149,7 +149,7 @@ export const DUAL_PHRASES: DualPhrase[] = [
     intent: '写代码前确认规格：“如果用户在支付过程中断网，我们目前的预期处理流程是怎样的？”',
     en: {
       text: "What is the expected behavior if the user loses internet connection halfway through the checkout flow?",
-      ipa: "/wʌt ɪz ðiː ɪkˈspektɪd bɪˈheɪvjər ɪf ðə ˈjuːzər ˈluːzɪz ˈɪntərnet kəˈnekʃn ˈhæfweɪ θruː ðə ˈtʃekaʊt floʊ/",
+      phonics: "[WUT iz thee ek-SPEK-tid bee-HAYV-yer if thuh YOO-zer LOO-ziz IN-ter-net kuh-NEK-shun HAF-way THROO thuh CHEK-owt FLOH?]",
     },
     ja: {
       text: "決済処理の途中でネットワークが切断された場合の想定仕様（期待値）についてご確認させていただけますでしょうか？",
@@ -166,7 +166,7 @@ export const DUAL_PHRASES: DualPhrase[] = [
     intent: '遇到加需求时守住底线：“如果现在加入这个导出报表功能，我们需要重新评估本迭代的交付排期。”',
     en: {
       text: "If we accommodate this export feature now, we'll need to push back the release date or cut other scope.",
-      ipa: "/ɪf wiː əˈkɑːmədeɪt ðɪs ˈekspɔːrt ˈfiːtʃər naʊ, wiːl niːd tuː pʊʃ bæk ðə rɪˈliːs deɪt ɔːr kʌt ˈʌðər skoʊp/",
+      phonics: "[if wee uh-KOM-uh-dayt this EKS-port FEE-cher NOW, weel NEED too POOSH BAK thuh rih-LEESS DAYT or KUT UTH-er SKOHP]",
     },
     ja: {
       text: "このエクスポート機能を追加いたしますと工数が逼迫するため、リリース日の再調整（リスケ）またはスコープの見直しが必要です。",
@@ -185,7 +185,7 @@ export const DUAL_PHRASES: DualPhrase[] = [
     intent: '第一时间在告警群同步：“我们检测到生产环境 API 出现 500 错误峰值，正在全力排查根因。”',
     en: {
       text: "Heads up: We're seeing an unusual spike in 500 errors on the production API. The team is actively investigating the root cause.",
-      ipa: "/hedz ʌp: wɪr ˈsiːɪŋ æn ʌnˈjuːʒuəl spaɪk ɪn faɪv ˈhʌndrəd ˈerərz ɑːn ðə prəˈdʌkʃn ˌeɪpiːˈaɪ. ðə tiːm ɪz ˈæktɪvli ɪnˈvestɪɡeɪtɪŋ ðə ruːt kɔːz/",
+      phonics: "[HEDZ UP: weer SEE-ing an un-YOO-zhoo-ul SPYKE in FYVE-HUN-dred ER-erz on thuh pruh-DUK-shun AY-PEE-EYE. thuh TEEM iz AK-tiv-lee in-VES-tih-gay-ting thuh ROOT KAWZ]",
     },
     ja: {
       text: "【緊急連絡】本番環境のAPIにて500エラーの急増を検知いたしました。現在チームで原因の一次切り分けを進めております。",
@@ -202,7 +202,7 @@ export const DUAL_PHRASES: DualPhrase[] = [
     intent: '果断决策：“为了先恢复用户访问，我们决定立即将生产环境版本回滚到上一个稳定 Release。”',
     en: {
       text: "To restore service as quickly as possible, we have decided to roll back production to the previous stable release.",
-      ipa: "/tuː rɪˈstɔːr ˈsɜːrvɪs æz ˈkwɪkli æz ˈpɑːsəbl, wiː hæv dɪˈsaɪdɪd tuː roʊl bæk prəˈdʌkʃn tuː ðə ˈpriːviəs ˈsteɪbl rɪˈliːs/",
+      phonics: "[too reh-STOR SUR-vis az KWIK-lee az POS-uh-bul, wee hav dih-SY-did too ROHL BAK pruh-DUK-shun too thuh PREE-vee-us STAY-bul rih-LEESS]",
     },
     ja: {
       text: "サービス復旧を最優先とするため、本番環境を直前の安定版リリースへロールバック（切り戻し）いたします。",
@@ -221,7 +221,7 @@ export const DUAL_PHRASES: DualPhrase[] = [
     intent: '介绍自己的专业定位：“我是一名拥有 5 年经验的全栈工程师，主要专注于高并发架构与 TypeScript 研发。”',
     en: {
       text: "I'm a full-stack engineer with 5 years of experience, specializing in high-concurrency systems and modern TypeScript.",
-      ipa: "/aɪm ə ˈfʊlˌstæk ˌendʒɪˈnɪr wɪð faɪv jɪrz ʌv ɪkˈspɪriəns, ˈspeʃəlaɪzɪŋ ɪn haɪ kənˈkɜːrənsi ˈsɪstəmz ənd ˈmɑːdərn ˈtaɪpˌskrɪpt/",
+      phonics: "[eyem uh FOOL-STAK en-juh-NEER with FYVE YEERZ uv ek-SPEER-ee-unss, SPESH-uh-ly-zing in HY-kun-KUR-un-see SIS-tumz and MOD-ern TYPE-skript]",
     },
     ja: {
       text: "フルスタックエンジニアとして5年の開発経験があり、主に高負荷分散システムとTypeScriptによる開発を得意としております。",
@@ -238,7 +238,7 @@ export const DUAL_PHRASES: DualPhrase[] = [
     intent: '第一天加入现场：“初次见面！今天开始加入团队，希望能尽快熟悉业务成为独当一面的战力，请多多关照！”',
     en: {
       text: "Great to meet everyone! Excited to join the team today. I look forward to getting up to speed quickly and contributing to the project.",
-      ipa: "/ɡreɪt tuː miːt ˈevriwʌn! ɪkˈsaɪtɪd tuː dʒɔɪn ðə tiːm təˈdeɪ. aɪ ˈlʊk ˈfɔːrwərd tuː ˈɡetɪŋ ʌp tuː spiːd ˈkwɪkli ənd kənˈtrɪbjuːtɪŋ tuː ðə ˈprɑːdʒekt/",
+      phonics: "[GRAYT too MEET EV-ree-wun! ek-SY-tid too JOYN thuh TEEM tuh-DAY. eye LOOK FOR-werd too GET-ing UP too SPEED KWIK-lee and kun-TRIB-yoo-ting too thuh PROJ-ekt]",
     },
     ja: {
       text: "初めまして！本日よりチームに参加いたします。早く業務に慣れて一人前の戦力になれるよう努めますので、よろしくお願いいたします！",
