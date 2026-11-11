@@ -15,8 +15,7 @@
   * **项目经历 STAR 台**：`https://englishforit.fanxiao.workers.dev/zh/app/project-star`
   * **日常工作交流模拟**：`https://englishforit.fanxiao.workers.dev/zh/app/daily-work`
   * **工位秒查锦囊与发音**：`https://englishforit.fanxiao.workers.dev/zh/app/cheatsheet`
-  * **英日双轨对照工作台**：`https://englishforit.fanxiao.workers.dev/zh/app/dual-work`
-  * **语言防身与槽位引擎**：`https://englishforit.fanxiao.workers.dev/zh/app/defense`
+  * **语言防身与槽位引擎（英日双轨）**：`https://englishforit.fanxiao.workers.dev/zh/app/defense`
 
 ### 💻 本地开发运行：
 ```bash
@@ -29,14 +28,13 @@ pnpm dev
 * **项目经历 STAR 转换台**：`http://localhost:3000/zh/app/project-star`
 * **日常工作交流模拟器**：`http://localhost:3000/zh/app/daily-work`
 * **工位秒查锦囊与发音**：`http://localhost:3000/zh/app/cheatsheet`
-* **英日双轨对照工作台**：`http://localhost:3000/zh/app/dual-work`
-* **语言防身与槽位引擎**：`http://localhost:3000/zh/app/defense`
+* **语言防身与槽位引擎（英日双轨）**：`http://localhost:3000/zh/app/defense`
 
 > 💡 **免登录体验**：系统已内置免登录访客模式（Guest Mode），无需注册账号，打开即可立即练习！
 
 ---
 
-## 🎯 六大核心模块使用指南
+## 🎯 五大核心模块使用指南
 
 ### 一、 自我介绍破冰台 (`/zh/app/self-intro`)
 
@@ -120,77 +118,69 @@ pnpm dev
 
 ---
 
-### 五、 英日双轨对照工作台 (`/zh/app/dual-work`) 🌟 NEW!
+### 五、 极简语言防身与槽位引擎（英日双轨对照全融合）(`/zh/app/defense`) 🛡️ 深度融合版
 
-专为在日本现场或跨国团队（日英混用、跨国协同）的 IT 工程师打造。**同一真实工位意图，英文日文并列呈现**，深度攻克技术与跨文化表达痛点。
+采用**受控自然语言（Controlled Natural Language, CNL）**与**槽位替换（Slot & Frame）**思想设计。已全面融合原“英日双轨对照”所有敏捷实战场景（昨日晨会汇报、今日联调、阻塞求助、进度微调、PR挑刺、线上故障应急止血、进场破冰）！
 
-#### 1. 双轨核心要素
-* 🇬🇧 **英文板块**：硅谷/跨国敏捷地道表达，附带 **Phonics 美式自然拼读** 与美式/英式发音示范（大写表示重音，连字符分隔音节，见词即读）。
-* 🇯🇵 **日文板块**：日本 IT 现场/SIer 规范敬语表达，附带 **假名注音（Furigana）** 与 **罗马音（Romaji）**，并支持日语原生发音。
-* 💡 **跨文化工位心法（Tip）**：深度剖析欧美工程师崇尚的“直接坦诚/快速迭代”与日本现场推崇的“報連相（ほうれんそう）/オンスケ/一次切り分け”之间的微妙语境区别。
+剥离繁杂语法，用程序员最熟悉的“函数调用与传参”心智，完成 85%~90% 的工位表达与日常防身！
 
-#### 2. 精选 5 大高频双语实战场景
-1. **敏捷晨会与进度 (Standup & Progress)**：
-   * 昨日完成：`I wrapped up the refactor...` vs. `昨日はユーザー認証モジュールのリファクタリングを完了させました。`
-   * 今日联调：`Today I’m focusing on integrating with...` vs. `本日は決済APIとの結合検証を進めます。`
-   * 阻塞点求助：`I’m blocked on the API specs...` vs. `外部APIの仕様書待ちのため、現在このタスクはペンディングとなっております。`
-   * 进度微调与预警：`I might need an extra half-day...` vs. `現時点ではオンスケですが、例外処理の考慮漏れにより半日ほど遅れが生じる可能性がございます。`
-2. **代码审查与协作 (Code Review & Collaboration)**：
-   * 邀请评审：`When you get a chance, could you take a look...` vs. `お手すきの際に、こちらのPRをご確認いただけますでしょうか。`
-   * 委婉挑刺：`Nit: what if we memoize this callback?` vs. `細かい点（Nit）ですが、こちらのコールバックをメモ化するのはいかがでしょうか。`
-   * 5分钟快速对齐：`Let’s do a quick 5-minute huddle...` vs. `サクッと5分ほどハドルで認識合わせさせていただけますでしょうか。`
-3. **需求与测试边界 (Specs & Q&A)**：
-   * 异常场景期望：`What's the expected behavior when...` vs. `ネットワーク切断時の想定仕様（期待値）についてご確認させてください。`
-   * 需求蔓延/评估工期影响：`Adding this scope right now will push back our sprint delivery...` vs. `このスコープを追加しますと、今スプリントのリリース日程に影響（リスケ）が出る恐れがございます。`
-4. **线上故障与应急排障 (Incident & Troubleshooting)**：
-   * 500 告警首发通报：`Heads up: we're seeing a spike in 500 errors...` vs. `【緊急連絡】本番環境にて500エラーのスパイクを検知しました。`
-   * 快速止血与回滚：`I recommend rolling back to the previous stable build...` vs. `原因調査と並行して、まずは前バージョンの安定版への切り戻し（ロールバック）を推奨いたします。`
-5. **入场与面试破冰 (Onsite Intro & Interview)**：
-   * 30 秒技术背景陈述：`I'm a backend engineer specializing in distributed systems...` vs. `バックエンドエンジニアとして、分散システムや高負荷設計を得意としております。`
-   * 进场破冰：`I'm looking forward to getting up to speed quickly...` vs. `一日も早く現場のキャッチアップを終え、チームの戦力になれるよう努めます。`
+#### 1. 句式结构视觉指南
+* **[ 浅色高亮底色 ]**：核心固定动词 / 句式骨架（肌肉记忆，无需思考语法，脱口而出）；
+* **<u>【 带下划线 】</u>**：动态业务插槽（即插即用，点击预设芯片或自定义输入即时替换）；
+* **🇨🇳 中文含义**：带底色与下划线同步对照，清晰指引业务意图与含义；
+* **🇬🇧 美式自然拼读 (Phonics)**：大写表示重音，连字符分隔音节，彻底告别生僻音标，见词即读；
+* **🇯🇵 日语现场敬语与罗马音 (Romaji)**：片假名术语与敬语搭配，支持假名与罗马音拼读。
 
-#### 3. 个性化视角与模式切换
-* **英日双轨对照**：默认模式，英日双语一屏横向对比，适合全面对照学习。
-* **仅看英语 (Phonics)**：关闭日文，专注于国际开源与欧美远程面试表达。
-* **仅看日语 (罗马音)**：关闭英文，专注于日本 IT 现场工作沟通与敬语训练。
-* **实时全局搜索**：支持输入中文意图、英文单词、日文汉字或罗马字即搜即得。
-
----
-
-### 六、 极简语言防身与槽位引擎 (`/zh/app/defense`) 🛡️ NEW!
-
-采用**受控自然语言（Controlled Natural Language, CNL）**与**槽位替换（Slot & Frame）**思想设计。剥离繁杂语法，用程序员最熟悉的“函数调用与传参”心智，完成 85%~90% 的工位表达与日常防身！
-
-#### 1. 系统调用三步总链路
+#### 2. 系统调用三步总链路
 ```text
-[步骤 1: 礼貌起手] Excuse me / すみません
-        ↓
-[步骤 2: 意图驱动] [8 大核心动词万能公式] + [核心事物槽位]
-        ↓
-[步骤 3: 听力受阻] Could you speak slower / write it down in the chat?
+[步骤 1: 礼貌起手（15% 安全壳）]  Excuse me / すみません
+               ↓
+[步骤 2: 意图驱动（85% 核心动词）]  [8 大核心动词万能公式] + [核心事物槽位]
+               ↓
+[步骤 3: 听力受阻（防御反击）]      Could you speak slower / write it down in the chat?
 ```
 
-#### 2. 85% 核心动词引擎 (8 Core Verbs)
-* **GET（从无到有）**：`Can I get [X]?`（索要 API 规格书 / 权限 / 账单）；`I will get [X] done by [Y].`（承诺工期交付）。
-* **HAVE（静态持有）**：`We have an issue with [X].`（通报生产环境支付/缓存故障）；`I have a quick question about [X].`（发起需求提问）。
-* **MAKE（结果把控）**：`Please make sure [X].`（确保向下兼容 / CI 测试全部通过）。
-* **TAKE（抓取消耗）**：`Could you take a look at [X]?`（请同事看 PR / 报错堆栈）；`It will take about [X] to finish.`（评估耗时）。
-* **GO（状态偏离）**：`Something went wrong with [X].`（系统突发未知异常通报）。
-* **COME（靠近协助）**：`Could someone come and check [X]?`（呼叫现场技术支持）。
-* **DO（行为认领）**：`I'll do [X] first.`（排查故障时主动认领第一步排错）。
-* **PUT（实体安置）**：`Did you put [X] into [Y]?`（参数/密钥/配置防呆核对）。
+#### 3. 85% 核心动词引擎 (全量融合敏捷与现场实战)
+* **GET（从无到有）**：
+  * 请求获取：`Can I get [X]?`（API规格书 / 生产DB只读权限 / Figma设计稿 / 账单收据）；
+  * 状态交付：`I will get [X] done by [Y].`（承诺工期交付）；
+  * 现场破冰：`I look forward to getting up to speed quickly on [X] and contributing.`（独当一面的战力「一人前の戦力」）。
+* **HAVE（静态持有 / 阻断 / 对齐）**：
+  * 故障通报：`We have an issue with [X].`（生产支付网关 / Redis缓存同步 / 办公Wi-Fi）；
+  * 阻断求助：`I'm currently blocked on [X] because we're still waiting for the API specs.`（外部API仕様書待ち・ペンディング）；
+  * 语音对齐：`Do you have 5 minutes for a quick huddle to align on [X]?`（サクッと認識合わせ）；
+  * 技术提问：`I have a quick question about [X].`（优雅发起需求确认）。
+* **MAKE（结果把控）**：
+  * 质量把关：`Please make sure [X].`（向下兼容 / 环境变量配置 / CI流水线全绿）。
+* **TAKE（抓取消耗 / 排期阻击）**：
+  * 视线抓取：`Could you take a look at [X] when you get a chance?`（お手すきの際に）；
+  * 排期防守：`If we accommodate [X] now, we'll need to push back the release date.`（需求蔓延与工数リスケ）；
+  * 耗时评估：`It will take about [X] to finish.`（评估2-3小时 / 半天 / 1个迭代）。
+* **GO / RUN（状态偏离）**：
+  * 进度预警：`We ran into some unexpected [X], so there might be a slight delay.`（報連相・オンスケ維持遅れ）；
+  * 未知异常：`Something went wrong with [X].`（系统登录鉴权 / 部署流水线报错）。
+* **COME（靠近协助）**：
+  * 现场求援：`Could someone come and check [X]?`（呼叫现场排查服务器 / 本地构建报错）。
+* **DO（行为认领 / 收尾 / 联调 / 止血）**：
+  * 晨会收尾：`Yesterday, I wrapped up [X] and submitted a PR for review.`（リファクタリング完了・PR提出）；
+  * 联调计划：`Today, I plan to write unit tests and integrate [X] with the frontend team.`（結合検証）；
+  * 止血回滚：`To restore service, we have decided to roll back production to [X].`（緊急切り戻し）；
+  * 主动认领：`I'll do [X] first.`（主动认领错误日志一次排查）。
+* **PUT（实体安置）**：
+  * 防呆核对：`Did you put [X] into [Y]?`（API Key 放入 .env / Token 放入 Header）。
 
-#### 3. 15% 外围安全壳 (Safety Shell)
-* **表达主观意志**：`I want [X]` / `I think [X]` / `I see [X]`（看日志、提判断、指屏幕报错）。
-* **社交礼貌缓冲**：`Excuse me, [X]?` / `Sorry about [X].` / `Could you please [X]?`（消除冒犯感）。
+#### 4. 15% 外围安全壳 (Safety Shell)
+* **主观表达**：`I want [X]` / `I think [X]` / `I see [X]`（表达诉求、提出技术判断、指出屏幕报错）；
+* **社交缓冲**：`Excuse me, [X]?` / `Sorry about [X].` / `Could you please [X]?` / `Nit: [X]`（消除冒犯感、PR 挑刺）；
 * **听力防御反击**：
-  * 听不清/太快：`Could you speak a bit slower, please?`
-  * 词汇太生僻：`Sorry, could you write it down in the chat?`
-  * 对齐认知防背锅：`You mean [X], right?`
+  * 语速过快：`Could you speak a bit slower, please?`
+  * 词汇生僻：`Sorry, could you write it down in the chat?`
+  * 意图核验：`You mean [X], right?`
+  * 需求边界：`What is the expected behavior if [X]?`（想定仕様・期待値確認）。
 
-#### 4. 交互式槽位拼装器 (Slot Replacer)
+#### 5. 交互式槽位拼装器 (Slot Replacer)
 * 每个公式支持**点击预设芯片即时替换**，或在输入框中**自定义输入英文槽位**。
-* 页面**实时动态生成**：拼装后的地道英文 + 美式 Phonics 自然拼读注音 + 对应日文现场敬语 + 罗马音。
+* 页面**实时动态生成**：中文意图 + 地道英文 + 美式 Phonics 自然拼读注音 + 对应日文现场敬语 + 罗马音。
 * 支持美音与日音真人发音、一键复制。
 * **实时全局搜索**：支持输入中文意图、英文单词、日文汉字或罗马字即搜即得。
 

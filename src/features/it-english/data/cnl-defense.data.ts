@@ -42,7 +42,7 @@ export interface ShellItem {
   tip: string
 }
 
-// 15% 外围安全壳速查
+// 15% 外围安全壳速查（含心理感官、礼貌缓冲、听力防御与工位对齐）
 export const CNL_SHELL_ITEMS: ShellItem[] = [
   // 1. 心理与感官 (表达主观意志)
   {
@@ -104,6 +104,26 @@ export const CNL_SHELL_ITEMS: ShellItem[] = [
       { label: '连接超时', en: 'a connection timeout error', phonics: 'uh kuh-NEK-shun TYME-owt ER-er', ja: '接続タイムアウトエラー', romaji: 'setsuzoku taimuauto erā', zh: '接口连接超时错误' },
     ],
     tip: '远程屏幕共享（Zoom/Meet）排障时，I see... 是最自然的第一句话。',
+  },
+  {
+    id: 'shell-incident-heads-up',
+    category: 'sensory',
+    categoryLabel: '线上事故 · 首发通报',
+    intent: '第一时间在告警群同步异常并通知排查',
+    templateEn: "Heads up: We're seeing an unusual spike in {X}. The team is actively investigating.",
+    phonics: "[HEDZ UP: weer SEE-ing an un-YOO-zhoo-ul SPYKE in {X}. thuh TEEM iz AK-tiv-lee in-VES-tih-gay-ting]",
+    templateJa: "【緊急連絡】本番環境にて {X} の急増を検知いたしました。現在チームで一次切り分けを進めております。",
+    furigana: "【きんきゅうれんらく】ほんばんかんきょうにて {X} の きゅうぞうを けんちいたしました。げんざい チームで いちじきりわけを すすめております。",
+    romaji: "[Kinkyū renraku] Honban kankyō nite {X} no kyūzō o kenchi itashimashita. Genzai chīmu de ichiji kiriwake o susumete orimasu.",
+    templateZh: "请注意：我们发现 {X} 出现异常突增，团队正在紧急排查根因。",
+    slotPlaceholder: '{X}',
+    slotName: '异常指标',
+    slots: [
+      { label: '500 报错峰值', en: '500 errors on the production API', phonics: 'FYVE-HUN-dred ER-erz on thuh pruh-DUK-shun AY-PEE-EYE', ja: 'APIの500エラー', romaji: 'API no 500 erā', zh: '生产环境 API 的 500 报错' },
+      { label: '慢SQL堆积', en: 'slow database queries', phonics: 'SLOH DAY-tuh-bays KWEER-eez', ja: 'スロークエリの滞留', romaji: 'surō kueri no tairyū', zh: '慢数据库查询堆积' },
+      { label: 'Redis内存告警', en: 'Redis memory usage spikes', phonics: 'REE-dis MEM-ree YOO-sij SPYKS', ja: 'Redisメモリの急激な枯渇', romaji: 'Redis memori no kyūgeki na kokatsu', zh: 'Redis 内存占用率异常飙升' },
+    ],
+    tip: "英文习惯用 Heads up 开头提醒所有人注意；日企事故必须使用高频黑话「切り分け（故障隔离与排查定位）」和「本番環境（生产环境）」。",
   },
 
   // 2. 社交礼貌缓冲 (消除冒犯感)
@@ -167,6 +187,26 @@ export const CNL_SHELL_ITEMS: ShellItem[] = [
     ],
     tip: '外企求人办事必挂 Could you please，日企对应最强敬语垫词「恐れ入りますが……」。',
   },
+  {
+    id: 'shell-nit',
+    category: 'polite',
+    categoryLabel: '代码审查 · 委婉建议 (Nit)',
+    intent: '给对方提个代码小优化（非必须改）',
+    templateEn: 'Looks great overall! Nit: {X} might improve readability.',
+    phonics: '[looks GRAYT oh-ver-AWL! NIT: {X} myte im-PROOV reed-uh-BIL-ih-tee]',
+    templateJa: '全体的にとても綺麗ですね！細かい点ですが、{X} とさらに可読性が高まるかと思います。',
+    furigana: 'ぜんたいてきに とても きれいですね！こまかいてんですが、{X} と さらに かどくせいが たかまるかと おもいます。',
+    romaji: 'Zentaiteki ni totemo kirei desu ne! Komakai ten desu ga, {X} to sarani kadokusei ga takamaru ka to omoimasu.',
+    templateZh: '整体写得很棒！小建议：{X} 可能会更具可读性。',
+    slotPlaceholder: '{X}',
+    slotName: '重构小建议',
+    slots: [
+      { label: '常量抽离', en: 'extracting this magic string into a constant', phonics: 'ek-STRAK-ting this MAJ-ik STRING IN-too uh KON-stunt', ja: 'このマジックナンバーを定数化する', romaji: 'kono majikku nanbā o teisūka suru', zh: '抽取此魔术字符串为共享常量' },
+      { label: '拆分纯函数', en: 'splitting this logic into a pure function', phonics: 'SPLIT-ing this LAH-jik IN-too uh PYOOR FUNGK-shun', ja: 'この処理を純粋関数に切り出す', romaji: 'kono shori o junsui kansū ni kiridasu', zh: '将该业务拆分为独立纯函数' },
+      { label: '回调记忆化', en: 'memoizing this callback function', phonics: 'MEM-oh-eye-zing this KAWL-bak FUNGK-shun', ja: 'このコールバックをメモ化する', romaji: 'kono kōrubakku o memoka suru', zh: '对这个回调进行记忆化优化' },
+    ],
+    tip: '国际团队常在代码评论前写 Nit（挑刺小细节，不阻塞合入）；日企中用「細かい点ですが」「～かと思います」表达柔和建议。',
+  },
 
   // 3. 听力防御反击 (把对方强行拉回极简频道)
   {
@@ -215,11 +255,31 @@ export const CNL_SHELL_ITEMS: ShellItem[] = [
     ],
     tip: '日本现场称之为「認識合わせ」。主动把复杂讨论收敛为一句话反问，彻底避免背锅！',
   },
+  {
+    id: 'shell-edge-case',
+    category: 'defense',
+    categoryLabel: '需求确认 · 边界定义',
+    intent: '写代码前向 PM 或客户确认异常边界规格',
+    templateEn: 'What is the expected behavior if {X}?',
+    phonics: '[WUT iz thee ek-SPEK-tid bee-HAYV-yer if {X} ?]',
+    templateJa: '{X} 場合の想定仕様（期待値）についてご確認させていただけますでしょうか？',
+    furigana: '{X} ばあいの そうていしよう（きたいち）について ごかくにんさせて いただけますでしょうか？',
+    romaji: '{X} baai no sōtei shiyō (kitaichi) ni tsuite gokakunin sasete itadakemasu deshō ka?',
+    templateZh: '如果出现 {X}，我们目前的预期设计处理逻辑是怎样的？',
+    slotPlaceholder: '{X}',
+    slotName: '异常场景',
+    slots: [
+      { label: '支付中断网', en: 'the user loses internet halfway through checkout', phonics: 'thuh YOO-zer LOO-ziz IN-ter-net HAF-way THROO CHEK-owt', ja: '決済処理の途中でネットワークが切断された', romaji: 'kessai shori no tochū de nettowāku ga setsudan sareta', zh: '用户在支付过程中网络突然断开' },
+      { label: '查询超时重试', en: 'the database query times out', phonics: 'thuh DAY-tuh-bays KWEER-ee TYMZ OWT', ja: 'DBクエリがタイムアウトした', romaji: 'DB kueri ga taimuauto shita', zh: '数据库读取查询超时' },
+      { label: '刷新Token失效', en: 'the token silent refresh fails', phonics: 'thuh TOH-kun SY-lunt ree-FRESH FAYLZ', ja: 'トークンのサイレントリフレッシュが失敗した', romaji: 'tōkun no sairento rifuresshu ga shippai shita', zh: '无感 Token 续期发生失败' },
+    ],
+    tip: '英文问法直击 expected behavior；日企中必须掌握关键词「期待値（期望结果/预期输出）」与「想定仕様（设计规格）」，提 Q&A 票时的必填项。',
+  },
 ]
 
-// 85% 核心动词引擎
+// 85% 核心动词引擎（全量吸纳原双轨实战场景）
 export const CNL_VERB_FORMULAS: CnlFormula[] = [
-  // 1. GET (从无到有：获取、搞懂、完成状态)
+  // 1. GET (从无到有：获取、搞懂、快速上手、完成状态)
   {
     id: 'get-can-i-get',
     verbCategory: 'GET',
@@ -263,8 +323,29 @@ export const CNL_VERB_FORMULAS: CnlFormula[] = [
     scenarioType: 'work',
     tip: '站会上的万能金句！用 get it done 代替冗长的语法，领导听了最踏实。',
   },
+  {
+    id: 'get-up-to-speed',
+    verbCategory: 'GET',
+    title: 'GET · 状态跃升：现场破冰快速上手',
+    mentalModel: '从新手到熟练掌握（get up to speed on）',
+    templateEn: 'I look forward to getting up to speed quickly on {X} and contributing to the project.',
+    phonicsTemplate: '[eye LOOK FOR-werd too GET-ing UP too SPEED KWIK-lee on {X} and kun-TRIB-yoo-ting too thuh PROJ-ekt]',
+    templateJa: '一日も早く {X} のキャッチアップを終え、チームの戦力になれるよう努めます。',
+    romajiTemplate: 'Ichinichi mo hayaku {X} no kyatchiappu o oe, chīmu no senryoku ni nareru yō tsutomemasu.',
+    templateZh: '我希望能尽快上手熟悉 {X}，并尽早为项目贡献战力。',
+    slotPlaceholder: '{X}',
+    slotName: '业务与技术栈',
+    defaultSlotIndex: 0,
+    slots: [
+      { label: '业务逻辑与系统代码', en: 'the business logic and codebase', phonics: 'thuh BIZ-nis LAH-jik and KOHD-bays', ja: '業務ロジックとコードベース', romaji: 'gyōmu rojikku to kōdobēsu', zh: '核心业务逻辑与系统代码库' },
+      { label: '现场开发规范与流程', en: 'the development workflows and rules', phonics: 'thuh dih-VEL-up-munt WURK-flohz and ROOLZ', ja: '開発フローとルール', romaji: 'kaihatsu furō to rūru', zh: '现场协同流程与规范' },
+      { label: '项目业务领域知识', en: 'the project domain knowledge', phonics: 'thuh PROJ-ekt doh-MAYN NAH-lij', ja: 'プロジェクトのドメイン知識', romaji: 'purojekuto no domein chishiki', zh: '行业业务领域专门知识' },
+    ],
+    scenarioType: 'work',
+    tip: '日企课件原汁原味的日本职场文化金句！「一人前の戦力」是在日现场面试与入场破冰最博得主管好感的满分词汇！英文对应 get up to speed。',
+  },
 
-  // 2. HAVE (已经持有：拥有、存在故障、有疑问)
+  // 2. HAVE (已经持有：拥有、存在故障、有疑问、开麦对齐)
   {
     id: 'have-issue',
     verbCategory: 'HAVE',
@@ -285,6 +366,48 @@ export const CNL_VERB_FORMULAS: CnlFormula[] = [
     ],
     scenarioType: 'incident',
     tip: '只要遇到故障或报错，不用拼凑复杂生词，句式固定为 We have an issue with... 脱口而出。',
+  },
+  {
+    id: 'have-blocked',
+    verbCategory: 'HAVE',
+    title: 'HAVE · 阻塞阻断：站会说明卡点与等待依赖',
+    mentalModel: '持有阻塞卡点（be blocked on），处于被动等待',
+    templateEn: "I'm currently blocked on {X} because we're still waiting for the API specs.",
+    phonicsTemplate: "[eyem KUR-unt-lee BLOKT on {X} bih-KUZ weer STILL WAY-ting fer thuh AY-PEE-EYE SPEKS]",
+    templateJa: "外部仕様書待ちのため、現在 {X} の作業がペンディングとなっております。",
+    romajiTemplate: "Gaibu shiyōsho machi no tame, genzai {X} no sagyō ga pendingu to natte orimasu.",
+    templateZh: "我目前在 {X} 上卡住了，因为我们还在等待第三方接口文档。",
+    slotPlaceholder: '{X}',
+    slotName: '受阻任务',
+    defaultSlotIndex: 0,
+    slots: [
+      { label: '支付对接流程', en: 'the payment integration', phonics: 'thuh PAY-munt in-tuh-GRAY-shun', ja: '決済連携の作業', romaji: 'kessai renkei no sagyō', zh: '支付服务对接模块' },
+      { label: '第三方短信通知', en: 'the SMS notification service', phonics: 'thuh ESS-EM-ESS noh-tih-fih-KAY-shun SUR-vis', ja: 'SMS通知サービスの連携', romaji: 'SMS tsūchi sābisu no renkei', zh: '短信通知通道集成' },
+      { label: '批量报表同步任务', en: 'the batch report syncing', phonics: 'thuh BATCH rih-PORT SINK-ing', ja: 'バッチレポートの同期処理', romaji: 'batchi repōto no dōki shori', zh: '批量报表同步数据流' },
+    ],
+    scenarioType: 'work',
+    tip: "英语直接用 I'm blocked on... 态度明确；日企现场务必使用「仕様書待ち」配合高频片假名「ペンディング（Pending 搁置中）」，显得专业委婉。",
+  },
+  {
+    id: 'have-huddle',
+    verbCategory: 'HAVE',
+    title: 'HAVE · 认知对齐：发起 5 分钟语音快速同步',
+    mentalModel: '持有讨论时间（have 5 minutes to align on）',
+    templateEn: 'Do you have 5 minutes for a quick huddle to align on {X}?',
+    phonicsTemplate: '[doo yoo HAV FYVE MIN-its fer uh KWIK HUD-ul too uh-LYNE on {X} ?]',
+    templateJa: '{X} について、今5分ほどお時間をいただきサクッと認識合わせさせていただけますか？',
+    romajiTemplate: '{X} ni tsuite, ima go-fun hodo ojikan o itadaki sakutto ninshiki awase sasete itadakemasu ka?',
+    templateZh: '关于 {X}，方便抽 5 分钟快速开个语音对齐一下吗？',
+    slotPlaceholder: '{X}',
+    slotName: '需要对齐的技术主题',
+    defaultSlotIndex: 0,
+    slots: [
+      { label: '缓存失效策略', en: 'this cache invalidation strategy', phonics: 'this KASH in-val-ih-DAY-shun STRAT-uh-jee', ja: 'キャッシュの無効化方針', romaji: 'kyasshu no mukōka hōshin', zh: '该多级缓存失效更新策略' },
+      { label: '全局错误码规范', en: 'the global error code handling', phonics: 'thuh GLOH-bul ER-er KOHD HAN-dling', ja: '共通エラーコードの設計', romaji: 'kyōtsū erā kōdo no sekkei', zh: '全局错误码与异常处理口径' },
+      { label: '数据库索引调优', en: 'the database index optimization', phonics: 'thuh DAY-tuh-bays IN-deks op-tuh-muh-ZAY-shun', ja: 'DBインデックスの最適化案', romaji: 'DB indekkusu no saitekika-an', zh: '核心慢查询索引优化方案' },
+    ],
+    scenarioType: 'work',
+    tip: 'Slack/Teams 中快速开麦叫 huddle 或 quick sync；日企中称之为「認識合わせ（同步认知/对齐）」，在东京工位上极为高频常用。',
   },
   {
     id: 'have-question',
@@ -331,14 +454,14 @@ export const CNL_VERB_FORMULAS: CnlFormula[] = [
     tip: 'Code Review 或发布前叮嘱团队的最强动词，日企对应「念のため〜徹底をお願いします」。',
   },
 
-  // 4. TAKE (抓取消耗：抓取审查、花费工时、私下聊)
+  // 4. TAKE (抓取消耗：抓取审查、花费工时、把控排期)
   {
     id: 'take-look',
     verbCategory: 'TAKE',
     title: 'TAKE · 视线抓取：请求同事审查代码或报错',
     mentalModel: '请求抓取对方的一点注意力（take a look at）',
-    templateEn: 'Could you take a look at {X}?',
-    phonicsTemplate: '[kud yoo TAYK uh LOOK at {X} ?]',
+    templateEn: 'Could you take a look at {X} when you get a chance?',
+    phonicsTemplate: '[kud yoo TAYK uh LOOK at {X} wen yoo GET uh CHANS ?]',
     templateJa: 'お手すきの際に、{X} をご確認いただけますでしょうか？',
     romajiTemplate: 'Otesuki no sai ni, {X} o gokakunin itadakemasu deshō ka?',
     templateZh: '方便时能否顺便帮我看一下 {X} 呢？',
@@ -346,12 +469,33 @@ export const CNL_VERB_FORMULAS: CnlFormula[] = [
     slotName: '审查对象',
     defaultSlotIndex: 0,
     slots: [
-      { label: '我的 Pull Request', en: 'my latest PR', phonics: 'my LAY-tist PEE-AR', ja: '私の最新のプルリクエスト', romaji: 'watashi no saishin no puru rikuesuto', zh: '我刚提交的最新 PR' },
+      { label: '我的最新 PR #102', en: 'PR #102', phonics: 'PEE-AR wun-oh-TOO', ja: 'PR #102', romaji: 'pīāru 102', zh: '我的最新 PR #102' },
       { label: '这段崩溃堆栈日志', en: 'this crash stack trace', phonics: 'this KRASH STAK TRAYSS', ja: 'クラッシュのスタックトレース', romaji: 'kurasshu no sutakku torēsu', zh: '这段系统崩溃堆栈信息' },
       { label: '这个接口返回的错误码', en: 'this unexpected response payload', phonics: 'this un-ek-SPEK-tid rih-SPONSS PAY-lohd', ja: '想定外のレスポンス内容', romaji: 'sōteigai no responsu naiyō', zh: '这个接口返回的非预期响应数据' },
     ],
     scenarioType: 'work',
-    tip: '工位日常最高频句子，没有之一！配上 Phonics 拼读，顺口念出。',
+    tip: '英语中的 when you get a chance 相当于日语中经典的垫话垫词（クッション言葉）「お手すきの際に（在您空闲的时候）」，极具职业素养。',
+  },
+  {
+    id: 'take-scope-creep',
+    verbCategory: 'TAKE',
+    title: 'TAKE · 排期阻击：需求蔓延时守住交付窗口',
+    mentalModel: '加塞需求会吃掉/推迟发布窗口（push back release date）',
+    templateEn: "If we accommodate {X} now, we'll need to push back the release date.",
+    phonicsTemplate: "[if wee uh-KOM-uh-dayt {X} NOW, weel NEED too POOSH BAK thuh rih-LEESS DAYT]",
+    templateJa: "{X} を追加いたしますと工数が逼迫するため、リリース日の再調整（リスケ）が必要です。",
+    romajiTemplate: "{X} o tsuika itashimasu to kōsū ga hippaku suru tame, rirīsubi no saichōsei (risuke) ga hitsuyō desu.",
+    templateZh: "如果现在加入 {X}，我们需要相应推迟发布排期。",
+    slotPlaceholder: '{X}',
+    slotName: '临时新增的需求',
+    defaultSlotIndex: 0,
+    slots: [
+      { label: '报表导出功能', en: 'this export reporting feature', phonics: 'this EKS-port rih-PORT-ing FEE-cher', ja: 'このエクスポート機能', romaji: 'kono ekusupōto kinō', zh: '这个报表导出下载功能' },
+      { label: '多语言动态切换', en: 'the internationalization switch', phonics: 'thuh in-ter-nash-un-ul-eye-ZAY-shun SWITCH', ja: '多言語切り替え機能', romaji: 'tagengo kirikae kinō', zh: '多语言动态国际化功能' },
+      { label: '第三方联合登录', en: 'the third-party OAuth login', phonics: 'thuh THURD-PAR-tee OH-awth LAWG-in', ja: '外部アカウント連携ログイン', romaji: 'gaibu akaunto renkei roguin', zh: '第三方 OAuth 联合登录' },
+    ],
+    scenarioType: 'work',
+    tip: '英文中 scope creep 指需求蔓延；日企非常强调「工数（人月/人日工时）」和「リスケ（Reschedule 重新排期）」，用数据和工数说话最专业。',
   },
   {
     id: 'take-time',
@@ -375,7 +519,28 @@ export const CNL_VERB_FORMULAS: CnlFormula[] = [
     tip: '被 PM 问到工期时，It will take about... 加上时间，回答精准利落。',
   },
 
-  // 5. GO (离开位移：运转状态、发生偏差)
+  // 5. GO (离开位移：运转状态、发生偏差、预警延期)
+  {
+    id: 'go-ran-into',
+    verbCategory: 'GO',
+    title: 'GO / RUN · 状态偏离：预警可能的进度微调',
+    mentalModel: '中途撞上异常分支（ran into unexpected edge cases）',
+    templateEn: 'We ran into some unexpected {X}, so there might be a slight delay in delivery.',
+    phonicsTemplate: '[wee RAN IN-too sum un-ek-SPEK-tid {X}, soh ther MYTE bee uh SLYTE dih-LAY in dih-LIV-er-ee]',
+    templateJa: '想定外の {X} が発生したため、納期のオンスケ維持に少々遅れが生じる可能性がございます。',
+    romajiTemplate: 'Sōteigai no {X} ga hassei shita tame, nōki no onsuke iji ni shōshō okure ga shōjiru kanōsei ga gozaimasu.',
+    templateZh: '我们在交付中遇到了一些意料之外的 {X}，因此可能会稍有延期。',
+    slotPlaceholder: '{X}',
+    slotName: '突发异常卡点',
+    defaultSlotIndex: 0,
+    slots: [
+      { label: '边缘场景考虑漏', en: 'edge cases during migration', phonics: 'EJ KAY-siz DUR-ing my-GRAY-shun', ja: 'エッジケース', romaji: 'ejjikēsu', zh: '数据迁移中的边界异常情况' },
+      { label: '旧系统兼容报错', en: 'legacy system compatibility errors', phonics: 'LEG-uh-see SIS-tum kum-PAT-uh-bul ER-erz', ja: 'レガシーシステムの互換性エラー', romaji: 'regashī shisutemu no gokansei erā', zh: '老旧遗留系统的兼容性报错' },
+      { label: '死锁与并发竞争', en: 'concurrency race conditions', phonics: 'kun-KUR-un-see RAYSS kun-DISH-unz', ja: '並行処理の競合問題', romaji: 'heikō shori no kyōgō mondai', zh: '高并发竞争态与死锁问题' },
+    ],
+    scenarioType: 'work',
+    tip: '日企特别忌讳当天临期才通知延期（報連相之大忌）！用「オンスケ（On Schedule 按期）」与「可能性がございます」提前预警，领导更容易接受并调配支援。',
+  },
   {
     id: 'go-wrong',
     verbCategory: 'GO',
@@ -421,7 +586,70 @@ export const CNL_VERB_FORMULAS: CnlFormula[] = [
     tip: '在工位上卡壳时，向边上的技术大拿或现场 Leader 求救的神句。',
   },
 
-  // 7. DO (通用行为：认领任务、搞定动作)
+  // 7. DO (通用行为：认领任务、收尾汇报、接口联调、版本回滚)
+  {
+    id: 'do-wrapped-up',
+    verbCategory: 'DO',
+    title: 'DO / WRAP · 收尾落地：昨日站会完成工作汇报',
+    mentalModel: '将发散的任务收拢封口（wrapped up）',
+    templateEn: 'Yesterday, I wrapped up {X} and submitted a PR for review.',
+    phonicsTemplate: '[YESS-ter-day, eye RAPT UP {X} and sub-MIT-id uh PEE-AR fer rih-VYOO]',
+    templateJa: '昨日は {X} を完了し、PRを提出いたしました。',
+    romajiTemplate: 'Kinō wa {X} o kanryō shi, pīāru o teishutsu itashimashita.',
+    templateZh: '昨天我完成了 {X} 的收尾工作，并提交了 PR 供大家审查。',
+    slotPlaceholder: '{X}',
+    slotName: '昨日收尾的工作项',
+    defaultSlotIndex: 0,
+    slots: [
+      { label: '用户认证模块重构', en: 'the user authentication refactor', phonics: 'thuh YOO-zer aw-then-tih-KAY-shun REE-fak-ter', ja: 'ユーザー認証モジュールのリファクタリング', romaji: 'yūzā ninshō mojūru no rifakutaringu', zh: '用户认证模块的代码重构' },
+      { label: '支付对接联调', en: 'the payment callback integration', phonics: 'thuh PAY-munt KAWL-bak in-tuh-GRAY-shun', ja: '決済連携の実装', romaji: 'kessai renkei no jissō', zh: '支付回调流程的集成' },
+      { label: '核心查询压测比对', en: 'the core query benchmarking', phonics: 'thuh KOR KWEER-ee BENCH-mar-king', ja: '主要クエリのベンチマーク計測', romaji: 'shuyō kueri no benchimāku keisoku', zh: '核心慢查询的基准性能压测' },
+    ],
+    scenarioType: 'work',
+    tip: '外企站会喜欢用 wrap up 比单纯 finish 更地道；日企现场使用片假名「リファクタリング」搭配谦让动词「提出いたしました」。',
+  },
+  {
+    id: 'do-integrate',
+    verbCategory: 'DO',
+    title: 'DO / INTEGRATE · 接口对接：今日计划与联调协同',
+    mentalModel: '将不同端联结起来（integrate X with team）',
+    templateEn: 'Today, I plan to write unit tests and integrate {X} with the frontend team.',
+    phonicsTemplate: '[tuh-DAY, eye PLAN too RYTE YOO-nit TESTS and IN-tuh-grayt {X} with thuh FRONT-end TEEM]',
+    templateJa: '本日は単体テストの作成と、フロントエンド側との {X} の結合検証を進める予定です。',
+    romajiTemplate: 'Honjitsu wa tantai tesuto no sakusei to, furontoendo-gawa to no {X} no ketsugō kenshō o susumeru yotei desu.',
+    templateZh: '今天我计划编写单元测试，并与前端团队联调 {X}。',
+    slotPlaceholder: '{X}',
+    slotName: '待联调接口',
+    defaultSlotIndex: 0,
+    slots: [
+      { label: '支付回调接口', en: 'the payment callback API', phonics: 'thuh PAY-munt KAWL-bak AY-PEE-EYE', ja: '決済コールバックAPI', romaji: 'kessai kōrubakku API', zh: '支付结果回调接口' },
+      { label: '订单导出下载接口', en: 'the order export API', phonics: 'thuh OR-der EKS-port AY-PEE-EYE', ja: '注文データエクスポートAPI', romaji: 'chūmon dēta ekusupōto API', zh: '订单批量导出接口' },
+      { label: '角色鉴权接口', en: 'the RBAC permission endpoint', phonics: 'thuh AR-BAK per-MISH-un END-poynt', ja: '権限判定API', romaji: 'kengen hantei API', zh: '基于角色的权限校验接口' },
+    ],
+    scenarioType: 'work',
+    tip: '中文常说“联调/接接口”，英文最地道的动词是 integrate with；日企现场通常习惯讲「結合テスト」「結合検証」或「I/F（インターフェース）すり合わせ」。',
+  },
+  {
+    id: 'do-rollback',
+    verbCategory: 'DO',
+    title: 'DO / ROLL · 止血回滚：线上事故紧急版本回滚',
+    mentalModel: '逆向操作恢复安全状态（roll back production to）',
+    templateEn: 'To restore service as quickly as possible, we have decided to roll back production to {X}.',
+    phonicsTemplate: '[too reh-STOR SUR-vis az KWIK-lee az POS-uh-bul, wee hav dih-SY-did too ROHL BAK pruh-DUK-shun too {X}]',
+    templateJa: 'サービス復旧を最優先とするため、本番環境を {X} へ切り戻し（ロールバック）いたします。',
+    romajiTemplate: 'Sābisu fukkyū o saiyūsen to suru tame, honban kankyō o {X} e kirimodoshi (rōrubakku) itashimasu.',
+    templateZh: '为了尽快恢复线上服务，我们已决定将生产环境回滚到 {X}。',
+    slotPlaceholder: '{X}',
+    slotName: '稳定目标版本',
+    defaultSlotIndex: 0,
+    slots: [
+      { label: '上一个稳定发布版本', en: 'the previous stable release', phonics: 'thuh PREE-vee-us STAY-bul rih-LEESS', ja: '直前の安定版リリース', romaji: 'chokuzen no anteiban rirīsu', zh: '上一个稳定生产发布版本' },
+      { label: '昨晚的备份快照', en: "yesterday's snapshot backup", phonics: 'YESS-ter-dayz SNAP-shot BAK-up', ja: '前日のスナップショット', romaji: 'zenjitsu no sunappushotto', zh: '昨天的全量备份快照' },
+      { label: '上周的平稳分支', en: 'last week’s master branch build', phonics: 'LAST WEEKZ MASS-ter BRANCH BILD', ja: '先週のmasterブランチビルド', romaji: 'senshū no master buranchi birudo', zh: '上周经过实测的 master 构建包' },
+    ],
+    scenarioType: 'incident',
+    tip: '英文叫 roll back；日企除了叫「ロールバック」外，传统客户特别爱用纯日语「切り戻し（きりもどし）」，两者意思完全相同。',
+  },
   {
     id: 'do-first',
     verbCategory: 'DO',

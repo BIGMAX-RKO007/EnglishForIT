@@ -6,7 +6,6 @@ import {
   BookOpen,
   ArrowRight,
   Terminal,
-  Globe2,
   Shield,
 } from 'lucide-react'
 import { getOptionalUser } from '@/features/auth/middleware'
@@ -158,32 +157,7 @@ function AppHome() {
           </div>
         </Link>
 
-        {/* Module 5: Dual-Lingual EN & JA */}
-        <Link
-          to="/{-$locale}/app/dual-work"
-          className="group relative flex flex-col justify-between rounded-xl border border-rose-500/40 bg-gradient-to-br from-rose-500/5 via-card to-card p-5 transition-all hover:-translate-y-0.5 hover:border-rose-500 hover:shadow-md"
-        >
-          <div>
-            <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-rose-500/10 text-rose-600 dark:text-rose-400">
-              <Globe2 size={20} />
-            </div>
-            <div className="mt-4 flex items-center gap-1.5">
-              <h3 className="text-base font-semibold text-foreground group-hover:text-rose-500 transition-colors">
-                英日双轨对照
-              </h3>
-              <Badge variant="pro" className="text-[10px] px-1 py-0">NEW</Badge>
-            </div>
-            <p className="mt-1.5 text-xs leading-relaxed text-fg-3">
-              同一职场意图，国际外企英文（含自然拼读 Phonics）与日本现场日企日文（含罗马音）同步对照，配真人双语发音与跨文化避坑！
-            </p>
-          </div>
-          <div className="mt-5 flex items-center gap-1 text-xs font-medium text-rose-500">
-            <span>双语演练</span>
-            <ArrowRight size={14} className="transition-transform group-hover:translate-x-1" />
-          </div>
-        </Link>
-
-        {/* Module 6: CNL & Slot Defense Engine */}
+        {/* Module 5: CNL & Slot Defense Engine (Dual-Lingual EN & JA) */}
         <Link
           to="/{-$locale}/app/defense"
           className="group relative flex flex-col justify-between rounded-xl border border-amber-500/40 bg-gradient-to-br from-amber-500/5 via-card to-card p-5 transition-all hover:-translate-y-0.5 hover:border-amber-500 hover:shadow-md"
@@ -196,14 +170,14 @@ function AppHome() {
               <h3 className="text-base font-semibold text-foreground group-hover:text-amber-500 transition-colors">
                 语言防身与槽位引擎
               </h3>
-              <Badge variant="pro" className="text-[10px] px-1 py-0">CNL</Badge>
+              <Badge variant="pro" className="text-[10px] px-1 py-0">CNL·日英双轨</Badge>
             </div>
             <p className="mt-1.5 text-xs leading-relaxed text-fg-3">
-              基于受控自然语言（CNL）设计：8 大核心动词引擎 + 15% 外围安全壳，槽位即插即用，全面配 Phonics 拼读与罗马音！
+              基于极简受控语言（CNL）设计：8 大核心动词引擎 + 15% 安全壳，全量融合英日双轨工位实战，固定表达加底色，槽位加下划线！
             </p>
           </div>
           <div className="mt-5 flex items-center gap-1 text-xs font-medium text-amber-500">
-            <span>槽位拼装</span>
+            <span>双轨槽位拼装</span>
             <ArrowRight size={14} className="transition-transform group-hover:translate-x-1" />
           </div>
         </Link>
