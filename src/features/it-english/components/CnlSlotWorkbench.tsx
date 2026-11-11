@@ -18,7 +18,84 @@ import {
   Sparkles,
   HelpCircle,
   Layers,
+  BookmarkCheck,
 } from 'lucide-react'
+
+/**
+ * 辅助渲染函数：将句式模板分解，固定动词/句式骨架加上高亮背景，槽位替换部分加上鲜明下划线
+ */
+function renderStyledTemplate({
+  template,
+  slotX,
+  slotY,
+  theme = 'sky',
+  isMono = false,
+}: {
+  template: string
+  slotX?: string
+  slotY?: string
+  theme: 'emerald' | 'sky' | 'rose'
+  isMono?: boolean
+}) {
+  if (!template) return null
+
+  const themeClasses = {
+    emerald: {
+      frame: 'rounded bg-emerald-500/15 text-emerald-950 dark:text-emerald-100 dark:bg-emerald-500/25 px-1.5 py-0.5 font-bold mx-0.5',
+      slot: 'font-bold text-foreground underline underline-offset-4 decoration-2 decoration-emerald-500 px-1',
+    },
+    sky: {
+      frame: isMono
+        ? 'rounded bg-sky-500/15 text-sky-900 dark:text-sky-200 px-1.5 py-0.5 font-mono font-medium mx-0.5'
+        : 'rounded bg-sky-500/15 text-sky-950 dark:text-sky-100 dark:bg-sky-500/25 px-1.5 py-0.5 font-bold mx-0.5',
+      slot: isMono
+        ? 'font-mono font-bold text-sky-950 dark:text-sky-100 underline underline-offset-4 decoration-2 decoration-sky-500 px-1'
+        : 'font-bold text-foreground underline underline-offset-4 decoration-2 decoration-sky-500 px-1',
+    },
+    rose: {
+      frame: isMono
+        ? 'rounded bg-rose-500/15 text-rose-900 dark:text-rose-200 px-1.5 py-0.5 font-mono font-medium mx-0.5'
+        : 'rounded bg-rose-500/15 text-rose-950 dark:text-rose-100 dark:bg-rose-500/25 px-1.5 py-0.5 font-bold mx-0.5',
+      slot: isMono
+        ? 'font-mono font-bold text-rose-950 dark:text-rose-100 underline underline-offset-4 decoration-2 decoration-rose-500 px-1'
+        : 'font-bold text-foreground underline underline-offset-4 decoration-2 decoration-rose-500 px-1',
+    },
+  }[theme]
+
+  const parts = template.split(/(\{X\}|\{Y\})/g)
+
+  // 如果没有槽位，整个句子作为固定表达高亮
+  if (parts.length === 1) {
+    return <span className={themeClasses.frame}>{template}</span>
+  }
+
+  return (
+    <span className="leading-relaxed inline-block">
+      {parts.map((part, index) => {
+        if (part === '{X}') {
+          return (
+            <span key={index} className={themeClasses.slot}>
+              {slotX || '{槽位}'}
+            </span>
+          )
+        }
+        if (part === '{Y}') {
+          return (
+            <span key={index} className={themeClasses.slot}>
+              {slotY || '{时间/条件}'}
+            </span>
+          )
+        }
+        if (!part) return null
+        return (
+          <span key={index} className={themeClasses.frame}>
+            {part}
+          </span>
+        )
+      })}
+    </span>
+  )
+}
 
 export function CnlSlotWorkbench() {
   const [activeTab, setActiveTab] = useState<'verbs' | 'shell'>('verbs')
@@ -42,9 +119,15 @@ export function CnlSlotWorkbench() {
       const matchSearch =
         formula.title.toLowerCase().includes(q) ||
         formula.templateEn.toLowerCase().includes(q) ||
+        formula.templateZh.toLowerCase().includes(q) ||
         formula.mentalModel.toLowerCase().includes(q) ||
         formula.templateJa.toLowerCase().includes(q) ||
-        formula.slots.some((s) => s.en.toLowerCase().includes(q) || s.label.includes(q))
+        formula.slots.some(
+          (s) =>
+            s.en.toLowerCase().includes(q) ||
+            s.label.includes(q) ||
+            (s.zh && s.zh.includes(q))
+        )
       return matchVerb && matchSearch
     })
   }, [selectedVerb, search])
@@ -58,8 +141,15 @@ export function CnlSlotWorkbench() {
       const matchSearch =
         item.intent.toLowerCase().includes(q) ||
         item.templateEn.toLowerCase().includes(q) ||
+        item.templateZh.toLowerCase().includes(q) ||
         item.templateJa.toLowerCase().includes(q) ||
-        (item.slots && item.slots.some((s) => s.en.toLowerCase().includes(q) || s.label.includes(q)))
+        (item.slots &&
+          item.slots.some(
+            (s) =>
+              s.en.toLowerCase().includes(q) ||
+              s.label.includes(q) ||
+              (s.zh && s.zh.includes(q))
+          ))
       return matchCat && matchSearch
     })
   }, [shellCategory, search])
@@ -75,14 +165,14 @@ export function CnlSlotWorkbench() {
           phonics: customText.toUpperCase(),
           ja: customText,
           romaji: customText,
+          zh: customText,
         }
       : formula.slots[activeIndex] || formula.slots[0]
 
-    // 动态生成英语句子、Phonics、日语
-    const filledEn = formula.templateEn.replace('{X}', currentSlot.en).replace('{Y}', 'tomorrow')
-    const filledPhonics = formula.phonicsTemplate.replace('{X}', currentSlot.phonics).replace('{Y}', 'tuh-MAH-roh')
-    const filledJa = formula.templateJa.replace('{X}', currentSlot.ja).replace('{Y}', '明日')
-    const filledRomaji = formula.romajiTemplate.replace('{X}', currentSlot.romaji).replace('{Y}', 'ashita')
+    // 纯文本版（供朗读播放与复制使用）
+    const plainEn = formula.templateEn.replace('{X}', currentSlot.en).replace('{Y}', 'tomorrow')
+    const plainJa = formula.templateJa.replace('{X}', currentSlot.ja).replace('{Y}', '明日')
+    const plainZh = formula.templateZh.replace('{X}', currentSlot.zh || currentSlot.label).replace('{Y}', '明天')
 
     return (
       <Card
@@ -160,51 +250,95 @@ export function CnlSlotWorkbench() {
 
         {/* 动态拼装结果展示 */}
         <div className="space-y-3">
-          {/* 🇬🇧 英语拼装 + Phonics */}
-          <div className="rounded-xl border border-sky-500/20 bg-gradient-to-r from-sky-500/5 via-transparent to-transparent p-3.5">
+          {/* 🇨🇳 中文含义（带底色与下划线对应） */}
+          <div className="rounded-xl border border-emerald-500/20 bg-gradient-to-r from-emerald-500/5 via-transparent to-transparent p-3.5">
             <div className="mb-1.5 flex items-center justify-between">
-              <span className="inline-flex items-center gap-1 text-xs font-semibold text-sky-600 dark:text-sky-400">
-                🇬🇧 English（拼装成句）
+              <span className="inline-flex items-center gap-1 text-xs font-semibold text-emerald-600 dark:text-emerald-400">
+                🇨🇳 中文含义（意图表达）
               </span>
-              <div className="flex items-center gap-1.5">
-                <AudioSpeaker text={filledEn} lang="en" label="美音" />
-                <CopyButton text={filledEn} label="复制英文" />
-              </div>
+              <CopyButton text={plainZh} label="复制中文" />
             </div>
 
-            <p className="text-sm font-semibold text-foreground sm:text-base tracking-tight">
-              {filledEn}
-            </p>
-
-            <div className="mt-2 flex flex-wrap items-center gap-1.5 text-xs">
-              <span className="rounded bg-sky-500/15 px-1.5 py-0.5 text-[10px] font-bold uppercase tracking-wider text-sky-600 dark:text-sky-400 border border-sky-500/20">
-                Phonics 拼读
-              </span>
-              <span className="font-mono text-xs font-medium text-sky-800 dark:text-sky-200">
-                {filledPhonics}
-              </span>
+            <div className="text-sm sm:text-base font-medium text-foreground">
+              {renderStyledTemplate({
+                template: formula.templateZh,
+                slotX: currentSlot.zh || currentSlot.label,
+                slotY: '明天',
+                theme: 'emerald',
+              })}
             </div>
           </div>
 
-          {/* 🇯🇵 日语对账 + 罗马音 */}
+          {/* 🇬🇧 英语拼装 + Phonics（核心动词底色 + 槽位下划线） */}
+          <div className="rounded-xl border border-sky-500/20 bg-gradient-to-r from-sky-500/5 via-transparent to-transparent p-3.5">
+            <div className="mb-1.5 flex items-center justify-between">
+              <span className="inline-flex items-center gap-1 text-xs font-semibold text-sky-600 dark:text-sky-400">
+                🇬🇧 English（核心动词加底色 · 槽位加下划线）
+              </span>
+              <div className="flex items-center gap-1.5">
+                <AudioSpeaker text={plainEn} lang="en" label="美音" />
+                <CopyButton text={plainEn} label="复制英文" />
+              </div>
+            </div>
+
+            <div className="text-sm sm:text-base tracking-tight">
+              {renderStyledTemplate({
+                template: formula.templateEn,
+                slotX: currentSlot.en,
+                slotY: 'tomorrow',
+                theme: 'sky',
+              })}
+            </div>
+
+            {/* Phonics 自然拼读注音 */}
+            <div className="mt-2.5 flex flex-wrap items-center gap-1.5 text-xs">
+              <span className="rounded bg-sky-500/15 px-1.5 py-0.5 text-[10px] font-bold uppercase tracking-wider text-sky-600 dark:text-sky-400 border border-sky-500/20">
+                Phonics 拼读
+              </span>
+              <div className="font-mono text-xs">
+                {renderStyledTemplate({
+                  template: formula.phonicsTemplate,
+                  slotX: currentSlot.phonics,
+                  slotY: 'tuh-MAH-roh',
+                  theme: 'sky',
+                  isMono: true,
+                })}
+              </div>
+            </div>
+          </div>
+
+          {/* 🇯🇵 日语对账 + 罗马音（固定敬语底色 + 槽位下划线） */}
           <div className="rounded-xl border border-rose-500/20 bg-gradient-to-r from-rose-500/5 via-transparent to-transparent p-3.5">
             <div className="mb-1.5 flex items-center justify-between">
               <span className="inline-flex items-center gap-1 text-xs font-semibold text-rose-600 dark:text-rose-400">
                 🇯🇵 日本語（现场敬语对应）
               </span>
               <div className="flex items-center gap-1.5">
-                <AudioSpeaker text={filledJa} lang="ja" label="日音" />
-                <CopyButton text={filledJa} label="复制日文" />
+                <AudioSpeaker text={plainJa} lang="ja" label="日音" />
+                <CopyButton text={plainJa} label="复制日文" />
               </div>
             </div>
 
-            <p className="text-sm font-semibold text-foreground sm:text-base tracking-tight">
-              {filledJa}
-            </p>
+            <div className="text-sm sm:text-base tracking-tight">
+              {renderStyledTemplate({
+                template: formula.templateJa,
+                slotX: currentSlot.ja,
+                slotY: '明日',
+                theme: 'rose',
+              })}
+            </div>
 
-            <div className="mt-1.5 flex items-center gap-1.5 text-xs font-mono text-rose-700/80 dark:text-rose-300/80">
+            <div className="mt-1.5 flex flex-wrap items-center gap-1 text-xs font-mono">
               <span className="text-[10px] uppercase tracking-wider text-fg-3 font-sans">罗马音:</span>
-              <span>{filledRomaji}</span>
+              <div>
+                {renderStyledTemplate({
+                  template: formula.romajiTemplate,
+                  slotX: currentSlot.romaji,
+                  slotY: 'ashita',
+                  theme: 'rose',
+                  isMono: true,
+                })}
+              </div>
             </div>
           </div>
         </div>
@@ -229,21 +363,18 @@ export function CnlSlotWorkbench() {
     const activeIndex = selectedShellSlots[shell.id] ?? 0
     const currentSlot = hasSlots && shell.slots ? shell.slots[activeIndex] : null
 
-    const filledEn = currentSlot && shell.slotPlaceholder
+    // 纯文本生成（用于朗读与复制）
+    const plainEn = currentSlot && shell.slotPlaceholder
       ? shell.templateEn.replace(shell.slotPlaceholder, currentSlot.en)
       : shell.templateEn
 
-    const filledPhonics = currentSlot && shell.slotPlaceholder
-      ? shell.phonics.replace(shell.slotPlaceholder, currentSlot.phonics)
-      : shell.phonics
-
-    const filledJa = currentSlot && shell.slotPlaceholder
+    const plainJa = currentSlot && shell.slotPlaceholder
       ? shell.templateJa.replace(shell.slotPlaceholder, currentSlot.ja)
       : shell.templateJa
 
-    const filledRomaji = currentSlot && shell.slotPlaceholder
-      ? shell.romaji.replace(shell.slotPlaceholder, currentSlot.romaji)
-      : shell.romaji
+    const plainZh = currentSlot && shell.slotPlaceholder
+      ? shell.templateZh.replace(shell.slotPlaceholder, currentSlot.zh || currentSlot.label)
+      : shell.templateZh
 
     return (
       <Card
@@ -285,43 +416,84 @@ export function CnlSlotWorkbench() {
         )}
 
         <div className="space-y-3">
-          {/* 英文 + Phonics */}
+          {/* 🇨🇳 中文含义 */}
+          <div className="rounded-xl border border-emerald-500/20 bg-gradient-to-r from-emerald-500/5 via-transparent to-transparent p-3">
+            <div className="mb-1 flex items-center justify-between">
+              <span className="text-xs font-semibold text-emerald-600 dark:text-emerald-400">
+                🇨🇳 中文含义
+              </span>
+              <CopyButton text={plainZh} label="复制中文" />
+            </div>
+            <div className="text-sm font-medium text-foreground">
+              {renderStyledTemplate({
+                template: shell.templateZh,
+                slotX: currentSlot?.zh || currentSlot?.label,
+                theme: 'emerald',
+              })}
+            </div>
+          </div>
+
+          {/* 🇬🇧 英文 + Phonics（固定表达加底色 + 槽位加下划线） */}
           <div className="rounded-xl border border-sky-500/20 bg-gradient-to-r from-sky-500/5 via-transparent to-transparent p-3">
             <div className="mb-1 flex items-center justify-between">
               <span className="text-xs font-semibold text-sky-600 dark:text-sky-400">
-                🇬🇧 English
+                🇬🇧 English（固定句式加底色 · 槽位加下划线）
               </span>
               <div className="flex items-center gap-1.5">
-                <AudioSpeaker text={filledEn} lang="en" label="美音" />
-                <CopyButton text={filledEn} label="复制英文" />
+                <AudioSpeaker text={plainEn} lang="en" label="美音" />
+                <CopyButton text={plainEn} label="复制英文" />
               </div>
             </div>
-            <p className="text-sm font-semibold text-foreground">{filledEn}</p>
+            <div className="text-sm font-medium text-foreground">
+              {renderStyledTemplate({
+                template: shell.templateEn,
+                slotX: currentSlot?.en,
+                theme: 'sky',
+              })}
+            </div>
             <div className="mt-1.5 flex flex-wrap items-center gap-1.5 text-xs">
               <span className="rounded bg-sky-500/15 px-1 py-0.2 text-[10px] font-bold uppercase tracking-wider text-sky-600 dark:text-sky-400">
                 Phonics
               </span>
-              <span className="font-mono text-xs font-medium text-sky-800 dark:text-sky-200">
-                {filledPhonics}
-              </span>
+              <div className="font-mono text-xs">
+                {renderStyledTemplate({
+                  template: shell.phonics,
+                  slotX: currentSlot?.phonics,
+                  theme: 'sky',
+                  isMono: true,
+                })}
+              </div>
             </div>
           </div>
 
-          {/* 日文 + 罗马音 */}
+          {/* 🇯🇵 日文 + 罗马音 */}
           <div className="rounded-xl border border-rose-500/20 bg-gradient-to-r from-rose-500/5 via-transparent to-transparent p-3">
             <div className="mb-1 flex items-center justify-between">
               <span className="text-xs font-semibold text-rose-600 dark:text-rose-400">
                 🇯🇵 日本語
               </span>
               <div className="flex items-center gap-1.5">
-                <AudioSpeaker text={filledJa} lang="ja" label="日音" />
-                <CopyButton text={filledJa} label="复制日文" />
+                <AudioSpeaker text={plainJa} lang="ja" label="日音" />
+                <CopyButton text={plainJa} label="复制日文" />
               </div>
             </div>
-            <p className="text-sm font-semibold text-foreground">{filledJa}</p>
-            <div className="mt-1 text-xs font-mono text-rose-700/80 dark:text-rose-300/80">
-              <span className="text-[10px] text-fg-3 mr-1 font-sans">罗马音:</span>
-              <span>{filledRomaji}</span>
+            <div className="text-sm font-medium text-foreground">
+              {renderStyledTemplate({
+                template: shell.templateJa,
+                slotX: currentSlot?.ja,
+                theme: 'rose',
+              })}
+            </div>
+            <div className="mt-1 flex flex-wrap items-center gap-1 text-xs font-mono">
+              <span className="text-[10px] text-fg-3 font-sans">罗马音:</span>
+              <div>
+                {renderStyledTemplate({
+                  template: shell.romaji,
+                  slotX: currentSlot?.romaji,
+                  theme: 'rose',
+                  isMono: true,
+                })}
+              </div>
             </div>
           </div>
         </div>
@@ -390,6 +562,26 @@ export function CnlSlotWorkbench() {
             </p>
             <p className="mt-0.5 text-[11px] text-fg-3">强行将对方拉回极简频道，从容应对</p>
           </div>
+        </div>
+      </div>
+
+      {/* 视觉图例说明 (Visual Legend) */}
+      <div className="flex flex-wrap items-center gap-4 rounded-xl border border-border/80 bg-muted/40 px-4 py-2.5 text-xs">
+        <div className="flex items-center gap-1.5 font-medium text-foreground">
+          <BookmarkCheck size={15} className="text-primary" />
+          <span>视觉图例指南：</span>
+        </div>
+        <div className="flex items-center gap-1.5">
+          <span className="rounded bg-sky-500/20 px-2 py-0.5 font-bold text-sky-900 dark:text-sky-200">
+            核心固定动词 / 句式骨架
+          </span>
+          <span className="text-fg-3">= 肌肉记忆，不可替换，直接脱口而出</span>
+        </div>
+        <div className="flex items-center gap-1.5">
+          <span className="font-bold underline underline-offset-4 decoration-2 decoration-primary px-1 text-foreground">
+            槽位替换参数
+          </span>
+          <span className="text-fg-3">= 灵活插槽，点击即时替换业务词汇</span>
         </div>
       </div>
 
