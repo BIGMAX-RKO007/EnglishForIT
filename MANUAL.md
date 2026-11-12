@@ -140,62 +140,62 @@ pnpm dev
 [步骤 3: 听力受阻（防御反击）]      Could you speak slower / write it down in the chat?
 ```
 
-#### 3. 85% 核心动词引擎 (全量融合敏捷与现场实战)
+#### 3. 85% 核心动词引擎 (极简受控骨架与纯粹槽位)
 * **GET（从无到有）**：
   * 请求获取：`Can I get [X]?`（API规格书 / 生产DB只读权限 / Figma设计稿 / 账单收据）；
   * 状态交付：`I will get [X] done by [Y].`（承诺工期交付）；
-  * 现场破冰：`I look forward to getting up to speed quickly on [X] and contributing.`（独当一面的战力「一人前の戦力」）；
-  * 请教求导：`Could you walk me through the spec for [X]?`（式样书编写方法与测试要点请教）；
-  * 概念搞懂：`Could I get some clarification on the definition of [X]?`（术语与缩写定义核对）。
+  * 现场破冰：`I will get up to speed on [X].`（キャッチアップ・快速上手熟悉）；
+  * 请教求导：`Could you walk me through [X]?`（式样书编写方法与测试要点请教）；
+  * 概念搞懂：`Could I get some clarification on [X]?`（术语与缩写定义核对）。
 * **HAVE（静态持有 / 阻断 / 对齐）**：
   * 故障通报：`We have an issue with [X].`（生产支付网关 / Redis缓存同步 / 办公Wi-Fi）；
-  * 阻断求助：`I'm currently blocked on [X] because we're still waiting for the API specs.`（外部API仕様書待ち・ペンディング）；
-  * 语音对齐：`Do you have 5 minutes for a quick huddle to align on [X]?`（サクッと認識合わせ）；
+  * 阻断求助：`I am currently blocked on [X].`（外部依赖卡点・ペンディング）；
+  * 语音对齐：`Do you have 5 minutes to align on [X]?`（サクッと認識合わせ）；
   * 技术提问：`I have a quick question about [X].`（优雅发起需求确认）；
-  * 答复催办：`Could we have your answer regarding [X] by today?`（为保里程碑催促Q&A回答）；
-  * 1对1面谈：`I would like to have a 1-on-1 to discuss [X].`（定期面谈与业务负荷沟通）。
+  * 答复催办：`Could we have your answer on [X] by today?`（为保里程碑催促Q&A回答）；
+  * 1对1面谈：`Could we have a 1-on-1 to discuss [X]?`（定期面谈与业务负荷沟通）。
 * **MAKE（结果把控 / 达成共识）**：
   * 质量把关：`Please make sure [X].`（向下兼容 / 环境变量配置 / CI流水线全绿）；
-  * 需求共识：`Before writing code, let’s make sure we align on [X].`（动手写代码前全面すり合わせ）。
+  * 需求共识：`Let us make sure we align on [X].`（动手写代码前全面すり合わせ）。
 * **TAKE（抓取消耗 / 排期阻击 / 责任接手）**：
-  * 视线抓取：`Could you take a look at [X] when you get a chance?`（お手すきの際に）；
-  * 排期防守：`If we accommodate [X] now, we'll need to push back the release date.`（需求蔓延与工数リスケ）；
+  * 视线抓取：`Could you take a look at [X]?`（お手すきの際に）；
+  * 排期防守：`If we add [X], we will need to push back the release date.`（需求蔓延与工数リスケ）；
   * 耗时评估：`It will take about [X] to finish.`（评估2-3小时 / 半天 / 1个迭代）；
-  * 主动分担：`If your plate is full, I can take over [X].`（主动接手分担繁重任务「巻き取る」）。
+  * 主动分担：`I can take over [X] for you.`（主动接手分担繁重任务「巻き取る」）。
 * **GO / RUN（状态偏离）**：
-  * 进度预警：`We ran into some unexpected [X], so there might be a slight delay.`（報連相・オンスケ維持遅れ）；
-  * 延误致歉：`Our work on [X] will go past the estimate by half a day.`（进度延期半天致歉与重新承诺）；
+  * 进度预警：`We ran into [X], so there might be a slight delay.`（報連相・オンスケ維持遅れ）；
+  * 延误致歉：`Our work on [X] will be delayed by half a day.`（进度延期半天致歉与重新承诺）；
   * 未知异常：`Something went wrong with [X].`（系统登录鉴权 / 部署流水线报错）。
 * **COME（靠近协助 / 现场求援）**：
   * 现场排查：`Could someone come and check [X]?`（呼叫现场排查服务器 / 本地构建报错）；
-  * 瓶颈求援：`Could you please come assist with [X]?`（遇到技术手詰まり卡点求援）。
+  * 瓶颈求援：`Could you please assist with [X]?`（遇到技术手詰まり卡点求援）。
 * **DO（行为认领 / 收尾 / 联调 / 止血 / 验证）**：
-  * 晨会收尾：`Yesterday, I wrapped up [X] and submitted a PR for review.`（リファクタリング完了・PR提出）；
-  * 联调计划：`Today, I plan to write unit tests and integrate [X] with the frontend team.`（結合検証）；
-  * 止血回滚：`To restore service, we have decided to roll back production to [X].`（緊急切り戻し）；
-  * 主动认领：`I'll do [X] first.`（主动认领错误日志一次排查）；
-  * 委托验证：`I have completed the bug fix; could you do a quick verification test on [X]?`（委托第三者交叉测试）；
-  * 疏忽补救：`I apologize for the oversight; I will do an immediate fix on [X].`（手误致歉与秒级修复）。
+  * 晨会收尾：`Yesterday, I wrapped up [X].`（リファクタリング完了・PR提出）；
+  * 联调计划：`Today, I will integrate [X] with the frontend team.`（結合検証）；
+  * 止血回滚：`We need to roll back [X] immediately.`（緊急切り戻し）；
+  * 主动认领：`I will do [X] first.`（主动认领错误日志一次排查）；
+  * 委托验证：`Could you do a verification test on [X]?`（委托第三者交叉测试）；
+  * 疏忽补救：`I will do an immediate fix on [X].`（手误致歉与秒级修复）。
 * **PUT（实体安置 / 优先级调控）**：
   * 防呆核对：`Did you put [X] into [Y]?`（API Key 放入 .env / Token 放入 Header）；
-  * 暂存搁置：`Based on current priorities, let’s put [X] on hold.`（次要需求暂存保留・ペンディング）。
+  * 暂存搁置：`Let us put [X] on hold for now.`（次要需求暂存保留・ペンディング）。
 
 #### 4. 15% 外围安全壳 (Safety Shell)
 * **主观表达**：`I want [X]` / `I think [X]` / `I see [X]`（表达诉求、提出技术判断、指出屏幕报错）；
 * **社交缓冲与评审**：
-  * 消除冒犯：`Excuse me, [X]?` / `Sorry about [X].` / `Could you please [X]?`
-  * 委婉挑刺：`Nit: [X]`（PR 优化建议）
-  * 指摘认领：`I have addressed your review comments regarding [X].`（CR 指摘点修复与最新提交说明）
-  * 邮件通知：`Just a heads-up that I have emailed you [X].`（送付完了通知）
-  * 预约短会：`Would you have 15 minutes this afternoon to meet on [X]?`（约 15 分钟短会）
-  * 迟到预警：`Due to [X], I might be about 15 minutes late for our meeting.`（电车延误/突发排障提前报备）
-  * 申请许可：`May I have your permission to proceed with [X]?`（敏感环境操作前合规申请）
+  * 消除冒犯：`Excuse me, [X]?` / `Sorry about [X].` / `Could you please {X}?`
+  * 委婉挑刺：`Looks great! Nit: [X].`（PR 优化建议）
+  * 指摘认领：`I have addressed your comments on [X].`（CR 指摘点修复与最新提交说明）
+  * 邮件通知：`I have emailed you [X].`（送付完了通知）
+  * 预约短会：`Would you have 15 minutes to discuss [X]?`（约 15 分钟短会）
+  * 迟到预警：`Due to [X], I might be 15 minutes late.`（电车延误/突发排障提前报备）
+  * 申请许可：`May I proceed with [X]?`（敏感环境操作前合规申请）
 * **听力防御反击**：
   * 语速过快：`Could you speak a bit slower, please?`
-  * 词汇生僻：`Sorry, could you write it down in the chat?`
+  * 词汇生僻：`Could you write it down in the chat?`
   * 意图核验：`You mean [X], right?`
   * 需求边界：`What is the expected behavior if [X]?`（想定仕様・期待値確認）；
-  * 理解核对：`Just to confirm my understanding, does [X] mean...?`（动工前理解双向核对）。
+  * 理解核对：`Does [X] mean we should do it asynchronously?`（动工前理解双向核对）。
 
 #### 5. 交互式槽位拼装器 (Slot Replacer)
 * 每个公式支持**点击预设芯片即时替换**，或在输入框中**自定义输入英文槽位**。

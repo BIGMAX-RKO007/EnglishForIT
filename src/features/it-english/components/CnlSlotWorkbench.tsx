@@ -213,21 +213,26 @@ export function CnlSlotWorkbench() {
             })}
           </div>
 
-          {/* 💡 槽位替换规律与使用辅导 */}
-          <div className="mt-3 rounded-lg border border-border/70 bg-card/75 p-3 text-xs text-muted-foreground space-y-1.5">
-            <div className="flex items-center gap-1.5 font-semibold text-foreground">
-              <span className="text-primary font-bold">💡 槽位替换规律与使用说明：</span>
+          {/* 💡 专属骨架与语言逻辑解析 */}
+          {formula.coaching && (
+            <div className="mt-3 rounded-lg border border-border/70 bg-card/85 p-3 text-xs text-muted-foreground space-y-2">
+              <div className="flex items-center gap-1.5 font-semibold text-foreground">
+                <span className="text-primary font-bold">💡 骨架与语言逻辑深度解析：</span>
+              </div>
+              <p className="leading-relaxed">
+                <strong className="text-sky-600 dark:text-sky-400">1. 🇺🇸 英文固定句式机理：</strong>
+                {formula.coaching.enWhy}
+              </p>
+              <p className="leading-relaxed">
+                <strong className="text-rose-600 dark:text-rose-400">2. 🇯🇵 日文现场敬语逻辑：</strong>
+                {formula.coaching.jaWhy}
+              </p>
+              <p className="leading-relaxed">
+                <strong className="text-emerald-600 dark:text-emerald-400">3. 🧩 槽位规则与替换说明：</strong>
+                {formula.coaching.slotRule}
+              </p>
             </div>
-            <p className="leading-relaxed">
-              <strong>• 怎么换：</strong>点击上方任意芯片，即可直接将该具体场景（中 / 英 / 自然拼读 / 日语 / 罗马音）即时换入句中。
-            </p>
-            <p className="leading-relaxed">
-              <strong>• 为什么可以随便换：</strong>高亮底色的<strong>固定骨架</strong>已锁死全部时态、语调和语法结构，带下划线的<strong>槽位 [{formula.slotName}]</strong> 仅用于承载具体的业务名词。无论换成什么具体对象，整句话的语法和语调永远 100% 成立。
-            </p>
-            <p className="leading-relaxed">
-              <strong>• 对应规律：</strong>英文字符串在固定动词/介词后接入对象，日文在助词前对应填入，两端意思精准对称。工位实战中，您只需将下划线部分直接替换为您手头的实际任务、系统模块或问题即可。
-            </p>
-          </div>
+          )}
         </div>
 
         {/* 动态拼装结果展示 */}
@@ -397,13 +402,29 @@ export function CnlSlotWorkbench() {
                 </button>
               ))}
             </div>
+          </div>
+        )}
 
-            {/* 💡 槽位替换说明 */}
-            <div className="mt-2.5 rounded-lg border border-border/70 bg-card/75 p-2 text-xs text-muted-foreground">
-              <p className="leading-relaxed">
-                <strong className="text-foreground">• 替换规律：</strong>高亮底色部分为固定安全壳表达，只需将带下划线的 <strong>[{shell.slotName || '对象'}]</strong> 替换为您想沟通的实际事项，两端语法均直接闭环成立。
-              </p>
+        {/* 💡 专属骨架与语言逻辑解析 */}
+        {shell.coaching && (
+          <div className="mb-3 rounded-lg border border-border/70 bg-card/85 p-2.5 text-xs text-muted-foreground space-y-1.5">
+            <div className="flex items-center gap-1.5 font-semibold text-foreground">
+              <span className="text-primary font-bold">💡 骨架与语言逻辑深度解析：</span>
             </div>
+            <p className="leading-relaxed">
+              <strong className="text-sky-600 dark:text-sky-400">1. 🇺🇸 英文表达机理：</strong>
+              {shell.coaching.enWhy}
+            </p>
+            <p className="leading-relaxed">
+              <strong className="text-rose-600 dark:text-rose-400">2. 🇯🇵 日文现场逻辑：</strong>
+              {shell.coaching.jaWhy}
+            </p>
+            {shell.coaching.slotRule && (
+              <p className="leading-relaxed">
+                <strong className="text-emerald-600 dark:text-emerald-400">3. 🧩 槽位规则：</strong>
+                {shell.coaching.slotRule}
+              </p>
+            )}
           </div>
         )}
 
