@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react'
+import { useState, useMemo, useEffect } from 'react'
 import { Card } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { Input } from '@/components/ui/input'
@@ -17,11 +17,63 @@ import {
   Database,
   Building2,
   FileSpreadsheet,
+  Lock,
+  KeyRound,
+  ShieldCheck,
+  Eye,
+  EyeOff,
 } from 'lucide-react'
 
+// 专属项目访问密码（默认：dmp）
+const PROJECT_ACCESS_PASSWORD = 'dmp'
+
 export function DmpProjectWorkbench() {
+  const [isAuthenticated, setIsAuthenticated] = useState<boolean>(false)
+  const [passwordInput, setPasswordInput] = useState<string>('')
+  const [showPassword, setShowPassword] = useState<boolean>(false)
+  const [errorMessage, setErrorMessage] = useState<string>('')
+
   const [activeCategory, setActiveCategory] = useState<string>('all')
   const [search, setSearch] = useState('')
+
+  // 严格安全保护：只要切换窗口 (Window Blur) 或 离开标签页 (visibilitychange: hidden)，立即自动落锁！
+  useEffect(() => {
+    function handleVisibilityChange() {
+      if (document.visibilityState === 'hidden') {
+        setIsAuthenticated(false)
+        setPasswordInput('')
+      }
+    }
+
+    function handleWindowBlur() {
+      setIsAuthenticated(false)
+      setPasswordInput('')
+    }
+
+    document.addEventListener('visibilitychange', handleVisibilityChange)
+    window.addEventListener('blur', handleWindowBlur)
+
+    return () => {
+      document.removeEventListener('visibilitychange', handleVisibilityChange)
+      window.removeEventListener('blur', handleWindowBlur)
+    }
+  }, [])
+
+  function handleUnlock(e?: React.FormEvent) {
+    if (e) e.preventDefault()
+    if (passwordInput.trim() === PROJECT_ACCESS_PASSWORD) {
+      setIsAuthenticated(true)
+      setErrorMessage('')
+    } else {
+      setErrorMessage('密码不正确，请重新输入')
+    }
+  }
+
+  function handleManualLock() {
+    setIsAuthenticated(false)
+    setPasswordInput('')
+    setErrorMessage('')
+  }
 
   const categories = [
     { id: 'all', label: '全部词汇与话术', count: DMP_PROJECT_VOCAB.length, icon: Layers },
@@ -67,6 +119,91 @@ export function DmpProjectWorkbench() {
     })
   }, [activeCategory, search])
 
+  // ============================================================================
+  // 🔒 未解锁状态：安全锁屏门禁卡 (Gatekeeper)
+  // ============================================================================
+  if (!isAuthenticated) {
+    return (
+      <div className="mx-auto my-12 max-w-md">
+        <Card className="relative overflow-hidden border-border/80 bg-card p-6 shadow-lg backdrop-blur-sm">
+          <div className="absolute -right-8 -top-8 h-32 w-32 rounded-full bg-primary/10 blur-2xl pointer-events-none" />
+
+          <div className="flex flex-col items-center text-center">
+            <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-primary/10 text-primary border border-primary/20 shadow-inner">
+              <Lock size={26} className="text-primary animate-pulse" />
+            </div>
+
+            <Badge variant="pro" className="mt-4 font-mono text-[11px] tracking-wider uppercase">
+              Restricted Project Vault
+            </Badge>
+
+            <h2 className="mt-2 text-xl font-bold tracking-tight text-foreground">
+              当前业务用语 · 安全保护区
+            </h2>
+
+            <p className="mt-1.5 text-xs text-fg-2 leading-relaxed">
+              此专区包含 <strong>野村综研 NRI × 芙蓉综合租赁 (FGL) DMP 系统化计划</strong> 现场实战业务与技术资产。为了保障数据敏感性，已开启即时防御锁。
+            </p>
+
+            <div className="mt-3 flex items-center gap-1.5 rounded-lg border border-amber-500/20 bg-amber-500/10 px-3 py-1.5 text-[11px] text-amber-800 dark:text-amber-300">
+              <ShieldCheck size={14} className="shrink-0" />
+              <span>离开标签页或切换到其他窗口，将<strong>自动瞬间落锁</strong></span>
+            </div>
+          </div>
+
+          <form onSubmit={handleUnlock} className="mt-6 space-y-3">
+            <div className="space-y-1">
+              <div className="relative">
+                <Input
+                  type={showPassword ? 'text' : 'password'}
+                  placeholder="请输入访问口令（默认: dmp）..."
+                  value={passwordInput}
+                  onChange={(e) => {
+                    setPasswordInput(e.target.value)
+                    setErrorMessage('')
+                  }}
+                  autoFocus
+                  className="pr-10 text-sm font-mono tracking-wider"
+                />
+                <button
+                  type="button"
+                  onClick={() => setShowPassword(!showPassword)}
+                  className="absolute right-3 top-1/2 -translate-y-1/2 text-fg-3 hover:text-foreground transition-colors"
+                  tabIndex={-1}
+                >
+                  {showPassword ? <EyeOff size={15} /> : <Eye size={15} />}
+                </button>
+              </div>
+
+              {errorMessage && (
+                <p className="text-[11px] font-medium text-rose-600 dark:text-rose-400 pl-1">
+                  {errorMessage}
+                </p>
+              )}
+            </div>
+
+            <button
+              type="submit"
+              className="flex w-full items-center justify-center gap-2 rounded-lg bg-primary py-2.5 text-sm font-bold text-primary-foreground shadow transition-all hover:bg-primary/90 active:scale-[0.99]"
+            >
+              <KeyRound size={16} />
+              <span>解锁查看当期资产</span>
+            </button>
+          </form>
+
+          <div className="mt-4 text-center">
+            <span className="text-[11px] text-fg-3 font-mono">
+              访问口令已为您预设为: <strong className="text-foreground bg-muted px-1 py-0.5 rounded">dmp</strong>
+            </span>
+          </div>
+        </Card>
+      </div>
+    )
+  }
+
+  // ============================================================================
+  // 🔓 已解锁状态：全景业务面板 (含随时锁屏按钮)
+  // ============================================================================
   return (
     <div className="space-y-6">
       {/* 顶部项目背景横幅 */}
@@ -87,6 +224,16 @@ export function DmpProjectWorkbench() {
             </p>
           </div>
           <div className="flex items-center gap-2 shrink-0">
+            {/* 快速主动落锁按钮 */}
+            <button
+              type="button"
+              onClick={handleManualLock}
+              title="切换窗口或点击此按钮均会立即落锁"
+              className="inline-flex items-center gap-1.5 rounded-xl border border-rose-500/30 bg-rose-500/10 px-3 py-2 text-xs font-semibold text-rose-700 dark:text-rose-300 hover:bg-rose-500/20 transition-all shadow-sm"
+            >
+              <Lock size={14} />
+              <span>立即锁屏</span>
+            </button>
             <div className="rounded-xl border border-border bg-muted/40 px-3.5 py-2 text-center">
               <div className="text-[11px] text-fg-3">沉淀专业实体</div>
               <div className="font-mono text-lg font-bold text-foreground">
