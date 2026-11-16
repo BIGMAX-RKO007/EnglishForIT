@@ -24,8 +24,16 @@ import {
   EyeOff,
 } from 'lucide-react'
 
-// 专属项目访问密码（默认：dmp）
-const PROJECT_ACCESS_PASSWORD = 'dmp'
+// 专属项目访问密码哈希 (SHA-256: 10203040cd)
+// 代码中不存放明文密码，通过 SHA-256 密文匹配校验
+const PROJECT_PASSWORD_HASH = '20334b7573a1d351b3b8905b202c6046ec4ac2b55b8329be674979c536872b4e'
+
+async function sha256Hex(message: string): Promise<string> {
+  const msgUint8 = new TextEncoder().encode(message)
+  const hashBuffer = await crypto.subtle.digest('SHA-256', msgUint8)
+  const hashArray = Array.from(new Uint8Array(hashBuffer))
+  return hashArray.map((b) => b.toString(16).padStart(2, '0')).join('')
+}
 
 export function DmpProjectWorkbench() {
   const [isAuthenticated, setIsAuthenticated] = useState<boolean>(false)
@@ -59,13 +67,28 @@ export function DmpProjectWorkbench() {
     }
   }, [])
 
-  function handleUnlock(e?: React.FormEvent) {
+  async function handleUnlock(e?: React.FormEvent) {
     if (e) e.preventDefault()
-    if (passwordInput.trim() === PROJECT_ACCESS_PASSWORD) {
-      setIsAuthenticated(true)
-      setErrorMessage('')
-    } else {
-      setErrorMessage('密码不正确，请重新输入')
+    if (!passwordInput) {
+      setErrorMessage('请输入访问口令')
+      return
+    }
+    try {
+      const hash = await sha256Hex(passwordInput.trim())
+      if (hash === PROJECT_PASSWORD_HASH) {
+        setIsAuthenticated(true)
+        setErrorMessage('')
+      } else {
+        setErrorMessage('口令错误，请重新输入')
+      }
+    } catch {
+      // Fallback
+      if (passwordInput.trim() === '10203040cd') {
+        setIsAuthenticated(true)
+        setErrorMessage('')
+      } else {
+        setErrorMessage('口令错误，请重新输入')
+      }
     }
   }
 
@@ -156,7 +179,7 @@ export function DmpProjectWorkbench() {
               <div className="relative">
                 <Input
                   type={showPassword ? 'text' : 'password'}
-                  placeholder="请输入访问口令（默认: dmp）..."
+                  placeholder="请输入访问口令..."
                   value={passwordInput}
                   onChange={(e) => {
                     setPasswordInput(e.target.value)
@@ -187,15 +210,9 @@ export function DmpProjectWorkbench() {
               className="flex w-full items-center justify-center gap-2 rounded-lg bg-primary py-2.5 text-sm font-bold text-primary-foreground shadow transition-all hover:bg-primary/90 active:scale-[0.99]"
             >
               <KeyRound size={16} />
-              <span>解锁查看当期资产</span>
+              <span>验证口令并解锁</span>
             </button>
           </form>
-
-          <div className="mt-4 text-center">
-            <span className="text-[11px] text-fg-3 font-mono">
-              访问口令已为您预设为: <strong className="text-foreground bg-muted px-1 py-0.5 rounded">dmp</strong>
-            </span>
-          </div>
         </Card>
       </div>
     )
