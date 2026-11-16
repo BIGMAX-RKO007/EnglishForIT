@@ -1,9 +1,13 @@
 import { useState, useEffect } from 'react'
 import { Volume2, Square } from 'lucide-react'
 
+// Keep a shared single audio instance to prevent overlapping playback
+let currentAudio: HTMLAudioElement | null = null
+
 interface AudioSpeakerProps {
   text: string
-  lang?: 'en' | 'ja'
+  audioUrl?: string
+  lang?: 'en' | 'ja' | 'zh'
   rate?: number
   label?: string
   className?: string
@@ -12,6 +16,7 @@ interface AudioSpeakerProps {
 
 export function AudioSpeaker({
   text,
+  audioUrl,
   lang = 'en',
   rate = 0.95,
   label,
@@ -22,27 +27,78 @@ export function AudioSpeaker({
   const [supported, setSupported] = useState(true)
 
   useEffect(() => {
-    if (typeof window === 'undefined' || !('speechSynthesis' in window)) {
+    if (typeof window === 'undefined') {
       setSupported(false)
     }
   }, [])
 
   function speak() {
-    if (!supported || typeof window === 'undefined') return
+    if (typeof window === 'undefined') return
 
     // If currently speaking, stop
     if (speaking) {
-      window.speechSynthesis.cancel()
+      if (currentAudio) {
+        currentAudio.pause()
+        currentAudio.currentTime = 0
+        currentAudio = null
+      }
+      if ('speechSynthesis' in window) {
+        window.speechSynthesis.cancel()
+      }
       setSpeaking(false)
       return
     }
 
-    window.speechSynthesis.cancel() // clear any queue
+    // Stop any globally active audio or speech
+    if (currentAudio) {
+      currentAudio.pause()
+      currentAudio.currentTime = 0
+      currentAudio = null
+    }
+    if ('speechSynthesis' in window) {
+      window.speechSynthesis.cancel()
+    }
+
+    // 1. Prioritize pre-rendered Edge-TTS audio file if provided
+    if (audioUrl) {
+      const audio = new Audio(audioUrl)
+      currentAudio = audio
+      setSpeaking(true)
+
+      audio.onended = () => {
+        setSpeaking(false)
+        if (currentAudio === audio) currentAudio = null
+      }
+      audio.onerror = () => {
+        // Fallback to speechSynthesis if static file fails
+        if (currentAudio === audio) currentAudio = null
+        fallbackSpeech()
+      }
+
+      const p = audio.play()
+      if (p && p.catch) {
+        p.catch(() => {
+          if (currentAudio === audio) currentAudio = null
+          fallbackSpeech()
+        })
+      }
+      return
+    }
+
+    // 2. Otherwise use Web Speech API
+    fallbackSpeech()
+  }
+
+  function fallbackSpeech() {
+    if (typeof window === 'undefined' || !('speechSynthesis' in window)) {
+      setSpeaking(false)
+      return
+    }
 
     const utterance = new SpeechSynthesisUtterance(text)
     utterance.rate = rate
     utterance.pitch = 1.0
-    utterance.lang = lang === 'ja' ? 'ja-JP' : 'en-US'
+    utterance.lang = lang === 'ja' ? 'ja-JP' : lang === 'zh' ? 'zh-CN' : 'en-US'
 
     // Pick appropriate voice based on language
     const voices = window.speechSynthesis.getVoices()
@@ -59,6 +115,18 @@ export function AudioSpeaker({
               v.name.includes('Otoya')),
         ) || voices.find((v) => v.lang.startsWith('ja'))
       if (jaVoice) utterance.voice = jaVoice
+    } else if (lang === 'zh') {
+      const zhVoice =
+        voices.find(
+          (v) =>
+            v.lang.startsWith('zh') &&
+            (v.name.includes('Natural') ||
+              v.name.includes('Xiaoxiao') ||
+              v.name.includes('Yunxi') ||
+              v.name.includes('Google') ||
+              v.name.includes('Microsoft')),
+        ) || voices.find((v) => v.lang.startsWith('zh'))
+      if (zhVoice) utterance.voice = zhVoice
     } else {
       const enVoice =
         voices.find(
@@ -67,6 +135,7 @@ export function AudioSpeaker({
             (v.name.includes('Natural') ||
               v.name.includes('Google') ||
               v.name.includes('Microsoft') ||
+              v.name.includes('Guy') ||
               v.name.includes('Samantha') ||
               v.name.includes('Daniel')),
         ) || voices.find((v) => v.lang.startsWith('en'))

@@ -243,7 +243,15 @@ export function CnlSlotWorkbench() {
               <span className="inline-flex items-center gap-1 text-xs font-semibold text-emerald-600 dark:text-emerald-400">
                 🇨🇳 中文含义（意图表达）
               </span>
-              <CopyButton text={plainZh} label="复制中文" />
+              <div className="flex items-center gap-1.5">
+                <AudioSpeaker
+                  text={plainZh}
+                  audioUrl={`/audio/cnl/${formula.id}_zh.mp3`}
+                  lang="zh"
+                  label="中文"
+                />
+                <CopyButton text={plainZh} label="复制中文" />
+              </div>
             </div>
 
             <div className="text-sm sm:text-base font-medium text-foreground">
@@ -263,7 +271,12 @@ export function CnlSlotWorkbench() {
                 🇬🇧 English（核心动词加底色 · 槽位加下划线）
               </span>
               <div className="flex items-center gap-1.5">
-                <AudioSpeaker text={plainEn} lang="en" label="美音" />
+                <AudioSpeaker
+                  text={plainEn}
+                  audioUrl={`/audio/cnl/${formula.id}_en.mp3`}
+                  lang="en"
+                  label="美音"
+                />
                 <CopyButton text={plainEn} label="复制英文" />
               </div>
             </div>
@@ -301,7 +314,12 @@ export function CnlSlotWorkbench() {
                 🇯🇵 日本語（现场敬语对应）
               </span>
               <div className="flex items-center gap-1.5">
-                <AudioSpeaker text={plainJa} lang="ja" label="日音" />
+                <AudioSpeaker
+                  text={plainJa}
+                  audioUrl={`/audio/cnl/${formula.id}_ja.mp3`}
+                  lang="ja"
+                  label="日音"
+                />
                 <CopyButton text={plainJa} label="复制日文" />
               </div>
             </div>
@@ -435,7 +453,15 @@ export function CnlSlotWorkbench() {
               <span className="text-xs font-semibold text-emerald-600 dark:text-emerald-400">
                 🇨🇳 中文含义
               </span>
-              <CopyButton text={plainZh} label="复制中文" />
+              <div className="flex items-center gap-1.5">
+                <AudioSpeaker
+                  text={plainZh}
+                  audioUrl={`/audio/cnl/${shell.id}_zh.mp3`}
+                  lang="zh"
+                  label="中文"
+                />
+                <CopyButton text={plainZh} label="复制中文" />
+              </div>
             </div>
             <div className="text-sm font-medium text-foreground">
               {renderStyledTemplate({
@@ -453,7 +479,12 @@ export function CnlSlotWorkbench() {
                 🇬🇧 English（固定句式加底色 · 槽位加下划线）
               </span>
               <div className="flex items-center gap-1.5">
-                <AudioSpeaker text={plainEn} lang="en" label="美音" />
+                <AudioSpeaker
+                  text={plainEn}
+                  audioUrl={`/audio/cnl/${shell.id}_en.mp3`}
+                  lang="en"
+                  label="美音"
+                />
                 <CopyButton text={plainEn} label="复制英文" />
               </div>
             </div>
@@ -486,7 +517,12 @@ export function CnlSlotWorkbench() {
                 🇯🇵 日本語
               </span>
               <div className="flex items-center gap-1.5">
-                <AudioSpeaker text={plainJa} lang="ja" label="日音" />
+                <AudioSpeaker
+                  text={plainJa}
+                  audioUrl={`/audio/cnl/${shell.id}_ja.mp3`}
+                  lang="ja"
+                  label="日音"
+                />
                 <CopyButton text={plainJa} label="复制日文" />
               </div>
             </div>
