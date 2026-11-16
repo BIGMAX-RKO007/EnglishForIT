@@ -1,6 +1,6 @@
 import { useEffect, useState, type ReactNode } from 'react'
 import { Link, getRouteApi } from '@tanstack/react-router'
-import { Home, Sparkles, Settings, Gauge, Users, Menu, ClipboardList, PanelLeftClose, PanelLeftOpen, Heart, MessageSquare, Mic, Briefcase, BookOpen, Shield } from 'lucide-react'
+import { Home, Sparkles, Settings, Gauge, Users, Menu, ClipboardList, PanelLeftClose, PanelLeftOpen, Heart, MessageSquare, Mic, Briefcase, BookOpen, Shield, Layers } from 'lucide-react'
 import { Logo } from '@/components/brand/logo'
 import { Badge } from '@/components/ui/badge'
 import { ThemeToggle } from '@/features/theme/theme-toggle'
@@ -97,6 +97,11 @@ export function AppShell({
           <Shield size={18} className="shrink-0 text-amber-500" />
           {label('语言防身与槽位引擎')}
           {!rail && <Badge variant="pro" className="ml-auto text-[10px] px-1.5 py-0">CNL·日英</Badge>}
+        </Link>
+        <Link to="/{-$locale}/app/project-dmp" activeProps={{}} className={item(active === 'project-dmp')} title="当前业务用语 (DMP 项目专属)">
+          <Layers size={18} className="shrink-0 text-emerald-500" />
+          {label('当前业务用语')}
+          {!rail && <Badge variant="ok" className="ml-auto text-[10px] px-1.5 py-0">DMP项目</Badge>}
         </Link>
         {grp(t('app.navWorkspace'))}
         <Link to="/{-$locale}/app/pro" activeProps={{}} className={item(active === 'pro')} title={t('app.proDemo')}>
