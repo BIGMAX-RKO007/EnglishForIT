@@ -24,8 +24,8 @@ import {
   EyeOff,
 } from 'lucide-react'
 
-// 专属项目访问密码哈希 (SHA-256: 10203040cd)
-// 代码中不存放明文密码，通过 SHA-256 密文匹配校验
+// 专属项目访问密码哈希 (SHA-256)
+// 代码中不存放任何明文密码，仅通过 SHA-256 密文匹配校验
 const PROJECT_PASSWORD_HASH = '20334b7573a1d351b3b8905b202c6046ec4ac2b55b8329be674979c536872b4e'
 
 async function sha256Hex(message: string): Promise<string> {
@@ -82,13 +82,7 @@ export function DmpProjectWorkbench() {
         setErrorMessage('口令错误，请重新输入')
       }
     } catch {
-      // Fallback
-      if (passwordInput.trim() === '10203040cd') {
-        setIsAuthenticated(true)
-        setErrorMessage('')
-      } else {
-        setErrorMessage('口令错误，请重新输入')
-      }
+      setErrorMessage('环境不支持加密校验')
     }
   }
 
@@ -99,16 +93,28 @@ export function DmpProjectWorkbench() {
   }
 
   const categories = [
-    { id: 'all', label: '全部词汇与话术', count: DMP_PROJECT_VOCAB.length, icon: Layers },
+    { id: 'all', label: '全部项目资产', count: DMP_PROJECT_VOCAB.length, icon: Layers },
     {
       id: 'lease_business',
-      label: '租赁与金融实体',
+      label: '租赁核心流转',
       count: DMP_PROJECT_VOCAB.filter((v) => v.category === 'lease_business').length,
       icon: Briefcase,
     },
     {
+      id: 'complex_finance',
+      label: '航空/JOLCO复杂金融',
+      count: DMP_PROJECT_VOCAB.filter((v) => v.category === 'complex_finance').length,
+      icon: FileSpreadsheet,
+    },
+    {
+      id: 'mdm_nayose',
+      label: '客户主数据与名寄',
+      count: DMP_PROJECT_VOCAB.filter((v) => v.category === 'mdm_nayose').length,
+      icon: Sparkles,
+    },
+    {
       id: 'data_architecture',
-      label: '基盘与数据架构',
+      label: 'FITNESS与基干架构',
       count: DMP_PROJECT_VOCAB.filter((v) => v.category === 'data_architecture').length,
       icon: Database,
     },
@@ -120,7 +126,7 @@ export function DmpProjectWorkbench() {
     },
     {
       id: 'consulting_phrases',
-      label: '现场顾问汇报话术',
+      label: '现场顾问实战开麦',
       count: DMP_PROJECT_VOCAB.filter((v) => v.category === 'consulting_phrases').length,
       icon: MessageSquare,
     },
