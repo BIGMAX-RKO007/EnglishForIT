@@ -11,6 +11,7 @@ import {
   type ShellItem,
   type CnlSlotOption,
 } from '../data/cnl-defense.data'
+import { DmpProjectWorkbench } from './DmpProjectWorkbench'
 import {
   Zap,
   Shield,
@@ -19,6 +20,7 @@ import {
   HelpCircle,
   Layers,
   BookmarkCheck,
+  Briefcase,
 } from 'lucide-react'
 
 /**
@@ -98,7 +100,7 @@ function renderStyledTemplate({
 }
 
 export function CnlSlotWorkbench() {
-  const [activeTab, setActiveTab] = useState<'verbs' | 'shell'>('verbs')
+  const [activeTab, setActiveTab] = useState<'verbs' | 'shell' | 'dmp'>('verbs')
   const [selectedVerb, setSelectedVerb] = useState<string>('ALL')
   const [shellCategory, setShellCategory] = useState<string>('ALL')
   const [search, setSearch] = useState<string>('')
@@ -637,11 +639,11 @@ export function CnlSlotWorkbench() {
       {/* 控制工具条：主选项卡 + 搜索 */}
       <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between border-b border-border/60 pb-4">
         {/* Tab 切换 */}
-        <div className="flex items-center gap-1.5 rounded-xl border border-border/80 bg-muted/40 p-1 text-xs">
+        <div className="flex flex-wrap items-center gap-1.5 rounded-xl border border-border/80 bg-muted/40 p-1 text-xs">
           <button
             type="button"
             onClick={() => setActiveTab('verbs')}
-            className={`flex items-center gap-1.5 rounded-lg px-4 py-2 font-semibold transition-all ${
+            className={`flex items-center gap-1.5 rounded-lg px-3.5 py-2 font-semibold transition-all ${
               activeTab === 'verbs'
                 ? 'bg-card text-foreground shadow-sm'
                 : 'text-fg-3 hover:text-foreground'
@@ -653,7 +655,7 @@ export function CnlSlotWorkbench() {
           <button
             type="button"
             onClick={() => setActiveTab('shell')}
-            className={`flex items-center gap-1.5 rounded-lg px-4 py-2 font-semibold transition-all ${
+            className={`flex items-center gap-1.5 rounded-lg px-3.5 py-2 font-semibold transition-all ${
               activeTab === 'shell'
                 ? 'bg-card text-foreground shadow-sm'
                 : 'text-fg-3 hover:text-foreground'
@@ -661,6 +663,19 @@ export function CnlSlotWorkbench() {
           >
             <Shield size={15} className="text-amber-500" />
             <span>15% 外围安全壳 ({CNL_SHELL_ITEMS.length})</span>
+          </button>
+          <button
+            type="button"
+            onClick={() => setActiveTab('dmp')}
+            className={`flex items-center gap-1.5 rounded-lg px-3.5 py-2 font-semibold transition-all ${
+              activeTab === 'dmp'
+                ? 'bg-card text-primary font-bold shadow-sm'
+                : 'text-fg-3 hover:text-foreground'
+            }`}
+          >
+            <Briefcase size={15} className="text-emerald-500" />
+            <span>当前业务用语 (DMP 项目专属)</span>
+            <Badge variant="pro" className="ml-0.5 text-[10px] py-0 px-1.5">New</Badge>
           </button>
         </div>
 
@@ -738,6 +753,11 @@ export function CnlSlotWorkbench() {
             {filteredShell.map(renderShellCard)}
           </div>
         </div>
+      )}
+
+      {/* 选项卡内容 3: 当前业务用语 (DMP 项目专属) */}
+      {activeTab === 'dmp' && (
+        <DmpProjectWorkbench />
       )}
     </div>
   )
