@@ -7,7 +7,7 @@ let currentAudio: HTMLAudioElement | null = null
 interface AudioSpeakerProps {
   text: string
   audioUrl?: string
-  lang?: 'en' | 'ja' | 'zh'
+  lang?: 'en' | 'ja' | 'zh' | 'ko'
   rate?: number
   label?: string
   className?: string
@@ -98,7 +98,7 @@ export function AudioSpeaker({
     const utterance = new SpeechSynthesisUtterance(text)
     utterance.rate = rate
     utterance.pitch = 1.0
-    utterance.lang = lang === 'ja' ? 'ja-JP' : lang === 'zh' ? 'zh-CN' : 'en-US'
+    utterance.lang = lang === 'ja' ? 'ja-JP' : lang === 'zh' ? 'zh-CN' : lang === 'ko' ? 'ko-KR' : 'en-US'
 
     // Pick appropriate voice based on language
     const voices = window.speechSynthesis.getVoices()
@@ -127,6 +127,19 @@ export function AudioSpeaker({
               v.name.includes('Microsoft')),
         ) || voices.find((v) => v.lang.startsWith('zh'))
       if (zhVoice) utterance.voice = zhVoice
+    } else if (lang === 'ko') {
+      const koVoice =
+        voices.find(
+          (v) =>
+            v.lang.startsWith('ko') &&
+            (v.name.includes('Natural') ||
+              v.name.includes('SunHi') ||
+              v.name.includes('InJoon') ||
+              v.name.includes('Google') ||
+              v.name.includes('Microsoft') ||
+              v.name.includes('Yuna')),
+        ) || voices.find((v) => v.lang.startsWith('ko'))
+      if (koVoice) utterance.voice = koVoice
     } else {
       const enVoice =
         voices.find(

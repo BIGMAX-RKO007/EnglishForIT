@@ -6,8 +6,26 @@ import { Card } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { AudioSpeaker } from '@/features/it-english/components/AudioSpeaker'
 import { CopyButton } from '@/features/it-english/components/CopyButton'
-import { STANDUP_EXAMPLES, WORK_SCENARIOS, type StandupExample, type WorkScenario } from '@/features/it-english/data/daily-work.data'
-import { Users, GitPullRequest, AlertTriangle, MessageSquare } from 'lucide-react'
+import {
+  STANDUP_EXAMPLES,
+  WORK_SCENARIOS,
+  TECH_BRIEFING_DATA,
+  type StandupExample,
+  type WorkScenario,
+  type TechBriefingDimension,
+} from '@/features/it-english/data/daily-work.data'
+import {
+  Users,
+  GitPullRequest,
+  AlertTriangle,
+  MessageSquare,
+  Presentation,
+  Globe2,
+  ChevronRight,
+  Sparkles,
+  CheckCircle2,
+  FileSpreadsheet,
+} from 'lucide-react'
 
 export const Route = createFileRoute('/{-$locale}/app/daily-work')({
   head: () => ({ meta: [{ name: 'robots', content: 'noindex' }] }),
@@ -25,7 +43,7 @@ export const Route = createFileRoute('/{-$locale}/app/daily-work')({
 
 function DailyWorkPage() {
   const { user } = Route.useLoaderData()
-  const [activeTab, setActiveTab] = useState<'standup' | 'scenarios'>('standup')
+  const [activeTab, setActiveTab] = useState<'standup' | 'scenarios' | 'briefing'>('standup')
 
   // Standup Generator state
   const [selectedExample, setSelectedExample] = useState<StandupExample>(STANDUP_EXAMPLES[0])
@@ -38,24 +56,28 @@ function DailyWorkPage() {
   // Scenarios state
   const [selectedScenario, setSelectedScenario] = useState<WorkScenario>(WORK_SCENARIOS[0])
 
+  // Tech Briefing state
+  const [briefingLang, setBriefingLang] = useState<'zh' | 'ja' | 'ko' | 'en'>('zh')
+  const [selectedDimension, setSelectedDimension] = useState<TechBriefingDimension>(TECH_BRIEFING_DATA[0])
+
   return (
     <AppShell user={user} active="daily-work" crumb="日常沟通 (Daily Workplace)">
-      <div className="mb-6 flex flex-col gap-2 md:flex-row md:items-center md:justify-between">
+      <div className="mb-6 flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
         <div>
           <div className="flex items-center gap-2">
             <h1 className="page-h">日常工作交流模拟器</h1>
             <Badge variant="pro" dot>现学现用</Badge>
           </div>
           <p className="mt-1 text-sm text-fg-2">
-            解决工作中最频繁的场景：每日站会（Standup）、代码审查（PR Review）、线上排障与 Slack 异步对齐。
+            解决工作中最频繁的场景：每日站会（Standup）、代码审查（PR Review）、线上排障与架构评审技术汇报。
           </p>
         </div>
 
-        <div className="flex items-center rounded-lg border border-border bg-muted/40 p-1 text-xs">
+        <div className="flex flex-wrap items-center gap-1 rounded-xl border border-border bg-muted/40 p-1 text-xs">
           <button
             type="button"
             onClick={() => setActiveTab('standup')}
-            className={`rounded-md px-3 py-1.5 font-medium transition-all ${
+            className={`rounded-lg px-3 py-1.5 font-medium transition-all ${
               activeTab === 'standup' ? 'bg-card text-foreground shadow-sm' : 'text-fg-3 hover:text-foreground'
             }`}
           >
@@ -64,11 +86,26 @@ function DailyWorkPage() {
           <button
             type="button"
             onClick={() => setActiveTab('scenarios')}
-            className={`rounded-md px-3 py-1.5 font-medium transition-all ${
+            className={`rounded-lg px-3 py-1.5 font-medium transition-all ${
               activeTab === 'scenarios' ? 'bg-card text-foreground shadow-sm' : 'text-fg-3 hover:text-foreground'
             }`}
           >
             实战情景对答 (PR / 故障 / Slack)
+          </button>
+          <button
+            type="button"
+            onClick={() => setActiveTab('briefing')}
+            className={`flex items-center gap-1.5 rounded-lg px-3 py-1.5 font-medium transition-all ${
+              activeTab === 'briefing'
+                ? 'bg-card text-primary font-semibold shadow-sm ring-1 ring-primary/20'
+                : 'text-fg-3 hover:text-foreground'
+            }`}
+          >
+            <Presentation size={14} className="text-primary" />
+            <span>架构评审与技术汇报 (Briefing)</span>
+            <span className="rounded-full bg-primary/10 px-1.5 py-0.2 text-[10px] font-bold text-primary">
+              中日韩英
+            </span>
           </button>
         </div>
       </div>
@@ -263,6 +300,351 @@ function DailyWorkPage() {
                 </div>
               </div>
             </Card>
+          </div>
+        </div>
+      )}
+
+      {activeTab === 'briefing' && (
+        <div className="space-y-6">
+          {/* Top Banner with Language Selector */}
+          <div className="relative overflow-hidden rounded-2xl border border-border/80 bg-gradient-to-br from-card via-card/90 to-primary/5 p-5 sm:p-6 shadow-sm">
+            <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+              <div>
+                <div className="flex items-center gap-2">
+                  <Badge variant="pro" className="font-mono text-xs">
+                    ARCHITECTURE REVIEW · 架构评审与汇报
+                  </Badge>
+                  <span className="text-xs text-fg-3">
+                    Box × Snowflake 原生打通（Openflow 管道 vs ENA 原生 API 出网）
+                  </span>
+                </div>
+                <h2 className="mt-1.5 text-lg sm:text-xl font-bold tracking-tight text-foreground">
+                  高情商技术汇报与方案选型决策罗盘
+                </h2>
+                <p className="mt-1 max-w-3xl text-xs sm:text-sm text-fg-2">
+                  面向技术领导、企业架构师（EA）、CISO 与合规审计官的 5 个核心维度汇报策略。内置中、日、韩、英四语对照，支持发音朗读与一键复制讲稿。
+                </p>
+              </div>
+
+              {/* Language Switcher Buttons */}
+              <div className="flex items-center gap-1.5 rounded-xl border border-border/80 bg-card p-1.5 shadow-sm shrink-0">
+                <Globe2 size={15} className="ml-1 text-primary shrink-0" />
+                <span className="text-xs font-medium text-fg-3 mr-1">语言 / Language:</span>
+                {(
+                  [
+                    { code: 'zh', label: '中文' },
+                    { code: 'ja', label: '日本語' },
+                    { code: 'ko', label: '한국어' },
+                    { code: 'en', label: 'English' },
+                  ] as const
+                ).map((langItem) => (
+                  <button
+                    key={langItem.code}
+                    type="button"
+                    onClick={() => setBriefingLang(langItem.code)}
+                    className={`rounded-lg px-2.5 py-1 text-xs font-semibold transition-all ${
+                      briefingLang === langItem.code
+                        ? 'bg-primary text-primary-foreground shadow-sm'
+                        : 'text-fg-3 hover:text-foreground hover:bg-muted/60'
+                    }`}
+                  >
+                    {langItem.label}
+                  </button>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          {/* Main 2-column layout */}
+          <div className="grid gap-6 lg:grid-cols-12">
+            {/* Left Column: 5 Dimension Cards */}
+            <div className="space-y-3 lg:col-span-4">
+              <div className="flex items-center justify-between">
+                <h3 className="text-xs font-semibold uppercase tracking-wider text-fg-3">
+                  汇报核心 5 大维度
+                </h3>
+                <span className="text-[11px] text-fg-3">点击切换查看</span>
+              </div>
+
+              {TECH_BRIEFING_DATA.map((dim) => {
+                const isSelected = selectedDimension.id === dim.id
+                const dimBadge =
+                  briefingLang === 'ja'
+                    ? dim.badgeJa
+                    : briefingLang === 'ko'
+                    ? dim.badgeKo
+                    : briefingLang === 'en'
+                    ? dim.badgeEn
+                    : dim.badgeZh
+                const dimTitle =
+                  briefingLang === 'ja'
+                    ? dim.titleJa
+                    : briefingLang === 'ko'
+                    ? dim.titleKo
+                    : briefingLang === 'en'
+                    ? dim.titleEn
+                    : dim.titleZh
+                const dimAudience =
+                  briefingLang === 'ja'
+                    ? dim.targetAudienceJa
+                    : briefingLang === 'ko'
+                    ? dim.targetAudienceKo
+                    : briefingLang === 'en'
+                    ? dim.targetAudienceEn
+                    : dim.targetAudienceZh
+
+                return (
+                  <div
+                    key={dim.id}
+                    onClick={() => setSelectedDimension(dim)}
+                    className={`cursor-pointer rounded-xl border p-4 transition-all ${
+                      isSelected
+                        ? 'border-primary bg-primary/5 ring-1 ring-primary shadow-sm'
+                        : 'border-border bg-card hover:border-border-strong hover:bg-card/80'
+                    }`}
+                  >
+                    <div className="flex items-center justify-between">
+                      <div className="flex items-center gap-2">
+                        <span className="flex h-5 w-5 items-center justify-center rounded-full bg-primary/10 text-[11px] font-bold text-primary">
+                          {dim.dimensionNumber}
+                        </span>
+                        <Badge variant={isSelected ? 'pro' : 'free'} className="text-[10px]">
+                          {dimBadge}
+                        </Badge>
+                      </div>
+                      <ChevronRight
+                        size={14}
+                        className={`transition-transform ${isSelected ? 'text-primary translate-x-0.5' : 'text-fg-3'}`}
+                      />
+                    </div>
+
+                    <h4 className="mt-2 text-xs sm:text-sm font-semibold text-foreground line-clamp-2">
+                      {dimTitle}
+                    </h4>
+
+                    <div className="mt-2 flex items-center gap-1.5 text-[11px] text-fg-3">
+                      <span className="font-medium text-fg-2">🎯 对标对象:</span>
+                      <span className="line-clamp-1">{dimAudience}</span>
+                    </div>
+                  </div>
+                )
+              })}
+
+              {/* Presentation Strategy Card */}
+              <div className="rounded-xl border border-primary/20 bg-primary/5 p-4 text-xs space-y-2">
+                <div className="flex items-center gap-1.5 font-semibold text-primary">
+                  <Sparkles size={14} />
+                  <span>汇报实战时间掌控攻略</span>
+                </div>
+                <div className="text-fg-2 space-y-1.5 text-[11px]">
+                  <p>
+                    ⚡ <strong>2 分钟电梯演说</strong>：主打 <strong>维度一（解决业务痛点）</strong> + <strong>维度五（真机已跑通证据）</strong>。
+                  </p>
+                  <p>
+                    🏛️ <strong>10~15 分钟架构评审</strong>：按 <strong>维度一 ➔ 维度二（选型表） ➔ 维度三（零信任安全） ➔ 维度五（成果）</strong> 顺序展开，安全合规重点攻坚。
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Right Column: Active Dimension Speech & Technical Deep-Dive */}
+            <div className="space-y-4 lg:col-span-8">
+              {(() => {
+                const currentBadge =
+                  briefingLang === 'ja'
+                    ? selectedDimension.badgeJa
+                    : briefingLang === 'ko'
+                    ? selectedDimension.badgeKo
+                    : briefingLang === 'en'
+                    ? selectedDimension.badgeEn
+                    : selectedDimension.badgeZh
+                const currentTitle =
+                  briefingLang === 'ja'
+                    ? selectedDimension.titleJa
+                    : briefingLang === 'ko'
+                    ? selectedDimension.titleKo
+                    : briefingLang === 'en'
+                    ? selectedDimension.titleEn
+                    : selectedDimension.titleZh
+                const currentAudience =
+                  briefingLang === 'ja'
+                    ? selectedDimension.targetAudienceJa
+                    : briefingLang === 'ko'
+                    ? selectedDimension.targetAudienceKo
+                    : briefingLang === 'en'
+                    ? selectedDimension.targetAudienceEn
+                    : selectedDimension.targetAudienceZh
+                const currentTakeaway =
+                  briefingLang === 'ja'
+                    ? selectedDimension.coreTakeawayJa
+                    : briefingLang === 'ko'
+                    ? selectedDimension.coreTakeawayKo
+                    : briefingLang === 'en'
+                    ? selectedDimension.coreTakeawayEn
+                    : selectedDimension.coreTakeawayZh
+                const currentSpeech =
+                  briefingLang === 'ja'
+                    ? selectedDimension.speechJa
+                    : briefingLang === 'ko'
+                    ? selectedDimension.speechKo
+                    : briefingLang === 'en'
+                    ? selectedDimension.speechEn
+                    : selectedDimension.speechZh
+
+                return (
+                  <Card className="p-5 sm:p-6 space-y-6">
+                    {/* Header */}
+                    <div className="border-b border-border pb-4">
+                      <div className="flex flex-wrap items-center justify-between gap-2">
+                        <div className="flex items-center gap-2">
+                          <span className="flex h-6 w-6 items-center justify-center rounded-lg bg-primary text-xs font-bold text-primary-foreground shadow-sm">
+                            {selectedDimension.dimensionNumber}
+                          </span>
+                          <Badge variant="pro">{currentBadge}</Badge>
+                        </div>
+                        <div className="rounded-lg border border-border bg-muted/50 px-2.5 py-1 text-xs text-fg-2">
+                          🎯 <strong>汇报适用对象：</strong> {currentAudience}
+                        </div>
+                      </div>
+                      <h3 className="mt-3 text-base sm:text-lg font-bold text-foreground">
+                        {currentTitle}
+                      </h3>
+                    </div>
+
+                    {/* Core Takeaway Callout */}
+                    <div className="rounded-xl border border-blue-500/20 bg-blue-500/10 p-3.5 text-xs text-blue-900 dark:text-blue-200">
+                      <div className="flex items-center gap-1.5 font-bold mb-1">
+                        <CheckCircle2 size={14} className="text-blue-600 dark:text-blue-400" />
+                        <span>核心说服力要点 (Core Convincing Hook)</span>
+                      </div>
+                      <p className="leading-relaxed pl-5 font-medium">{currentTakeaway}</p>
+                    </div>
+
+                    {/* Presentation Speech */}
+                    <div>
+                      <div className="flex items-center justify-between mb-2">
+                        <span className="text-xs font-semibold text-foreground uppercase tracking-wider">
+                          🎙️ 实战现场汇报讲稿（即刻演练）
+                        </span>
+                        <div className="flex items-center gap-2">
+                          <AudioSpeaker
+                            text={currentSpeech}
+                            lang={briefingLang}
+                            label={`朗读 (${briefingLang.toUpperCase()})`}
+                            size={14}
+                          />
+                          <CopyButton text={currentSpeech} label="复制讲稿" size={14} />
+                        </div>
+                      </div>
+
+                      <div className="rounded-xl border border-border bg-muted/30 p-4 sm:p-5 text-sm leading-relaxed text-foreground whitespace-pre-line font-normal shadow-inner">
+                        {currentSpeech}
+                      </div>
+                    </div>
+
+                    {/* If Dimension 2: Render Comparison Table */}
+                    {selectedDimension.comparisonRows && (
+                      <div className="border-t border-border pt-5">
+                        <div className="flex items-center gap-2 mb-3">
+                          <FileSpreadsheet size={16} className="text-primary" />
+                          <h4 className="text-xs font-bold uppercase tracking-wider text-foreground">
+                            双方案核心对比选型矩阵 (Openflow vs ENA)
+                          </h4>
+                        </div>
+                        <div className="overflow-x-auto rounded-xl border border-border shadow-sm">
+                          <table className="w-full text-left text-xs border-collapse">
+                            <thead>
+                              <tr className="border-b border-border bg-muted/60 text-fg-2">
+                                <th className="p-3 font-semibold min-w-[120px]">评估维度</th>
+                                <th className="p-3 font-semibold min-w-[200px] text-blue-700 dark:text-blue-300">
+                                  模式 A：Openflow 管道集成 (入仓)
+                                </th>
+                                <th className="p-3 font-semibold min-w-[200px] text-emerald-700 dark:text-emerald-300">
+                                  模式 B：ENA 原生 API 直连 (出网)
+                                </th>
+                              </tr>
+                            </thead>
+                            <tbody className="divide-y divide-border/60">
+                              {selectedDimension.comparisonRows.map((row, rIdx) => {
+                                const dimLabel =
+                                  briefingLang === 'ja'
+                                    ? row.dimensionJa
+                                    : briefingLang === 'ko'
+                                    ? row.dimensionKo
+                                    : briefingLang === 'en'
+                                    ? row.dimensionEn
+                                    : row.dimensionZh
+                                const openflowLabel =
+                                  briefingLang === 'ja'
+                                    ? row.openflowJa
+                                    : briefingLang === 'ko'
+                                    ? row.openflowKo
+                                    : briefingLang === 'en'
+                                    ? row.openflowEn
+                                    : row.openflowZh
+                                const enaLabel =
+                                  briefingLang === 'ja'
+                                    ? row.enaJa
+                                    : briefingLang === 'ko'
+                                    ? row.enaKo
+                                    : briefingLang === 'en'
+                                    ? row.enaEn
+                                    : row.enaZh
+
+                                return (
+                                  <tr key={rIdx} className="hover:bg-muted/30 transition-colors">
+                                    <td className="p-3 font-medium text-foreground bg-muted/10">
+                                      {dimLabel}
+                                    </td>
+                                    <td className="p-3 text-fg-2 leading-relaxed">
+                                      {openflowLabel}
+                                    </td>
+                                    <td className="p-3 text-fg-2 leading-relaxed">
+                                      {enaLabel}
+                                    </td>
+                                  </tr>
+                                )
+                              })}
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    )}
+
+                    {/* Key Terminology Cross-Lingual Grid */}
+                    <div className="border-t border-border pt-5">
+                      <h4 className="text-xs font-bold uppercase tracking-wider text-fg-3 mb-3">
+                        🌐 核心技术与业务词汇（中日韩英全景对照）
+                      </h4>
+                      <div className="grid gap-3 sm:grid-cols-2">
+                        {selectedDimension.keyTerms.map((term, tIdx) => (
+                          <div
+                            key={tIdx}
+                            className="rounded-xl border border-border bg-card p-3.5 text-xs shadow-sm space-y-1.5"
+                          >
+                            <div className="flex items-center justify-between border-b border-border/60 pb-1.5">
+                              <span className="font-bold text-primary">{term.term}</span>
+                              <div className="flex items-center gap-1">
+                                <AudioSpeaker text={term.term} lang="en" size={11} />
+                              </div>
+                            </div>
+                            <div className="grid grid-cols-2 gap-1.5 text-[11px] text-fg-2 pt-1">
+                              <div>🇨🇳 <strong>中文:</strong> {term.zh}</div>
+                              <div>🇯🇵 <strong>日文:</strong> {term.ja}</div>
+                              <div>🇰🇷 <strong>韩文:</strong> {term.ko}</div>
+                              <div>🇺🇸 <strong>英文:</strong> {term.en}</div>
+                            </div>
+                            <p className="text-[11px] text-fg-3 pt-1 border-t border-border/40">
+                              💡 {term.contextNoteZh}
+                            </p>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  </Card>
+                )
+              })()}
+            </div>
           </div>
         </div>
       )}
